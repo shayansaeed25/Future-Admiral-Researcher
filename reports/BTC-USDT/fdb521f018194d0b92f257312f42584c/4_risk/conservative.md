@@ -1,0 +1,10 @@
+
+Conservative Analyst: Assalam-o-Alaikum!
+
+Main Conservative Risk Analyst ke taur par apne Aggressive aur Neutral sathiyon ki baton ko sun kar yeh kehna chahta hoon ke aapka josh aur market ka bullish trend apni jagah theek hai, lekin sirf "FOMO" (Fear Of Missing Out) aur unche targets ki umeed par firm ki poori capital ko khatre mein daal dena kisi bhi tarah se aik samajhdari wala qadam nahi hai. 
+
+Aggressive Analyst sahab, aapne $2.3 billion ke ETF inflows ka hawala diya, jo ke yaqeenan ek achhi khabar hai, lekin aap yeh kyun bhool rahe hain ke yeh wahi institutional money hai jo market mein zara sa bhi macroeconomic pressure ya geopolitical shock aane par tezi se panic sell-off ya outflows mein badal sakti hai? Aapne Treasury yields ki bulandi, U.S.-Iran tensions, aur oil stability par unke asraat ko "minor macro headwind" keh kar nazar-andaz kar diya. Jab market mein ATR **2,403.86** par khara ho aur volatility itni high ho, toh yeh "minor" headwinds bhi pal bhar mein ek barri correction ko janam de sakti hain.
+
+Aapne RSI **63.11** aur MACD histogram ka zikar kiya ke abhi overbought nahi hai, lekin zara price action ko bhi dekhein! Price pichle dino **$86,419.00** se gir kar ab **$84,187.60** par consolidate kar rahi hai. Polymarket ki prediction markets saaf bata rahi hain ke September ke end tak $90,000 ya $100,000 tak jane ki probability abhi sirf 0% se 7% ke darmiyan hai. Iska saaf matlab yeh hai ke market khud filhal short-term mein kisi baray breakout ke liye tayyar nahi hai aur ek range-bound phase mein chal rahi hai. Aise waqt mein bina soche samjhe naye aggressive entries lena, seedha-seedha market ke trap mein phansna hai.
+
+Hamara maqsad raaton raat ameer hona nahi, balki firm ke sarmaye (assets) ki hifazat karna aur stability ke sath steady growth hasil karna hai. Jab tak price key resistance levels ko cross karke apna rasta wazeh nahi karti, tab tak "HOLD" ki policy par qaim rehna aur apne mojooda exposure ko bacha kar chalna hi sabse mehfooz aur behtareen hikmat-e-amli hai. Darr nahi, ehtiyat asal aqalmandi hai!

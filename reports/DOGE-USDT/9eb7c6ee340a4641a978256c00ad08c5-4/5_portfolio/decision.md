@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: Filhal DOGE-USDT mein koi naya directional trade lena munasib nahi hai kyunki market 0.08 aur 0.10 ke darmiyan consolidate kar rahi hai. Agar aap position mein hain toh 0.08 par strict stop-loss rakhein aur breakout ya volume spike ka intezar karein.
+
+**Investment Thesis**: DOGE-USDT ke liye market research aur analysts ki behas se yeh wazeh hota hai ke aik taraf RSI (42.83) neutral-bearish zone mein hai aur MACD negative territory mein hai, jabke doosri taraf 0.08 support level aur cultural momentum mojood hai. Aggressive analyst kehta hai ke yeh 'calm before the storm' hai aur 0.08 ek launchpad hai, jabke Conservative analyst macro uncertainties aur low volume ki wajah se isay reckless gambling qarar deta hai. Neutral analyst ki balanced raaye ke mutabiq, jab tak 0.08 support ya 0.10 resistance strong volume ke sath break nahi hota, tab tak 'Hold' karna aur conditional alerts par nazar rakhna hi sab se behtareen hikmat-e-amli hai taake capital mehfooz rahay.

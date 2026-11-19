@@ -1,0 +1,5 @@
+**Rating**: Overweight
+
+**Executive Summary**: SUI-USDT mein 1.15 se 1.17 USDT ke pullback zone par gradual exposure barhayein. Position sizing ko moderate rakhein aur ATR ke mutabiq 1.07 par tight stop-loss set karein taake volatility manage ho sakay.
+
+**Investment Thesis**: SUI-USDT ka technical structure bohot mazboot aur bullish hai jahan price 50 SMA (0.87) aur 200 SMA (0.85) se kaafi oopar 1.23 par trade kar rahi hai aur MACD bullish crossover active hai. Halankay RSI 69.47 par overbought zone ke qareeb hai aur conservative analyst ne regulatory uncertainties aur correction ke khatrat ko highlight kiya hai, lekin maujuda price action aur strong buying pressure ka palra bhaari hai. Neutral aur Research Manager ki rai ke mutabiq, seedha andha dhandh entry lene ke bajaye 1.15 se 1.17 ke pullback zone par entry lena ek balanced aur high-reward strategy hai.

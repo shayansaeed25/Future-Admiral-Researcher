@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: Filhal koi nayi bari position na banayein aur current positions ko hold karein. Jab tak price support ($2650) ke qareeb pullback nahi karti ya upper Bollinger Band ($2831.12) ko decisively break nahi karti, tab tak wait and watch ki policy apnayein. Risk-to-reward ratio ke unfavorable hone aur MACD histogram ke negative (-8.59) hone ki wajah se exposure ko neutral rakhna behtar hai.
+
+**Investment Thesis**: Macro trend bullish hai kyunki ETH-USDT ($2727.11) apne 50 SMA ($2511.95) aur 200 SMA ($2120.18) ke ooper trade kar raha hai, aur Polymarket ke mutabiq downside risk bhi kam hai. Lekin short-term momentum par dabao, MACD ka negative histogram (-8.59), aur price ka Bollinger Upper Band ($2831.12) ke itna qareeb hona yeh zahir karta hai ke upside room filhal mehdood hai aur rejection ka khatra mojood hai. Aggressive analyst ke high-risk buy recommendation ke muqable conservative aur neutral analysts ki capital protection aur confirmation ki shartain zyada wazeh aur maool par mabni hain, isliye aik balanced 'Hold' aur wait-and-watch approach hi sab se munasib hikmat-e-amli hai.

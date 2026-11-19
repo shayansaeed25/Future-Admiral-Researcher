@@ -1,0 +1,5 @@
+**Recommendation**: Hold
+
+**Rationale**: Bhai, dono taraf se kaafi zabardast arguments saamne aaye hain. Bull analyst ka kehna hai ke SUI-USDT ka 0.70 se 1.16 tak ka safar aur moving averages (50 SMA 0.83, 200 SMA 0.85) ki waja se medium aur long-term trend 100% bullish hai, aur RSI 67 par hone ke bawajood buyers market mein control mein hain. Dusri taraf, Bear analyst ne yeh daraya hai ke yeh jump ek exhaustion pump ho sakta hai, RSI 67 overbought zone ke qareeb hai, MACD momentum slow ho rahi hai, aur global macro conditions jaise ke high US Treasuries aur tight liquidity ek bade correction ka khatra paida kar rahi hain. In saare conflicting data ko dekhte hue, recommendation Hold par qaim hai taake filhal naya risk na liya jaye aur market ki mazeed confirmation ka intezar kiya jaye.
+
+**Strategic Actions**: Trader ke liye hidayat yeh hai ke SUI-USDT par filhal koi naya bada position open na karein aur current holdings ko maintain karein. Agar price mein koi healthy pullback ya consolidation dekhne ko milti hai, tabhi aage ki accumulation par ghaur kiya jaye. Risk management ko sakht rakhein aur over-leveraged trades se guraiz karein.

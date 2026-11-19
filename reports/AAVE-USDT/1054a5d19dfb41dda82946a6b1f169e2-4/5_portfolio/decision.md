@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: Current levels par koi bhi naya bada position open na karein aur AAVE-USDT ke liye Hold stance rakhein. Price action ko monitor karein aur price ke Bollinger Upper Band (187.52) se reject hone ya correction ke baad 50 SMA (132.76) aur 10 EMA (166.21) ke qareeb aane ka intezar karein.
+
+**Investment Thesis**: AAVE-USDT ka current price 180.30 par hai jo ke Bollinger Upper Band (187.52) ke qareeb hai aur RSI 68.76 par overbought zone ke qareeb hone ki wajah se mean-reversion aur sharp rejection ka khatra hai. Halanki medium aur long-term trend (200 SMA 100.90 aur 50 SMA 132.76 ke mutabiq) bullish hai aur MACD bhi positive momentum dikha raha hai, lekin price moving averages se kafi oopar nikal chuki hai aur ATR (11.29) high volatility zahir karta hai. Is liye, aggressive entry lene ke bajaye market mein consolidation ya healthy pull-back ka wait karna ziyada aqlmandana faisla hai taake sarmaye ki hifazat ki ja sake.

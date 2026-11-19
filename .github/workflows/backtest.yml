@@ -1,0 +1,45 @@
+name: Future Admiral Backtest
+
+on:
+  workflow_dispatch:
+    inputs:
+      days:
+        description: 'Kitne din ka history (grid ke liye 365 rakho)'
+        default: '365'
+      fee_bps:
+        description: 'Cost per side in bps (fee+slippage)'
+        default: '8'
+      only:
+        description: 'Sirf yeh variants (jaise H,I). Khali = sab. 30 coins par H,I rakho (tez)'
+        default: 'H,I'
+      grid:
+        description: 'true = kai rule-variants ek saath, in/out-of-sample (recommended)'
+        default: 'true'
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - run: pip install -r requirements.txt
+      - name: Run backtest
+        run: |
+          if [ "${{ github.event.inputs.grid }}" = "true" ]; then
+            python backtest.py --grid --only "${{ github.event.inputs.only }}" --days ${{ github.event.inputs.days }} --fee-bps ${{ github.event.inputs.fee_bps }}
+          else
+            python backtest.py --days ${{ github.event.inputs.days }} --fee-bps ${{ github.event.inputs.fee_bps }}
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: backtest-report
+          path: |
+            grid_report.md
+            backtest_report.md
+            backtest_trades.csv
+          if-no-files-found: ignore

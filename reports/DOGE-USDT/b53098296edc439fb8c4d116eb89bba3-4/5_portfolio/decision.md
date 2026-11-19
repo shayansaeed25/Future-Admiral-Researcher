@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: DOGE-USDT is currently range-bound between 0.08 USDT support and 0.10 USDT resistance with weak volume and a negative MACD. Maintain a neutral stance and hold current positions without adding new capital until a validated breakout or volume expansion occurs.
+
+**Investment Thesis**: The research debate highlights conflicting signals where the aggressive analyst favors immediate accumulation at the 0.08 USDT lower Bollinger Band support to capture upside potential, while the conservative analyst points to bearish technicals (RSI 43.52, negative MACD at -0.00032) and negative macro sentiment including high hack probabilities to warn against premature exposure. Although the neutral analyst proposes a scaled-in DCA approach, the prevailing evidence of dry volume and lack of a confirmed directional trend strongly supports maintaining a cautious Hold strategy until market conditions provide a clearer signal.

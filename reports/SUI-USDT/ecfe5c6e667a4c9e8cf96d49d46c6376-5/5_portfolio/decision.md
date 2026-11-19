@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: SUI-USDT ko 1.19 par maintain karein aur filhal koi nayi position create na karein. Risk management ke tor par 1.08 par stop-loss aur 5% portfolio sizing rakhte huwe market ke breakout ka intezaar karein.
+
+**Investment Thesis**: SUI-USDT ka current price 1.19 hai jo 50-day SMA (0.88) aur 200-day SMA (0.85) se oopar hai aur RSI 64.08 par bullish zone mein hai, jo long-term strong trend ki nishandahi karta hai. Lekin MACD histogram ka 0.00 par flat hona momentum exhaustion aur price consolidation ki taraf ishara karta hai, jisse 1.26 ke high ke baad uncertainty paida ho gayi hai. Iske ilawa, macro security risks aur crypto hacks ke barhte huwe khatrat ki wajah se bullish aur bearish factors mein shadeed conflict hai. Is tawaazun aur ambiguity ki bina par, bina clear breakout ke aggressive position lena munasib nahi hai, isliye mojooda position ko 1.08 stop-loss aur 5% portfolio sizing ke sath Hold karna hi behtareenhikmat-e-amli hai.

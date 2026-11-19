@@ -1,0 +1,8 @@
+
+Conservative Analyst: Bhai, Aggressive Analyst sahab ki baatein sun kar aisa lagta hai ke jaise risk management koi aisi cheez hai jise khidki se bahar phenk dena chahiye. Aap bade gains aur FOMO (fear of missing out) ki baat toh bade araam se kar rahe hain, lekin kya aapne yeh socha hai ke agar market mein zara sa bhi jhatka laga, toh iska anjaam kya hoga? 
+
+Aap RSI 69.47 ko bas ek mamooli number samajh kar ignore kar rahe hain, jabke haqeeqat yeh hai ke hum overbought zone ke bilkul dehleez par khade hain. Jab price apne 50 SMA (0.87) aur 200 SMA (0.85) se itni oopar 1.23 par chali jati hai, toh wahan "mean reversion" yaani price ka apni average par wapas aane ka khatra sabse zyada hota hai. Yeh koi taaqat nahi, balkay ek stretched market ki nishani hai jo kisi bhi waqt correction ka shikaar ho sakti hai. 
+
+Mazeed yeh ke macro report mein saaf bataya gaya hai ke 2026 mein crypto hacks ke $2.5B se zyada hone ke chances 98% tak hain, aur regulatory clarity abhi bhi 5% tak hi mehdood hai. Aise ghair-yaqeeni (uncertain) mahol mein 5% portfolio size ek hi trade par laga dena kisi aam gambler ki tarah khelna hai, na ke kisi professional aur responsible firm ki tarah risk manage karna. ATR 0.09 ke sath 1.07 ka stop-loss sun-ne mein theek lagta hai, lekin agar volatility barh gayi aur slippage ho gayi, toh nuksan trader ke tawaquff se kahin zyada bada ho sakta hai.
+
+Humara maqsad raaton raat ameer hona nahi hai, balkay firm ke sarmaye (assets) ko mehfooz rakhna aur consistent growth dena hai. Isliye, bina soche samjhe is andhay **BUY** ke peechhe bhagne ke bajaye, humein mazeed ahtiyat baratni chahiye aur market mein gehri consolidation ka intezaar karna chahiye taake unchaai par khareed kar apna paisa khatre mein na daalein.

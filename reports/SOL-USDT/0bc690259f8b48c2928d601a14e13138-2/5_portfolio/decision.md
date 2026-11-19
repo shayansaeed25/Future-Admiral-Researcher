@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: Hal hi mein market mein conflicting technical indicators ki wajah se SOL-USDT par Hold ka faisla kiya gaya hai. Entry ke liye 107.98 aur 109.23 ke support zones par nazar rakhein jab tak trend wazeh nahi hota. Stop-loss 104.00 par rakha gaya hai taake downside risk control mein rahe.
+
+**Investment Thesis**: Debate ke dauran yeh samne aaya ke SOL-USDT ki price 109.92 par Bollinger Lower Band (109.23) aur 50 SMA (107.98) ke qareeb ek solid support cluster mein trade kar rahi hai, aur long-term structural uptrend 200 SMA (86.58) ke mutabiq mazboot hai. Lekin doosri taraf, short-term momentum kamzor hai kyunki price 10 EMA (115.60) se niche hai aur MACD histogram (-1.81) negative momentum dikha raha hai. Iske ilawa macro level par hacks aur cautious sentiment ka bhi pressure hai. Kyunki short-term weakness aur long-term support ka aapas mein takrao hai aur market mein confusion hai, isliye fouri taur par bara risk lene ke bajaye Hold karna aur trend ke wazeh hone ka intezaar karna sabse behtareen hikmat-e-amli hai.

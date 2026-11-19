@@ -1,0 +1,19 @@
+Future Admiral update: $100 paper ledger and reliable status tracking
+
+This ZIP contains the complete source tree (without .git metadata or real
+credentials). Extract it over your existing repository folder and allow these
+files to be replaced. Keep your existing .git folder and local .env file.
+Review changes in GitHub Desktop, commit, then push to GitHub.
+
+The Google Sheet will refresh its headers and dashboard on the next successful
+workflow run. Each accepted BUY/SELL starts a $100 USDT paper position; TP1/TP2/
+TP3 each close one-third of the paper quantity, and SL closes the remainder.
+Signals, NO_SIGNAL outcomes and analysis failures are logged separately. P&L is
+estimated gross P&L only; the bot does not place exchange orders.
+
+Provider credentials remain your responsibility in GitHub Actions Secrets.
+The supplied run log shows OpenRouter returning HTTP 401, so update
+OPENROUTER_API_KEY with a valid key. Google/Groq quota failures cannot be
+repaired by changing the paper ledger code.
+
+See PAPER_LEDGER_GUIDE.md for assumptions and limits.

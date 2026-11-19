@@ -1,0 +1,8 @@
+
+Aggressive Analyst: Dekhiye bhai, conservative aur neutral analysts ka yeh darr aur ehtiyat pasandi market ke asal mauqaon ko ganwaane ki sab se barri wajah banti hai. Woh log sirf short-term negative MACD histogram (-37.27) aur 10 EMA (2,596.35) ya 50 SMA (2,550.14) se neechay trade hone par rona ro rahe hain, lekin yeh bhool jaate hain ke asli munafa wahin banta hai jahan darr ka mahaul ho aur market apne ahem support zones ko test kar rahi ho!
+
+Aap khud dekhein, ETH-USDT is waqt Bollinger Lower Band (2,499.03) aur haal hi ke low (2,406.36) ke bilkul qareeb support le raha hai, aur RSI 38.87 par hai jo yeh saaf dikhata hai ke panic selling ab apne ikhtitam ko pohnch chuki hai. Yeh wahi jagah hai jahan se smart money entry leti hai. Agar hum sirf is baat par baithe rahein ke jab tak price saari moving averages ko cross karke oopar nahi jaati hum hath nahi lagayenge, toh hum sab se barri rally miss kar denge kyunke tab tak price bohat oopar ja chuki hogi.
+
+Jahan tak prediction markets aur Polymarket ki baat hai ke log $2,250 ke dip ki baat kar rahe hain, toh yaad rakhein ke market hamesha crowd ke khilaf chalti hai. Extreme crash (jaise $1,500 ya $1,000) ki probability sirf 8% aur 4% hai,iska matlab yeh hai ke downside ki ek hadd muqarrar hai aur 200 SMA jo ke 2,128.43 par hai, woh hamara aahni (ironclad) long-term floor hai jo ek zabardast structural bull trend ki tasdeeq karta hai. 
+
+Is waqt sirf "Hold" keh kar baith rehna ya darr ke maare exit kar jana ek kamzor hikmat-e-amli hai. Humein is high volatility (ATR 88.20) ko apna hathiyar banana chahiye, tight risk management aur wider stop-losses ke sath is dip ko ek aggressive accumulation zone samajhna chahiye taake jab market palat kar upar jaye toh hum sab se aagay hon!

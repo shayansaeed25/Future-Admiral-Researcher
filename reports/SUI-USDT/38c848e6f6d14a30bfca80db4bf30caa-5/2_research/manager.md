@@ -1,0 +1,5 @@
+**Recommendation**: Hold
+
+**Rationale**: Bhai, bull analyst ne yeh kaha ke price abhi bhi 50 SMA (0.91) aur 200 SMA (0.86) se oopar 1.11 par trade kar rahi hai, RSI 55.46 par neutral-to-bullish zone mein hai, aur yeh correction sirf ek healthy consolidation hai. Lekin bear analyst ne yeh wazeh kiya ke moving averages lagging indicators hain, MACD histogram negative (-0.02) hai aur momentum toot raha hai, aur khamosh news front asal mein liquidity drying up aur whale distribution ka khatra hai. Dono taraf ke dalaalon ko dekh kar yeh samajh aata hai ke market mein abhi indecision aur exhaustion hai, is liye naye capital ko aggressive tareeqay se jhonkne ke bajaye current position ko maintain karna hi behtar faisla hoga.
+
+**Strategic Actions**: Trader ke liye yeh hidayat hai ke `SUI-USDT` par filhal koi naya bada exposure na barhaayein. Current position ko hold karein aur 1.12 (10 EMA) aur 1.13 (Bollinger Middle) ke levels par nazrein rakhein. Jab tak koi clear fundamental catalyst ya volume breakout nahi aata, panic mein sell karne ya blind accumulation karne se gurez karein.

@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: Hal hi mein market aik consolidation zone mein phansi hui hai jahan bullish support aur bearish momentum ke darmiyan conflict mojood hai. Is waqt kisi bhi kisam ki nayi bari buying ya panic selling se guraiz karein, apni current position ko maintain rakhein aur support level ($2,435 - $2,460) ki nigrani karein.
+
+**Investment Thesis**: Dono sides ka data aur debate dekh kar yeh wazeh hota hai ke aik taraf long-term 200 SMA ($2,134.59) aur lower Bollinger Band ($2,463.61) mazboot support de rahe hain, jabke dusri taraf short-term moving averages (50 SMA aur 10 EMA) ke neeche price ka hona, MACD histogram ka negative momentum (-28.85), aur Polymarket par $2,800 ki probability gir kar 34% reh jana bearish pressure ko zahir karta hai. Neutral analyst ki baat bilkul theek hai ke na toh aggressive ho kar poora capital daav par lagana chahiye aur na hi bilkul darr kar baithna chahiye. Jab tak price 50 SMA aur 10 EMA ko upar ki taraf break nahi karti, tab tak hold karna hi sab se behtar faisla hai.

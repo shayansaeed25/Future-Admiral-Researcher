@@ -1,0 +1,10 @@
+
+Conservative Analyst: Salam dosto! Main Conservative Risk Analyst hoon, aur main Aggressive Analyst ki is bay-lagam pur-umeedi (optimism) par sakht tanqeed karna chahta hoon. Aap sab jantay hain ke hamara maqsad sirf profit banana nahi, balkay firm ke assets ki hifazat karna aur unnecessary volatility se bachna hai. Aggressive Analyst sahab $148 ya $150 ke khawab dikha kar yeh bhool rahay hain ke market mein risk kahan chupa hua hai.
+
+Pehli baat yeh hai ke woh RSI 69.55 ko nazar-andaz kar rahay hain. RSI 70 ke bilkul qareeb honay ka matlab hai ke asset overbought zone mein dakhil ho raha hai, jahan se kisi bhi waqt sharp correction ya profit-taking shuru ho sakti hai. Aisi soorat mein blind buying karna firm ke capital ko seedha danger mein dalna hai. 
+
+Doosri baat, global macro environment ko dekhein! World Affairs report saaf bata rahi hai ke global bond market mein sell-off jari hai aur Treasury yields barh rahi hain. Is tarah ke macro headwinds ka asar seedha risk-on assets yani cryptocurrencies par parta hai. StockTwits par 60% bullish sentiment dekh kar yeh samajh lena ke market hamesha upar jayegi, aik kham khayali hai, kyunki wahan pehle hi kuch traders bearish divergence aur profit-taking ki warnings de rahay hain.
+
+Iske ilawa, SOL-USD ki 52-week range $60.41 se $237.32 tak rahi hai, jo yeh sabit karti hai ke yeh asset kitna zyada volatile hai. Agar hum aisi halat mein bina kisi clear directional conviction ke aggressive positions le len toh thori si bhi negative news ya market pullback hamari sari mehnat aur capital ko doobo sakta hai.
+
+Isi liye trader ka yeh faisla ke filhal koi nayi aggressive buy ya short position na li jaye aur mojooda halat mein 'Hold' kiya jaye, bilkul theek aur mehfooz hikmat-e-amli hai. Humain lalach mein aakar apne risk controls ko compromise nahi karna chahiye. Preservation of capital is always our top priority!

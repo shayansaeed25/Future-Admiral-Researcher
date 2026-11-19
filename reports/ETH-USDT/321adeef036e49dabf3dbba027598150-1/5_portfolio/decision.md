@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: ETH-USDT ke liye mojooda position ko Hold karein aur naye exposure se parhez karein. Jab tak price upper Bollinger Band ($2,829.66) ko break nahi karti ya MACD histogram negative territory (-9.31) se bahar nahi aata, tab tak market ki volatility par nazar rakhein. ATR ($81.34) ko mad-e-nazar rakhte huay tight risk management karein.
+
+**Investment Thesis**: Aggressive analyst ka kehna hai ke price ($2,715.76) 50 SMA ($2,511.72) aur 200 SMA ($2,120.12) ke oopar hai aur RSI 63.70 par healthy zone mein hai, isliye naye positions lene ka waqt hai. Lekin conservative aur neutral analysts ne yeh wazeh kiya hai ke MACD histogram ka negative (-9.31) hona momentum mein susti aur exhaustion ki nishandahi karta hai. Price Bollinger bands ke darmiyan phansi hui hai aur upside room mehdood hai, jabke macro uncertainties aur volatility bhi mojood hain. Isliye balanced approach yahi hai ke filhal naye risk na liye jayein aur Hold kiya jaye.

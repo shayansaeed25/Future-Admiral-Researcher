@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: NEAR-USDT mein current price $5.17 par RSI 78.96 aur high ATR ($0.42) ki wajah se overextended hai, jabke fundamental backing aur $100M ETP ki khabrein bullish hain. Naye exposure ke liye $4.50 - $4.60 zone ka intezar karein aur mojooda positions ko tight stop-loss ($4.75) ke sath hold rakhein.
+
+**Investment Thesis**: Bull analyst ne Bitwise Spot ETP aur Ondo Finance ki RWA integration ke zariye tokenized stocks ki live adoption ka hawala diya, jo ke aik strong institutional breakout ko zahir karta hai. Doosri taraf, Bear aur Neutral analysts ne yeh darust point out kiya ke RSI 78.96 aur upper Bollinger Band ke qareeb trade hone ki wajah se market mein momentum thak raha hai aur profit-taking ka khatra mojood hai. Chonkay fundamentals shandar hain lekin short-term overextended conditions ki wajah se aggressive entry lena risky hai aur panic mein sell karna bhi ghalat hoga, is liye ek balanced approach ke tehet mojooda positions ko hold karna aur healthy pullback ($4.50 - $4.60 zone) ka intezar karna hi sab se behtareen hikmat-e-amli hai.

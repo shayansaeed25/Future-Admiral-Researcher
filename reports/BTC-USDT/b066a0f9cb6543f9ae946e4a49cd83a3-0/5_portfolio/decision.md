@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: BTC-USDT par abhi koi naya bada exposure na barhaen aur apni maujooda positions ko hold karein. High volatility aur negative MACD histogram ki wajah se strict stop-loss 78,571.96 par set rakhein. Yeh balanced strategy capital ko protect karne ke sath-sath market ki mojooda strength ko bhi maintain karegi.
+
+**Investment Thesis**: Market mein medium aur long-term bullish trend barqarar hai aur price 84,829.40 USDT par apnay 50-day SMA (78,571.96) aur 200-day SMA (71,442.55) se oopar trade kar rahi hai, jabke RSI 62.09 par hai jo ke overbought nahi hai. Lekin doosri taraf, MACD histogram negative (-114.97) hone aur ATR 2,274.85 ki high volatility ki wajah se short-term momentum mein susti aur risk mojood hai. Is conflicting data aur market ki uncertain conditions ko dekhte hue, naya risk lene ya exposure barhanay ke bajaye position ko hold karna aur support levels ke mutabiq management karna sab se behtareen faisla hai.

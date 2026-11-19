@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: Filhal ETH-USDT mein koi nayi position na banayein aur mojooda positions ko hold rakhein. ATR 91.25 ki high volatility ko dekhte hue panic selling ya aggressive accumulation se guraiz karein. Jab tak price 10 EMA (2599.58) aur 50 SMA (2550.49) ke upar reclaim nahi hoti, tab tak wait and watch ki policy apnayein.
+
+**Investment Thesis**: Debate ke mutabiq, long-term trend abhi bhi 200 SMA (2128.52) ki waja se supported hai aur price Bollinger Lower Band ke qareeb hai jahan extreme crash ke chances sirf 8% hain, jo bulls ke liye ek floor value provide karta hai. Lekin short-term momentum bears ke paas hai kyunki price 10 EMA aur 50 SMA se neeche trade kar rahi hai, MACD histogram -36.14 par negative hai, aur prediction markets mein December tak $2,250 tak girne ki probability 52% ho chuki hai. Is conflict aur high volatility (ATR 91.25) ki wajah se, aggressive buying karna ya portfolio ko khali karna dono hi nuqsan-deh ho sakte hain. Isliye, ek balanced approach ke tor par hold karna aur clear breakout ya breakdown ka intezar karna sabse behtar faisla hai.

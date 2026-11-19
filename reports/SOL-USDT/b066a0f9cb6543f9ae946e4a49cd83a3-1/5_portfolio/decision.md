@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: Current holding ko maintain karein aur naye positions banane ya exposure barhane se guraiz karein. Support levels aur 129.48 ke breakout par nazar rakhein. Jab tak market solid correction ya clear breakout nahi deti, position sizing mein koi tabdeeli na ki jaye.
+
+**Investment Thesis**: Market ka macro trend bullish hai aur price 119.57 par apne 200 SMA (85.77) aur 50 SMA (103.51) se oopar 'Golden Alignment' mein trade kar rahi hai, jiski wajah se aggressive analyst upside ke faiday uthane ka keh raha hai. Lekin doosri taraf, MACD histogram -0.28 par negative hai, RSI 62.71 par hai, aur ATR 5.20 par volatility zahir karta hai, jo yeh batata hai ke momentum mein susti aur pullback ka khatra mojood hai. Conservative aur neutral analysts ke mutabiq, bina kisi foran ke buy catalyst ke blind entry lena ya top trap ka shikar hona risk management ke khilaf hai. Is liye, evidence mukhalif aur balanced hone ki wajah se, current position ko hold karna hi sab se behtar hikmat-e-amli hai.

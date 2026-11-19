@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: Mojooda positions ko hold karein aur naye exposures add karne se guraiz karein jab tak market mein directional clarity nahi milti. MACD histogram ke negative hone (-0.52) aur price ke upper Bollinger Band ke qareeb hone ki wajah se exhaustion aur macro pressures mojood hain. Market ke breakout ya healthy pullback ka intezaar karein.
+
+**Investment Thesis**: Bullish technical indicators jese ke moving averages ki alignment (10 EMA @ 119.43, 50 SMA @ 107.07, 200 SMA @ 86.40) aur healthy RSI (62.37) strong short-term momentum aur volume support (VWMA @ 119.61) ko zahir karte hain. Lekin doosri taraf, MACD histogram ka negative (-0.52) hona, price ka upper Bollinger Band (125.27) ke qareeb hona, aur elevated Treasury yields ki wajah se macro liquidity ke pressures market mein exhaustion aur minor consolidation ki nishandahi karte hain. Dono tarah ke conflicting dalail aur ambiguous data ki buniyad par, aggressive buying ya selling se bachne ke liye 'Hold' karna hi sabse behtareen aur balanced faisla hai.

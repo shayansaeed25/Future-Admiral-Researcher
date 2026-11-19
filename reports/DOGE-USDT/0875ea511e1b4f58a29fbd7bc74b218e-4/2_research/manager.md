@@ -1,0 +1,5 @@
+**Recommendation**: Hold
+
+**Rationale**: Bhai, bull aur bear dono ki taraf se kaafi mazboot points samne aaye hain. Bull ka kehna hai ke 0.09 par moving averages ka converge hona aur narrow Bollinger bands ek bade breakout ki tayari hain, aur macro risk-on sentiment bhi speculative assets ko support de sakta hai. Dusri taraf, bear ne bilkul theek nishandahi ki hai ke market mein volume ki kami hai, MACD bilkul flat (0.00) hai, aur regulatory uncertainties ya security risks ki wajah se meme coins mein blind entry ek bull trap sabit ho sakti hai. Kyunki technicals bilkul neutral hain (RSI 55.81 par hai) aur price aik tight range (0.08 se 0.10) mein phansi hui hai, is waqt koi bhi direction lena jaldbazi hogi. Is liye, behter yeh hai ke hum filhal Hold karein aur breakout ka intezaar kareين.
+
+**Strategic Actions**: Trader ke liye hidayat yeh hai ke DOGE-USDT mein filhal koi naya bada position na banayein aur current position ko maintain rakhein. Jab tak price 0.08 (support) ya 0.10 (resistance) ko volume ke sath break nahi karti, tab tak market ki is consolidation range ka ehtiram karein aur risk management ko tight rakhein.

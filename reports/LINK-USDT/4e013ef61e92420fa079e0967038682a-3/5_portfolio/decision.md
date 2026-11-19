@@ -1,0 +1,7 @@
+**Rating**: Hold
+
+**Executive Summary**: LINK-USDT ke liye current position ko hold rakhein aur filhal koi nayi exposure add na karein. Jab tak price $15.60 ke resistance ko strong volume ke sath break nahi karti ya $12.92 ke stop-loss aur 50 SMA ke qareeb test nahi karti, tab tak wait-and-watch approach apnayein. Yeh balanced strategy short-term momentum ki flat hone aur macroeconomic uncertainties se bacha kar risk ko fully managed rakhegi.
+
+**Investment Thesis**: Analysis ke mutabiq, macro-level par LINK-USDT ka trend bullish hai kyunki price apne 200 SMA (9.55) aur 50 SMA (12.10) se kaafi oopar $14.12 par trade kar rahi hai aur RSI (61.10) sweet spot mein hai. US jobs report miss hone ki wajah se macro liquidity support bhi mil rahi hai. Lekin doosri taraf, MACD histogram 0.00 par hai aur short-term momentum bilkul flat hai, jo ke narrow consolidation range aur market mein indecision ko zahir karta hai. Aggressive analysts ke bold upside targets aur Conservative analysts ke downside risks (jaise Lower Bollinger Band 10.76 tak correction ka darr) ke darmiyan current evidence mukammal taur par balanced aur conflicting hai. Is wajah se, bina kisi wazeh breakout ke aggressive positions lene ke bajaye current position ko hold karna aur ATR-based stop-loss 12.92 par mehfooz rakhna sab se behtar faisla hai.
+
+**Price Target**: 15.6

@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: Filhal SOL-USDT mein koi nayi position ya aggressive buying na karein aur apne current holdings ko hold rakhein. ATR ($4.70) ko madde-nazar rakhte hue $102 se $105 ke support zone ke qareeb apne risk ko tightly manage karein. Mixed signals aur consolidation ki wajah se naye entries ke liye market ki saaf direction ka intezaar karna behtar hai.
+
+**Investment Thesis**: SOL-USDT ka current price $121.57 apne 50-day SMA ($105.36) aur 200-day SMA ($86.10) se kaafi oopar hai, aur RSI 65.14 par hone ki wajah se buyers ka control zaroor hai lekin yeh extreme overbought nahi hai. Halankeh macro trend bullish hai aur liquidity risk-on assets ko support kar rahi hai, lekin MACD histogram -0.28 par negative hone aur price ke Bollinger Upper Band ($129.40) ke qareeb hone ki wajah se momentum dheema par raha hai aur consolidation ya exhaustion ka khatra mojood hai. Is conflict ki bina par naye positions kholne se guraiz karna chahiye aur ek balanced approach apnate hue hold par rehna sabse mehfooz strategy hai.

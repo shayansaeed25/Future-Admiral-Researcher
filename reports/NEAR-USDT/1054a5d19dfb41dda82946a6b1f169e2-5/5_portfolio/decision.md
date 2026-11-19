@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: Current positions should be maintained with a strict stop-loss set at 4.30 USDT. Avoid entering new fresh long positions right now due to short-term momentum cooling, and wait for a healthy correction towards 4.30 USDT before considering further accumulation.
+
+**Investment Thesis**: NEAR-USDT is trading at 4.78 USDT, remaining well above both the 50 SMA (2.93 USDT) and 200 SMA (2.03 USDT), while the RSI at 63.39 indicates a healthy structural bull market with strong medium-term buyer control. However, short-term momentum has softened as evidenced by a negative MACD histogram (-0.05) and an ATR of 0.46 signaling heightened volatility. Because the data shows a conflict between a robust macro trend and short-term consolidation without an immediate fundamental catalyst, a balanced hold strategy protects existing capital while avoiding aggressive new risk.

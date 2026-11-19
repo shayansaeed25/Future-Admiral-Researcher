@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: Filhal AAVE-USDT mein koi nayi position na banayein aur current exposure ko hold karein. Jab tak price $159 ke upper band ka breakout nahi deta ya correction ke baad $122 ya $136 ke support levels par nahi aata, tab tak market ki mazeed wazahat ka intezaar karein.
+
+**Investment Thesis**: Analyst debate mein bullish aur bearish factors ka balance equal nazar aa raha hai. Ek taraf RSI 67.71, MACD positive momentum, aur Coinbase ke sath tokenized stocks ki integration aik bara institutional catalyst hai jo upward potential dikhata hai. Doosri taraf, price Bollinger Upper Band (159.69) ke qareeb over-extended hai, global bond yields 5% ki taraf barh rahe hain, aur Polymarket par 66% hack risk aur macro uncertainties bhi maujood hain. Yeh conflicting signals aur risk factors is baat ka taqaza karte hain ke filhal neutral stance rakha jaye aur kisi bhi extreme directional trade se guraiz kiya jaye.

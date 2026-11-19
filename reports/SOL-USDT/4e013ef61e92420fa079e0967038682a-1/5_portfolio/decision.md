@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: SOL-USDT mein filhal koi nayi position na banayein aur apne maujuda exposure ko maintain rakhein. Support zone ($114-$118) aur resistance ($129.86) par nazrein rakhein. Jab tak clear breakout ya proper correction nahi hoti, risk management ko sakht rakhtay huay ahtiyat baratain.
+
+**Investment Thesis**: Dono taraf ke points mazboot hain. Aggressive analyst ka kehna hai ke price $121.72 par hai, jo 50 SMA ($104.44) aur 200 SMA ($85.93) se oopar hai, aur RSI 65.32 par overbought nahi hai, isliye mazeed oopar jaane ki gunjaish hai. Doosri taraf, conservative analyst ne point out kiya hai ke MACD histogram negative (-0.25) hai aur price $129.86 ke upper Bollinger Band ki resistance ke paas hai, jo momentum loss aur short-term cooling ko zahir karta hai. Current technical indicators mein consolidation aur momentum ki slight cooling ki wajah se koi extreme direction lene ke bajaye Hold karna hi sab se behtareen faisla hai.

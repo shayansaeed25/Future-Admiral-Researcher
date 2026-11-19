@@ -1,0 +1,10 @@
+
+Conservative Analyst: Assalam-o-Alaikum team! 
+
+Main Conservative Risk Analyst ke tor par apni zimdari nibhaate huwe yahan yeh kehna chahta hoon ke hamare Aggressive Analyst bhai ka jazba aur optimism apni jagah theek ho sakta hai, lekin trading mein sirf ummeedon aur prediction markets ki probabilities par andha dhar bharosa kar lena hamari poori firm ke capital ko khatre mein daal sakta hai. 
+
+Aap ne kaha ke negative MACD histogram (-8.59) aur short-term momentum par dabao sirf aik "choti si khist" ya temporary consolidation hai, lekin risk management mein hum kabhi bhi alamaat ko nazar-andaz nahi karte. MACD signal line ($72.52) se neechay hai aur histogram negative hai, jo saaf taur par yeh dikhata hai ke market mein buying momentum filhal thanda pad raha hai. Agar hum is waqt jazbati hokar jaldi mein BUY ki position le len aur price upper Bollinger Band ($2831.12) se reject hokar neeche ki taraf palat gayi, toh hamara `$2650` ka stop-loss bhi turant hit ho sakta hai. Crypto markets ki volatility ($81.07 ATR) kisi se chupi nahi hai, aur yeh "tight stop-loss" bhi aisi achanak wapsi (pullback) mein slippage ki wajah se bara nuqsan de sakta hai.
+
+Polymarket ke data ka hawala dena aur yeh kehna ke $1,500 tak girne ka imkan sirf 7% hai, aik achhi macro tasalli ho sakti hai, lekin short-term trading mein downside risk sirf bare crash tak mehdood nahi hota. Aik mamooli correction ya sideways range-bound phase bhi hamare capital ko weeks tak phansa kar rakh sakta hai, jis se hamara opportunity cost barh jata hai. 
+
+Trader ka "Hold" ka faisla is waqt bilkul aql-mandi par mabni hai kyunki humain pehle support ya resistance ke breakout ka intezaar karna chahiye. Bina mukammal confirmation ke risk lena gambling hai, investment nahi. Humari pehli tarjeeh capital ki hifazat hai, na ke bewajah ka high risk lena. Isliye, main trader ke **HOLD** ke faislay ki mukammal tayeed karta hoon aur aggressive doston ko mashwara deta hoon ke sabr se kaam lein.

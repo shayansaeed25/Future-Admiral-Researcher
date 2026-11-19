@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: Current position ko hold karein aur market mein kisi clear breakout yaani $80k support ke tootne ya MACD ke positive hone ka intezaar karein. Neutral exposure maintain karte hue mazeed aggressive positions lene se parheiz karein aur $80,000 par strict stop loss lagayein.
+
+**Investment Thesis**: BTC-USDT par mixed signals aur conflicting evidence ki wajah se Hold ka faisla kiya gaya hai. Aik taraf long-term macro structure mazboot hai, jahan price $83,060.00 par trade kar rahi hai aur 200 SMA ($71,859.95) aur 50 SMA ($80,722.03) par strong support mojood hai. Dusri taraf, short-term momentum kamzor hai kyunki MACD histogram negative (-532.14) hai, Polymarket par $100k ki probability gir kar 28% reh gayi hai, aur 2026 mein crypto hacks ka risk 77% par khara hai. Yeh balanced aur ambiguous halat is baat ka taqaza karte hain ke bina kisi clear reversal ya breakout signal ke exposure barhany se guraiz kiya jaye.

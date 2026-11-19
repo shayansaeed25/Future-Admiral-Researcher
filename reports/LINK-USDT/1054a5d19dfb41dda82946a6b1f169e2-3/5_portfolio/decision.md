@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: LINK-USDT par filhal naye aggressive trades lagane se parhez karein aur mojooda position par 'HOLD' ki hikmat-e-ameli apnayein. Jab tak price $13.18 aur $15.60 ke channel ke andar consolidate kar rahi hai, tab tak position sizing mein izafa na karein aur breakout ka intezaar karein.
+
+**Investment Thesis**: Market ka medium-term trend bullish hai kyunki price 50 SMA ($12.10) aur 200 SMA ($9.55) se oopar $14.10 par trade kar rahi hai aur RSI 60.98 par healthy region mein hai. Lekin, conservative aur neutral analysts ke mutabiq MACD histogram ka 0.00 par flat hona short-term momentum ki thakawat ko ظاہر karta hai, jis se pullback ka khatra barh jata hai. Aggressive analyst ke upside potential aur 8% liquidation risk ke bawajood, conflicting momentum aur consolidation ki wajah se filhal exposure barhata ya ghatana bewaqufi hogi.

@@ -1,0 +1,8 @@
+
+Neutral Analyst: Salam! Main Neutral Risk Analyst hoon, aur dono bhaiyon ki baatein sun kar yeh kehna chahta hoon ke aap dono hi apne apne extremes par khare hain. 
+
+Aggressive bhai, aapka yeh kehna ke price **81,640.00** par lower Bollinger Band (**81,063.61**) aur **close_50_sma (81,286.67)** ke qareeb hone ki wajah se aik "high-reward entry zone" hai, thora overly optimistic hai. Aap yeh bhool rahe hain ke short-term momentum bilkul bearish hai; price **close_10_ema (82,849.33)** se neechay hai aur MACD histogram (-535.81) negative area mein hai. Bina kisi confirmation ke aggressive exposure barhana lalach ke siwa kuch nahi hai, aur ATR (**2,090.07**) ki high volatility is waqt aapke khilaf bhi ja sakti hai agar support toot gaya.
+
+Doosri taraf, Conservative bhai, aapka yeh darr ke market mein bond yields aur global macro uncertainty ki wajah se bilkul haath par haath dhar kar baith jana, yeh bhi theek nahi hai. Aap long-term **close_200_sma (72,293.80)** ko nazar-andaaz kar rahe hain jo yeh batata hai ke macro bull trend abhi bhi strong hai. Sirf is darr se ke volatility zyada hai, hum har mauqa ganwa dein, yeh prudent risk management nahi balkay paralysis hai.
+
+Hamari moderate strategy yeh honi chahiye ke hum na toh andhadhundh buying karein aur na hi bilkul inactive ho jayein. Humein current exposure ko "Hold" rakhte hue aik strict stop-loss plan set karna chahiye taake agar price lower support break karke neeche jaye toh capital safe rahe, aur agar breakout aaye toh hum ride karne ke liye tayyar hon. Balance hi asal kamyabi hai!

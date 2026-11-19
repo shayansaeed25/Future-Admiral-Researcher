@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: ETH-USDT mein filhal koi naya exposure add ya reduce na karein aur mojooda position ko Hold kiya jaye. 2600 ke aas-paas strict stop-loss barqarar rakhein aur Bollinger Bands ke breakout ya breakdown ka intezaar karein taake agli clear direction mil sake.
+
+**Investment Thesis**: Debate mein yeh wazeh hua hai ke qeemat 2697.13 par key moving averages aur RSI 61.50 par neutral-to-bullish zone mein hone ki wajah se underlying strength mojood hai. Halankahin, MACD histogram ka negative (-10.82) hona aur Bollinger Bands (Upper 2758.24 aur Lower 2605.82) ke darmiyan price ka phansna short-term momentum ki cooling aur consolidation ko zahir karta hai. Jab tak upper ya lower band ka mukammal breakout ya healthy dip nahi milta, blind entry lena ya exposure change karna qabil-e-amal nahi hai, is liye sab se behtareen hikmat-e-amli current position ko hold karna hi hai.

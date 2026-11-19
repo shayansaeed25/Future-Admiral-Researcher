@@ -1,0 +1,5 @@
+**Recommendation**: Hold
+
+**Rationale**: Bhai, debate kaafi dilchasap rahi hai. Bull analyst ka kehna hai ke qeemat $84,792.60 par apne tamaam ahem moving averages (10 EMA, 50 SMA, 200 SMA) se oopar trade kar rahi hai aur macro environment rate cuts ki ummeed par favorable hai. Doosri taraf, Bear analyst ne bilkul theek nishandahi ki hai ke MACD histogram -140.46 par negative momentum dikha raha hai, volatility aur ATR ($2,146.50) ki waja se direction unclear hai, aur macroeconomic pressure ke sath sath security aur regulatory risks bhi moujood hain. Kyunki technical indicators mein exhaustion aur mixed signals hain, isliye naye aggressive long positions lene ke bajaye market ko observe karna aur current position ko maintain karna hi behtar faisla hai.
+
+**Strategic Actions**: Trader ke liye hidayat yeh hai ke BTC-USDT mein filhal koi naya bara risk na liya jaye aur current position par Hold kiya jaye. Jab tak MACD dobara positive nahi hota aur Bollinger Bands ki range ($76,517.25 se $85,330) se koi clear breakout ya breakdown nahi aata, tab tak wait karein aur strict risk management rakhein.

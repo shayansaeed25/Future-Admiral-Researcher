@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: Filhal BTC-USDT mein koi naya bara position banane se guraiz karein aur current hold position ko maintain rakhein. Market ki high volatility (ATR 2,135.55) aur short-term momentum ki cooling-off ko dekhte hue, price ke $81,000 support zone ya 10 EMA ke oopar breakout ka intezaar karein.
+
+**Investment Thesis**: Debate ke mutabiq, long-term 200 SMA ($72,370.12) aur medium-term 50 SMA ($81,338.40) ke oopar price ka hona aur positive ETF inflows aik strong macro trend ko zahir karte hain, jo ke bullish case ko support karta hai. Lekin dusri taraf, price ka 10 EMA ($82,830.83) se neeche chalna, MACD histogram ka negative (-475.12) hona, aur IMF ke macro risks ya high ATR ki wajah se short-term weakness aur uncertainty bhi maujud hai. Is clear tug-of-war aur conflicting indicators ki wajah se, koi aik tarfa directional conviction banana qabil-e-amal nahi hai, is liye market ki mazeed confirmation aur clear signal ka intezaar karna behtar hai.

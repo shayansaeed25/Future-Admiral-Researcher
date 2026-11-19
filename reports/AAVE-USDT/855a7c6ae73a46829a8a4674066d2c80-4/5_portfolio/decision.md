@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: AAVE-USDT par filhal koi naya risk ya position open na karein aur market mein kisi sehat-mand pullback ka intezar karein. Agar pehle se position mojood hai toh usay 155.14 ke stop-loss ke sath tight manage karein. Yeh hikmat-e-amli extreme overbought levels aur FOMO trap ke khatray se bachne ke liye ikhtiyar ki gayi hai.
+
+**Investment Thesis**: Bullish analyst ne strong technicals, 50 SMA (132.79) aur 200 SMA (100.91) ke bullish structure, aur positive MACD ka hawala diya hai. Lekin conservative aur neutral analysts ne bilkul theek point out kiya hai ke RSI 69.40 par overbought zone ke qareeb hai aur price Bollinger Upper Band (187.94) ko test kar rahi hai, jis se sudden correction ya mean reversion ka khatra barh gaya hai. Dono taraf ke strong aur conflicting arguments ko dekhtay hue, current extreme levels par foran entry lena danishmandi nahi hai. Is liye, risk ko minimize karne ke liye position ko hold karna aur 155.14 ke stop-loss par tawajjoh dena hi sab se behtar faisla hai.

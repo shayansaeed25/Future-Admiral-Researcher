@@ -1,0 +1,85 @@
+{
+ "_readme": "Top 20 liquid OKX perps. Har coin ek hi rules se check hota hai.",
+ "coins": [
+  {
+   "ticker": "BTC-USDT",
+   "interval_hours": 1
+  },
+  {
+   "ticker": "ETH-USDT",
+   "interval_hours": 1
+  },
+  {
+   "ticker": "SOL-USDT",
+   "interval_hours": 1
+  },
+  {
+   "ticker": "XRP-USDT",
+   "interval_hours": 1
+  },
+  {
+   "ticker": "BNB-USDT",
+   "interval_hours": 1
+  },
+  {
+   "ticker": "DOGE-USDT",
+   "interval_hours": 1
+  },
+  {
+   "ticker": "ADA-USDT",
+   "interval_hours": 1
+  },
+  {
+   "ticker": "AVAX-USDT",
+   "interval_hours": 1
+  },
+  {
+   "ticker": "LINK-USDT",
+   "interval_hours": 1
+  },
+  {
+   "ticker": "DOT-USDT",
+   "interval_hours": 1
+  },
+  {
+   "ticker": "LTC-USDT",
+   "interval_hours": 1
+  },
+  {
+   "ticker": "BCH-USDT",
+   "interval_hours": 1
+  },
+  {
+   "ticker": "TRX-USDT",
+   "interval_hours": 1
+  },
+  {
+   "ticker": "NEAR-USDT",
+   "interval_hours": 1
+  },
+  {
+   "ticker": "APT-USDT",
+   "interval_hours": 1
+  },
+  {
+   "ticker": "ARB-USDT",
+   "interval_hours": 1
+  },
+  {
+   "ticker": "OP-USDT",
+   "interval_hours": 1
+  },
+  {
+   "ticker": "ATOM-USDT",
+   "interval_hours": 1
+  },
+  {
+   "ticker": "UNI-USDT",
+   "interval_hours": 1
+  },
+  {
+   "ticker": "SUI-USDT",
+   "interval_hours": 1
+  }
+ ]
+}

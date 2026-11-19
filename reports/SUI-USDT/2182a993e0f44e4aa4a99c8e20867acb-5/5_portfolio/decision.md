@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: Current position ko filhal 'Hold' rakhein aur naye trades ya panic exit se guraiz karein. Agar price 10 EMA ($1.16) ya $1.15 ke qareeb pullback leti hai, tabhi aage ke faisle par ghor kiya jaye. Strict risk management ke sath ATR ($0.09) ko zehen mein rakhein.
+
+**Investment Thesis**: SUI-USDT ki price $1.22 par 50 SMA ($0.87) aur 200 SMA ($0.85) se kaafi ooper hai aur MACD positive crossover mein hai, jo ke ek mazboot bullish trend ki nishandahi karta hai. Lekin RSI ka 68.03 par overbought zone ke qareeb hona, momentum ka thakna aur macro risks (jaise hack probabilities aur market cap uncertainty) contradictory signals dete hain. Is wajah se aggressive buy ya sell ka directional stance lena risky hai, is liye balanced approach ke taur par hold karna hi sab se behtareen faisla hai.

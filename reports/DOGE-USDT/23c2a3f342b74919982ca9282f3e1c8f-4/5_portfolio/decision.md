@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: Filhal DOGE-USDT mein koi naya bara exposure ya position add na karein aur mojooda position ko hold karein. 0.08 ki support aur 0.10 ki resistance ke beech market mein clarity ya volume expansion ka intezar karein taake false breakout se bacha ja sake. Yeh faisla market ki dead compression aur zero ATR ki wajah se liya gaya hai.
+
+**Investment Thesis**: Analyst debate ke mutabiq, DOGE-USDT ki price 0.08 aur 0.10 ke tight range mein phansi hui hai jahan ATR zero aur MACD flat hai, jo low volatility aur liquidity ki kami ko zahir karta hai. Aggressive analyst explosive breakout ki umeed par jaldi position banane ka keh raha hai, jabke Conservative analyst ise blind speculation aur whipsaw trap qarar deta hai. Neutral analyst ne bhi cautious global sentiment aur Polymarket ki low probabilities ka hawala diya hai. Aise ambiguous aur neutral halaat mein (RSI 44.15 par hai), naya risk lene ke bajaye current position ko maintain karna hi sabse behtar aur mehfooz tareeqa hai.

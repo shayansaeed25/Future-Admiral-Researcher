@@ -1,0 +1,5 @@
+**Recommendation**: Hold
+
+**Rationale**: Bull analyst sahab ka kehna hai ke DOGE-USDT mein volatility contraction (bollinger squeeze aur low ATR 0.01) aur 200 SMA ($0.09) par macro base ki wajah se aik coiled spring jaisi situation bani hui hai jo breakout ki tayari hai. Dusri taraf, bear analyst sahab ka yeh moqaf hai ke yeh breakout nahi balkay aik dead zone hai jahan volume gayab hai, RSI bearish zone ki taraf jhuk raha hai, aur koi fundamental catalyst ya news na hone ki wajah se yeh sirf ek speculative gamble ban chuka hai. Dono taraf ki behas sunne ke baad, yeh saaf hai ke market filhal sideways range ($0.08 se $0.10) mein phansi hui hai aur signals conflicting hain, is liye filhal exposure change karne ki bajaye Hold karna hi sab se behtar faisla hoga.
+
+**Strategic Actions**: Trader ke liye hidayat yeh hai ke filhal koi new fresh position build ya increase na karein. Current holding ko maintain rakhein aur price action ko `$0.08` support aur `$0.10` resistance ke darmiyan closely monitor karein. Jab tak koi wazeh breakout ya volume spike samne nahi aata, tab tak market mein entry lene se gurez karein.

@@ -1,0 +1,5 @@
+**Recommendation**: Hold
+
+**Rationale**: Bhai, bull aur bear dono ke arguments apke samne hain. Bull ka kehna hai ke price $0.08 - $0.09 ke support floor par aik strong accumulation phase mein hai, jahan low ATR ($0.0045) aur neutral RSI (45.20) downside risk ko controlled rakhte hain. Doosri taraf, bear ka yeh argument hai ke yeh accumulation nahi balkay 'dead money' aur capital trap hai kyunke MACD zero ke qareeb hai, volume gayab hai, aur macro liquidity tight hone ki wajah se koi positive catalyst maujood nahi hai. Kyunke market filhal aik strict range mein phansi hui hai aur bina kisi breakout ke direction clear nahi hai, is liye abhi exposure ko change karne ki bajaye neutral rehna hi behtar hai.
+
+**Strategic Actions**: Trader ke liye hidayat yeh hai ke DOGE-USDT mein filhal apni current position ko maintain karein (Hold). Koi bhi new position ya size tab tak increase na karein jab tak price high volume ke sath $0.10 ki resistance ko breach nahi karti ya phir $0.08 ke support level par koi clear reversal signal nahi milta. Strict stop-loss $0.08 se niche rakhein taake agar floor toote toh risk minimize ho sake.

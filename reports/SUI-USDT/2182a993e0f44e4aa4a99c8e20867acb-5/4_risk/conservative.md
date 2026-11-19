@@ -1,0 +1,10 @@
+
+Conservative Analyst: Salam doston! Main Conservative Risk Analyst hoon, aur main Aggressive Analyst ki is bay-lagam aur khatarnak khwahish-e-nafs (greed) par sakht tanqeed karna chahta hoon. Bhai, aap jis tarah "High risk lo ge toh high reward milega" ka nara laga kar firm ka paisa daav par lagane ki baat kar rahe hain, yeh hamare aza-o-qamar (assets) ke liye aafat se kam nahi hai! 
+
+Aap ne kaha ke SUI-USDT ki price **$1.22** hai jo 50 SMA ($0.87) aur 200 SMA ($0.85) se ooper hai, is baat se koi inkar nahi karta ke medium aur long-term trend bullish hai. Lekin aap yeh kyun bhool rahe hain ke RSI **68.03** par poori tarah overbought zone ke darwaze par dastak de raha hai? Aap kehte hain ke yeh 70 se ooper nahi gaya, is liye khatra nahi hai—bhai, kya hume aag lagne ke baad paani dalna chahiye ya dhuwan dekh kar hi ahtiyat karni chahiye? Yeh 0.07 ka fasla kuch bhi nahi hai, market ek hi jhatke mein isay cross karke correction ya dump ki taraf ja sakti hai. 
+
+Mazeed yeh ke aap ne prediction markets aur macro risks ko nazar-andaz kar diya. Report saaf bata rahi hai ke 2026 mein total crypto hack value ke $2.5B se tajawaz karne ki probability barh kar **98%** ho chuki hai! Iske ilawa, Total Crypto Market Cap ke $3.75T tak pohnchne ki probability sirf **20%** hai. Iska saaf matlab yeh hai ke macro level par market mein abhi bhi barri uncertanity aur risk maujud hai. Aise mein aggressive ho kar mazeed positions accumulate karne ki baat karna ya $1.26 ke high par blind breakout chase karna, hamare capital ko ek bade loss ke munne par khada karne ke barabar hai.
+
+ATR (**$0.09**) yeh bata raha hai ke market mein volatility maujud hai, aur agar humne is waqt bina soche samjhe ya sirf jazbaati ho kar naye risks liye, toh ek choti si price drop bhi hamara stop-loss hit kar sakti hai ya hameinheavy loss mein dhoal sakti hai. 
+
+Isi liye, trader ka "Hold" ka faisla bilkul durust aur ahtiyat-pasandana hai. Hum bina kisi wazeh pullback aur secure zone ke mazeed risk nahi le sakte. Capital bachana hamari pehli tarjeeh honi chahiye, na ke andha-dhoond munafay ke peeche bhagna!

@@ -1,0 +1,5 @@
+**Recommendation**: Hold
+
+**Rationale**: Bhai, bull aur bear dono ki taraf se strong points saamne aaye hain. Bull analyst ka kehna hai ke 0.08 USDT ka support floor ek mazboot accumulation zone hai aur low volatility/clean slate aglay breakout ki tayari hai. Doosri taraf, bear analyst ka argument bilkul wazeh hai ke MACD negative (-0.00032) hai, RSI 43.52 par neutral-bearish hai, aur dry volume ki waja se yeh 'golden trap' ya stagnation ban sakta hai. Jab ek taraf limited downside support hai aur doosri taraf momentum ki kami aur macro risks hain, toh filhal koi ek tarah ka strong conviction banana theek nahi hoga. Isiliye, sab se behtareen raasta yeh hai ke hum neutral stance rakhein aur market ke mazeed clear signals ka intezaar karein.
+
+**Strategic Actions**: Trader ke liye yeh hidayat hai ke DOGE-USDT par abhi koi naya bada exposure na liya jaye. Maujuda positions ko hold kiya jaye aur 0.08 USDT support floor aur 0.10 USDT resistance band ke breakout ka qareeb se monitor kiya jaye. Jab tak volume mein koi strong expansion ya directional trend nazar na aaye, position sizing ko stable rakhein aur over-trading se guraiz karein.

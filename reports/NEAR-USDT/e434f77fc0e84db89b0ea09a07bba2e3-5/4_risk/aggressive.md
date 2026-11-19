@@ -1,0 +1,8 @@
+
+Aggressive Analyst: Salam doston! Main Aggressive Risk Analyst hoon, aur main yahan yeh kehne aya hoon ke yeh waqt hath par hath rakh kar baithne ka nahi, balkay bara daan lagane ka hai! 
+
+Sab se pehle, agar hum apni current position (`NEAR-USDT`) ko dekhein, toh data saaf bol raha hai ke macro trend zabardast bullish hai. Hamara 200 SMA $2.03 par hai aur 50 SMA $2.03 se chal kar $2.93 par khara hai, jab ke price $4.71 par trade kar rahi hai. Long-term structural benchmark itna strong hai, aur global macro environment bhi hamare haq mein hai—Fed rate-hike ki ummeedein kam ho rahi hain, treasury yields gir rahi hain, aur tech stocks ke sath risk-on sentiment poori tarah bahaal ho raha hai. Is tarah ke shandaar halaat mein "HOLD" kar ke baith jana sirf darr ki nishani hai, na ke aqalmandi!
+
+Conservative aur Neutral analysts shayed yeh roona ro rahe hain ke RSI 62.61 hai aur MACD histogram -$0.05 par thora negative hai, isliye choti si consolidation chal rahi hai. Lekin unhein yeh nazar nahi aata ke yeh consolidation koi khatra nahi, balkay rocket launch se pehle ka pause hai! RSI 62.61 ka matlab yeh hai ke buyers ka control abhi bhi mazboot hai aur market mein jaan baqi hai. Agar hum is waqt naye aggressive positions nahi banayenge, toh jab price $6.05 ke upper Bollinger band ko cheer kar oopar niklegi, toh hum sirf dekhte reh jayenge aur bara munafa haath se nikal jayega.
+
+ATR $0.46 par hai, jo hamein saaf batata hai ke volatility ko manage karna koi mushkil kaam nahi hai. Stop-loss lagao, risk lo, aur market ke is bullish momentum se poora faida uthao! Ehtiyat ke naam par baith kar mauqon ko zaya karna sab se bara risk hai. Let’s push forward, load up, aur is rally ka poora faida uthayein!

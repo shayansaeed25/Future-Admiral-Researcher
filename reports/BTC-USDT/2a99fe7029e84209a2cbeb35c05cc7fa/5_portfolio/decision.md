@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: Bina kisi naye risk ke apni maujooda position ko 'Hold' rakhein aur market ko $80,500 - $81,400 support zone ya $84,200+ resistance test karne dein. Jab tak decisive breakout na ho, position sizing neutral rakhein. Yeh consolidation phase ke beech ek ahtiyati aur balanced hikmat-e-amli hai.
+
+**Investment Thesis**: Analysis ke mutabiq, bull case 50-day SMA ($80,545.94) aur 200-day SMA ($71,804.24) ki mazbooti aur RSI (51.19) ke neutral healthy reset par mabni hai. Doosri taraf, bear case tight macro liquidity, 2026 mein rate cuts na hone ki probability (96% no cut), aur MACD histogram (-399.99) ke negative momentum par zor deta hai. ATR ($2,139.20) high volatility zahir karta hai, jiski wajah se aggressive long positions lena blind gambling ban sakta hai, jabke mukammal khaufzada rehna bhi sahi nahi. Neutral analyst ki moderation ki approach sab se behtar hai, isiliye current market uncertainty aur conflicting signals ki bina par 'Hold' rating aur neutral exposure ko maintain karna hi sab se munasif faisla hai.

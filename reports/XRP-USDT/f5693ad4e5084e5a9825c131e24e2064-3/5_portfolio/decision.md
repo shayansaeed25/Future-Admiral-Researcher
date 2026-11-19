@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: Filhal mojooda XRP-USDT position ko hold rakhein aur koi naya exposure na lein. $1.28 par macro support aur $1.42 par resistance ko ghaur se monitor karein jab tak market koi clear directional signal na de.
+
+**Investment Thesis**: Aggressive analyst ka kehna hai ke price 200-day SMA ($1.28) ke qareeb aur oversold RSI (38.26) par trade kar rahi hai jahan se bounce-back ki umeed hai. Lekin conservative aur neutral analysts ne sahi nishandahi ki hai ke price 10 EMA ($1.36) aur 50 SMA ($1.42) se neeche hai aur MACD negative (-0.03) hai, jiski wajah se short-term momentum poori tarah negative hai. Baghair kisi bullish catalyst ya confirmation ke agressive entry lena fuzool risk ban sakta hai, isliye cautious approach ke tahat hold karna aur $1.28 support ka defend hona dekhna hi behtareen hikmat-e-amli hai.

@@ -1,0 +1,5 @@
+**Recommendation**: Hold
+
+**Rationale**: Bhai, bull aur bear dono ke arguments ap apni jagah mazboot hain. Bull ka kehna hai ke LINK-USDT ($13.90) long-term 200 SMA ($9.55) aur 50 SMA ($12.09) ke ooper trade kar raha hai, RSI 59.37 par neutral-to-bullish zone mein hai, aur global security risks ki wajah se Chainlink (CCIP/Oracle) ki utility barh rahi hai. Doosri taraf, bear ka yeh point bilkul theek hai ke MACD histogram -0.01 par negative divergence show kar raha hai, momentum thak raha hai, aur price $13.80 - $14.30 ki range mein phansi hui hai jahan false breakout ka khatra hai. Jab tak price $14.50 ki resistance ko cross nahi karti aur momentum confirm nahi hota, naye positions lena jaldbazi hogi. Is liye evidence balanced aur ambiguous hai, aur recommendation 'Hold' par hi qaim rehni chahiye.
+
+**Strategic Actions**: Trader ke liye yeh instructions hain ke mojooda positions ko strictly hold karein aur filhal koi new entry ya blind buy na karein. $14.50 ki resistance aur $13.10 ki support par nazar rakhein. Agar price $13.10 se neeche jati hai ya stop-loss ($12.80 - $13.10) hit hota hai, toh cautious ho jayein aur breakout confirm hone ka intezaar karein.

@@ -1,0 +1,10 @@
+
+Conservative Analyst: Assalam-o-Alaikum! 
+
+Main Aggressive Analyst ki pur-josh baton aur jaldi mein naye positions banane ke rujhan ki sakht tardeed karta hoon. Aap ka yeh kehna ke hum darr kar baith gaye hain bilkul galat hai; yeh darr nahi balkay aik samajhdarana aur mehfooz risk management ka taqaza hai jo hamaray sarmaye (assets) ko bachane ke liye behad zaroori hai. 
+
+Aap ne 50-day SMA (2,527.43) aur 200-day SMA (2,122.94) ki taqat ka toh zikr kiya, lekin aap yeh kyun bhool rahe hain ke MACD histogram (-9.48) negative territory mein hai aur MACD line apnay signal line se neechay trade kar rahi hai? Yeh is baat ka wazeh saboot hai ke short-term momentum mein susti aa chuki hai. Jab momentum kamzor ho aur RSI 63.87 par ho, toh achanak pullback ya consolidation ka khatra sab se ziyaada hota hai. Kya aap is baat ki zimmedari lenge ke agar price foran ooper jane ke bajaye thori neechay aakar hamari entry ko nuksan pohanchaye, toh hamara capital kis tarah mehfooz rahega?
+
+Mazeed yeh ke, aap prediction markets ke $1,500 ya $2,250 ke low probabilities ka hawala de kar yeh samajh rahe hain ke downside risk khatam ho gaya hai. Lekin yaad rakhein, geopolitical tensions, Iran war, aur global inflation ke jo pressures hain, woh kisi bhi waqt market mein achanak volatility paida kar sakte hain. ATR (78.65) is baat ki gawahi deta hai ke market mein daily swings mojood hain. Agar hum bina kisi confirmation ke sirf bullish trend ki ummeed par aggressive position bana lenge, toh yeh sarmaye ke sath aik bara juwa (gambling) hoga.
+
+Hamara maqsad sirf aane wali rally ko catch karna nahi hai, balkay us sarmaye ki hifazat karna hai jo hamari pehli tarjeeh honi chahiye. Is waqt "Hold" karna aur market ko thora saasay lene dena hi sab se aqlmandana faisla hai. Jab tak price 10-day EMA (2,689.21) ya Bollinger middle band ke qareeb support establish nahi kar leti, tab tak naye risk uthana aag se khelne ke mutradif hai. Is liye, jazbati hone ki bajaye tahammul se kaam lein aur apni asset safety ko pehlay rakhein!

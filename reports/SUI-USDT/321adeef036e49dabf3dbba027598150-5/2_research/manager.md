@@ -1,0 +1,5 @@
+**Recommendation**: Overweight
+
+**Rationale**: Assalam-o-Alaikum! Bull analyst ne SUI-USDT ke zabardast technical structure, moving averages (50 SMA 0.87 aur 200 SMA 0.85 ke oopar 1.23 price), MACD crossover, aur broader market liquidity ka hawala dete hue ek mazboot case pesh kiya hai. Dusri taraf, bear analyst ne RSI 69.47 par hone ki wajah se overbought zone, fundamental news ki kami, aur regulatory uncertainties ke khatrat ko highlight kiya hai. Halaanki bear analyst ke yeh points market corrections aur risks kehawale se bilkul durust hain, lekin maujuda price action aur strong buying pressure ka palra bhaari hai. Isliye, humein poori tarah se aggressive Buy karne ke bajaye ek constructive view rakhtay hue exposure barhana chahiye.
+
+**Strategic Actions**: Trader ke liye hidayat yeh hai ke SUI-USDT mein 1.15 se 1.17 USDT ke zone ke qareeb aane wale mamooli pullback par gradual exposure barhayein. Position sizing ko moderate rakhein aur ATR (0.09) ko zehen mein rakhtay hue ek tight stop-loss set karein taake overextended market ki volatility se risk ko achi tarah manage kiya ja sake.

@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: SUI-USDT par filhal koi naya bada position open na karein aur current holdings ko maintain karein. Market mein healthy pullback ya consolidation ka intezar karein taake naye risk se bacha ja sake. Risk management ko sakht rakhein aur over-leveraged trades se guraiz karein.
+
+**Investment Thesis**: SUI-USDT ka current price 1.16 par hai aur 50 SMA (0.83) serta 200 SMA (0.85) ke hawale se medium aur long-term trend bullish hai. Lekin RSI 67 par overbought zone ke qareeb hone aur MACD momentum slow padne ki wajah se exhaustion pump ka khatra maujood hai. Global macro conditions jaise tight liquidity aur high US Treasuries bhi is baat ki tasdeeq karte hain ke bina kisi asset-specific catalyst ke andhadhund nayi positions lena theek nahi hai. Isliye, neutral aur conservative approach ko apnate hue Hold ki policy qaim rakhi gayi hai taake mazeed confirmation ya healthy pullback ka intezar kiya ja sake.

@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: Mojooda position ko strict risk management ke sath hold rakhein aur koi naya bara order execute na karein. MACD negative hone aur $2,274.85 ki high volatility ki wajah se market mein consolidation chal rahi hai, jabke moving averages aur RSI bullish hain. Market mein clear breakout ka intezaar karna hi behtareen hikmat-e-amli hai.
+
+**Investment Thesis**: Bull aur bear dono ke arguments mukammal tor par balanced aur conflicting hain. Bullish side par price $84,685.40 par trade kar rahi hai jo ke 10 EMA ($83,991), 50 SMA ($78,569), aur 200 SMA ($71,441) se oopar hai, aur RSI 61.46 par healthy zone mein hai. Iske bar-aks, bearish aur neutral factors yeh hain ke MACD histogram negative (-124.16) hai aur ATR $2,274.85 par hone ki wajah se volatility bohat ziyada hai, jo ke trend exhaustion ka khatra paida karti hai. Isliye aggressive buying ya excessive caution dono galat hain, aur current position ko hold rakhna hi sabse munasib faisla hai.

@@ -1,0 +1,8 @@
+
+Conservative Analyst: Asalam-o-Alaikum! Main Conservative Risk Analyst hoon, aur main Aggressive Analyst ki is be-pannah aur andhi khush-fahmi (over-optimism) ko sakhti se rad karta hoon. Aap ka yeh kehna ke ahtiyat karna "darr kar baithna" hai, hamari firm ke sarmaye (assets) ke liye ek bohat bara khatra aur ghair-zimmedarana soch hai. 
+
+Zara haqeeqat par nazar daliye! Aap RSI 62.67 aur Bollinger Upper Band (127.26) ki taraf bhagne ki baat toh kar rahe hain, lekin kya aap ko yeh nazar nahi aata ke MACD histogram (-0.45) negative ho chuka hai? Yeh sirf ek "healthy pause" nahi hai, yeh market ke momentum mein aane wali susti ka saaf ishara hai. Is consolidation phase mein bina soche samjhe mazeed risk lena ya aggressive entries karna, apne sarmaye ko achanak aane wale downturn ke munh mein dhalne ke barabar hai. 
+
+Mazeed yeh ke, aap global macro sentiment aur tech stocks ke record highs ka hawala de rahe hain, lekin kya aapne report mein yeh nahi dekha ke 2026 mein $3B+ crypto hacks ki probability 57% par trade ho rahi hai? Security aur regulatory risks apni jagah barqarar hain, aur prediction markets saaf bata rahi hain ke crypto legislation abhi bhi 4% par latki hui hai. Aise ghair-yaqeeni (uncertain) halaat mein risk-on sentiment ke peeche andha dhund bhagna bewaqufi hai.
+
+Trader ka yeh faisla ke mojooda positions ko "Hold" rakha jaye aur stop-loss ko 106.21 par mehfooz rakha jaye, hamari firm ke liye sab se behtar aur mehfooz raasta hai. Hamein market ke har chotay breakout ke peeche bhagne ki zaroorat nahi hai; hamara maqsad sarmaye ki hifazat aur stable growth hai, na ke jua khelna. Is liye, ahtiyat ka daman chhodna aur aggressive hone ki koshish karna firm ke liye tabaah-kun saabit ho sakta hai.

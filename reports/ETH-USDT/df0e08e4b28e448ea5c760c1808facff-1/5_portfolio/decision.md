@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: Mojooda halat mein koi naya exposure na barhaen aur 'Hold' ki hikmat-e-amli par amal karein. Stop-loss ko 2509.17 par mehfooz rakhein taake ATR (81.54) ki volatility aur short-term pullback se bacha ja sake. Market ke clear breakout ya trend confirmation ka intezaar karein.
+
+**Investment Thesis**: Debate ke mutabiq, macro trend abhi bhi 200 SMA (2125.13) aur 50 SMA (2540.91) ke sath bullish hai aur Polymarket ke mutabiq baray crash ka khatra kam hai, jo ke long-term support ko zahir karta hai. Doosri taraf, short-term momentum kamzor hai kyunki MACD histogram -16.56 par negative hai aur price (2607.16) short-tenm EMA aur lower Bollinger Band (2594.74) ke qareeb trade kar rahi hai. Kyunki bullish macro trend aur bearish/neutral short-term signals mein shadeed tanaaza (conflict) hai, isliye naya risk lene ya panic mein sell karne ki bajaye position ko hold karna hi sab se mehdood risk wala aur behtareen faisla hai.

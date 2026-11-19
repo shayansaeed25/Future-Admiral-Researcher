@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: SOL-USDT par filhal koi naya bara position open karne se guraiz karein aur current holdings ko hold rakhein. Price ko 108 ke support level par close se monitor karein aur MACD ke positive hone ya price ke wapas 10 EMA aur Bollinger middle band se upar sustain karne ka intezar karein.
+
+**Investment Thesis**: Bullish aur bearish arguments ke darmiyan mukammal tawazun (balance) hai. Ek taraf SOL-USDT ka macro uptrend intact hai aur price Close 200 SMA (86.68) se upar aur 50 SMA (108.32) ke qareeb ahem support zone mein trade kar rahi hai, jo aggressive analysts ke mutabiq accumulation ka moqa deta hai. Doosri taraf, short-term momentum bears ke paas hai jahan Close 10 EMA (114.34) aur Bollinger Middle (117.40) se neche trade ho rahi hai, aur MACD histogram negative (-2.03) hai, jo conservative analysts ke mutabiq selling pressure ki nishandahi karta hai. Is technical conflict aur cautious sentiment ki wajah se blind optimism ya panic selling se bachne ke liye 'Hold' karna hi sab se behtareen faisla hai.

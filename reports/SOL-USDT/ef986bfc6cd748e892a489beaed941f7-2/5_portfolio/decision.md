@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: Filhal nayi position banane se gurez karein aur current exposure ko maintain karein. Support levels aur short-term momentum par nazrein rakhein jab tak market clear confirmation nahi deti. ATR ko zehen mein rakhte hue stop-loss ko tight rakhein.
+
+**Investment Thesis**: Debate mein saboot dono taraf barabar aur conflicting hain. Bull analyst ne 200 SMA (86.59) aur 50 SMA (107.98) ke zariye long-term macro structure aur Bollinger Lower Band (109.25) par strong support ka hawala diya, jisse yeh zahir hota hai ke bullish trend abhi bhi intact hai. Doosri taraf, Bearish analysts ne short-term momentum ki kamzori, 10-day EMA (115.62) ke neechay trade hone, negative MACD histogram (-1.80), aur Polymarket par $90 tak ki dip probability mein izafay (18%) ko highlight kiya hai. Kyunke short-term indicators bears ke haq mein hain aur macro support abhi bhi qaim hai, halaat mukammal taur par aik taraf clear nahi hain. Isiliye neutral rehna aur Hold karna hi sab se behtareen hikmat-e-amli hai.

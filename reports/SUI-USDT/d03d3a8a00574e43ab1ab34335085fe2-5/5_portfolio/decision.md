@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: SUI-USDT mein filhal koi nayi position na banayein aur apna mojooda exposure maintain rakhein. Stop-loss 1.07 par aur entry 1.15 ke qareeb stabilization dekh kar plan karein. Trend bullish hone ke bawajood overextended technicals aur mean reversion ke khatray ki wajah se hold karna sab se behtar hikmat-e-amali hai.
+
+**Investment Thesis**: SUI-USDT ki current price 1.20 hai jo 200 SMA (0.85) aur 50 SMA (0.88) se oopar trade kar rahi hai, jabke 10 EMA (1.16) aur VWMA (1.13) strong volume aur macro bullish momentum ko support de rahe hain. Lekin RSI 65.12 par hone ki wajah se price overextended mehsoos hoti hai, jis se aggressive analyst ke mega-rally ke optimism aur conservative analyst ke sudden pullback ke darr ke darmiyan aik balanced conflict paida hota hai. Neutral analyst ki Rai ke mutabiq, na toh andhi lalach karni chahiye aur na hi darr kar position exit karni chahiye, kyunki market mein volatility aur correction ka khatra barabar mojood hai. Is liye, mojooda exposure ko hold karna aur price ke Bollinger Middle (1.07) ya 1.15 ke qareeb stabilization ka intezaar karna hi sab se disciplined aur mehfooz rasta hai.

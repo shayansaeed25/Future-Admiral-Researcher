@@ -1,0 +1,5 @@
+**Recommendation**: Hold
+
+**Rationale**: Bhai, bull aur bear dono ke arguments ap apni jagah mazboot hain. Bull ka kehna hai ke SUI-USDT apnay 50 SMA (0.89) aur 200 SMA (0.85) se kaafi oopar 1.19 par trade kar raha hai, RSI 64.36 par hai jo mazeed upside ke liye room chorta hai, aur macro risk-on sentiment strong hai. Dusri taraf, bear ne yeh point out kiya hai ke MACD indicators flat ho chuke hain (macd 0.10, macdh -0.00), asset overextended hai, aur koi specific fundamental news ya regulatory clarity nahi hai. Dono sides ka data dekh kar yeh wazeh hota hai ke filhal market mein ek balanced aur neutral view banta hai jahan na toh aggressively buy karne ka strong edge hai aur na hi panic mein sell karne ka. Isliye, evidence conflict hone ki wajah se humein current position ko maintain karna chahiye.
+
+**Strategic Actions**: Trader ke liye yeh instructions hain ke SUI-USDT par filhal koi naya exposure add ya reduce na karein. Current position ko hold karein aur price action par nazar rakhein. Agar price support zones ki taraf aati hai ya koi naya momentum banta hai, tab agla faisla liya jayega. Position sizing ko current level par hi maintain rakhein.

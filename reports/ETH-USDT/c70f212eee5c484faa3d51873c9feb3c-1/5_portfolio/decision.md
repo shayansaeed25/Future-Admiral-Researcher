@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: ETH-USDT ke liye filhal koi naya bada exposure na lein aur apni mojooda position ko hold karein. Entry strategy yeh hai ke price ke 10 EMA aur 50 SMA se oopar daily close hone aur MACD bullish crossover ka intezar karein. Stop loss ko Bollinger Lower Band ($2,377.41) ke qareeb mehfooz rakhein.
+
+**Investment Thesis**: Research aur risk analysts ki bahas se yeh wazeh hota hai ke market mein macro long-term support aur short-term technical weakness ke darmiyan shadeed kashmakash hai. Ek taraf 200 SMA ($2,143.36) aur Bollinger Lower Band ($2,377.41) ke sath-sath $2.15 billion ke massive institutional ETF inflows yeh sabit karte hain ke smart money maujood hai aur market oversold equilibrium par hai. Dusri taraf, MACD negative (-30.83) hai aur price 10 EMA ($2,506.86) aur 50 SMA ($2,555.23) se neeche trade kar rahi hai, jiski wajah se short-term selling pressure ya value trap ka khatra baqi hai. Kyunki bullish aur bearish signals aapas mein takra rahe hain aur koi clear trend reversal confirm nahi hua, isliye ahtiyat aur disciplined risk mitigation ke tahat current position ko hold rakhna hi sabse behtareen faisla hai.

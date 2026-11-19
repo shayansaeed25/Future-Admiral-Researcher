@@ -1,0 +1,10 @@
+
+Aggressive Analyst: Salam doston! Main Aggressive Risk Analyst hoon, aur main yahan yeh wazeh karne aaya hoon ke conservative aur neutral approach se hum sirf bade mauqon ko miss kar rahe hain. 
+
+Aap log jo `DOGE-USDT` ke 0.08 aur 0.10 ke darmiyan consolidation aur RSI (42.83) ya MACD ke negative territory mein hone ka roona ro rahe hain, yeh darasal darpokpan ki nishani hai! Market mein jab bhi sannaata hota hai aur price range-bound hoti hai, wahi asal waqt hota hai ek explosive move ke liye position banane ka. 
+
+Aap conservative analysts kehte hain ke macro uncertainties aur negative momentum ki wajah se "Hold" ya door rehna chahiye. Lekin zara sochein! Jab tak aap clear directional catalyst ka intezar karenge, tab tak smart money lower Bollinger Band (`0.08`) ke kareeb se chupke se accumulate kar chuka hoga aur price seedha upper band (`0.10`) ya usse bhi upar nikal jayegi. Yeh jo 0.08 ka level hai, yeh sirf ek support nahi hai, balkay ek launchpad hai! 
+
+Neutral analyst yeh daitay hain ke pichle 7 dinon mein koi direct news nahi hai aur market cap ke targets ya regulatory delays ki baatein karte hain. Bhai, Dogecoin kab se news-driven asset raha hai? Yeh pure momentum aur sentiment ka khel hai! Jab global markets mein tech aur liquidity ka chakkar chal raha hai, toh DOGE jaise assets kisi bhi waqt bina kisi warning ke ek bada breakout de sakte hain. Agar hum sirf is baat par baithe rahein ke jab tak $3.75T market cap ya 100% regulatory clarity nahi aati hum trade nahi karenge, toh hum sirf sideline par baith kar dosto ki tarah market dekhte reh jayenge aur profit haath se nikal jayega.
+
+Is waqt jab ATR low hai aur volatility kam hai, yeh "calm before the storm" hai. 0.08 par tight stop-loss lagakar aggressive long position lena hi asli trader ka kaam hai. Thoda risk uthana padta hai agar bada reward chahiye hota hai. Main is "Hold" ko sirf ek susti nahi manta, balkay yeh manta hoon ke humein tayyari karni chahiye ke jaise hi price 0.10 ko touch kare ya volume barhe, hum foran aggressive entry lein taake koi bhi upside miss na ho!

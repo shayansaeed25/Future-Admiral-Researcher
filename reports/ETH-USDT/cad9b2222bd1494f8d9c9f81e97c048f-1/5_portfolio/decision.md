@@ -1,0 +1,7 @@
+**Rating**: Hold
+
+**Executive Summary**: ETH-USDT par filhal koi naya bada exposure mat lein aur apni current position ko maintain rakhein. Range-bound consolidation (Bollinger Middle Band ke qareeb 2682 ke aas paas) ko dekhte hue stop-loss 2605.83 par strict set karein. Jab tak momentum ya macro conditions clear direction nahi deti, position sizing ko unchanged rakhein.
+
+**Investment Thesis**: Market mein ETH-USDT ki price 2701.34 par hai jo ke 50 SMA (2542.80) aur 200 SMA (2125.60) se oopar trade kar rahi hai, aur RSI 62.25 par healthy neutral zone mein hai, jo medium-to-long term bullish trend ko zahir karta hai. Lekin doosri taraf, MACD histogram -10.55 par negative chal raha hai aur price Bollinger Middle Band ke qareeb consolidate kar rahi hai, jo short-term momentum ke thakne aur false breakout ke risk ko barhata hai. Polymarket ke mutabiq crash risk kam hai aur S&P 500 / Nasdaq ki strength risk-on environment ko support karti hai, lekin Goldman Sachs ki debt aur interest rates ki warnings ki wajah se macro headwinds bhi mojood hain. In dono tarfon ke dalail kaafi balanced aur ambiguous hain, isliye na toh aggressive accumulation ka waqt hai aur na hi panic mein sell karne ka; sab se behtareen hikmat-e-amli filhal Hold karna hai.
+
+**Price Target**: 3500.0

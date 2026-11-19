@@ -1,0 +1,10 @@
+
+Conservative Analyst: Assalam-o-Alaikum!
+
+Main Conservative Risk Analyst ke taur par apne Aggressive aur Neutral doston ki baton ka jawaab dena zaroori samajhta hoon. Aggressive Analyst bhai yeh keh rahe hain ke RSI 75.95 par hone ke bawajood asset mazeed upar ja sakta hai aur humein darr kar baithna nahi chahiye. Lekin bhai, aap yeh kyun bhool rahe hain ke risk management sirf darr ka naam nahi hai, yeh capital ko bachane ka sab se bara zariya hai! Jab RSI 75.95 ke extreme overbought zone mein ho, toh market mein "FOMO" (Fear Of Missing Out) apne عروج par hota hai aur wahan se sudden correction ya long liquidation ka khatra sab se zyada hota hai.
+
+Aap ne StockTwits ke 70% bullish retail sentiment ka hawala diya, lekin zara yeh bhi dekhein ke prediction markets kya keh rahi hain. Prediction markets ke mutabiq 2026 mein crypto hacks ka risk 82% tak hai aur global macro level par bond market volatility aur high interest rates (mortgage rates 7.5% ke qareeb) ki wajah se liquidity tight hai. Aise mahol mein jab global headwinds itni strong hon, sirf retail sentiment ya chote sample size par andha aetmaad kar lena hamari firm ke assets ko ek baray khatray mein daal sakta hai.
+
+Neutral analyst aur trader ne khud yeh tasleem kiya hai ke futures open interest over-leveraged hai aur correction ka khatra maujood hai. Agar over-leveraged positions ki wajah se ek bhi sharp dip aayi, toh $1.14 se price gir kar achanak support levels ki taraf ja sakti hai. Halankay humara trailing stop-loss ATR $0.07 ke mutabiq set hai, lekin extreme volatility mein slippage ka khatra hamesha rehta hai jisse hamara capital nuqsan utha sakta hai.
+
+Mera wazeh aur qata-i stance yeh hai ke jab tak market mein yeh extreme overbought conditions aur leverage ka bojh khatam nahi hota, humein blind optimism se bachna chahiye. Cautious approach sirf mauqay gavana nahi hai, balkay mushkil waqt mein apne capital ko mehfooz rakh kar aglay behtareen mauqay ka intezaar karna hai. Asset `SUI-USD` ki yeh current state hamein yeh sikhati hai ke safety hamesha unbridled greed se behtar hoti hai.

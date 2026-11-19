@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: BTC-USDT mein filhal koi naya bara risk na lein aur current position ko 'Hold' rakhein. Price 81,000 - 81,600 ke support zone aur 200 SMA ke darmiyan range mein hai, isliye aglay breakout ya breakdown ka intezaar karein. ATR ke mutabiq tight stop-loss laga kar capital mehfooz rakhein.
+
+**Investment Thesis**: Bull aur bear dono ke paas wazeh aur mazboot points hain. Bull analyst ke mutabiq price 200 SMA (71,986.23) aur 50 SMA (80,956.78) ke oopar hai aur RSI 52.22 par neutral hai, jo aik healthy consolidation ko zahir karta hai. Dusri taraf, bear analyst ne yeh saaf dikhaya hai ke MACD histogram negative hai (-517.18), MACD lines mein gap barh raha hai, aur macro liquidity tight hone ki wajah se upside momentum kamzor par chuka hai. Kyunke technicals mein support barkarar hai lekin momentum bhi kamzor hai, isliye halaat conflicting hain aur neutral nazrein rakhna hi behtar hai.

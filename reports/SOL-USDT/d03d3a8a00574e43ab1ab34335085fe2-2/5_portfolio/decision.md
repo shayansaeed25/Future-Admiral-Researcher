@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: Filhal SOL-USDT mein koi naya bara position add na karein aur current exposure ko maintain rakhein. Agar price 116-119 ke support zone ke qareeb aati hai toh wahan nazar rakhen, aur risk management ke liye 50-day SMA (106.21) ke qareeb strict stop-loss zaroor dhyan mein rakhen. Mojooda technical uptrend aur MACD ki negative momentum dono barabar ke hain, is liye 'Hold' ka faisla sab se mehfooz hai.
+
+**Investment Thesis**: Analysis ke mutabiq, SOL-USDT ki current price 120.99 hai jo 50-day SMA (106.21) aur 200-day SMA (86.25) se oopar trade kar rahi hai, aur RSI 62.67 par hone ki wajah se long-term macro uptrend mukammal taur par barqarar hai. Lekin doosri taraf, MACD histogram ka -0.45 par negative hona aur Bollinger Upper Band tak price ka na pohanchna market mein consolidation phase ko zahir karta hai. Security risks jaise 2026 ke crypto hacks ki high probability aur regulatory challenges bhi mojood hain. Bullish aur bearish risks barabar hone ki wajah se, koi ek tarfa aggressive stance lene ke bajaye mojooda positions ko hold karna aur support zones ka intezar karna sab se behtar hikmat-e-amli hai.

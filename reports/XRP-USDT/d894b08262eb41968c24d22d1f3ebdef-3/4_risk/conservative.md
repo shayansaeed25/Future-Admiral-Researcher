@@ -1,0 +1,8 @@
+
+Conservative Analyst: Main Conservative Risk Analyst ke taur par Aggressive Analyst ki is be-bunyad aur khatarnak optimisim ki sakt mukhalifat karta hoon! Aap jis "golden zone" aur "dip buying" ka shor macha rahe hain, asal mein woh aik aisi daldal hai jo hamare sarmaye ko doobo sakti hai. Yeh sochna ke har price drop sirf aik "healthy pullback" hai, aam taur par baray nuqsanat ki shuruat hoti hai.
+
+Aap ne 200 SMA ($1.28) aur Bollinger Lower Band ($1.40) ka hawala diya, lekin aap yeh kyun bhool rahe hain ke short-term momentum bilkul negative hai? RSI 43.98 par neutral se bearish zone ki taraf ja raha hai, aur MACD histogram -0.02 par negative zone mein hai. Iska saaf matlab yeh hai ke downward pressure abhi khatam nahi hua. Lower band ko touch karne ka yeh hargiz matlab nahi ke wahan se foran strong bounce aayega; aksar auqat aisi satahayein toot bhi jati hain, aur agar qeemat $1.40 se neechay fisli, toh hamari position barey loss mein ja sakti hai.
+
+Mazeed yeh ke, global macro environment kitna ghair-yaqeeni hai, iska andaza aap ko shayad nahi hai. World Affairs reports ke mutabiq, global markets mein geopolitical tensions (jaise Hormuz ki surat-e-hal) ki wajah se macro volatility bani hui hai, aur 2026 mein crypto hacks ki value $2.5B se barhne ki prediction 98% probability par trade ho rahi hai. Aise khofnak security aur macro risks ke douran, bina kisi clear confirmation ke aggressive long position banana sirf lalach hai, aqalmandi nahi.
+
+Hamara maqsad sarmaye ki hifazat aur stable growth hai, na ke andha-dhund risk lena. Jab tak market mein clear aur verified reversal signals nahi miltay, tab tak current exposure maintain karna yaani HOLD hi hamare firm ke liye sabse mehfooz aur durust faisla hai.

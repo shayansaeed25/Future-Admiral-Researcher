@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: SOL-USDT mein filhal koi naya bada position banane se gurez karein aur current position ko maintain rakhein. $107 - $111 ke support zone aur $124.62 ki resistance par nazar rakhein. Jab tak price in levels ko volume ke sath break nahi karti, tab tak sideline par reh kar wait karein.
+
+**Investment Thesis**: Market mein bull aur bear dono ki taraf se kaafi mazboot aur conflicting signals maujood hain. Bullish side par, price 200 SMA ($86.52) aur 50 SMA ($107.65) se oopar trade kar rahi hai aur RSI 51.80 par neutral hai, jo healthy consolidation aur long-term structural trend ki nishandahi karti hai. Lekin doosri taraf, macro pressure (jaise Bitcoin ka $83,000 se neeche hona), negative MACD histogram (-1.08), aur 10 EMA ($118.03) ke neeche price ka hona short-term momentum mein sellers ke haavi hone aur liquidity risk ka ishara deta hai. In conflicting signals aur market ki indecision ki wajah se, bina kisi clear directional trigger ke exposure barhana theek nahi hai, is liye Hold karna hi sab se behtareen faisla hai.

@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: ETH-USDT mein filhal current position ko maintain karein aur koi bhi fresh buying tab tak na karein jab tak price wapas 50 SMA aur middle Bollinger band ke ooper sustain nahi kar jati. High volatility aur negative MACD ki wajah se position sizing bilkul zero rakhein aur downside risk se apne capital ko protect karein.
+
+**Investment Thesis**: Market ke halaat mein bull aur bear dono ke paas wazeh points thay. Bull ka kehna hai ke price $2,479.42 long-term 200 SMA ($2,130.23) se ooper hai, RSI 39.80 par oversold ke qareeb hai, aur lower Bollinger band ($2,478.05) par support mil sakti hai. Doosri taraf, bear ka yeh argument behad mazboot hai ke price short-term 10 EMA ($2,577.39) aur 50 SMA ($2,552.16) ke neechay chal rahi hai, MACD histogram negative (-37.86) hai, aur Polymarket par $2,800 ki probability gir kar 26% reh chuki hai jabke $2,100 tak girne ka risk barh gaya hai. Kyunki technical indicators mein down-trend ka dabao hai lekin macro 200 SMA abhi bhi intact hai, isliye haliya halaat mein koi bhi extreme directional bet lena risk-heavy hoga.

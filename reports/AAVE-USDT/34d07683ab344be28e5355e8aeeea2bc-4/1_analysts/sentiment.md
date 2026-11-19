@@ -1,0 +1,10 @@
+**Overall Sentiment:** **Bullish** (Score: 7.5/10)
+**Confidence:** Medium
+
+AAVE-USDT ke liye sentiment analysis mukammal taur par bullish rujhan ko zahir karta hai. Source-by-source breakdown aur mukhtalif signals ka jaiza darj zail hai: (1) News headlines mein institutional aur structural wusat nazar aati hai jahan Coinbase ne Aave par USDC loans ke liye tokenized stocks ko collateral ke taur par shamil kiya hai, jo ke ek bara fund-flow catalyst hai. (2) StockTwits retail platform par sentiment behad mazboot hai; kul 16 messages mein se 13 bullish hain (81%), jabke bearish messages bilkul zero hain. Users altcoin dominance, SEC ki taraf se liquid staking tokens ko commodities qarar dene, aur $120 retest ke baad nayi rally ($180-$200) ki peshingoi kar rahe hain. (3) Reddit ka data is run ke liye dastiyab nahi tha, isliye hum sirf news aur StockTwits ki buniyad par tafseel tay kar rahe hain. (4) Cross-source divergence yeh hai ke news mein institutional tokenization aur real-world asset integration par zor hai, jabke retail community regulatory clarity aur altcoin seasonal breakouts par zyada focus kar rahi hai. (5) Dominant narrative 'Mass Tokenization' aur 'Regulatory Clarity' ka hai. Catalysts mein Coinbase tokenized stocks collateral integration aur SEC ke positive regulatory updates shamil hain, jabke risks mein macro-level uncertainty (jaise fed decisions ya midterms) ki baatein hain. Neeche diye gaye table mein key sentiment signals ki tafseel mojood hai.
+
+| Signal Direction | Source | Supporting Evidence |
+|---|---|---|
+| Bullish | News (CryptoProwl) | Coinbase tokenized stocks added as collateral for USDC loans on Aave. |
+| Bullish | StockTwits | 81% bullish ratio (13/16 messages), discussing altcoin dominance breakouts and $120 support retest for a run to $180-$200. |
+| Bullish | StockTwits | Positive reactions to SEC statements regarding liquid staking tokens as commodities rather than securities, boosting onchain finance. |

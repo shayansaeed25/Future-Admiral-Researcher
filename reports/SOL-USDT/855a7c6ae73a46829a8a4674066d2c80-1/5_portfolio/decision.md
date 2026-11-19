@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: SOL-USDT mein mojooda positions ko filhal Hold karein aur naye bade risks lene se guraiz karein. Stop-loss ko ATR ke mutabiq 115.00 ke qareeb sakhti se manage karein taake market ke sudden dips se munafa mehfooz rahe. Dips aur 10 EMA ya VWMA ke qareeb price action par nazar rakhein.
+
+**Investment Thesis**: SOL-USDT ki price 120.57 par trade kar rahi hai jo ke 50 SMA (104.42) aur 200 SMA (85.92) se oopar hai aur RSI 64.03 par hai, jis se long-term uptrend zinda lagta hai. Lekin MACD histogram ka negative (-0.32) hona momentum mein kami aur consolidation ki nishandahi karta hai. Dono bullish aur conservative arguments ko dekhte hue, mixed signals ki wajah se position ko maintain rakhna aur 115.00 par stop-loss set karna hi sab se behtareen hikmat-e-amli hai.

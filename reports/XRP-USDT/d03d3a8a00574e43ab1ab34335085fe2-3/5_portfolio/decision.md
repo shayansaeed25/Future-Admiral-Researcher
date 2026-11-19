@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: XRP-USDT par filhal koi naya bara exposure na lein aur apni mojooda position ko maintain rakhein. Market mein volatility expansion aur volume ke barhne ka intezar karein. Stop-loss ko ATR ke mutabiq 1.44 par tight rakhein.
+
+**Investment Thesis**: XRP-USDT ki price 1.51 par hai jo ke 50 SMA (1.42) aur 200 SMA (1.28) se oopar hai aur RSI 55.41 par neutral-to-bullish zone mein hai, jo bullish structure ko zahir karta hai. Lekin doosri taraf, MACD histogram negative (-0.01) hai aur volume ki kami ki wajah se market consolidation ya dead zone mein hai. Aggressive analyst ne global risk-on momentum aur growth capture karne ki baat ki, jabke conservative analyst ne negative MACD aur volume ki kami ki wajah se unnecessary volatility aur risk se bachne par zor diya. Neutral analyst ne ek balanced rasta bataya ke na toh andhadhundh long position kholi jaye aur na hi bilkul darr kar baithha jaye, balki Bollinger Middle ya 10 EMA ke qareeb support ka intezar kiya jaye. Is conflicting data aur clear momentum ki kami ki wajah se filhal hold karna hi sab se behtar faisla hai.

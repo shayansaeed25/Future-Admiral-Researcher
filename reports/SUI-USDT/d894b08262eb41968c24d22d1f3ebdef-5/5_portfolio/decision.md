@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: SUI-USDT mein filhal koi nayi aggressive position open na karein aur mojooda position ko hold par rakhein. Entry ke liye $0.87 se $0.90 ke support zone ka intezar karein ya price ke clear breakout ka wait karein. Risk ko control rakhte hue market ki agli movement par nazar rakhein.
+
+**Investment Thesis**: Bull analyst ke mutabiq SUI-USDT ki current price $1.12 hai jo 50-day SMA ($0.90) aur 200-day SMA ($0.86) se kaafi ooper hai, aur RSI 57.54 par neutral-to-bullish zone mein hai, jo long-term bullish trend zahir karta hai. Lekin bear analyst ne yeh durust point out kiya hai ke Bitcoin ke dabao aur MACD histogram (-0.01) ke bearish crossover ki wajah se short-term momentum kamzor par raha hai aur macro headwinds mojood hain. Neutral analyst ki balanced approach ke mutabiq yeh conflicting setup kisi ek taraf aggressive step lene ki ijazat nahi deta, is liye 'Hold' stance sab se behtar hai jab tak price support test na kare.

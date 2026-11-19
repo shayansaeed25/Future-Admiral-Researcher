@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: DOGE-USDT market filhal $0.08 aur $0.10 ki tight range mein phansi hui hai jahan volatility contraction aur conflicting signals ki wajah se exposure change karna qabil-e-gurez hai. Current holding ko maintain rakhein, naye positions build na karein, aur price action ko support aur resistance ke darmiyan closely monitor karein.
+
+**Investment Thesis**: Aggressive analyst ka kehna hai ke Bollinger Bands ($0.08 lower aur $0.10 upper) aur low ATR ($0.01) aik explosive breakout ki taraf ishara kar rahe hain aur $0.08 par long positions banani chahiyein. Doosri taraf, conservative analyst ka yeh moqaf hai ke global risk-off sentiment, zero regulatory clarity, aur high hack probability ki wajah se bina confirmation ke trade karna gambling hai. Neutral analyst ne dono ka balanced rukh apnate hue bataya ke RSI 40.73 par neutral hai aur MACD lines flat hain, jis se koi wazeh directional momentum nahi milta. Chunke signals contradictory hain aur market sideways range mein hai, is liye capital preservation ko tarjeeh dete hue 'Hold' karna hi sab se behtar faisla hai.

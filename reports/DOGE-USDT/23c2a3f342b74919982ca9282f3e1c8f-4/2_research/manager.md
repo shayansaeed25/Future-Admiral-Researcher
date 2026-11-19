@@ -1,0 +1,5 @@
+**Recommendation**: Hold
+
+**Rationale**: Bhai, bull aur bear dono ke arguments apne jagah mazboot hain. Bull ka kehna hai ke 0.09 ke qareeb tight consolidation aur Bollinger Bands ki compression ek 'Spring Board' hai jo explosive breakout de sakti hai, aur 0.08 ki solid support par risk limited hai. Doosri taraf, bear ka yeh point bilkul theek hai ke RSI 44.15 par neutral honay aur ATR zero ke qareeb honay ka matlab liquidity ki kami aur 'exhaustion' hai, jabke macro environment bhi cautious hai. Jab market aisi dead compression wave mein phansi ho aur direction clear na ho, toh naya risk lene ke bajaye current position ko maintain karna hi sabse behtar faisla hai.
+
+**Strategic Actions**: Trader ke liye yeh hidayat hai ke filhal DOGE-USDT mein koi naya bara exposure ya position add na karein. Agar pehle se position mojood hai toh use hold karein, aur 0.08 ki support aur 0.10 ki resistance ke beech market ki mazeed clarity ya volume expansion ka intezar karein taake false breakout ya slippage se bacha ja sake.

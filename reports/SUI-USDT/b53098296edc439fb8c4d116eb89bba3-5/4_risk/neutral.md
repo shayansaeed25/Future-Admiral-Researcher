@@ -1,0 +1,8 @@
+
+Neutral Analyst: Salam doston! Main Neutral Risk Analyst hoon, aur maine dono taraf ki baatein ghaur se suni hain. 
+
+Aggressive bhai, aapka yeh kehna ke RSI **56.01** par consolidation "rocket fuel" hai aur humein foran aggressive buy karna chahiye, thoda over-optimistic lagta hai. Aap is baat ko nazar-andaaz kar rahe hain ke market mein filhal koi direct project catalyst ya news maujood nahi hai, aur Polymarket par 2026 mein Fed rate cuts na hone ki **96%** probability ek ahem macroeconomic reality hai. Aise tight liquidity environment mein andhadhundh risk lena portfolio ke liye nuqsaan-deh saabit ho sakta hai. 
+
+Doosri taraf, Conservative bhai, aapka darr bhi kuch zyaada hi defensive hai. Aap 200 SMA (**0.86 USDT**) aur 50 SMA (**0.91 USDT**) ke itne mazboot bullish trend aur close price **1.12 USDT** ko dekh kar bhi bilkul hath par hath dhar kar baithne ki baat kar rahe hain. Agar hum sirf liquidity ke khauf se har mauqa ganwa denge, toh growth kahan se aayegi? ATR **0.09** par hai, yaani volatility itni bhi khatarnak nahi hai ke hum koi bhi calculated step na le sakein.
+
+Isliye, dono ki extreme baton ko chhod kar ek balanced raasta apnana chahiye. Sahi hikmat-e-amli yeh hai ke hum poori tarah se naya exposure na lein (jaisa Conservative chahte hain), lekin sirf baith kar mawaqay bhi na ganwayen (jaisa Aggressive chahte hain). Humein mojooda position ko **HOLD** rakhte hue market par nazar rakhni chahiye. Jab tak price kisi major level (jaise Bollinger Upper Band **1.29 USDT**) ka breakout nahi karti ya support ki taraf nahi aati, tab tak disciplined rehna hi hamare liye sab se behtareen aur mehfooz tareeqa hoga.

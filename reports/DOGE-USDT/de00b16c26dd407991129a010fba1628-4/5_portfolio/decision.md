@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: DOGE-USDT mein filhal koi naya exposure ya position na li jaye aur mojooda holdings ko maintain rakha jaye. Market mein neutral momentum aur subdued MACD ki wajah se volatile breakout ka wait karein. 0.0889 aur 0.0938 USD ke levels par nazar rakhi jaye.
+
+**Investment Thesis**: Research aur risk analysts ki bahas se yeh wazeh hota hai ke DOGE-USDT apnay 50 SMA (0.0889) aur 200 SMA (0.078) ke ooper trade kar raha hai aur RSI 53.46 par neutral zone mein hai, jo ke healthy consolidation ko zahir karta hai. Aggressive analyst ne breakout aur S&P 500 ke risk-on environment ka hawala diya, jabke Conservative analyst ne macro headwinds aur potential crypto hacks ki probability ka darr jataya. Neutral analyst ne bilkul theek balance qaim karte huay bataya ke MACD flat hai aur momentum dead hone ki wajah se bina kisi clear direction ke aggressive entry lena nuqsan deh ho sakta hai. Is liye, filhal market mein kisi directional breakout ka intezaar karna aur 'Hold' ki hikmat-e-ameli apnana sab se behtar faisla hai.

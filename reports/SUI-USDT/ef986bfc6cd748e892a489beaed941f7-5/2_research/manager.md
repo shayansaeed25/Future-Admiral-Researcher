@@ -1,0 +1,5 @@
+**Recommendation**: Hold
+
+**Rationale**: Salam bhai! Dono taraf se kaafi mazboot points samne aaye hain. Bull analyst ka kehna hai ke SUI-USDT ka long-term technical structure aur moving averages (50 SMA aur 200 SMA) be-had strong hain, aur current price (1.05) ka 1.12 ke short-term EMA se neeche hona sirf ek healthy consolidation aur accumulation phase hai jabke RSI 51.02 par neutral hai. Dusri taraf, Bear analyst ne yeh point out kiya ke price short-term EMA se neeche trade kar rahi hai, MACD histogram negative (-0.02) hai, aur global macro headwinds ke sath sath tight liquidity aur regulatory uncertainties ki wajah se downward pressure barh sakta hai. Tamam data aur arguments ko dekhte hue, market mein na toh aggressive buying ka koi clear signal hai aur na hi panic selling ka, isliye filhal ek balanced view rakhte hue 'Hold' karna hi sabse behtar faisla hai.
+
+**Strategic Actions**: Trader ke liye yeh hidayat hai ke SUI-USDT mein filhal koi naya bada exposure na barhaen aur current position ko maintain rakhen. Support levels ($0.90 aur $0.86) par nazar rakhen aur agar price mazboot support par aakar reversal sign dikhaye tab hi aagay ka sochें.

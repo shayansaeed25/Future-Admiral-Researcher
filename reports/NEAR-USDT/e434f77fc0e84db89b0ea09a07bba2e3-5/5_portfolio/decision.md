@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: NEAR-USDT ki mojooda position ko filhal 'Hold' rakhein aur koi naya aggressive exposure na barhaen. Bollinger Bands ke middle band ($4.28) aur volatility indicators (ATR $0.46) ko qareeb se monitor karein taake market ke agle directional signal ka intezaar kiya ja sake.
+
+**Investment Thesis**: Bullish macro trend (jiska saboot 50 SMA $2.93 aur 200 SMA $2.03 par hona hai) aur RSI 62.61 par healthy consolidation yeh dikhata hai ke buyers ka control abhi bhi qaim hai aur global risk-on sentiment behtar hai. Lekin dusri taraf, MACD histogram -$0.05 par negative hai aur price $5.31 se retrace ho kar $4.71 par aayi hai, jo short-term momentum ki thakawat aur downside risks ko zahir karta hai. In conflicting technical signals aur fundamental catalysts ki kami ki wajah se, na toh mukammal buy karne ke liye halaat clear hain aur na hi sell karne ke liye panic zaroori hai, isliye position maintain karna hi sab se behtareen faisla hai.

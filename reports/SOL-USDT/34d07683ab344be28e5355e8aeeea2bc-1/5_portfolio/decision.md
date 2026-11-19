@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: Filhal SOL-USDT mein koi nayi position open na karein aur maujooda position ko maintain rakhein. Market $120 resistance zone ke qareeb aur RSI 69.47 par overbought hone ki wajah se upside margin kam aur downside risk zyada hai. ATR ke mutabiq stop-loss $111.96 par tight rakhein taake market ke clear breakout ya pullback ka intezar kiya ja sake.
+
+**Investment Thesis**: Bulls ka kehna hai ke SOL-USDT $121.89 par trade kar raha hai, jo 10 EMA (116.91), 50 SMA (99.24), aur 200 SMA (85.07) se oopar hai, aur MACD histogram positive (0.96) hai. Sath hi Solana Foundation ki high-profile hirings aur Alpenglow consensus upgrade long-term growth ke liye strong signals hain. Lekin bears aur neutral analysts ke mutabiq RSI 69.47 par overbought zone ke qareeb hai aur price Bollinger Bands ke upper band ($127.22) ke paas hai, jisse sharp pullback ka khatra barh jata hai. StockTwits par 47% bearish sentiment aur $120 resistance par fakeout ke khatre ko dekhte hue, andha-dhund buy karna ya panic mein sell karna dono risky hain. Is liye ek balanced approach ke taur par 'Hold' karna hi sab se behtareen faisla hai.

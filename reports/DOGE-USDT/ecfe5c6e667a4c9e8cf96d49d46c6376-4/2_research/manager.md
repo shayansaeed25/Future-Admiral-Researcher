@@ -1,0 +1,5 @@
+**Recommendation**: Hold
+
+**Rationale**: Bhai, debate kaafi dilchasp rahi hai. Bull ka kehna hai ke $0.08 aur $0.10 ke darmiyan consolidation aik sehatmand 'launching pad' hai jo agle bade breakout ki tayari hai, aur RSI bhi 55.19 par neutral hai. Lekin doosri taraf, Bear ne bilkul sahi data diya hai ke ATR zero ke qareeb hai, MACD aur MACDS dono flat hain, aur koi fundamental catalyst ya news maujood nahi hai, jo ke momentum ki kami ko zahir karta hai. Jab tak price is tang range se kisi strong volume ke sath bahar nahi nikalte, tab tak kisi aik taraf kood padna dangerous ho sakta hai. In sab halaat ko dekhte hue, recommendation 'Hold' banti hai taake hum mazeed confirm breakout ka intezar karein.
+
+**Strategic Actions**: Trader ke liye hidayat yeh hai ke DOGE-USDT mein abhi mazeed naye positions na banayein aur na hi fuzool risk lein. Current position ko filhal maintain karein, aur $0.08 (support) ya $0.10 (resistance) ke level par wazeh volume breakout ka intezar karein. Jab tak range break nahi hoti, exposure ko unchanged rakhein.

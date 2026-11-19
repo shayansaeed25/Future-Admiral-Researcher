@@ -1,0 +1,10 @@
+
+Aggressive Analyst: Assalam-o-Alaikum! Main Aggressive Risk Analyst hoon, aur main yahan conservative aur neutral doston ko yeh yaad dilane aaya hoon ke darr kar baithne se kabhi bade gains nahi milte. 
+
+Dekhiye bhai, trader ne beshak filhal "Hold" ka faisla kiya hai, lekin agar hum sirf MACD histogram ke -0.02 par hone ya choti si correction ($5.31 se $4.65) ko dekh kar panic karein ya over-cautious ho jayein, toh hum market ka sabse bada upside miss kar jayenge! Yeh koi crash nahi hai, yeh ek healthy consolidation hai jo agli badi rally ke liye fuel tayar kar rahi hai.
+
+Zara data par nazar daaliye! NEAR-USDT ka 50-day SMA $2.87 par hai aur 200-day SMA $2.01 par—aur hamari current price $4.65 in sab se kahin oopar rock-solid trend mein khadi hai. RSI 61.95 par hai, jo saaf batata hai ke momentum bilkul healthy bullish zone mein hai, na ke overbought. Iske ilawa, global macro trends dekhein: Fed rate-hike expectations kam ho rahi hain, stock markets (Nasdaq/S&P 500) mein tezi hai, aur sabse badi baat—AI aur tech integration ka jo global narrative chal raha hai, usme NEAR Protocol ek front-runner hai kyunki yeh AI-focused blockchains aur user-owned AI mein active hai.
+
+Agar neutral ya conservative analysts yeh kehte hain ke humein bilkul hath pe hath dhar kar baith rehna chahiye aur har choti pullback se darna chahiye, toh main unse yeh kahunga ke aap is hesitation ki wajah se potential breakout aur massive gains ko sacrifice kar rahe hain. Itni strong macro backing aur itne solid moving averages ($2.87 aur $2.01) ke hote hue agar hum aggressive risk nahi lenge, toh hum market ke top performers ki race mein peechhe reh jayenge. 
+
+Isliye, main kehta hoon ke yeh "Hold" sirf ek brief pause hai. Jaise hi price $4.16 - $4.60 ke dynamic support zone ya Bollinger middle band ke qareeb test karegi, humein bina kisi jhijhak ke heavy accumulation karni chahiye taake hum is bull market ki sabse badi wave ka poora fayda utha saken! Darr ko chhodiye, upside ko dekhiye!

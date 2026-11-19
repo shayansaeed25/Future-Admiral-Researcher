@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: Filhal BTC-USDT mein koi naya exposure na barhaen aur apni mojooda position ko hold rakhein. Jab tak price $81,657 (Lower Bollinger Band) se neeche break nahi karti ya $86,500 (Upper Bollinger Band) ka solid upside breakout nahi deti, tab tak sidelines par baith kar market ki next directional confirmation ka intezaar karein.
+
+**Investment Thesis**: Dono sides ke dalaail ka jaiza lene ke baad yeh wazeh hota hai ke macro trend bullish hai kyunki price $83,053.80 par hai aur apne 50-day ($80,956.11) aur 200-day ($71,986.06) SMA se oopar trade kar rahi hai, jabke prediction markets mein crash ke risks sirf 2% hain. Lekin dusri taraf, MACD histogram -519.33 par negative hai, $87,500 target ki probability ek hafte mein 24.5 percentage points gir chuki hai, aur ATR ($2,051.12) ki high volatility aur Bollinger Bands ki range mein price phansi hui hai. Momentum kamzor hone aur market mein indecision ki wajah se aggressive position lena khatarnak hai, is liye mojooda position ko hold rakhna hi sab se behtareen faisla hai.

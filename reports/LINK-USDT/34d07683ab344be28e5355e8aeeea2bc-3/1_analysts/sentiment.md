@@ -1,0 +1,11 @@
+**Overall Sentiment:** **Mildly Bullish** (Score: 6.2/10)
+**Confidence:** Medium
+
+LINK-USDT ke liye sentiment analysis mein yeh pata chalta hai ke retail aur institutional dono sources se mixed lekin overall positive rujhan saamne aaya hai. (1) StockTwits Source-by-Source Breakdown: StockTwits par kul 30 messages mein se 21 bullish (70%), 2 bearish (7%), aur 7 unlabeled thay. Yeh ek clear retail optimism ko zahir karta hai jahan traders $20+ aur top 10 positions reclaim karne ki baatein kar rahe hain. (2) News Sources Breakdown: Yahoo Finance / 24/7 Wall St. ki news mein Chainlink ke baare mein kaafi mixed signals thay. Ek taraf Standard Chartered ne 2030 ke liye LINK ka target $200 diya hai aur is hafte LINK ne Bitcoin ko outperform bhi kiya hai. Doosri taraf Infosys ke saath deal (1.7 billion bank accounts) ke bawajood short-term mein LINK mein 4% ki drop dekhi gayi, aur kuch technical ya CME futures se jude risks bhi discuss kiye gaye hain. (3) Cross-Source Divergences aur Alignments: News mein short-term price volatility aur dips par thori cautious framing thi, jabke StockTwits par retail community kaafi zyaada bullish thi aur consolidation setup aur institutional order flow ki baat kar rahi thi. (4) Dominant Narrative Themes: Tokenization, institutional adoption, Infosys partnership, aur 2030 price predictions sab se baray themes hain. (5) Catalysts aur Risks: Catalysts mein Standard Chartered ka bullish forecast, Infosys ke saath partnership, aur altcoin ki strength shamil hain; jabke risks mein short-term sell-offs, over-extension ki possibilities aur broader market conditions hain. Reddit ka koi data available nahi tha isliye confidence medium rakhi gayi hai.
+
+| Sentiment Signal | Direction | Source | Supporting Evidence |
+| --- | --- | --- | --- |
+| Retail Sentiment | Bullish | StockTwits | 70% bullish posts (21 out of 30), strong price targets ($20+) |
+| Institutional / Long-Term Projection | Bullish | News (24/7 Wall St.) | Standard Chartered predicts LINK at $200 by 2030 |
+| Short-Term Price Reaction | Bearish / Mixed | News (24/7 Wall St.) | LINK dropped 4% despite the major Infosys bank account deal |
+| Weekly Performance | Bullish | News (24/7 Wall St.) | Chainlink outperformed Bitcoin along with other altcoins this week |

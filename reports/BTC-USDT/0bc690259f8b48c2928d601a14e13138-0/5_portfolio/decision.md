@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: BTC-USDT mein filhal koi naya bara position mat banayein aur current positions ko maintain rakhein. Jab tak price Bollinger Lower Band aur 50 SMA ke qareeb support ko test kar rahi hai, tab tak market ki agli direction ka intezaar karein. High volatility (ATR 2,225.56) ke paish-e-nazar strict risk management ka istemal lazmi karein.
+
+**Investment Thesis**: Long-term aur medium-term structural trend bullish hai kyunki price 50-day SMA (80,706.26) aur 200-day SMA (71,856.00) se ooper trade kar rahi hai, aur RSI bhi 49.57 par neutral hai. Lekin short-term momentum kamzor hai, MACD histogram -582.47 par deep negative zone mein hai, aur price 87,000 zone se gir kar 82,271.40 par aa gayi hai jabke $100k ki probability bhi gir chuki hai. Kyunke long-term structural support aur short-term negative momentum aapas mein takra rahe hain, directional conviction banana mushkil hai. Is liye 'Hold' ki stance rakhna aur market ki agli confirmation ka intezaar karna sab se aqlamandana faisla hai.

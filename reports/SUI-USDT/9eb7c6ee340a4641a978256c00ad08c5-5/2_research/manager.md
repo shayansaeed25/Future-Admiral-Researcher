@@ -1,0 +1,5 @@
+**Recommendation**: Hold
+
+**Rationale**: Bull analyst ne SUI-USDT ke long-term bullish structure par zor diya hai, jahan price (1.10) apne 50-day SMA (0.91) aur 200-day SMA (0.86) se kaafi ooper trade kar rahi hai aur RSI (54.15) neutral-to-bullish zone mein hai. Doosri taraf, bear analyst ne yeh bataya hai ke MACD histogram (-0.02) negative hai aur momentum thanda pad raha hai, jiski wajah se mean reversion ya Bollinger Lower Band (0.96) ki taraf correction ka khatra maujood hai. Kyunki long-term technicals bullish hain lekin short-term momentum sust hai aur koi naya catalyst maujood nahi hai, isliye halaat bilkul balanced aur conflicting hain.
+
+**Strategic Actions**: Trader ko mashwara diya jata hai ke SUI-USDT mein abhi koi nayi position na banaye aur current position ko 'Hold' rakhe. Naye risk ya exposure tab tak avoid karein jab tak ya toh price 1.29 ke upper resistance ko breakout na de de, ya phir price gir kar 0.96 (Lower Band) ke qareeb support test na kare.

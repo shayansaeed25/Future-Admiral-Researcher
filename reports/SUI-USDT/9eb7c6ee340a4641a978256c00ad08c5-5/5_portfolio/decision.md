@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: SUI-USDT ke liye filhal koi nayi position na banayein aur mojooda halat mein 'Hold' rakhein. Entry tabhi karein jab price 1.29 ka upper resistance breakout kare ya phir gir kar 0.96 ke qareeb support test kare. Is balanced approach se aap capital ko mehfooz rakhte hue false breakouts se bach sakte hain.
+
+**Investment Thesis**: Analyst debate ke mutabiq, long-term technicals kaafi mazboot hain kyunki SUI-USDT ki qeemat 1.10 par hai, jo ke 50-day SMA (0.91) aur 200-day SMA (0.86) se kaafi ooper trade kar rahi hai. Lekin short-term momentum sust hai, jiska saboot MACD negative histogram (-0.02) aur RSI ka 54.15 par neutral hona hai. Aggressive analyst upside breakout ki baat karta hai jabke conservative analyst negative momentum aur correction (Bollinger Lower Band 0.96) ke khatre par zor deta hai. Neutral analyst ki balanced raaye ke mutabiq, jab tak market koi wazeh direction ya breakout confirm nahi karti, blind entry lene ke bajaye 'Hold' karna aur sahi mauqe ka intezar karna sab se behtar hikmat-e-amli hai.

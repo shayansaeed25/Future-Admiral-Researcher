@@ -1,0 +1,5 @@
+**Recommendation**: Hold
+
+**Rationale**: As-salam-o-alaikum! Bull analyst ka kehna hai ke 0.08 - 0.09 ke darmiyan strong support, neutral RSI (42), aur low ATR (0.01) aik healthy accumulation phase ko zahir karte hain jo achanak explosive breakout de sakta hai. Doosri taraf, Bear analyst ka argument hai ke MACD bilkul flat hai, VWMA 0.0933 par atka hua hai, aur macro liquidity ki kami ki wajah se yeh accumulation nahi balkay aik dead money trap aur slow bleed ho sakta hai. Dono taraf ki behes ko dekhte hue, market mein na toh koi strong bullish catalyst hai aur na hi koi aisi unbearable panic selling jo position exit karne par majboor kare. Isliye evidence filhal neutral aur balanced hai, aur humein mukammal direction milne ka intezar karna chahiye.
+
+**Strategic Actions**: Trader ke liye yeh hidayat hai ke DOGE-USDT par filhal koi nayi position na banaye aur apna maujooda exposure 'Hold' rakhey. Jab tak price 0.10 ki resistance ko volume ke sath breakout nahi karti ya phir 0.08 ki support ko tor kar neeche nahi jati, tab tak market mein entry ya exit se gurez karein aur liquidity ke wazeh hone ka intizar karein.

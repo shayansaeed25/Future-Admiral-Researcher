@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: Hal hi mein market ki halat ko dekhte hue current exposure ko maintain karna sab se behtar faisla hai. Trader ko salah di jati hai ke woh naya position open na kare aur $116-$118 support ya $120 resistance par volume action ka wait kare. Stop loss 116.3 par strict rakha jaye.
+
+**Investment Thesis**: Asset SOL-USDT ki price $121.36 par hai jo ke 50 SMA ($99.23) aur 200 SMA ($85.06) se oopar hai, aur Solana Foundation ke upgrades long-term adoption ko push kar rahe hain. Lekin RSI 68.58 par overbought zone ke qareeb hai, MACD histogram sirf 0.92 par hai, aur 5% ki macro bond yields aik bada risk-off factor hain. Jab tak $120 ki resistance solid volume ke sath confirm nahi hoti aur yeh overbought pressure resolve nahi hota, naye positions lena theek nahi hoga. Isiliye Hold karna balanced aur sustainable strategy hai.

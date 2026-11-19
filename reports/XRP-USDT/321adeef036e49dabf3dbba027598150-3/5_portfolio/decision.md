@@ -1,0 +1,7 @@
+**Rating**: Hold
+
+**Executive Summary**: Filhal XRP-USDT mein koi nayi position na banayein aur apnay mojuda exposure ko maintain rakhein. Market ke aglay step par nazar rakhein; agar price $1.48 ki support ko break karti hai toh ahtiyat baratnay ke liye tayyar rahein, aur agar $1.64 ka upper band volume ke sath break hota hai tabhi bullish exposure barhany ka sochein.
+
+**Investment Thesis**: XRP-USDT is waqt $1.52 par trade kar raha hai, jo apne 50-day SMA ($1.41) aur 200-day SMA ($1.28) se ooper hai aur RSI 56.53 par neutral-to-bullish zone mein mojood hai, jo ek healthy underlying trend ki nishandahi karta hai. Taham, MACD histogram -0.01 par negative chal raha hai aur flat lines market mein momentum ki susti aur consolidation phase ko zahir karti hain. Aggressive analyst kehte hain ke yeh breakout ka launchpad hai aur leverage leni chahiye, jabkay conservative analyst ka moqqaf hai ke MACD ki kamzori aur global macro risks ki wajah se drawdown ka khatra ho sakta hai. Neutral analyst ki trha yeh manna behtar hai ke dono extremes se bach kar HOLD karna sab se mehfooz hikmat-e-amli hai taake jab tak price $1.48 support ya $1.64 resistance ko volume ke sath break na karein, tab tak koi bara risk na liya jaye.
+
+**Price Target**: 1.64

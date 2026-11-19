@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: DOGE-USDT mein filhal koi directional clarity nahi hai kyunki price $0.08 ki support aur $0.10 ki resistance ke darmiyan range-bound hai. Trader ko current levels par position maintain rakhni chahiye aur wait and watch ki policy adopt karni chahiye jab tak koi wazeh breakout ya volume confirmation na mil jaye.
+
+**Investment Thesis**: DOGE-USDT ka close price $0.0835 par hai, jahan ATR 0.0046 ki low volatility yeh batati hai ke market mein accumulation chal rahi hai lekin RSI 40.81 par neutral-to-bearish zone mein hai aur MACD (-0.0014) flat hai. Aggressive analyst ka explosive breakout ka view over-optimistic hai kyunki 50 SMA (0.0886), 200 SMA (~0.089), aur VWMA overhead resistance ke qareeb hain. Conservative analyst ka darr capital safety ke liye theek hai lekin bilkul passive rehne se market ka potential miss ho sakta hai. Neutral analyst ki balanced approach ke mutabiq, na toh abhi aggressive accumulation ka waqt hai aur na hi panic selling ka, balkay $0.08 ki support ya $0.10 ki resistance ke breakout tak hold karna hi sabse behtareen hikmat-e-amli hai.

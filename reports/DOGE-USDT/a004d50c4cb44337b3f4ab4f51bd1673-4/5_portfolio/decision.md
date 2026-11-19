@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: DOGE-USDT mein filhal apni mojooda position ko maintain karein aur 0.10 ki range ke breakout aur volume expansion ka intezaar karein. Koi bhi naya bada exposure lene se guraiz karein taake fakeouts se bacha ja sake. Stop-loss ko 0.08 par mehfooz rakhein.
+
+**Investment Thesis**: DOGE-USDT ki price 0.10 par Bollinger Upper Band ko test kar rahi hai aur RSI 57.97 par neutral-bullish territory mein hai, jo ke bullish potential dikhata hai. Lekin, MACD ka bilkul flat (0.00) hona aur market mein volume expansion ka na hona yeh zahir karta hai ke filhal yeh sirf ek tight consolidation range hai. Aggressive analyst ka bina volume ke position lene ka mashwara aik fakeout ko dawat de sakta hai, jabkay conservative aur neutral analysts ke mutabiq jab tak wazeh direction aur volume support nahi milti, tab tak blind entry lena khatarnak hai. Is liye, balanced approach rakhte hue 5% allocation aur 0.08 stop-loss ke sath 'Hold' karna aur market ke agle ishare ka intezaar karna sab se behtareen faisla hai.

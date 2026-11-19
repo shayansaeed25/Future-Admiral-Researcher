@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: DOGE-USDT mukammal tor par $0.08 aur $0.10 ki tight range ke andar consolidate kar raha hai jahan ATR aur MACD flat hain. Naye positions banane se guraiz karein aur current position ko maintain rakhein jab tak $0.08 ya $0.10 ke level par wazeh volume breakout nazar na aaye.
+
+**Investment Thesis**: Market mein is waqt koi direct catalyst ya fundamental news maujood nahi hai, aur ATR zero ke qareeb hone ke sath MACD bhi flat hai, jo momentum ki kami ko zahir karta hai. RSI 55.19 par neutral zone mein hai jo buyers aur sellers dono ke equal control ko dikhata hai. Aggressive analyst ka bina confirmation ke position build karne ka mashwara gambling jaisa hai, jabke conservative aur neutral analysis is baat ki tajeed karte hain ke capital protection ke liye range breakout ka intezar karna hi behtareen hikmat-e-amli hai. Is liye, jab tak decisive breakout nahi hota, exposure ko unchanged rakhein.

@@ -1,0 +1,10 @@
+
+Conservative Analyst: As-salamu alaykum sab doston ko! 
+
+Bhai aggressive analyst sahab, aapka josh aur jazba apni jagah theek ho sakta hai, lekin risk management aur capital ki safety ko is tarah nazar-andaz karna kisi bhi tarah aqalmandi nahi hai. Aap keh rahe hain ke hamara darr be-bunyaad hai aur hum mauqa ganwa rahe hain, lekin asal mein aap short-term volatility aur market ke hidden traps ko ignore kar rahe hain. 
+
+Aap ne Standard Chartered ke $200 ke long-term target aur 12% ke single-day jump ka hawala diya, lekin zara yeh bhi dekhein ke jab Infosys ke sath itni badi deal ki khabar aayi thi, toh uske foran baad LINK-USDT mein 4% ki girawat (drop) dekhnay ko mili thi. Yeh "sell the news" ka classic case hai, jo yeh sabit karta hai ke retail hype aur institutional announcements ke bawujud market mein kitni fragility hai. Agar hum bina soche samjhe aggressive buying shuru kar dein, toh kya aap is baat ki guarantee de sakte hain ke ye consolidation phase kisi baray correction mein tabdeel nahi hoga? 
+
+Iske ilawa, global macro environment ko dekhein. Rising bond yields aur tight liquidity ki wajah se risk assets par musalsal dabao barqarar hai. CME futures ki listing ka jo khadsha reports mein bataya gaya hai, usse achanak market mein volatility barh sakti hai. RSI 63.91 par hai, jo ke yeh kehta hai ke momentum bullish zaroor hai, lekin ATR 0.75 ki moderate volatility aur Bollinger Bands ke upper band (14.46) ke qareeb price ka hona yeh zahir karta hai ke oopar jane se pehle price mazeed thandi ho sakti hai ya neeche support test kar sakti hai.
+
+Isi liye, sirf is khwahish mein ke hum "market ke king" ban jayein, apne assets ko un-necessary risk mein dalna hargiz theek nahi hai. Milti hui data reports aur current market ki susti ko dekhte huay "Hold" ka faisla hi sab se mehfooz aur dur-andesh hikmat-e-amli hai, taake hum apni capital ko bacha sakein aur agle kisi bhi sudden drop ya fakeout se mehfooz reh sakein.

@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: SUI-USD ke liye current position ko Hold rakha jaye aur naye positions add karne se guraiz kiya jaye. 10-day EMA ($0.97) aur ATR ($0.07) ke mutabiq trailing stop-loss ko sakhti se monitor karein taake capital fully protected rahe.
+
+**Investment Thesis**: Debate mein dono taraf se strong points aaye hain. Bullish side par SUI-USD ka current price $1.14 hai jo 50-day SMA ($0.78), 200-day SMA ($0.84), aur Bollinger Upper Band ($1.13) ke breakout se upar chal raha hai, sath hi MACD expansion aur 70% positive sentiment momentum ko zahir karta hai. Lekin doosri taraf, RSI 75.95 par extreme overbought zone mein hai aur over-leveraged Futures Open Interest ki wajah se long squeeze ya sudden correction ka khatra maujood hai. In conflicting signals aur high leverage ki wajah se, aggressive greed ya over-defensive hone ke bajaye exposure ko filhal maintain karna aur strict stop-loss ke sath hold rakhna hi sab se balanced aur behtar faisla hai.

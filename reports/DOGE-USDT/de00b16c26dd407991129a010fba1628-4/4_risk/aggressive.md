@@ -1,0 +1,10 @@
+
+Aggressive Analyst: Salam doston! Main Aggressive Risk Analyst hoon, aur main is waqt conservative aur neutral analysts ki ahtiyat (caution) aur "HOLD" wali soch se bilkul ikhtilaf karta hoon. Aap sab log sirf consolidation aur low volatility ka roona ro kar asli mauqa ganwa rahe hain. Zara data ko dekhein! 
+
+DOGE-USDT ki price is waqt **0.0938 USD** par trade kar rahi hai, jo ke 50 SMA (0.0889) aur 200 SMA (0.0878) dono ke upar hai. Iska saaf matlab yeh hai ke medium-term aur long-term trend mein mild bullish bias mojood hai. Iske ilawa, global markets mein S&P 500 aur Nasdaq record highs par hain, aur tech-led risk-on environment chal raha hai. Yeh positive macroeconomic correlation crypto demand ko boost karne ke liye kaafi hai. 
+
+Neutral analyst keh raha hai ke RSI 53.46 par neutral hai aur MACD flat hai, isliye wait karo. Lekin bhai, RSI ka neutral hone ka matlab yeh nahi hai ke haath par haath dhar kar baith jayein! Yeh wohi zone hai jahan se market achanak breakout deti hai aur jo log pehle se position nahi lete, woh train miss kar dete hain. Bollinger Bands ki midline aur 50 SMA zabardast dynamic support de rahe hain. ATR low volatility dikha raha hai, jiska matlab hai ke yeh ek "calm before the storm" hai—ek bada explosive move aane wala hai!
+
+Conservative analyst ka darr ke high interest rates ya macro headwinds ki wajah se risk lena khatarnak hai, bilkul galat logic hai. Prediction markets kehti hain ke 2026 mein record crypto liquidation ki probability sirf 8% hai, yaani market mein under-the-hood stability mojood hai. Agar hum sirf darr ki wajah se "HOLD" par atke rahe, toh hum sirf side-line par baith kar doosron ko munafa kamate dekhte reh jayenge.
+
+Mera seedha sa mutalba yeh hai ke humein is consolidation ka faida utha kar aggressive entry leni chahiye, tight stop-losses ke sath. High-reward wahi log jeetey hain jo waqt par bold steps lete hain, darr kar baithne wale nahi!

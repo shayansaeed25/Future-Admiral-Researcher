@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: Filhal BTC-USDT mein koi nayi position open na karein aur current holdings ko 'Hold' par rakhein. 50 SMA ($80,957) aur Bollinger lower band ($81,668) ke qareeb strict stop-loss set karein. Jab tak price $86,532 ki resistance ko volume ke sath break nahi karti ya support test nahi hoti, tab tak market consolidation zone mein hai.
+
+**Investment Thesis**: Analyst ki bahas ke mutabiq, price $83,133.70 par hai jo 200 SMA ($71,986) aur 50 SMA ($80,957) se upar hai, aur lower band ($81,668) ek mazboot support cluster banata hai, jo long-term bull trend ko zahir karta hai. Lekin doosri taraf, MACD histogram (-514.23) negative hai, short-term momentum kamzor hai, aur global bond yields ki wajah se macro pressure barh raha hai. Jab tak price $86,532 ki overhead resistance ko strong volume ke sath break nahi karti ya support test nahi hoti, tab tak blind optimism mein paisa jhonknay ke bajaye 'Hold' karna aur market ki aglay clear move ka intezaar karna hi sab se behtareen hikmat-e-amli hai.

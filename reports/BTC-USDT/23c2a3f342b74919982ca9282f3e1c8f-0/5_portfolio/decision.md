@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: Hal hi mein market ki mixed halat aur macro pressure ko dekhte hue apni mojooda position ko 81,000 ke stop-loss ke sath hold kiya jaye. Koi naya aggressive exposure ya dip-buying tab tak na ki jaye jab tak price 10-day EMA aur Bollinger Middle Band ke oopar decisively break na kar jaye.
+
+**Investment Thesis**: BTC-USDT filhal ek consolidation phase mein hai jahan 50-day SMA (80,827.29) aur 200-day SMA (71,923.06) strong long-term support fraham kar rahe hain, aur lower Bollinger Band (81,660.77) bhi price ko sambhal raha hai. Yeh factors bulls ko support dete hain. Lekin dusri taraf, MACD histogram (-561.73) negative zone mein hai jo short-term bearish momentum dikhata hai, aur Polymarket par 2026 ke Fed rate cuts na hone ki 96% probability ke sath $100k target ki probability gir kar 28% rehna tight macro environment ko zahir karta hai. RSI bhi 50.83 par neutral hai. Kyunki bullish long-term supports aur bearish short-term momentum ke darmiyan conflicting signals hain, is liye na toh andha optimism dikhana theek hai aur na hi darr kar exit karna. Position ko hold rakhna hi sab se balanced aur rational faisla hai.

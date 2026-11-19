@@ -1,0 +1,77 @@
+{
+  "cooldown": {
+    "ETH-USDT": "2026-11-19T08:05:35.827726+00:00",
+    "LTC-USDT": "2026-11-19T11:05:31.361964+00:00"
+  },
+  "last_briefing_slot": "2026-11-19-2",
+  "last_feed_alert_utc": "",
+  "last_heartbeat_date": "2026-11-19",
+  "last_signal_candle_ts": {
+    "APT-USDT": 1794988800000,
+    "ARB-USDT": 1794960000000,
+    "ATOM-USDT": 1795075200000,
+    "BCH-USDT": 1794726000000,
+    "BNB-USDT": 1794718800000,
+    "BTC-USDT": 1794711600000,
+    "DOT-USDT": 1794578400000,
+    "ETH-USDT": 1794996000000,
+    "LINK-USDT": 1794880800000,
+    "LTC-USDT": 1794988800000,
+    "OP-USDT": 1795064400000,
+    "TRX-USDT": 1794931200000,
+    "XRP-USDT": 1794751200000
+  },
+  "loss_streak": 0,
+  "macro_cache": {
+    "data": {
+      "blackout": false,
+      "blackout_reason": "",
+      "catalysts": [
+        "Macro-: rate hike",
+        "Macro-: rate hike"
+      ],
+      "errors": [
+        "FREDcsv T10YIE: ReadTimeout HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed "
+      ],
+      "fear_greed": 10,
+      "headlines": [
+        "[Macro_CPI_PPI] Fed minutes: Higher interest rates needed in December as inflation worries mount - AP News",
+        "[Macro_CPI_PPI] Fed\u2019s Waller says central bank may need to \u2018shock people\u2019 with half-point rate hike - CNBC",
+        "[Macro_CPI_PPI] Fed Officials Saw Higher Rates Ahead When They Held Steady Last Month - WSJ",
+        "[Macro_CPI_PPI] Fed policymakers focused on inflation risks in October, with some seeing need for bigger rate hike - Reuters",
+        "[Geopolitics_Iran_US] Iran war live: Coalition downs Houthi missiles as US CENTCOM head meets MBS - Al Jazeera",
+        "[Geopolitics_Iran_US] Iran War Updates: Gulf states and tankers under fire as U.S. and Iran ramp back up tit-for-tat strikes - CBS News",
+        "[Geopolitics_Iran_US] Iran widens Gulf attacks by targeting U.S. air base in Kuwait and sites in Bahrain - PBS",
+        "[Geopolitics_Iran_US] Iran war at crossroads: Trump demands 'lasting' deal, warns conflict will end 'one way or the other' - Gulf News",
+        "[World] This is a remarkable diplomatic moment for China's Xi - but it comes with pitfalls",
+        "[World] Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
+        "[World] Myanmar faces historic genocide verdict at UN court over Rohingya massacres",
+        "[World] Anthropic valued at $1.5 trillion ahead of AI giant's stock market debut",
+        "[CNBC_Economy] Southeast Asia\u2019s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
+        "[CNBC_Economy] Record diesel prices drive UK inflation to 1-year high of 3.6%",
+        "[CNBC_Economy] Japan exports in October surge 20.5%, beating estimates on robust chip shipments",
+        "[CNBC_Economy] St. Louis Fed's Musalem says four more rate hikes may be needed in coming months"
+      ],
+      "news_sentiment": -1.0,
+      "notes": [
+        "US10Y 5.07% (+0.07pp 5d)",
+        "Dollar +0.6% 5d",
+        "Oil $83 (-17% 20d)",
+        "VIX 22.0",
+        "Nasdaq -4.1% 5d",
+        "Fear&Greed 10",
+        "News: Macro-: rate hike, Macro-: rate hike"
+      ],
+      "risk": 0,
+      "story": [
+        "US tech stocks falling",
+        "extreme retail fear (contrarian whale accumulation zone)",
+        "inflation/Fed headlines hawkish (CPI/PPI/rates pressure)"
+      ],
+      "total": -1
+    },
+    "fetched_utc": "2026-11-19T09:05:35.599383+00:00",
+    "ok": true
+  },
+  "paused_until": "2026-11-17T03:05:37.891182+00:00"
+}

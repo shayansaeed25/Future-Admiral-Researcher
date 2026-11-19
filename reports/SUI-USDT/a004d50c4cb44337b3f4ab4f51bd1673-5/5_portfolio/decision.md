@@ -1,0 +1,7 @@
+**Rating**: Hold
+
+**Executive Summary**: SUI-USDT ke liye current price 1.22 par consolidation chal rahi hai aur conflicting signals ki wajah se naya capital add nahi karna chahiye. Maujooda positions ko 1.15 se 1.26 ke range mein maintain rakhein aur downside risk se bachne ke liye 1.07 par tight stop-loss lagayein.
+
+**Investment Thesis**: Aggressive analyst ka kehna hai ke price 50-day SMA (0.87) aur 200-day SMA (0.85) se oopar hai aur RSI 67.34 par hone ki wajah se overbought zone mein nahi gaya, jis se 1.40 ke target ki taraf mazeed upside room baqi hai aur broader 'Risk-On' sentiment support kar raha hai. Doosri taraf, conservative analyst ka argument hai ke RSI ka 67.34 par hona aur MACD histogram ka 0.01 par rehna momentum ki susti ko zahir karta hai, jabke direct fundamental news na hone ki wajah se correction ka khatra barh jata hai aur 1.07 ka stop-loss hit ho sakta hai. Neutral analyst aur research manager ne in dono baton ka mawazna karte hue yeh taye kiya ke market mein filhal na toh aggressive buying ka mauqa hai aur na hi panic selling ka, kyunki volatility manageable hai (ATR 0.09) lekin momentum sust hai. Is liye, current exposure ko hold karna aur breakout ka intezaar karna sab se mozoon faisla hai.
+
+**Price Target**: 1.4

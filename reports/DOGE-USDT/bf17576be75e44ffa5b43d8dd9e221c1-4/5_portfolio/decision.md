@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: DOGE-USDT filhal $0.08 aur $0.10 ki tight range ke andar consolidated hai, jahan RSI 45.20 par aur MACD zero line ke qareeb neutral state mein hain. Trader apni current position ko maintain rakhe, aur $0.08 par strict stop-loss set kare taake risk minimize ho sake. Bina kisi high-volume breakout ya clear reversal signal ke exposure change karna munasib nahi hai.
+
+**Investment Thesis**: Aggressive analyst ka yeh kehna theek hai ke $0.08 aur $0.10 ki tight consolidation aur 50 SMA ($0.0889) aur 200 SMA ($0.0890) ka convergence aik explosive breakout ka spring board ban sakta hai, lekin conservative aur neutral analysts ke mutabiq global liquidity tight hai aur koi major fundamental catalyst maujood nahi hai. ATR sirf 0.0045 par hone ki wajah se market mein volatility kam hai, aur bina kisi tasdeeq ke aggressive hoker positions barhana false breakout ka shikar ho sakta hai. Is liye balanced approach yeh hai ke current position ko hold rakha jaye aur tab tak mazeed risk na liya jaye jab tak $0.10 ka level high volume ke sath breach nahi hota ya $0.08 support par reversal sign nahi milta.

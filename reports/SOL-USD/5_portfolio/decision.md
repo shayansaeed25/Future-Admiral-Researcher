@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: SOL-USD par filhal koi naya aggressive buy ya short position mat lein aur mojooda position ko maintain karein. Market ke Bollinger Middle Band ($107) aur Bollinger Upper Band ($123.49) ke darmiyan observe hone dein aur tight stop-loss $107 ke qareeb rakhein. Macro headwinds aur overbought RSI ke conflicts ki wajah se naya exposure badhane ka waqt nahi hai.
+
+**Investment Thesis**: SOL-USD ki price $121.84 par hai, moving averages (10 EMA, 50 SMA, 200 SMA) upward sloping hain, aur MACD positive momentum ($6.02) dikha raha hai, jo bullish structure ko zahir karta hai. Lekin doosri taraf, RSI 69.55 par overbought zone ke qareeb hai aur global macro bond yields ke headwinds hain, jo liquidity squeeze aur long squeeze ka risk paida kar sakte hain. Aggressive upside potential aur conservative risk preservation ke darmiyan conflict itna zyada hai ke koi clear directional conviction nahi banti, isliye current position ko tight stop-loss ($107) ke sath 'Hold' karna hi sab se behtar aur mehfooz hikmat-e-amli hai.

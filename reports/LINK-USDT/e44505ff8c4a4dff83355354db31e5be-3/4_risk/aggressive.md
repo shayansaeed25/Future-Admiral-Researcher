@@ -1,0 +1,10 @@
+
+Aggressive Analyst: As-salamu alaykum sab doston ko! 
+
+Dekhein bhai, yahan par conservative aur neutral analysts ka jo darr hai na, woh bilkul be-bunyaad aur mauqe ki nazaakat ko na samajhne ke barabar hai. Woh keh rahe hain ke market mein thori susti hai, short-term consolidation chal rahi hai, ya Infosys deal ke baad 4% ki halki si girawat aayi hai, isliye bas hath par hath dhar kar baith jao ya "Hold" par atke raho. Yeh ahtiyat nahi, balkay yeh toh saaf taur par baray mauqon ko hath se gawanay wali baat hai! 
+
+Aap zara data par nazar toh daalein! LINK-USDT ka 200 SMA (9.40) aur 50 SMA (11.43) dono mazboot upward slope mein hain aur price **13.85 USDT** par in sab se kaafi oopar khadi hai. RSI **63.91** par hai, yaani bullish momentum poori tarah jawan hai aur abhi extreme overbought zone mein bhi nahi gaya—iska saaf matlab yeh hai ke oopar jane ke liye abhi bohat bada rasta khali pada hai! 
+
+Neutral aur conservative logon ka yeh rona rona ke "short-term volatility hai" ya "CME futures ka khadsha hai", yeh sirf darr ki pedawar hai. Standard Chartered jaisay idaray ne 2030 tak LINK ka target **$200** diya hai, aur pichlay haftay hi LINK ne ek hi din mein **12% ka zabardast jump** laga kar Bitcoin tak ko peeche chhor diya hai! Aur aap yeh mat bhoolein ke Chainlink ki Infosys aur SWIFT jaisi global giants ke sath integration ho rahi hai jo 1.7 billion bank accounts ko touch karti hai. Aisi revolutionary technology aur itni badi institutional backing ke hotay huay agar aap sirf isliye darein ke price thori si consolidate ho rahi hai, toh aap market ke asli king banne ka mauqa kho denge. 
+
+Sirf "Hold" kar ke baith rehna aur market ke mazeed oopar jaane ka wait karna ek mid-level ki soch hai. Hamein toh is consolidation phase ko ek aggressive accumulation zone samajhna chahiye aur is high-reward, high-growth opportunity ka poora fayda uthana chahiye taake hum maximum upside capture kar sakein. Darr ko goli maarein, bold strategies apnayein, kyunki profit hamesha wahi banate hain jo risk uthane ka jigra rakhtay hain!

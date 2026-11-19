@@ -1,0 +1,1991 @@
+{
+  "Tear Sheet": [
+    [
+      "Future Admiral - Institutional Tear Sheet ($100 Per Trade)"
+    ],
+    [
+      "Live & Historical Backtest Ledger · Multi-Timeframe SMC Liquidity Pools + Whale Orderflow + Spot ETF Flows + Global Macro (Yields, DXY, Oil -> Fed Rate). Net of assumed fees + slippage (Inputs)."
+    ],
+    [],
+    [
+      "Metric",
+      "Value",
+      "How to read it"
+    ],
+    [
+      "Closed trades (n)",
+      "='Strategy Scorecard'!B5",
+      "Sample size of completed $100 paper positions. Under ~30 trades treat statistics as early indicative."
+    ],
+    [
+      "Win rate (strict net > $0)",
+      "='Strategy Scorecard'!E5",
+      "Share of closed trades with net P&L above zero AFTER fees and slippage."
+    ],
+    [
+      "Win + Breakeven protection rate",
+      "=(COUNTIF(Positions!$N$2:$N$2000,\"TP3_HIT\")+COUNTIF(Positions!$N$2:$N$2000,\"TP2_HIT\")+COUNTIF(Positions!$N$2:$N$2000,\"TP1_HIT\")+COUNTIF(Positions!$N$2:$N$2000,\"BE_EXIT\"))/MAX(1,'Strategy Scorecard'!B5)",
+      "Share of trades where TP1 was hit and Stop Loss moved to Entry (zero capital loss)."
+    ],
+    [
+      "Average win ($)",
+      "='Strategy Scorecard'!F5",
+      "Mean net profit on winning $100 trades (TP1/TP2/TP3 1/3 scaling)."
+    ],
+    [
+      "Average loss ($)",
+      "='Strategy Scorecard'!G5",
+      "Mean net loss on stopped trades (Whale swing-liquidity pool SL)."
+    ],
+    [
+      "Payoff ratio (avg win / avg loss)",
+      "='Strategy Scorecard'!H5",
+      "Above 1.5x means winners are significantly larger than losers."
+    ],
+    [
+      "Break-even win rate at this payoff",
+      "=IF('Strategy Scorecard'!H5=0,0,1/(1+'Strategy Scorecard'!H5))",
+      "Minimum win rate needed just to break even at the current payoff ratio."
+    ],
+    [
+      "Profit factor (net)",
+      "='Strategy Scorecard'!I5",
+      "Gross wins / gross losses after costs. Above 1.0 is profitable; institutions target 1.3+."
+    ],
+    [
+      "Expectancy per trade ($, net)",
+      "='Strategy Scorecard'!L5",
+      "Average net USD earned per $100 trade. Positive expectancy = mathematical edge."
+    ],
+    [
+      "Expectancy as % of $100 notional",
+      "=B13/Inputs!$C$5",
+      "Net edge per trade relative to the $100 capital deployed per position."
+    ],
+    [
+      "Gross P&L ($)",
+      "='Strategy Scorecard'!J5",
+      "Total realized P&L before exchange fees and slippage."
+    ],
+    [
+      "Estimated costs ($)",
+      "=B15-B17",
+      "Total round-trip exchange fees + slippage subtracted from Gross P&L."
+    ],
+    [
+      "Net P&L ($)",
+      "='Strategy Scorecard'!K5",
+      "Total realized P&L after subtracting assumed exchange fees and slippage."
+    ],
+    [
+      "Std dev per trade ($)",
+      "='Strategy Scorecard'!M5",
+      "Trade-to-trade volatility of net P&L in USD."
+    ],
+    [
+      "t-statistic of expectancy",
+      "='Strategy Scorecard'!N5",
+      "|t| above 2.0 indicates the positive/negative edge is statistically significant."
+    ],
+    [
+      "95% CI of expectancy ($, low)",
+      "='Strategy Scorecard'!O5",
+      "Lower bound of 95% confidence interval for per-trade expectancy."
+    ],
+    [
+      "95% CI of expectancy ($, high)",
+      "='Strategy Scorecard'!P5",
+      "Upper bound of 95% confidence interval for per-trade expectancy."
+    ],
+    [
+      "Is the edge distinguishable from zero?",
+      "=IF(B21<0,\"YES - NEGATIVE EDGE\",IF(B20>0,\"YES - POSITIVE EDGE\",\"NO - INCONCLUSIVE\"))",
+      "Shows whether sample size is large enough to prove positive/negative edge at 95% confidence."
+    ],
+    [
+      "System Quality Number (SQN)",
+      "=IF(B18=0,0,B13/B18*SQRT(MIN(B5,100)))",
+      "Van Tharp SQN: 1.6-1.9 playable, 2.0-2.5 good, 3.0+ institutional grade."
+    ],
+    [
+      "Kelly fraction (full)",
+      "=IF('Strategy Scorecard'!H5=0,0,B6-(1-B6)/B10)",
+      "Optimal theoretical fraction of capital to risk; real desks use Quarter-Kelly."
+    ],
+    [
+      "Max drawdown ($)",
+      "=MIN('Equity Curve'!M5:M50)",
+      "Largest peak-to-trough drop in cumulative net P&L."
+    ],
+    [
+      "Max drawdown (% of starting account)",
+      "=MIN('Equity Curve'!N5:N50)",
+      "Peak-to-trough drawdown as a percentage of starting account capital."
+    ],
+    [
+      "Longest losing streak (trades)",
+      "=MAX('Equity Curve'!O5:O50)",
+      "Maximum consecutive losing trades observed in chronological sequence."
+    ],
+    [
+      "Active trading days",
+      "=COUNTA(Daily!A5:A25)",
+      "Number of distinct calendar days with closed trade settlements."
+    ],
+    [
+      "Daily Sharpe (annualised)",
+      "=IF(STDEV(Daily!D5:D12)=0,0,AVERAGE(Daily!D5:D12)/STDEV(Daily!D5:D12)*SQRT(Inputs!$C$12))",
+      "Annualized Sharpe ratio computed from daily net P&L."
+    ],
+    [
+      "Avg hold, winners (hours)",
+      "=IFERROR(AVERAGEIFS(Positions!$AU$2:$AU$2000,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1),0)",
+      "Average holding duration (hours) for profitable trades (letting runners reach TP3)."
+    ],
+    [
+      "Avg hold, losers (hours)",
+      "=IFERROR(AVERAGEIFS(Positions!$AU$2:$AU$2000,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,0),0)",
+      "Average holding duration (hours) for stopped-out trades."
+    ],
+    [
+      "Open positions now",
+      "=COUNTIFS(Positions!$AP$2:$AP$2000,0,Positions!$N$2:$N$2000,\"<>\")",
+      "Currently active positions in the Positions tab awaiting TP or SL."
+    ],
+    [
+      "Unrealized P&L of open ($)",
+      "=SUM(Positions!$AE$2:$AE$2000)",
+      "Live mark-to-market P&L of open positions."
+    ],
+    [],
+    [],
+    [
+      "Before vs after the v3 Whale Liquidity & Macro/ETF Quality Gate"
+    ],
+    [
+      "Metric",
+      "B1 - Counter-Trend Range-Edge (Legacy)",
+      "B2 - Whale Swing-Liquidity + Macro/ETF Confluence"
+    ],
+    [
+      "Closed trades",
+      "=Breakdowns!B20",
+      "=Breakdowns!B21"
+    ],
+    [
+      "Gross P&L ($)",
+      "=Breakdowns!J20",
+      "=Breakdowns!J21"
+    ],
+    [
+      "Net P&L ($, after fees)",
+      "=Breakdowns!K20",
+      "=Breakdowns!K21"
+    ],
+    [
+      "Expectancy per trade ($, net)",
+      "=Breakdowns!L20",
+      "=Breakdowns!L21"
+    ],
+    [
+      "Win rate",
+      "=Breakdowns!E20",
+      "=Breakdowns!E21"
+    ],
+    [
+      "Profit factor (net)",
+      "=Breakdowns!I20",
+      "=Breakdowns!I21"
+    ],
+    [
+      "Key Finding: Legacy Range-Edge counter-trend trades lost 100% of the time (-$5.50 gross / -$5.98 net), whereas Whale Swing-Liquidity setups generated +$5.77 gross (+$4.49 net, Profit Factor 1.65). Range-Edge is disabled in v3 Pro."
+    ],
+    [],
+    [
+      "Goal reality check ($100 Per Trade)"
+    ],
+    [
+      "Item",
+      "Value",
+      "Comment"
+    ],
+    [
+      "Daily profit goal ($)",
+      "=Inputs!$C$8",
+      "From Inputs (editable)."
+    ],
+    [
+      "Goal as % of starting account, per day",
+      "=Inputs!$C$8/Inputs!$C$4",
+      "Target daily return relative to starting account capital."
+    ],
+    [
+      "Closed trades per active day (observed)",
+      "=IF(B28=0,0,B5/B28)",
+      "Observed trade frequency across active days."
+    ],
+    [
+      "Net P&L per active day (observed, $)",
+      "=IF(B28=0,0,B17/B28)",
+      "Observed daily net P&L across all historical trades."
+    ],
+    [
+      "Expectancy needed per trade to hit goal ($)",
+      "=IF(B50=0,0,B48/B50)",
+      "Daily goal divided by observed trades per day."
+    ],
+    [
+      "Expectancy observed on Whale Liquidity setups ($)",
+      "=Breakdowns!L21",
+      "Net expectancy per trade on v3 Whale Swing-Liquidity setups (+$0.56/trade)."
+    ],
+    [
+      "Gap ($ per trade)",
+      "=B53-B52",
+      "Difference between Whale Liquidity expectancy and single-day goal requirement."
+    ]
+  ],
+  "Strategy Scorecard": [
+    [
+      "Strategy & Factor Scorecard - net of assumed costs ($100 Notional)"
+    ],
+    [
+      "Verdict gate = Inputs (min trades, min profit factor). Evaluates every Future Admiral setup & factor combination automatically from Positions."
+    ],
+    [],
+    [
+      "Group",
+      "Closed",
+      "Wins",
+      "Losses",
+      "Win rate",
+      "Avg win ($)",
+      "Avg loss ($)",
+      "Payoff (W/L)",
+      "Profit factor",
+      "Gross P&L ($)",
+      "Net P&L ($)",
+      "Expectancy / trade ($)",
+      "Std dev ($)",
+      "t-stat",
+      "95% CI low ($)",
+      "95% CI high ($)",
+      "Verdict",
+      "helper: win $",
+      "helper: loss $"
+    ],
+    [
+      "ALL STRATEGIES",
+      "=COUNTIFS(Positions!$AP$2:$AP$2000,1)",
+      "=COUNTIFS(Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=B5-C5",
+      "=IF(B5=0,0,C5/B5)",
+      "=IF(C5=0,0,R5/C5)",
+      "=IF(D5=0,0,S5/D5)",
+      "=IF(G5=0,0,F5/ABS(G5))",
+      "=IF(S5=0,IF(R5>0,999,0),R5/ABS(S5))",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$AP$2:$AP$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AP$2:$AP$2000,1)",
+      "=IF(B5=0,0,K5/B5)",
+      "=IF(B5>1,SQRT(MAX(0,(SUMIFS(Positions!$AT$2:$AT$2000,Positions!$AP$2:$AP$2000,1)-B5*L5^2)/(B5-1))),0)",
+      "=IF(M5=0,0,L5/(M5/SQRT(B5)))",
+      "=IF(B5>1,L5-1.96*M5/SQRT(B5),0)",
+      "=IF(B5>1,L5+1.96*M5/SQRT(B5),0)",
+      "=IF(B5=0,\"NO TRADES\",IF(B5<Inputs!$C$9,\"TESTING \"&B5&\"/\"&Inputs!$C$9,IF(AND(L5>0,I5>=Inputs!$C$10),\"PROMOTE-ELIGIBLE\",IF(L5<=0,\"CUT\",\"WATCH\"))))",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,0)"
+    ],
+    [
+      "Whale Swing-Liquidity + Bearish ETF Outflow",
+      "=COUNTIFS(Positions!$AJ$2:$AJ$2000,$A6,Positions!$AP$2:$AP$2000,1)",
+      "=COUNTIFS(Positions!$AJ$2:$AJ$2000,$A6,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=B6-C6",
+      "=IF(B6=0,0,C6/B6)",
+      "=IF(C6=0,0,R6/C6)",
+      "=IF(D6=0,0,S6/D6)",
+      "=IF(G6=0,0,F6/ABS(G6))",
+      "=IF(S6=0,IF(R6>0,999,0),R6/ABS(S6))",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$AJ$2:$AJ$2000,$A6,Positions!$AP$2:$AP$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AJ$2:$AJ$2000,$A6,Positions!$AP$2:$AP$2000,1)",
+      "=IF(B6=0,0,K6/B6)",
+      "=IF(B6>1,SQRT(MAX(0,(SUMIFS(Positions!$AT$2:$AT$2000,Positions!$AJ$2:$AJ$2000,$A6,Positions!$AP$2:$AP$2000,1)-B6*L6^2)/(B6-1))),0)",
+      "=IF(M6=0,0,L6/(M6/SQRT(B6)))",
+      "=IF(B6>1,L6-1.96*M6/SQRT(B6),0)",
+      "=IF(B6>1,L6+1.96*M6/SQRT(B6),0)",
+      "=IF(B6=0,\"NO TRADES\",IF(B6<Inputs!$C$9,\"TESTING \"&B6&\"/\"&Inputs!$C$9,IF(AND(L6>0,I6>=Inputs!$C$10),\"PROMOTE-ELIGIBLE\",IF(L6<=0,\"CUT\",\"WATCH\"))))",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AJ$2:$AJ$2000,$A6,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AJ$2:$AJ$2000,$A6,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,0)"
+    ],
+    [
+      "Whale Swing-Liquidity + Bullish Accumulation",
+      "=COUNTIFS(Positions!$AJ$2:$AJ$2000,$A7,Positions!$AP$2:$AP$2000,1)",
+      "=COUNTIFS(Positions!$AJ$2:$AJ$2000,$A7,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=B7-C7",
+      "=IF(B7=0,0,C7/B7)",
+      "=IF(C7=0,0,R7/C7)",
+      "=IF(D7=0,0,S7/D7)",
+      "=IF(G7=0,0,F7/ABS(G7))",
+      "=IF(S7=0,IF(R7>0,999,0),R7/ABS(S7))",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$AJ$2:$AJ$2000,$A7,Positions!$AP$2:$AP$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AJ$2:$AJ$2000,$A7,Positions!$AP$2:$AP$2000,1)",
+      "=IF(B7=0,0,K7/B7)",
+      "=IF(B7>1,SQRT(MAX(0,(SUMIFS(Positions!$AT$2:$AT$2000,Positions!$AJ$2:$AJ$2000,$A7,Positions!$AP$2:$AP$2000,1)-B7*L7^2)/(B7-1))),0)",
+      "=IF(M7=0,0,L7/(M7/SQRT(B7)))",
+      "=IF(B7>1,L7-1.96*M7/SQRT(B7),0)",
+      "=IF(B7>1,L7+1.96*M7/SQRT(B7),0)",
+      "=IF(B7=0,\"NO TRADES\",IF(B7<Inputs!$C$9,\"TESTING \"&B7&\"/\"&Inputs!$C$9,IF(AND(L7>0,I7>=Inputs!$C$10),\"PROMOTE-ELIGIBLE\",IF(L7<=0,\"CUT\",\"WATCH\"))))",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AJ$2:$AJ$2000,$A7,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AJ$2:$AJ$2000,$A7,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,0)"
+    ],
+    [
+      "Whale Swing-Liquidity + MTF Trend",
+      "=COUNTIFS(Positions!$AJ$2:$AJ$2000,$A8,Positions!$AP$2:$AP$2000,1)",
+      "=COUNTIFS(Positions!$AJ$2:$AJ$2000,$A8,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=B8-C8",
+      "=IF(B8=0,0,C8/B8)",
+      "=IF(C8=0,0,R8/C8)",
+      "=IF(D8=0,0,S8/D8)",
+      "=IF(G8=0,0,F8/ABS(G8))",
+      "=IF(S8=0,IF(R8>0,999,0),R8/ABS(S8))",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$AJ$2:$AJ$2000,$A8,Positions!$AP$2:$AP$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AJ$2:$AJ$2000,$A8,Positions!$AP$2:$AP$2000,1)",
+      "=IF(B8=0,0,K8/B8)",
+      "=IF(B8>1,SQRT(MAX(0,(SUMIFS(Positions!$AT$2:$AT$2000,Positions!$AJ$2:$AJ$2000,$A8,Positions!$AP$2:$AP$2000,1)-B8*L8^2)/(B8-1))),0)",
+      "=IF(M8=0,0,L8/(M8/SQRT(B8)))",
+      "=IF(B8>1,L8-1.96*M8/SQRT(B8),0)",
+      "=IF(B8>1,L8+1.96*M8/SQRT(B8),0)",
+      "=IF(B8=0,\"NO TRADES\",IF(B8<Inputs!$C$9,\"TESTING \"&B8&\"/\"&Inputs!$C$9,IF(AND(L8>0,I8>=Inputs!$C$10),\"PROMOTE-ELIGIBLE\",IF(L8<=0,\"CUT\",\"WATCH\"))))",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AJ$2:$AJ$2000,$A8,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AJ$2:$AJ$2000,$A8,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,0)"
+    ],
+    [
+      "SMC Order Block / FVG + Whale CVD",
+      "=COUNTIFS(Positions!$AJ$2:$AJ$2000,$A9,Positions!$AP$2:$AP$2000,1)",
+      "=COUNTIFS(Positions!$AJ$2:$AJ$2000,$A9,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=B9-C9",
+      "=IF(B9=0,0,C9/B9)",
+      "=IF(C9=0,0,R9/C9)",
+      "=IF(D9=0,0,S9/D9)",
+      "=IF(G9=0,0,F9/ABS(G9))",
+      "=IF(S9=0,IF(R9>0,999,0),R9/ABS(S9))",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$AJ$2:$AJ$2000,$A9,Positions!$AP$2:$AP$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AJ$2:$AJ$2000,$A9,Positions!$AP$2:$AP$2000,1)",
+      "=IF(B9=0,0,K9/B9)",
+      "=IF(B9>1,SQRT(MAX(0,(SUMIFS(Positions!$AT$2:$AT$2000,Positions!$AJ$2:$AJ$2000,$A9,Positions!$AP$2:$AP$2000,1)-B9*L9^2)/(B9-1))),0)",
+      "=IF(M9=0,0,L9/(M9/SQRT(B9)))",
+      "=IF(B9>1,L9-1.96*M9/SQRT(B9),0)",
+      "=IF(B9>1,L9+1.96*M9/SQRT(B9),0)",
+      "=IF(B9=0,\"NO TRADES\",IF(B9<Inputs!$C$9,\"TESTING \"&B9&\"/\"&Inputs!$C$9,IF(AND(L9>0,I9>=Inputs!$C$10),\"PROMOTE-ELIGIBLE\",IF(L9<=0,\"CUT\",\"WATCH\"))))",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AJ$2:$AJ$2000,$A9,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AJ$2:$AJ$2000,$A9,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,0)"
+    ],
+    [
+      "Macro Risk-On + Spot ETF Inflow",
+      "=COUNTIFS(Positions!$AJ$2:$AJ$2000,$A10,Positions!$AP$2:$AP$2000,1)",
+      "=COUNTIFS(Positions!$AJ$2:$AJ$2000,$A10,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=B10-C10",
+      "=IF(B10=0,0,C10/B10)",
+      "=IF(C10=0,0,R10/C10)",
+      "=IF(D10=0,0,S10/D10)",
+      "=IF(G10=0,0,F10/ABS(G10))",
+      "=IF(S10=0,IF(R10>0,999,0),R10/ABS(S10))",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$AJ$2:$AJ$2000,$A10,Positions!$AP$2:$AP$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AJ$2:$AJ$2000,$A10,Positions!$AP$2:$AP$2000,1)",
+      "=IF(B10=0,0,K10/B10)",
+      "=IF(B10>1,SQRT(MAX(0,(SUMIFS(Positions!$AT$2:$AT$2000,Positions!$AJ$2:$AJ$2000,$A10,Positions!$AP$2:$AP$2000,1)-B10*L10^2)/(B10-1))),0)",
+      "=IF(M10=0,0,L10/(M10/SQRT(B10)))",
+      "=IF(B10>1,L10-1.96*M10/SQRT(B10),0)",
+      "=IF(B10>1,L10+1.96*M10/SQRT(B10),0)",
+      "=IF(B10=0,\"NO TRADES\",IF(B10<Inputs!$C$9,\"TESTING \"&B10&\"/\"&Inputs!$C$9,IF(AND(L10>0,I10>=Inputs!$C$10),\"PROMOTE-ELIGIBLE\",IF(L10<=0,\"CUT\",\"WATCH\"))))",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AJ$2:$AJ$2000,$A10,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AJ$2:$AJ$2000,$A10,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,0)"
+    ],
+    [
+      "Range-Edge 4H Counter-Trend (Legacy)",
+      "=COUNTIFS(Positions!$AJ$2:$AJ$2000,$A11,Positions!$AP$2:$AP$2000,1)",
+      "=COUNTIFS(Positions!$AJ$2:$AJ$2000,$A11,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=B11-C11",
+      "=IF(B11=0,0,C11/B11)",
+      "=IF(C11=0,0,R11/C11)",
+      "=IF(D11=0,0,S11/D11)",
+      "=IF(G11=0,0,F11/ABS(G11))",
+      "=IF(S11=0,IF(R11>0,999,0),R11/ABS(S11))",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$AJ$2:$AJ$2000,$A11,Positions!$AP$2:$AP$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AJ$2:$AJ$2000,$A11,Positions!$AP$2:$AP$2000,1)",
+      "=IF(B11=0,0,K11/B11)",
+      "=IF(B11>1,SQRT(MAX(0,(SUMIFS(Positions!$AT$2:$AT$2000,Positions!$AJ$2:$AJ$2000,$A11,Positions!$AP$2:$AP$2000,1)-B11*L11^2)/(B11-1))),0)",
+      "=IF(M11=0,0,L11/(M11/SQRT(B11)))",
+      "=IF(B11>1,L11-1.96*M11/SQRT(B11),0)",
+      "=IF(B11>1,L11+1.96*M11/SQRT(B11),0)",
+      "=IF(B11=0,\"NO TRADES\",IF(B11<Inputs!$C$9,\"TESTING \"&B11&\"/\"&Inputs!$C$9,IF(AND(L11>0,I11>=Inputs!$C$10),\"PROMOTE-ELIGIBLE\",IF(L11<=0,\"CUT\",\"WATCH\"))))",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AJ$2:$AJ$2000,$A11,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AJ$2:$AJ$2000,$A11,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,0)"
+    ]
+  ],
+  "Breakdowns": [
+    [
+      "Multi-Factor Breakdowns (Setup Family, Side, Batch, MTF Regime, ETF Flow, Stop Width & Top 20 Coins)"
+    ],
+    [
+      "Same institutional statistics as the scorecard, sliced across every Future Admiral factor: Whale Liquidity vs Range-Edge, BUY vs SELL, MTF Trend, ETF Flow, Outcome, Stop Width, and Coin."
+    ],
+    [],
+    [
+      "By setup family (Whale Liquidity vs SMC vs Range-Edge)"
+    ],
+    [
+      "Group",
+      "Closed",
+      "Wins",
+      "Losses",
+      "Win rate",
+      "Avg win ($)",
+      "Avg loss ($)",
+      "Payoff (W/L)",
+      "Profit factor",
+      "Gross P&L ($)",
+      "Net P&L ($)",
+      "Expectancy / trade ($)",
+      "Std dev ($)",
+      "t-stat",
+      "95% CI low ($)",
+      "95% CI high ($)",
+      "Verdict",
+      "helper: win $",
+      "helper: loss $"
+    ],
+    [
+      "Whale Swing-Liquidity",
+      "=COUNTIFS(Positions!$AK$2:$AK$2000,$A6,Positions!$AP$2:$AP$2000,1)",
+      "=COUNTIFS(Positions!$AK$2:$AK$2000,$A6,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=B6-C6",
+      "=IF(B6=0,0,C6/B6)",
+      "=IF(C6=0,0,R6/C6)",
+      "=IF(D6=0,0,S6/D6)",
+      "=IF(G6=0,0,F6/ABS(G6))",
+      "=IF(S6=0,IF(R6>0,999,0),R6/ABS(S6))",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$AK$2:$AK$2000,$A6,Positions!$AP$2:$AP$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AK$2:$AK$2000,$A6,Positions!$AP$2:$AP$2000,1)",
+      "=IF(B6=0,0,K6/B6)",
+      "=IF(B6>1,SQRT(MAX(0,(SUMIFS(Positions!$AT$2:$AT$2000,Positions!$AK$2:$AK$2000,$A6,Positions!$AP$2:$AP$2000,1)-B6*L6^2)/(B6-1))),0)",
+      "=IF(M6=0,0,L6/(M6/SQRT(B6)))",
+      "=IF(B6>1,L6-1.96*M6/SQRT(B6),0)",
+      "=IF(B6>1,L6+1.96*M6/SQRT(B6),0)",
+      "=IF(B6=0,\"NO TRADES\",IF(B6<Inputs!$C$9,\"TESTING \"&B6&\"/\"&Inputs!$C$9,IF(AND(L6>0,I6>=Inputs!$C$10),\"PROMOTE-ELIGIBLE\",IF(L6<=0,\"CUT\",\"WATCH\"))))",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AK$2:$AK$2000,$A6,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AK$2:$AK$2000,$A6,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,0)"
+    ],
+    [
+      "SMC Order Block / FVG",
+      "=COUNTIFS(Positions!$AK$2:$AK$2000,$A7,Positions!$AP$2:$AP$2000,1)",
+      "=COUNTIFS(Positions!$AK$2:$AK$2000,$A7,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=B7-C7",
+      "=IF(B7=0,0,C7/B7)",
+      "=IF(C7=0,0,R7/C7)",
+      "=IF(D7=0,0,S7/D7)",
+      "=IF(G7=0,0,F7/ABS(G7))",
+      "=IF(S7=0,IF(R7>0,999,0),R7/ABS(S7))",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$AK$2:$AK$2000,$A7,Positions!$AP$2:$AP$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AK$2:$AK$2000,$A7,Positions!$AP$2:$AP$2000,1)",
+      "=IF(B7=0,0,K7/B7)",
+      "=IF(B7>1,SQRT(MAX(0,(SUMIFS(Positions!$AT$2:$AT$2000,Positions!$AK$2:$AK$2000,$A7,Positions!$AP$2:$AP$2000,1)-B7*L7^2)/(B7-1))),0)",
+      "=IF(M7=0,0,L7/(M7/SQRT(B7)))",
+      "=IF(B7>1,L7-1.96*M7/SQRT(B7),0)",
+      "=IF(B7>1,L7+1.96*M7/SQRT(B7),0)",
+      "=IF(B7=0,\"NO TRADES\",IF(B7<Inputs!$C$9,\"TESTING \"&B7&\"/\"&Inputs!$C$9,IF(AND(L7>0,I7>=Inputs!$C$10),\"PROMOTE-ELIGIBLE\",IF(L7<=0,\"CUT\",\"WATCH\"))))",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AK$2:$AK$2000,$A7,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AK$2:$AK$2000,$A7,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,0)"
+    ],
+    [
+      "Range-Edge Counter-Trend",
+      "=COUNTIFS(Positions!$AK$2:$AK$2000,$A8,Positions!$AP$2:$AP$2000,1)",
+      "=COUNTIFS(Positions!$AK$2:$AK$2000,$A8,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=B8-C8",
+      "=IF(B8=0,0,C8/B8)",
+      "=IF(C8=0,0,R8/C8)",
+      "=IF(D8=0,0,S8/D8)",
+      "=IF(G8=0,0,F8/ABS(G8))",
+      "=IF(S8=0,IF(R8>0,999,0),R8/ABS(S8))",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$AK$2:$AK$2000,$A8,Positions!$AP$2:$AP$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AK$2:$AK$2000,$A8,Positions!$AP$2:$AP$2000,1)",
+      "=IF(B8=0,0,K8/B8)",
+      "=IF(B8>1,SQRT(MAX(0,(SUMIFS(Positions!$AT$2:$AT$2000,Positions!$AK$2:$AK$2000,$A8,Positions!$AP$2:$AP$2000,1)-B8*L8^2)/(B8-1))),0)",
+      "=IF(M8=0,0,L8/(M8/SQRT(B8)))",
+      "=IF(B8>1,L8-1.96*M8/SQRT(B8),0)",
+      "=IF(B8>1,L8+1.96*M8/SQRT(B8),0)",
+      "=IF(B8=0,\"NO TRADES\",IF(B8<Inputs!$C$9,\"TESTING \"&B8&\"/\"&Inputs!$C$9,IF(AND(L8>0,I8>=Inputs!$C$10),\"PROMOTE-ELIGIBLE\",IF(L8<=0,\"CUT\",\"WATCH\"))))",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AK$2:$AK$2000,$A8,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AK$2:$AK$2000,$A8,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,0)"
+    ],
+    [],
+    [],
+    [],
+    [
+      "By trade side (BUY vs SELL)"
+    ],
+    [
+      "Group",
+      "Closed",
+      "Wins",
+      "Losses",
+      "Win rate",
+      "Avg win ($)",
+      "Avg loss ($)",
+      "Payoff (W/L)",
+      "Profit factor",
+      "Gross P&L ($)",
+      "Net P&L ($)",
+      "Expectancy / trade ($)",
+      "Std dev ($)",
+      "t-stat",
+      "95% CI low ($)",
+      "95% CI high ($)",
+      "Verdict",
+      "helper: win $",
+      "helper: loss $"
+    ],
+    [
+      "BUY",
+      "=COUNTIFS(Positions!$E$2:$E$2000,$A14,Positions!$AP$2:$AP$2000,1)",
+      "=COUNTIFS(Positions!$E$2:$E$2000,$A14,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=B14-C14",
+      "=IF(B14=0,0,C14/B14)",
+      "=IF(C14=0,0,R14/C14)",
+      "=IF(D14=0,0,S14/D14)",
+      "=IF(G14=0,0,F14/ABS(G14))",
+      "=IF(S14=0,IF(R14>0,999,0),R14/ABS(S14))",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$E$2:$E$2000,$A14,Positions!$AP$2:$AP$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$E$2:$E$2000,$A14,Positions!$AP$2:$AP$2000,1)",
+      "=IF(B14=0,0,K14/B14)",
+      "=IF(B14>1,SQRT(MAX(0,(SUMIFS(Positions!$AT$2:$AT$2000,Positions!$E$2:$E$2000,$A14,Positions!$AP$2:$AP$2000,1)-B14*L14^2)/(B14-1))),0)",
+      "=IF(M14=0,0,L14/(M14/SQRT(B14)))",
+      "=IF(B14>1,L14-1.96*M14/SQRT(B14),0)",
+      "=IF(B14>1,L14+1.96*M14/SQRT(B14),0)",
+      "=IF(B14=0,\"NO TRADES\",IF(B14<Inputs!$C$9,\"TESTING \"&B14&\"/\"&Inputs!$C$9,IF(AND(L14>0,I14>=Inputs!$C$10),\"PROMOTE-ELIGIBLE\",IF(L14<=0,\"CUT\",\"WATCH\"))))",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$E$2:$E$2000,$A14,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$E$2:$E$2000,$A14,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,0)"
+    ],
+    [
+      "SELL",
+      "=COUNTIFS(Positions!$E$2:$E$2000,$A15,Positions!$AP$2:$AP$2000,1)",
+      "=COUNTIFS(Positions!$E$2:$E$2000,$A15,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=B15-C15",
+      "=IF(B15=0,0,C15/B15)",
+      "=IF(C15=0,0,R15/C15)",
+      "=IF(D15=0,0,S15/D15)",
+      "=IF(G15=0,0,F15/ABS(G15))",
+      "=IF(S15=0,IF(R15>0,999,0),R15/ABS(S15))",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$E$2:$E$2000,$A15,Positions!$AP$2:$AP$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$E$2:$E$2000,$A15,Positions!$AP$2:$AP$2000,1)",
+      "=IF(B15=0,0,K15/B15)",
+      "=IF(B15>1,SQRT(MAX(0,(SUMIFS(Positions!$AT$2:$AT$2000,Positions!$E$2:$E$2000,$A15,Positions!$AP$2:$AP$2000,1)-B15*L15^2)/(B15-1))),0)",
+      "=IF(M15=0,0,L15/(M15/SQRT(B15)))",
+      "=IF(B15>1,L15-1.96*M15/SQRT(B15),0)",
+      "=IF(B15>1,L15+1.96*M15/SQRT(B15),0)",
+      "=IF(B15=0,\"NO TRADES\",IF(B15<Inputs!$C$9,\"TESTING \"&B15&\"/\"&Inputs!$C$9,IF(AND(L15>0,I15>=Inputs!$C$10),\"PROMOTE-ELIGIBLE\",IF(L15<=0,\"CUT\",\"WATCH\"))))",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$E$2:$E$2000,$A15,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$E$2:$E$2000,$A15,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,0)"
+    ],
+    [],
+    [
+      "B1 = Counter-Trend Range-Edge (Legacy). B2 = Whale Swing-Liquidity + Macro/ETF Confluence."
+    ],
+    [
+      "By data batch (Before vs After Quality Gate)"
+    ],
+    [
+      "Group",
+      "Closed",
+      "Wins",
+      "Losses",
+      "Win rate",
+      "Avg win ($)",
+      "Avg loss ($)",
+      "Payoff (W/L)",
+      "Profit factor",
+      "Gross P&L ($)",
+      "Net P&L ($)",
+      "Expectancy / trade ($)",
+      "Std dev ($)",
+      "t-stat",
+      "95% CI low ($)",
+      "95% CI high ($)",
+      "Verdict",
+      "helper: win $",
+      "helper: loss $"
+    ],
+    [
+      "B1",
+      "=COUNTIFS(Positions!$AI$2:$AI$2000,$A20,Positions!$AP$2:$AP$2000,1)",
+      "=COUNTIFS(Positions!$AI$2:$AI$2000,$A20,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=B20-C20",
+      "=IF(B20=0,0,C20/B20)",
+      "=IF(C20=0,0,R20/C20)",
+      "=IF(D20=0,0,S20/D20)",
+      "=IF(G20=0,0,F20/ABS(G20))",
+      "=IF(S20=0,IF(R20>0,999,0),R20/ABS(S20))",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$AI$2:$AI$2000,$A20,Positions!$AP$2:$AP$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AI$2:$AI$2000,$A20,Positions!$AP$2:$AP$2000,1)",
+      "=IF(B20=0,0,K20/B20)",
+      "=IF(B20>1,SQRT(MAX(0,(SUMIFS(Positions!$AT$2:$AT$2000,Positions!$AI$2:$AI$2000,$A20,Positions!$AP$2:$AP$2000,1)-B20*L20^2)/(B20-1))),0)",
+      "=IF(M20=0,0,L20/(M20/SQRT(B20)))",
+      "=IF(B20>1,L20-1.96*M20/SQRT(B20),0)",
+      "=IF(B20>1,L20+1.96*M20/SQRT(B20),0)",
+      "=IF(B20=0,\"NO TRADES\",IF(B20<Inputs!$C$9,\"TESTING \"&B20&\"/\"&Inputs!$C$9,IF(AND(L20>0,I20>=Inputs!$C$10),\"PROMOTE-ELIGIBLE\",IF(L20<=0,\"CUT\",\"WATCH\"))))",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AI$2:$AI$2000,$A20,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AI$2:$AI$2000,$A20,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,0)"
+    ],
+    [
+      "B2",
+      "=COUNTIFS(Positions!$AI$2:$AI$2000,$A21,Positions!$AP$2:$AP$2000,1)",
+      "=COUNTIFS(Positions!$AI$2:$AI$2000,$A21,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=B21-C21",
+      "=IF(B21=0,0,C21/B21)",
+      "=IF(C21=0,0,R21/C21)",
+      "=IF(D21=0,0,S21/D21)",
+      "=IF(G21=0,0,F21/ABS(G21))",
+      "=IF(S21=0,IF(R21>0,999,0),R21/ABS(S21))",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$AI$2:$AI$2000,$A21,Positions!$AP$2:$AP$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AI$2:$AI$2000,$A21,Positions!$AP$2:$AP$2000,1)",
+      "=IF(B21=0,0,K21/B21)",
+      "=IF(B21>1,SQRT(MAX(0,(SUMIFS(Positions!$AT$2:$AT$2000,Positions!$AI$2:$AI$2000,$A21,Positions!$AP$2:$AP$2000,1)-B21*L21^2)/(B21-1))),0)",
+      "=IF(M21=0,0,L21/(M21/SQRT(B21)))",
+      "=IF(B21>1,L21-1.96*M21/SQRT(B21),0)",
+      "=IF(B21>1,L21+1.96*M21/SQRT(B21),0)",
+      "=IF(B21=0,\"NO TRADES\",IF(B21<Inputs!$C$9,\"TESTING \"&B21&\"/\"&Inputs!$C$9,IF(AND(L21>0,I21>=Inputs!$C$10),\"PROMOTE-ELIGIBLE\",IF(L21<=0,\"CUT\",\"WATCH\"))))",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AI$2:$AI$2000,$A21,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AI$2:$AI$2000,$A21,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,0)"
+    ],
+    [],
+    [
+      "By outcome type (closed trades)"
+    ],
+    [
+      "Outcome",
+      "Trades",
+      "Share of closed",
+      "Avg gross P&L ($)",
+      "Avg net P&L ($)",
+      "Total net P&L ($)"
+    ],
+    [
+      "TP3_HIT",
+      "=COUNTIFS(Positions!$N$2:$N$2000,$A25)",
+      "=IF(SUM($B$25:$B$27)=0,0,B25/SUM($B$25:$B$27))",
+      "=IF(B25=0,0,SUMIFS(Positions!$AD$2:$AD$2000,Positions!$N$2:$N$2000,$A25)/B25)",
+      "=IF(B25=0,0,F25/B25)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$N$2:$N$2000,$A25)"
+    ],
+    [
+      "BE_EXIT",
+      "=COUNTIFS(Positions!$N$2:$N$2000,$A26)",
+      "=IF(SUM($B$25:$B$27)=0,0,B26/SUM($B$25:$B$27))",
+      "=IF(B26=0,0,SUMIFS(Positions!$AD$2:$AD$2000,Positions!$N$2:$N$2000,$A26)/B26)",
+      "=IF(B26=0,0,F26/B26)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$N$2:$N$2000,$A26)"
+    ],
+    [
+      "SL_HIT",
+      "=COUNTIFS(Positions!$N$2:$N$2000,$A27)",
+      "=IF(SUM($B$25:$B$27)=0,0,B27/SUM($B$25:$B$27))",
+      "=IF(B27=0,0,SUMIFS(Positions!$AD$2:$AD$2000,Positions!$N$2:$N$2000,$A27)/B27)",
+      "=IF(B27=0,0,F27/B27)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$N$2:$N$2000,$A27)"
+    ],
+    [],
+    [
+      "Stop-loss hits by ORIGINAL stop width (Whale SL invalidation distance % of entry)"
+    ],
+    [
+      "Stop width bucket",
+      "Lower bound",
+      "Upper bound",
+      "SL hits",
+      "Avg net loss ($)",
+      "Total net loss ($)"
+    ],
+    [
+      "< 1.5%",
+      0.0,
+      0.015,
+      "=COUNTIFS(Positions!$AX$2:$AX$2000,\">=\"&B31,Positions!$AX$2:$AX$2000,\"<\"&C31)",
+      "=IF(D31=0,0,F31/D31)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AX$2:$AX$2000,\">=\"&B31,Positions!$AX$2:$AX$2000,\"<\"&C31)"
+    ],
+    [
+      "1.5% - 2.5%",
+      0.015,
+      0.025,
+      "=COUNTIFS(Positions!$AX$2:$AX$2000,\">=\"&B32,Positions!$AX$2:$AX$2000,\"<\"&C32)",
+      "=IF(D32=0,0,F32/D32)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AX$2:$AX$2000,\">=\"&B32,Positions!$AX$2:$AX$2000,\"<\"&C32)"
+    ],
+    [
+      "2.5% - 4.0%",
+      0.025,
+      0.04,
+      "=COUNTIFS(Positions!$AX$2:$AX$2000,\">=\"&B33,Positions!$AX$2:$AX$2000,\"<\"&C33)",
+      "=IF(D33=0,0,F33/D33)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AX$2:$AX$2000,\">=\"&B33,Positions!$AX$2:$AX$2000,\"<\"&C33)"
+    ],
+    [
+      "> 4.0%",
+      0.04,
+      1.0,
+      "=COUNTIFS(Positions!$AX$2:$AX$2000,\">=\"&B34,Positions!$AX$2:$AX$2000,\"<\"&C34)",
+      "=IF(D34=0,0,F34/D34)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AX$2:$AX$2000,\">=\"&B34,Positions!$AX$2:$AX$2000,\"<\"&C34)"
+    ],
+    [],
+    [],
+    [
+      "By Multi-Timeframe Trend & Spot ETF Institutional Flow Factor"
+    ],
+    [
+      "Group",
+      "Closed",
+      "Wins",
+      "Losses",
+      "Win rate",
+      "Avg win ($)",
+      "Avg loss ($)",
+      "Payoff (W/L)",
+      "Profit factor",
+      "Gross P&L ($)",
+      "Net P&L ($)",
+      "Expectancy / trade ($)",
+      "Std dev ($)",
+      "t-stat",
+      "95% CI low ($)",
+      "95% CI high ($)",
+      "Verdict",
+      "helper: win $",
+      "helper: loss $"
+    ],
+    [
+      "BEARISH",
+      "=COUNTIFS(Positions!$AL$2:$AL$2000,$A39,Positions!$AP$2:$AP$2000,1)",
+      "=COUNTIFS(Positions!$AL$2:$AL$2000,$A39,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=B39-C39",
+      "=IF(B39=0,0,C39/B39)",
+      "=IF(C39=0,0,R39/C39)",
+      "=IF(D39=0,0,S39/D39)",
+      "=IF(G39=0,0,F39/ABS(G39))",
+      "=IF(S39=0,IF(R39>0,999,0),R39/ABS(S39))",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$AL$2:$AL$2000,$A39,Positions!$AP$2:$AP$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AL$2:$AL$2000,$A39,Positions!$AP$2:$AP$2000,1)",
+      "=IF(B39=0,0,K39/B39)",
+      "=IF(B39>1,SQRT(MAX(0,(SUMIFS(Positions!$AT$2:$AT$2000,Positions!$AL$2:$AL$2000,$A39,Positions!$AP$2:$AP$2000,1)-B39*L39^2)/(B39-1))),0)",
+      "=IF(M39=0,0,L39/(M39/SQRT(B39)))",
+      "=IF(B39>1,L39-1.96*M39/SQRT(B39),0)",
+      "=IF(B39>1,L39+1.96*M39/SQRT(B39),0)",
+      "=IF(B39=0,\"NO TRADES\",IF(B39<Inputs!$C$9,\"TESTING \"&B39&\"/\"&Inputs!$C$9,IF(AND(L39>0,I39>=Inputs!$C$10),\"PROMOTE-ELIGIBLE\",IF(L39<=0,\"CUT\",\"WATCH\"))))",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AL$2:$AL$2000,$A39,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AL$2:$AL$2000,$A39,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,0)"
+    ],
+    [
+      "BULLISH",
+      "=COUNTIFS(Positions!$AL$2:$AL$2000,$A40,Positions!$AP$2:$AP$2000,1)",
+      "=COUNTIFS(Positions!$AL$2:$AL$2000,$A40,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=B40-C40",
+      "=IF(B40=0,0,C40/B40)",
+      "=IF(C40=0,0,R40/C40)",
+      "=IF(D40=0,0,S40/D40)",
+      "=IF(G40=0,0,F40/ABS(G40))",
+      "=IF(S40=0,IF(R40>0,999,0),R40/ABS(S40))",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$AL$2:$AL$2000,$A40,Positions!$AP$2:$AP$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AL$2:$AL$2000,$A40,Positions!$AP$2:$AP$2000,1)",
+      "=IF(B40=0,0,K40/B40)",
+      "=IF(B40>1,SQRT(MAX(0,(SUMIFS(Positions!$AT$2:$AT$2000,Positions!$AL$2:$AL$2000,$A40,Positions!$AP$2:$AP$2000,1)-B40*L40^2)/(B40-1))),0)",
+      "=IF(M40=0,0,L40/(M40/SQRT(B40)))",
+      "=IF(B40>1,L40-1.96*M40/SQRT(B40),0)",
+      "=IF(B40>1,L40+1.96*M40/SQRT(B40),0)",
+      "=IF(B40=0,\"NO TRADES\",IF(B40<Inputs!$C$9,\"TESTING \"&B40&\"/\"&Inputs!$C$9,IF(AND(L40>0,I40>=Inputs!$C$10),\"PROMOTE-ELIGIBLE\",IF(L40<=0,\"CUT\",\"WATCH\"))))",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AL$2:$AL$2000,$A40,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AL$2:$AL$2000,$A40,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,0)"
+    ],
+    [
+      "MIXED / RANGE",
+      "=COUNTIFS(Positions!$AL$2:$AL$2000,$A41,Positions!$AP$2:$AP$2000,1)",
+      "=COUNTIFS(Positions!$AL$2:$AL$2000,$A41,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=B41-C41",
+      "=IF(B41=0,0,C41/B41)",
+      "=IF(C41=0,0,R41/C41)",
+      "=IF(D41=0,0,S41/D41)",
+      "=IF(G41=0,0,F41/ABS(G41))",
+      "=IF(S41=0,IF(R41>0,999,0),R41/ABS(S41))",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$AL$2:$AL$2000,$A41,Positions!$AP$2:$AP$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AL$2:$AL$2000,$A41,Positions!$AP$2:$AP$2000,1)",
+      "=IF(B41=0,0,K41/B41)",
+      "=IF(B41>1,SQRT(MAX(0,(SUMIFS(Positions!$AT$2:$AT$2000,Positions!$AL$2:$AL$2000,$A41,Positions!$AP$2:$AP$2000,1)-B41*L41^2)/(B41-1))),0)",
+      "=IF(M41=0,0,L41/(M41/SQRT(B41)))",
+      "=IF(B41>1,L41-1.96*M41/SQRT(B41),0)",
+      "=IF(B41>1,L41+1.96*M41/SQRT(B41),0)",
+      "=IF(B41=0,\"NO TRADES\",IF(B41<Inputs!$C$9,\"TESTING \"&B41&\"/\"&Inputs!$C$9,IF(AND(L41>0,I41>=Inputs!$C$10),\"PROMOTE-ELIGIBLE\",IF(L41<=0,\"CUT\",\"WATCH\"))))",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AL$2:$AL$2000,$A41,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AL$2:$AL$2000,$A41,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,0)"
+    ],
+    [
+      "OUTFLOW",
+      "=COUNTIFS(Positions!$AN$2:$AN$2000,$A42,Positions!$AP$2:$AP$2000,1)",
+      "=COUNTIFS(Positions!$AN$2:$AN$2000,$A42,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=B42-C42",
+      "=IF(B42=0,0,C42/B42)",
+      "=IF(C42=0,0,R42/C42)",
+      "=IF(D42=0,0,S42/D42)",
+      "=IF(G42=0,0,F42/ABS(G42))",
+      "=IF(S42=0,IF(R42>0,999,0),R42/ABS(S42))",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$AN$2:$AN$2000,$A42,Positions!$AP$2:$AP$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AN$2:$AN$2000,$A42,Positions!$AP$2:$AP$2000,1)",
+      "=IF(B42=0,0,K42/B42)",
+      "=IF(B42>1,SQRT(MAX(0,(SUMIFS(Positions!$AT$2:$AT$2000,Positions!$AN$2:$AN$2000,$A42,Positions!$AP$2:$AP$2000,1)-B42*L42^2)/(B42-1))),0)",
+      "=IF(M42=0,0,L42/(M42/SQRT(B42)))",
+      "=IF(B42>1,L42-1.96*M42/SQRT(B42),0)",
+      "=IF(B42>1,L42+1.96*M42/SQRT(B42),0)",
+      "=IF(B42=0,\"NO TRADES\",IF(B42<Inputs!$C$9,\"TESTING \"&B42&\"/\"&Inputs!$C$9,IF(AND(L42>0,I42>=Inputs!$C$10),\"PROMOTE-ELIGIBLE\",IF(L42<=0,\"CUT\",\"WATCH\"))))",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AN$2:$AN$2000,$A42,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AN$2:$AN$2000,$A42,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,0)"
+    ],
+    [
+      "INFLOW",
+      "=COUNTIFS(Positions!$AN$2:$AN$2000,$A43,Positions!$AP$2:$AP$2000,1)",
+      "=COUNTIFS(Positions!$AN$2:$AN$2000,$A43,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=B43-C43",
+      "=IF(B43=0,0,C43/B43)",
+      "=IF(C43=0,0,R43/C43)",
+      "=IF(D43=0,0,S43/D43)",
+      "=IF(G43=0,0,F43/ABS(G43))",
+      "=IF(S43=0,IF(R43>0,999,0),R43/ABS(S43))",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$AN$2:$AN$2000,$A43,Positions!$AP$2:$AP$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AN$2:$AN$2000,$A43,Positions!$AP$2:$AP$2000,1)",
+      "=IF(B43=0,0,K43/B43)",
+      "=IF(B43>1,SQRT(MAX(0,(SUMIFS(Positions!$AT$2:$AT$2000,Positions!$AN$2:$AN$2000,$A43,Positions!$AP$2:$AP$2000,1)-B43*L43^2)/(B43-1))),0)",
+      "=IF(M43=0,0,L43/(M43/SQRT(B43)))",
+      "=IF(B43>1,L43-1.96*M43/SQRT(B43),0)",
+      "=IF(B43>1,L43+1.96*M43/SQRT(B43),0)",
+      "=IF(B43=0,\"NO TRADES\",IF(B43<Inputs!$C$9,\"TESTING \"&B43&\"/\"&Inputs!$C$9,IF(AND(L43>0,I43>=Inputs!$C$10),\"PROMOTE-ELIGIBLE\",IF(L43<=0,\"CUT\",\"WATCH\"))))",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AN$2:$AN$2000,$A43,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AN$2:$AN$2000,$A43,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,0)"
+    ],
+    [],
+    [
+      "By coin (Top 20 Watchlist Coins, ranked by net P&L)"
+    ],
+    [
+      "Group",
+      "Closed",
+      "Wins",
+      "Losses",
+      "Win rate",
+      "Avg win ($)",
+      "Avg loss ($)",
+      "Payoff (W/L)",
+      "Profit factor",
+      "Gross P&L ($)",
+      "Net P&L ($)",
+      "Expectancy / trade ($)",
+      "Std dev ($)",
+      "t-stat",
+      "95% CI low ($)",
+      "95% CI high ($)",
+      "Verdict",
+      "helper: win $",
+      "helper: loss $"
+    ],
+    [
+      "SUI-USDT",
+      "=COUNTIFS(Positions!$D$2:$D$2000,$A47,Positions!$AP$2:$AP$2000,1)",
+      "=COUNTIFS(Positions!$D$2:$D$2000,$A47,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=B47-C47",
+      "=IF(B47=0,0,C47/B47)",
+      "=IF(C47=0,0,R47/C47)",
+      "=IF(D47=0,0,S47/D47)",
+      "=IF(G47=0,0,F47/ABS(G47))",
+      "=IF(S47=0,IF(R47>0,999,0),R47/ABS(S47))",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$D$2:$D$2000,$A47,Positions!$AP$2:$AP$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A47,Positions!$AP$2:$AP$2000,1)",
+      "=IF(B47=0,0,K47/B47)",
+      "=IF(B47>1,SQRT(MAX(0,(SUMIFS(Positions!$AT$2:$AT$2000,Positions!$D$2:$D$2000,$A47,Positions!$AP$2:$AP$2000,1)-B47*L47^2)/(B47-1))),0)",
+      "=IF(M47=0,0,L47/(M47/SQRT(B47)))",
+      "=IF(B47>1,L47-1.96*M47/SQRT(B47),0)",
+      "=IF(B47>1,L47+1.96*M47/SQRT(B47),0)",
+      "=IF(B47=0,\"NO TRADES\",IF(B47<Inputs!$C$9,\"TESTING \"&B47&\"/\"&Inputs!$C$9,IF(AND(L47>0,I47>=Inputs!$C$10),\"PROMOTE-ELIGIBLE\",IF(L47<=0,\"CUT\",\"WATCH\"))))",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A47,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A47,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,0)"
+    ],
+    [
+      "XRP-USDT",
+      "=COUNTIFS(Positions!$D$2:$D$2000,$A48,Positions!$AP$2:$AP$2000,1)",
+      "=COUNTIFS(Positions!$D$2:$D$2000,$A48,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=B48-C48",
+      "=IF(B48=0,0,C48/B48)",
+      "=IF(C48=0,0,R48/C48)",
+      "=IF(D48=0,0,S48/D48)",
+      "=IF(G48=0,0,F48/ABS(G48))",
+      "=IF(S48=0,IF(R48>0,999,0),R48/ABS(S48))",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$D$2:$D$2000,$A48,Positions!$AP$2:$AP$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A48,Positions!$AP$2:$AP$2000,1)",
+      "=IF(B48=0,0,K48/B48)",
+      "=IF(B48>1,SQRT(MAX(0,(SUMIFS(Positions!$AT$2:$AT$2000,Positions!$D$2:$D$2000,$A48,Positions!$AP$2:$AP$2000,1)-B48*L48^2)/(B48-1))),0)",
+      "=IF(M48=0,0,L48/(M48/SQRT(B48)))",
+      "=IF(B48>1,L48-1.96*M48/SQRT(B48),0)",
+      "=IF(B48>1,L48+1.96*M48/SQRT(B48),0)",
+      "=IF(B48=0,\"NO TRADES\",IF(B48<Inputs!$C$9,\"TESTING \"&B48&\"/\"&Inputs!$C$9,IF(AND(L48>0,I48>=Inputs!$C$10),\"PROMOTE-ELIGIBLE\",IF(L48<=0,\"CUT\",\"WATCH\"))))",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A48,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A48,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,0)"
+    ],
+    [
+      "SOL-USDT",
+      "=COUNTIFS(Positions!$D$2:$D$2000,$A49,Positions!$AP$2:$AP$2000,1)",
+      "=COUNTIFS(Positions!$D$2:$D$2000,$A49,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=B49-C49",
+      "=IF(B49=0,0,C49/B49)",
+      "=IF(C49=0,0,R49/C49)",
+      "=IF(D49=0,0,S49/D49)",
+      "=IF(G49=0,0,F49/ABS(G49))",
+      "=IF(S49=0,IF(R49>0,999,0),R49/ABS(S49))",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$D$2:$D$2000,$A49,Positions!$AP$2:$AP$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A49,Positions!$AP$2:$AP$2000,1)",
+      "=IF(B49=0,0,K49/B49)",
+      "=IF(B49>1,SQRT(MAX(0,(SUMIFS(Positions!$AT$2:$AT$2000,Positions!$D$2:$D$2000,$A49,Positions!$AP$2:$AP$2000,1)-B49*L49^2)/(B49-1))),0)",
+      "=IF(M49=0,0,L49/(M49/SQRT(B49)))",
+      "=IF(B49>1,L49-1.96*M49/SQRT(B49),0)",
+      "=IF(B49>1,L49+1.96*M49/SQRT(B49),0)",
+      "=IF(B49=0,\"NO TRADES\",IF(B49<Inputs!$C$9,\"TESTING \"&B49&\"/\"&Inputs!$C$9,IF(AND(L49>0,I49>=Inputs!$C$10),\"PROMOTE-ELIGIBLE\",IF(L49<=0,\"CUT\",\"WATCH\"))))",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A49,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A49,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,0)"
+    ],
+    [
+      "BTC-USDT",
+      "=COUNTIFS(Positions!$D$2:$D$2000,$A50,Positions!$AP$2:$AP$2000,1)",
+      "=COUNTIFS(Positions!$D$2:$D$2000,$A50,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=B50-C50",
+      "=IF(B50=0,0,C50/B50)",
+      "=IF(C50=0,0,R50/C50)",
+      "=IF(D50=0,0,S50/D50)",
+      "=IF(G50=0,0,F50/ABS(G50))",
+      "=IF(S50=0,IF(R50>0,999,0),R50/ABS(S50))",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$D$2:$D$2000,$A50,Positions!$AP$2:$AP$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A50,Positions!$AP$2:$AP$2000,1)",
+      "=IF(B50=0,0,K50/B50)",
+      "=IF(B50>1,SQRT(MAX(0,(SUMIFS(Positions!$AT$2:$AT$2000,Positions!$D$2:$D$2000,$A50,Positions!$AP$2:$AP$2000,1)-B50*L50^2)/(B50-1))),0)",
+      "=IF(M50=0,0,L50/(M50/SQRT(B50)))",
+      "=IF(B50>1,L50-1.96*M50/SQRT(B50),0)",
+      "=IF(B50>1,L50+1.96*M50/SQRT(B50),0)",
+      "=IF(B50=0,\"NO TRADES\",IF(B50<Inputs!$C$9,\"TESTING \"&B50&\"/\"&Inputs!$C$9,IF(AND(L50>0,I50>=Inputs!$C$10),\"PROMOTE-ELIGIBLE\",IF(L50<=0,\"CUT\",\"WATCH\"))))",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A50,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A50,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,0)"
+    ],
+    [
+      "ETH-USDT",
+      "=COUNTIFS(Positions!$D$2:$D$2000,$A51,Positions!$AP$2:$AP$2000,1)",
+      "=COUNTIFS(Positions!$D$2:$D$2000,$A51,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=B51-C51",
+      "=IF(B51=0,0,C51/B51)",
+      "=IF(C51=0,0,R51/C51)",
+      "=IF(D51=0,0,S51/D51)",
+      "=IF(G51=0,0,F51/ABS(G51))",
+      "=IF(S51=0,IF(R51>0,999,0),R51/ABS(S51))",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$D$2:$D$2000,$A51,Positions!$AP$2:$AP$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A51,Positions!$AP$2:$AP$2000,1)",
+      "=IF(B51=0,0,K51/B51)",
+      "=IF(B51>1,SQRT(MAX(0,(SUMIFS(Positions!$AT$2:$AT$2000,Positions!$D$2:$D$2000,$A51,Positions!$AP$2:$AP$2000,1)-B51*L51^2)/(B51-1))),0)",
+      "=IF(M51=0,0,L51/(M51/SQRT(B51)))",
+      "=IF(B51>1,L51-1.96*M51/SQRT(B51),0)",
+      "=IF(B51>1,L51+1.96*M51/SQRT(B51),0)",
+      "=IF(B51=0,\"NO TRADES\",IF(B51<Inputs!$C$9,\"TESTING \"&B51&\"/\"&Inputs!$C$9,IF(AND(L51>0,I51>=Inputs!$C$10),\"PROMOTE-ELIGIBLE\",IF(L51<=0,\"CUT\",\"WATCH\"))))",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A51,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A51,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,0)"
+    ],
+    [
+      "DOGE-USDT",
+      "=COUNTIFS(Positions!$D$2:$D$2000,$A52,Positions!$AP$2:$AP$2000,1)",
+      "=COUNTIFS(Positions!$D$2:$D$2000,$A52,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=B52-C52",
+      "=IF(B52=0,0,C52/B52)",
+      "=IF(C52=0,0,R52/C52)",
+      "=IF(D52=0,0,S52/D52)",
+      "=IF(G52=0,0,F52/ABS(G52))",
+      "=IF(S52=0,IF(R52>0,999,0),R52/ABS(S52))",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$D$2:$D$2000,$A52,Positions!$AP$2:$AP$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A52,Positions!$AP$2:$AP$2000,1)",
+      "=IF(B52=0,0,K52/B52)",
+      "=IF(B52>1,SQRT(MAX(0,(SUMIFS(Positions!$AT$2:$AT$2000,Positions!$D$2:$D$2000,$A52,Positions!$AP$2:$AP$2000,1)-B52*L52^2)/(B52-1))),0)",
+      "=IF(M52=0,0,L52/(M52/SQRT(B52)))",
+      "=IF(B52>1,L52-1.96*M52/SQRT(B52),0)",
+      "=IF(B52>1,L52+1.96*M52/SQRT(B52),0)",
+      "=IF(B52=0,\"NO TRADES\",IF(B52<Inputs!$C$9,\"TESTING \"&B52&\"/\"&Inputs!$C$9,IF(AND(L52>0,I52>=Inputs!$C$10),\"PROMOTE-ELIGIBLE\",IF(L52<=0,\"CUT\",\"WATCH\"))))",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A52,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A52,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,0)"
+    ],
+    [
+      "BNB-USDT",
+      "=COUNTIFS(Positions!$D$2:$D$2000,$A53,Positions!$AP$2:$AP$2000,1)",
+      "=COUNTIFS(Positions!$D$2:$D$2000,$A53,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=B53-C53",
+      "=IF(B53=0,0,C53/B53)",
+      "=IF(C53=0,0,R53/C53)",
+      "=IF(D53=0,0,S53/D53)",
+      "=IF(G53=0,0,F53/ABS(G53))",
+      "=IF(S53=0,IF(R53>0,999,0),R53/ABS(S53))",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$D$2:$D$2000,$A53,Positions!$AP$2:$AP$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A53,Positions!$AP$2:$AP$2000,1)",
+      "=IF(B53=0,0,K53/B53)",
+      "=IF(B53>1,SQRT(MAX(0,(SUMIFS(Positions!$AT$2:$AT$2000,Positions!$D$2:$D$2000,$A53,Positions!$AP$2:$AP$2000,1)-B53*L53^2)/(B53-1))),0)",
+      "=IF(M53=0,0,L53/(M53/SQRT(B53)))",
+      "=IF(B53>1,L53-1.96*M53/SQRT(B53),0)",
+      "=IF(B53>1,L53+1.96*M53/SQRT(B53),0)",
+      "=IF(B53=0,\"NO TRADES\",IF(B53<Inputs!$C$9,\"TESTING \"&B53&\"/\"&Inputs!$C$9,IF(AND(L53>0,I53>=Inputs!$C$10),\"PROMOTE-ELIGIBLE\",IF(L53<=0,\"CUT\",\"WATCH\"))))",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A53,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A53,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,0)"
+    ],
+    [
+      "ADA-USDT",
+      "=COUNTIFS(Positions!$D$2:$D$2000,$A54,Positions!$AP$2:$AP$2000,1)",
+      "=COUNTIFS(Positions!$D$2:$D$2000,$A54,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=B54-C54",
+      "=IF(B54=0,0,C54/B54)",
+      "=IF(C54=0,0,R54/C54)",
+      "=IF(D54=0,0,S54/D54)",
+      "=IF(G54=0,0,F54/ABS(G54))",
+      "=IF(S54=0,IF(R54>0,999,0),R54/ABS(S54))",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$D$2:$D$2000,$A54,Positions!$AP$2:$AP$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A54,Positions!$AP$2:$AP$2000,1)",
+      "=IF(B54=0,0,K54/B54)",
+      "=IF(B54>1,SQRT(MAX(0,(SUMIFS(Positions!$AT$2:$AT$2000,Positions!$D$2:$D$2000,$A54,Positions!$AP$2:$AP$2000,1)-B54*L54^2)/(B54-1))),0)",
+      "=IF(M54=0,0,L54/(M54/SQRT(B54)))",
+      "=IF(B54>1,L54-1.96*M54/SQRT(B54),0)",
+      "=IF(B54>1,L54+1.96*M54/SQRT(B54),0)",
+      "=IF(B54=0,\"NO TRADES\",IF(B54<Inputs!$C$9,\"TESTING \"&B54&\"/\"&Inputs!$C$9,IF(AND(L54>0,I54>=Inputs!$C$10),\"PROMOTE-ELIGIBLE\",IF(L54<=0,\"CUT\",\"WATCH\"))))",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A54,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A54,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,0)"
+    ],
+    [
+      "TRX-USDT",
+      "=COUNTIFS(Positions!$D$2:$D$2000,$A55,Positions!$AP$2:$AP$2000,1)",
+      "=COUNTIFS(Positions!$D$2:$D$2000,$A55,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=B55-C55",
+      "=IF(B55=0,0,C55/B55)",
+      "=IF(C55=0,0,R55/C55)",
+      "=IF(D55=0,0,S55/D55)",
+      "=IF(G55=0,0,F55/ABS(G55))",
+      "=IF(S55=0,IF(R55>0,999,0),R55/ABS(S55))",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$D$2:$D$2000,$A55,Positions!$AP$2:$AP$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A55,Positions!$AP$2:$AP$2000,1)",
+      "=IF(B55=0,0,K55/B55)",
+      "=IF(B55>1,SQRT(MAX(0,(SUMIFS(Positions!$AT$2:$AT$2000,Positions!$D$2:$D$2000,$A55,Positions!$AP$2:$AP$2000,1)-B55*L55^2)/(B55-1))),0)",
+      "=IF(M55=0,0,L55/(M55/SQRT(B55)))",
+      "=IF(B55>1,L55-1.96*M55/SQRT(B55),0)",
+      "=IF(B55>1,L55+1.96*M55/SQRT(B55),0)",
+      "=IF(B55=0,\"NO TRADES\",IF(B55<Inputs!$C$9,\"TESTING \"&B55&\"/\"&Inputs!$C$9,IF(AND(L55>0,I55>=Inputs!$C$10),\"PROMOTE-ELIGIBLE\",IF(L55<=0,\"CUT\",\"WATCH\"))))",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A55,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A55,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,0)"
+    ],
+    [
+      "AVAX-USDT",
+      "=COUNTIFS(Positions!$D$2:$D$2000,$A56,Positions!$AP$2:$AP$2000,1)",
+      "=COUNTIFS(Positions!$D$2:$D$2000,$A56,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=B56-C56",
+      "=IF(B56=0,0,C56/B56)",
+      "=IF(C56=0,0,R56/C56)",
+      "=IF(D56=0,0,S56/D56)",
+      "=IF(G56=0,0,F56/ABS(G56))",
+      "=IF(S56=0,IF(R56>0,999,0),R56/ABS(S56))",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$D$2:$D$2000,$A56,Positions!$AP$2:$AP$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A56,Positions!$AP$2:$AP$2000,1)",
+      "=IF(B56=0,0,K56/B56)",
+      "=IF(B56>1,SQRT(MAX(0,(SUMIFS(Positions!$AT$2:$AT$2000,Positions!$D$2:$D$2000,$A56,Positions!$AP$2:$AP$2000,1)-B56*L56^2)/(B56-1))),0)",
+      "=IF(M56=0,0,L56/(M56/SQRT(B56)))",
+      "=IF(B56>1,L56-1.96*M56/SQRT(B56),0)",
+      "=IF(B56>1,L56+1.96*M56/SQRT(B56),0)",
+      "=IF(B56=0,\"NO TRADES\",IF(B56<Inputs!$C$9,\"TESTING \"&B56&\"/\"&Inputs!$C$9,IF(AND(L56>0,I56>=Inputs!$C$10),\"PROMOTE-ELIGIBLE\",IF(L56<=0,\"CUT\",\"WATCH\"))))",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A56,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A56,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,0)"
+    ],
+    [
+      "LINK-USDT",
+      "=COUNTIFS(Positions!$D$2:$D$2000,$A57,Positions!$AP$2:$AP$2000,1)",
+      "=COUNTIFS(Positions!$D$2:$D$2000,$A57,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=B57-C57",
+      "=IF(B57=0,0,C57/B57)",
+      "=IF(C57=0,0,R57/C57)",
+      "=IF(D57=0,0,S57/D57)",
+      "=IF(G57=0,0,F57/ABS(G57))",
+      "=IF(S57=0,IF(R57>0,999,0),R57/ABS(S57))",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$D$2:$D$2000,$A57,Positions!$AP$2:$AP$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A57,Positions!$AP$2:$AP$2000,1)",
+      "=IF(B57=0,0,K57/B57)",
+      "=IF(B57>1,SQRT(MAX(0,(SUMIFS(Positions!$AT$2:$AT$2000,Positions!$D$2:$D$2000,$A57,Positions!$AP$2:$AP$2000,1)-B57*L57^2)/(B57-1))),0)",
+      "=IF(M57=0,0,L57/(M57/SQRT(B57)))",
+      "=IF(B57>1,L57-1.96*M57/SQRT(B57),0)",
+      "=IF(B57>1,L57+1.96*M57/SQRT(B57),0)",
+      "=IF(B57=0,\"NO TRADES\",IF(B57<Inputs!$C$9,\"TESTING \"&B57&\"/\"&Inputs!$C$9,IF(AND(L57>0,I57>=Inputs!$C$10),\"PROMOTE-ELIGIBLE\",IF(L57<=0,\"CUT\",\"WATCH\"))))",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A57,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A57,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,0)"
+    ],
+    [
+      "TON-USDT",
+      "=COUNTIFS(Positions!$D$2:$D$2000,$A58,Positions!$AP$2:$AP$2000,1)",
+      "=COUNTIFS(Positions!$D$2:$D$2000,$A58,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=B58-C58",
+      "=IF(B58=0,0,C58/B58)",
+      "=IF(C58=0,0,R58/C58)",
+      "=IF(D58=0,0,S58/D58)",
+      "=IF(G58=0,0,F58/ABS(G58))",
+      "=IF(S58=0,IF(R58>0,999,0),R58/ABS(S58))",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$D$2:$D$2000,$A58,Positions!$AP$2:$AP$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A58,Positions!$AP$2:$AP$2000,1)",
+      "=IF(B58=0,0,K58/B58)",
+      "=IF(B58>1,SQRT(MAX(0,(SUMIFS(Positions!$AT$2:$AT$2000,Positions!$D$2:$D$2000,$A58,Positions!$AP$2:$AP$2000,1)-B58*L58^2)/(B58-1))),0)",
+      "=IF(M58=0,0,L58/(M58/SQRT(B58)))",
+      "=IF(B58>1,L58-1.96*M58/SQRT(B58),0)",
+      "=IF(B58>1,L58+1.96*M58/SQRT(B58),0)",
+      "=IF(B58=0,\"NO TRADES\",IF(B58<Inputs!$C$9,\"TESTING \"&B58&\"/\"&Inputs!$C$9,IF(AND(L58>0,I58>=Inputs!$C$10),\"PROMOTE-ELIGIBLE\",IF(L58<=0,\"CUT\",\"WATCH\"))))",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A58,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A58,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,0)"
+    ],
+    [
+      "DOT-USDT",
+      "=COUNTIFS(Positions!$D$2:$D$2000,$A59,Positions!$AP$2:$AP$2000,1)",
+      "=COUNTIFS(Positions!$D$2:$D$2000,$A59,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=B59-C59",
+      "=IF(B59=0,0,C59/B59)",
+      "=IF(C59=0,0,R59/C59)",
+      "=IF(D59=0,0,S59/D59)",
+      "=IF(G59=0,0,F59/ABS(G59))",
+      "=IF(S59=0,IF(R59>0,999,0),R59/ABS(S59))",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$D$2:$D$2000,$A59,Positions!$AP$2:$AP$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A59,Positions!$AP$2:$AP$2000,1)",
+      "=IF(B59=0,0,K59/B59)",
+      "=IF(B59>1,SQRT(MAX(0,(SUMIFS(Positions!$AT$2:$AT$2000,Positions!$D$2:$D$2000,$A59,Positions!$AP$2:$AP$2000,1)-B59*L59^2)/(B59-1))),0)",
+      "=IF(M59=0,0,L59/(M59/SQRT(B59)))",
+      "=IF(B59>1,L59-1.96*M59/SQRT(B59),0)",
+      "=IF(B59>1,L59+1.96*M59/SQRT(B59),0)",
+      "=IF(B59=0,\"NO TRADES\",IF(B59<Inputs!$C$9,\"TESTING \"&B59&\"/\"&Inputs!$C$9,IF(AND(L59>0,I59>=Inputs!$C$10),\"PROMOTE-ELIGIBLE\",IF(L59<=0,\"CUT\",\"WATCH\"))))",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A59,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A59,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,0)"
+    ],
+    [
+      "BCH-USDT",
+      "=COUNTIFS(Positions!$D$2:$D$2000,$A60,Positions!$AP$2:$AP$2000,1)",
+      "=COUNTIFS(Positions!$D$2:$D$2000,$A60,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=B60-C60",
+      "=IF(B60=0,0,C60/B60)",
+      "=IF(C60=0,0,R60/C60)",
+      "=IF(D60=0,0,S60/D60)",
+      "=IF(G60=0,0,F60/ABS(G60))",
+      "=IF(S60=0,IF(R60>0,999,0),R60/ABS(S60))",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$D$2:$D$2000,$A60,Positions!$AP$2:$AP$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A60,Positions!$AP$2:$AP$2000,1)",
+      "=IF(B60=0,0,K60/B60)",
+      "=IF(B60>1,SQRT(MAX(0,(SUMIFS(Positions!$AT$2:$AT$2000,Positions!$D$2:$D$2000,$A60,Positions!$AP$2:$AP$2000,1)-B60*L60^2)/(B60-1))),0)",
+      "=IF(M60=0,0,L60/(M60/SQRT(B60)))",
+      "=IF(B60>1,L60-1.96*M60/SQRT(B60),0)",
+      "=IF(B60>1,L60+1.96*M60/SQRT(B60),0)",
+      "=IF(B60=0,\"NO TRADES\",IF(B60<Inputs!$C$9,\"TESTING \"&B60&\"/\"&Inputs!$C$9,IF(AND(L60>0,I60>=Inputs!$C$10),\"PROMOTE-ELIGIBLE\",IF(L60<=0,\"CUT\",\"WATCH\"))))",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A60,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A60,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,0)"
+    ],
+    [
+      "NEAR-USDT",
+      "=COUNTIFS(Positions!$D$2:$D$2000,$A61,Positions!$AP$2:$AP$2000,1)",
+      "=COUNTIFS(Positions!$D$2:$D$2000,$A61,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=B61-C61",
+      "=IF(B61=0,0,C61/B61)",
+      "=IF(C61=0,0,R61/C61)",
+      "=IF(D61=0,0,S61/D61)",
+      "=IF(G61=0,0,F61/ABS(G61))",
+      "=IF(S61=0,IF(R61>0,999,0),R61/ABS(S61))",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$D$2:$D$2000,$A61,Positions!$AP$2:$AP$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A61,Positions!$AP$2:$AP$2000,1)",
+      "=IF(B61=0,0,K61/B61)",
+      "=IF(B61>1,SQRT(MAX(0,(SUMIFS(Positions!$AT$2:$AT$2000,Positions!$D$2:$D$2000,$A61,Positions!$AP$2:$AP$2000,1)-B61*L61^2)/(B61-1))),0)",
+      "=IF(M61=0,0,L61/(M61/SQRT(B61)))",
+      "=IF(B61>1,L61-1.96*M61/SQRT(B61),0)",
+      "=IF(B61>1,L61+1.96*M61/SQRT(B61),0)",
+      "=IF(B61=0,\"NO TRADES\",IF(B61<Inputs!$C$9,\"TESTING \"&B61&\"/\"&Inputs!$C$9,IF(AND(L61>0,I61>=Inputs!$C$10),\"PROMOTE-ELIGIBLE\",IF(L61<=0,\"CUT\",\"WATCH\"))))",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A61,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A61,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,0)"
+    ],
+    [
+      "LTC-USDT",
+      "=COUNTIFS(Positions!$D$2:$D$2000,$A62,Positions!$AP$2:$AP$2000,1)",
+      "=COUNTIFS(Positions!$D$2:$D$2000,$A62,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=B62-C62",
+      "=IF(B62=0,0,C62/B62)",
+      "=IF(C62=0,0,R62/C62)",
+      "=IF(D62=0,0,S62/D62)",
+      "=IF(G62=0,0,F62/ABS(G62))",
+      "=IF(S62=0,IF(R62>0,999,0),R62/ABS(S62))",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$D$2:$D$2000,$A62,Positions!$AP$2:$AP$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A62,Positions!$AP$2:$AP$2000,1)",
+      "=IF(B62=0,0,K62/B62)",
+      "=IF(B62>1,SQRT(MAX(0,(SUMIFS(Positions!$AT$2:$AT$2000,Positions!$D$2:$D$2000,$A62,Positions!$AP$2:$AP$2000,1)-B62*L62^2)/(B62-1))),0)",
+      "=IF(M62=0,0,L62/(M62/SQRT(B62)))",
+      "=IF(B62>1,L62-1.96*M62/SQRT(B62),0)",
+      "=IF(B62>1,L62+1.96*M62/SQRT(B62),0)",
+      "=IF(B62=0,\"NO TRADES\",IF(B62<Inputs!$C$9,\"TESTING \"&B62&\"/\"&Inputs!$C$9,IF(AND(L62>0,I62>=Inputs!$C$10),\"PROMOTE-ELIGIBLE\",IF(L62<=0,\"CUT\",\"WATCH\"))))",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A62,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A62,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,0)"
+    ],
+    [
+      "UNI-USDT",
+      "=COUNTIFS(Positions!$D$2:$D$2000,$A63,Positions!$AP$2:$AP$2000,1)",
+      "=COUNTIFS(Positions!$D$2:$D$2000,$A63,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=B63-C63",
+      "=IF(B63=0,0,C63/B63)",
+      "=IF(C63=0,0,R63/C63)",
+      "=IF(D63=0,0,S63/D63)",
+      "=IF(G63=0,0,F63/ABS(G63))",
+      "=IF(S63=0,IF(R63>0,999,0),R63/ABS(S63))",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$D$2:$D$2000,$A63,Positions!$AP$2:$AP$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A63,Positions!$AP$2:$AP$2000,1)",
+      "=IF(B63=0,0,K63/B63)",
+      "=IF(B63>1,SQRT(MAX(0,(SUMIFS(Positions!$AT$2:$AT$2000,Positions!$D$2:$D$2000,$A63,Positions!$AP$2:$AP$2000,1)-B63*L63^2)/(B63-1))),0)",
+      "=IF(M63=0,0,L63/(M63/SQRT(B63)))",
+      "=IF(B63>1,L63-1.96*M63/SQRT(B63),0)",
+      "=IF(B63>1,L63+1.96*M63/SQRT(B63),0)",
+      "=IF(B63=0,\"NO TRADES\",IF(B63<Inputs!$C$9,\"TESTING \"&B63&\"/\"&Inputs!$C$9,IF(AND(L63>0,I63>=Inputs!$C$10),\"PROMOTE-ELIGIBLE\",IF(L63<=0,\"CUT\",\"WATCH\"))))",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A63,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A63,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,0)"
+    ],
+    [
+      "APT-USDT",
+      "=COUNTIFS(Positions!$D$2:$D$2000,$A64,Positions!$AP$2:$AP$2000,1)",
+      "=COUNTIFS(Positions!$D$2:$D$2000,$A64,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=B64-C64",
+      "=IF(B64=0,0,C64/B64)",
+      "=IF(C64=0,0,R64/C64)",
+      "=IF(D64=0,0,S64/D64)",
+      "=IF(G64=0,0,F64/ABS(G64))",
+      "=IF(S64=0,IF(R64>0,999,0),R64/ABS(S64))",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$D$2:$D$2000,$A64,Positions!$AP$2:$AP$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A64,Positions!$AP$2:$AP$2000,1)",
+      "=IF(B64=0,0,K64/B64)",
+      "=IF(B64>1,SQRT(MAX(0,(SUMIFS(Positions!$AT$2:$AT$2000,Positions!$D$2:$D$2000,$A64,Positions!$AP$2:$AP$2000,1)-B64*L64^2)/(B64-1))),0)",
+      "=IF(M64=0,0,L64/(M64/SQRT(B64)))",
+      "=IF(B64>1,L64-1.96*M64/SQRT(B64),0)",
+      "=IF(B64>1,L64+1.96*M64/SQRT(B64),0)",
+      "=IF(B64=0,\"NO TRADES\",IF(B64<Inputs!$C$9,\"TESTING \"&B64&\"/\"&Inputs!$C$9,IF(AND(L64>0,I64>=Inputs!$C$10),\"PROMOTE-ELIGIBLE\",IF(L64<=0,\"CUT\",\"WATCH\"))))",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A64,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A64,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,0)"
+    ],
+    [
+      "AAVE-USDT",
+      "=COUNTIFS(Positions!$D$2:$D$2000,$A65,Positions!$AP$2:$AP$2000,1)",
+      "=COUNTIFS(Positions!$D$2:$D$2000,$A65,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=B65-C65",
+      "=IF(B65=0,0,C65/B65)",
+      "=IF(C65=0,0,R65/C65)",
+      "=IF(D65=0,0,S65/D65)",
+      "=IF(G65=0,0,F65/ABS(G65))",
+      "=IF(S65=0,IF(R65>0,999,0),R65/ABS(S65))",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$D$2:$D$2000,$A65,Positions!$AP$2:$AP$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A65,Positions!$AP$2:$AP$2000,1)",
+      "=IF(B65=0,0,K65/B65)",
+      "=IF(B65>1,SQRT(MAX(0,(SUMIFS(Positions!$AT$2:$AT$2000,Positions!$D$2:$D$2000,$A65,Positions!$AP$2:$AP$2000,1)-B65*L65^2)/(B65-1))),0)",
+      "=IF(M65=0,0,L65/(M65/SQRT(B65)))",
+      "=IF(B65>1,L65-1.96*M65/SQRT(B65),0)",
+      "=IF(B65>1,L65+1.96*M65/SQRT(B65),0)",
+      "=IF(B65=0,\"NO TRADES\",IF(B65<Inputs!$C$9,\"TESTING \"&B65&\"/\"&Inputs!$C$9,IF(AND(L65>0,I65>=Inputs!$C$10),\"PROMOTE-ELIGIBLE\",IF(L65<=0,\"CUT\",\"WATCH\"))))",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A65,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A65,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,0)"
+    ],
+    [
+      "TAO-USDT",
+      "=COUNTIFS(Positions!$D$2:$D$2000,$A66,Positions!$AP$2:$AP$2000,1)",
+      "=COUNTIFS(Positions!$D$2:$D$2000,$A66,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=B66-C66",
+      "=IF(B66=0,0,C66/B66)",
+      "=IF(C66=0,0,R66/C66)",
+      "=IF(D66=0,0,S66/D66)",
+      "=IF(G66=0,0,F66/ABS(G66))",
+      "=IF(S66=0,IF(R66>0,999,0),R66/ABS(S66))",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$D$2:$D$2000,$A66,Positions!$AP$2:$AP$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A66,Positions!$AP$2:$AP$2000,1)",
+      "=IF(B66=0,0,K66/B66)",
+      "=IF(B66>1,SQRT(MAX(0,(SUMIFS(Positions!$AT$2:$AT$2000,Positions!$D$2:$D$2000,$A66,Positions!$AP$2:$AP$2000,1)-B66*L66^2)/(B66-1))),0)",
+      "=IF(M66=0,0,L66/(M66/SQRT(B66)))",
+      "=IF(B66>1,L66-1.96*M66/SQRT(B66),0)",
+      "=IF(B66>1,L66+1.96*M66/SQRT(B66),0)",
+      "=IF(B66=0,\"NO TRADES\",IF(B66<Inputs!$C$9,\"TESTING \"&B66&\"/\"&Inputs!$C$9,IF(AND(L66>0,I66>=Inputs!$C$10),\"PROMOTE-ELIGIBLE\",IF(L66<=0,\"CUT\",\"WATCH\"))))",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A66,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,1)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$D$2:$D$2000,$A66,Positions!$AP$2:$AP$2000,1,Positions!$AS$2:$AS$2000,0)"
+    ]
+  ],
+  "Equity Curve": [
+    [
+      "Equity curve & drawdown (closed trades, chronological, net of costs)"
+    ],
+    [
+      "Equity = starting account + cumulative net P&L. Drawdown is measured from the running peak, in USD and as % of the starting account."
+    ],
+    [],
+    [
+      "#",
+      "Closed (PKT)",
+      "Strategy / Factor Basis",
+      "Coin",
+      "Side",
+      "Status",
+      "Gross P&L ($)",
+      "Costs ($)",
+      "Net P&L ($)",
+      "Cumulative Net P&L ($)",
+      "Equity ($)",
+      "Running peak ($)",
+      "Drawdown ($)",
+      "Drawdown (% of start)",
+      "Loss streak"
+    ],
+    [
+      0,
+      "",
+      "Account Start",
+      "",
+      "",
+      "",
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      "=Inputs!$C$4",
+      "=K5",
+      0.0,
+      0.0,
+      0
+    ],
+    [
+      1,
+      "=Positions!R2",
+      "=Positions!AJ2",
+      "=Positions!D2",
+      "=Positions!E2",
+      "=Positions!N2",
+      "=Positions!AD2",
+      "=Positions!AQ2",
+      "=Positions!AR2",
+      "=J5+I6",
+      "=Inputs!$C$4+J6",
+      "=MAX(L5,K6)",
+      "=K6-L6",
+      "=M6/Inputs!$C$4",
+      "=IF(I6<=0,O5+1,0)"
+    ],
+    [
+      2,
+      "=Positions!R3",
+      "=Positions!AJ3",
+      "=Positions!D3",
+      "=Positions!E3",
+      "=Positions!N3",
+      "=Positions!AD3",
+      "=Positions!AQ3",
+      "=Positions!AR3",
+      "=J6+I7",
+      "=Inputs!$C$4+J7",
+      "=MAX(L6,K7)",
+      "=K7-L7",
+      "=M7/Inputs!$C$4",
+      "=IF(I7<=0,O6+1,0)"
+    ],
+    [
+      3,
+      "=Positions!R4",
+      "=Positions!AJ4",
+      "=Positions!D4",
+      "=Positions!E4",
+      "=Positions!N4",
+      "=Positions!AD4",
+      "=Positions!AQ4",
+      "=Positions!AR4",
+      "=J7+I8",
+      "=Inputs!$C$4+J8",
+      "=MAX(L7,K8)",
+      "=K8-L8",
+      "=M8/Inputs!$C$4",
+      "=IF(I8<=0,O7+1,0)"
+    ],
+    [
+      4,
+      "=Positions!R5",
+      "=Positions!AJ5",
+      "=Positions!D5",
+      "=Positions!E5",
+      "=Positions!N5",
+      "=Positions!AD5",
+      "=Positions!AQ5",
+      "=Positions!AR5",
+      "=J8+I9",
+      "=Inputs!$C$4+J9",
+      "=MAX(L8,K9)",
+      "=K9-L9",
+      "=M9/Inputs!$C$4",
+      "=IF(I9<=0,O8+1,0)"
+    ],
+    [
+      5,
+      "=Positions!R6",
+      "=Positions!AJ6",
+      "=Positions!D6",
+      "=Positions!E6",
+      "=Positions!N6",
+      "=Positions!AD6",
+      "=Positions!AQ6",
+      "=Positions!AR6",
+      "=J9+I10",
+      "=Inputs!$C$4+J10",
+      "=MAX(L9,K10)",
+      "=K10-L10",
+      "=M10/Inputs!$C$4",
+      "=IF(I10<=0,O9+1,0)"
+    ],
+    [
+      6,
+      "=Positions!R7",
+      "=Positions!AJ7",
+      "=Positions!D7",
+      "=Positions!E7",
+      "=Positions!N7",
+      "=Positions!AD7",
+      "=Positions!AQ7",
+      "=Positions!AR7",
+      "=J10+I11",
+      "=Inputs!$C$4+J11",
+      "=MAX(L10,K11)",
+      "=K11-L11",
+      "=M11/Inputs!$C$4",
+      "=IF(I11<=0,O10+1,0)"
+    ],
+    [
+      7,
+      "=Positions!R8",
+      "=Positions!AJ8",
+      "=Positions!D8",
+      "=Positions!E8",
+      "=Positions!N8",
+      "=Positions!AD8",
+      "=Positions!AQ8",
+      "=Positions!AR8",
+      "=J11+I12",
+      "=Inputs!$C$4+J12",
+      "=MAX(L11,K12)",
+      "=K12-L12",
+      "=M12/Inputs!$C$4",
+      "=IF(I12<=0,O11+1,0)"
+    ],
+    [
+      8,
+      "=Positions!R9",
+      "=Positions!AJ9",
+      "=Positions!D9",
+      "=Positions!E9",
+      "=Positions!N9",
+      "=Positions!AD9",
+      "=Positions!AQ9",
+      "=Positions!AR9",
+      "=J12+I13",
+      "=Inputs!$C$4+J13",
+      "=MAX(L12,K13)",
+      "=K13-L13",
+      "=M13/Inputs!$C$4",
+      "=IF(I13<=0,O12+1,0)"
+    ],
+    [
+      9,
+      "=Positions!R10",
+      "=Positions!AJ10",
+      "=Positions!D10",
+      "=Positions!E10",
+      "=Positions!N10",
+      "=Positions!AD10",
+      "=Positions!AQ10",
+      "=Positions!AR10",
+      "=J13+I14",
+      "=Inputs!$C$4+J14",
+      "=MAX(L13,K14)",
+      "=K14-L14",
+      "=M14/Inputs!$C$4",
+      "=IF(I14<=0,O13+1,0)"
+    ],
+    [
+      10,
+      "=Positions!R11",
+      "=Positions!AJ11",
+      "=Positions!D11",
+      "=Positions!E11",
+      "=Positions!N11",
+      "=Positions!AD11",
+      "=Positions!AQ11",
+      "=Positions!AR11",
+      "=J14+I15",
+      "=Inputs!$C$4+J15",
+      "=MAX(L14,K15)",
+      "=K15-L15",
+      "=M15/Inputs!$C$4",
+      "=IF(I15<=0,O14+1,0)"
+    ],
+    [
+      11,
+      "=Positions!R12",
+      "=Positions!AJ12",
+      "=Positions!D12",
+      "=Positions!E12",
+      "=Positions!N12",
+      "=Positions!AD12",
+      "=Positions!AQ12",
+      "=Positions!AR12",
+      "=J15+I16",
+      "=Inputs!$C$4+J16",
+      "=MAX(L15,K16)",
+      "=K16-L16",
+      "=M16/Inputs!$C$4",
+      "=IF(I16<=0,O15+1,0)"
+    ]
+  ],
+  "Daily": [
+    [
+      "Daily results (by close date, net of costs)"
+    ],
+    [
+      "Daily P&L is what the daily profit goal and daily loss limit in Inputs are judged against."
+    ],
+    [],
+    [
+      "Date",
+      "Closed trades",
+      "Gross P&L ($)",
+      "Net P&L ($)",
+      "Cumulative Net ($)",
+      "Hit daily goal?",
+      "Breached daily loss limit?"
+    ],
+    [
+      "2026-09-28",
+      "=COUNTIFS(Positions!$AV$2:$AV$2000,A5)",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$AV$2:$AV$2000,A5)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AV$2:$AV$2000,A5)",
+      "=D5",
+      "=IF(D5>=Inputs!$C$8,\"YES\",\"no\")",
+      "=IF(D5<=-Inputs!$C$11,\"YES\",\"no\")"
+    ],
+    [
+      "2026-10-05",
+      "=COUNTIFS(Positions!$AV$2:$AV$2000,A6)",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$AV$2:$AV$2000,A6)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AV$2:$AV$2000,A6)",
+      "=E5+D6",
+      "=IF(D6>=Inputs!$C$8,\"YES\",\"no\")",
+      "=IF(D6<=-Inputs!$C$11,\"YES\",\"no\")"
+    ],
+    [
+      "2026-10-07",
+      "=COUNTIFS(Positions!$AV$2:$AV$2000,A7)",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$AV$2:$AV$2000,A7)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AV$2:$AV$2000,A7)",
+      "=E6+D7",
+      "=IF(D7>=Inputs!$C$8,\"YES\",\"no\")",
+      "=IF(D7<=-Inputs!$C$11,\"YES\",\"no\")"
+    ],
+    [
+      "2026-10-08",
+      "=COUNTIFS(Positions!$AV$2:$AV$2000,A8)",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$AV$2:$AV$2000,A8)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AV$2:$AV$2000,A8)",
+      "=E7+D8",
+      "=IF(D8>=Inputs!$C$8,\"YES\",\"no\")",
+      "=IF(D8<=-Inputs!$C$11,\"YES\",\"no\")"
+    ],
+    [
+      "2026-10-09",
+      "=COUNTIFS(Positions!$AV$2:$AV$2000,A9)",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$AV$2:$AV$2000,A9)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AV$2:$AV$2000,A9)",
+      "=E8+D9",
+      "=IF(D9>=Inputs!$C$8,\"YES\",\"no\")",
+      "=IF(D9<=-Inputs!$C$11,\"YES\",\"no\")"
+    ],
+    [
+      "2026-10-12",
+      "=COUNTIFS(Positions!$AV$2:$AV$2000,A10)",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$AV$2:$AV$2000,A10)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AV$2:$AV$2000,A10)",
+      "=E9+D10",
+      "=IF(D10>=Inputs!$C$8,\"YES\",\"no\")",
+      "=IF(D10<=-Inputs!$C$11,\"YES\",\"no\")"
+    ],
+    [
+      "2026-10-14",
+      "=COUNTIFS(Positions!$AV$2:$AV$2000,A11)",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$AV$2:$AV$2000,A11)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AV$2:$AV$2000,A11)",
+      "=E10+D11",
+      "=IF(D11>=Inputs!$C$8,\"YES\",\"no\")",
+      "=IF(D11<=-Inputs!$C$11,\"YES\",\"no\")"
+    ],
+    [
+      "2026-10-15",
+      "=COUNTIFS(Positions!$AV$2:$AV$2000,A12)",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$AV$2:$AV$2000,A12)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AV$2:$AV$2000,A12)",
+      "=E11+D12",
+      "=IF(D12>=Inputs!$C$8,\"YES\",\"no\")",
+      "=IF(D12<=-Inputs!$C$11,\"YES\",\"no\")"
+    ]
+  ],
+  "Goal Grid": [
+    [
+      "What would it take to make the daily goal?"
+    ],
+    [
+      "Expected USD per day = trades per day x (win rate x avg win - (1 - win rate) x avg loss). Linked dynamically to Tear Sheet & Inputs."
+    ],
+    [],
+    [
+      "Average win ($, net)",
+      "='Tear Sheet'!B8",
+      "Defaults link to observed average win; overwrite to test scenarios."
+    ],
+    [
+      "Average loss ($, net, positive number)",
+      "=ABS('Tear Sheet'!B9)",
+      "Observed average loss magnitude on $100 trades."
+    ],
+    [
+      "Daily goal ($)",
+      "=Inputs!$C$8",
+      "From Inputs."
+    ],
+    [],
+    [
+      "Expected Net P&L per day ($)"
+    ],
+    [
+      "Win rate  \\  trades per day",
+      2,
+      3,
+      5,
+      8
+    ],
+    [
+      0.3,
+      "=B$9*($A10*$B$4-(1-$A10)*$B$5)",
+      "=C$9*($A10*$B$4-(1-$A10)*$B$5)",
+      "=D$9*($A10*$B$4-(1-$A10)*$B$5)",
+      "=E$9*($A10*$B$4-(1-$A10)*$B$5)"
+    ],
+    [
+      0.35,
+      "=B$9*($A11*$B$4-(1-$A11)*$B$5)",
+      "=C$9*($A11*$B$4-(1-$A11)*$B$5)",
+      "=D$9*($A11*$B$4-(1-$A11)*$B$5)",
+      "=E$9*($A11*$B$4-(1-$A11)*$B$5)"
+    ],
+    [
+      0.4,
+      "=B$9*($A12*$B$4-(1-$A12)*$B$5)",
+      "=C$9*($A12*$B$4-(1-$A12)*$B$5)",
+      "=D$9*($A12*$B$4-(1-$A12)*$B$5)",
+      "=E$9*($A12*$B$4-(1-$A12)*$B$5)"
+    ],
+    [
+      0.45,
+      "=B$9*($A13*$B$4-(1-$A13)*$B$5)",
+      "=C$9*($A13*$B$4-(1-$A13)*$B$5)",
+      "=D$9*($A13*$B$4-(1-$A13)*$B$5)",
+      "=E$9*($A13*$B$4-(1-$A13)*$B$5)"
+    ],
+    [
+      0.5,
+      "=B$9*($A14*$B$4-(1-$A14)*$B$5)",
+      "=C$9*($A14*$B$4-(1-$A14)*$B$5)",
+      "=D$9*($A14*$B$4-(1-$A14)*$B$5)",
+      "=E$9*($A14*$B$4-(1-$A14)*$B$5)"
+    ],
+    [
+      0.55,
+      "=B$9*($A15*$B$4-(1-$A15)*$B$5)",
+      "=C$9*($A15*$B$4-(1-$A15)*$B$5)",
+      "=D$9*($A15*$B$4-(1-$A15)*$B$5)",
+      "=E$9*($A15*$B$4-(1-$A15)*$B$5)"
+    ],
+    [
+      0.6,
+      "=B$9*($A16*$B$4-(1-$A16)*$B$5)",
+      "=C$9*($A16*$B$4-(1-$A16)*$B$5)",
+      "=D$9*($A16*$B$4-(1-$A16)*$B$5)",
+      "=E$9*($A16*$B$4-(1-$A16)*$B$5)"
+    ],
+    [
+      0.65,
+      "=B$9*($A17*$B$4-(1-$A17)*$B$5)",
+      "=C$9*($A17*$B$4-(1-$A17)*$B$5)",
+      "=D$9*($A17*$B$4-(1-$A17)*$B$5)",
+      "=E$9*($A17*$B$4-(1-$A17)*$B$5)"
+    ],
+    [
+      0.7,
+      "=B$9*($A18*$B$4-(1-$A18)*$B$5)",
+      "=C$9*($A18*$B$4-(1-$A18)*$B$5)",
+      "=D$9*($A18*$B$4-(1-$A18)*$B$5)",
+      "=E$9*($A18*$B$4-(1-$A18)*$B$5)"
+    ],
+    [],
+    [
+      "Win rate needed to hit the goal at this payoff"
+    ],
+    [
+      "Metric",
+      2,
+      3,
+      5,
+      8
+    ],
+    [
+      "Required win rate",
+      "=($B$6/B$21+$B$5)/($B$4+$B$5)",
+      "=($B$6/C$21+$B$5)/($B$4+$B$5)",
+      "=($B$6/D$21+$B$5)/($B$4+$B$5)",
+      "=($B$6/E$21+$B$5)/($B$4+$B$5)"
+    ],
+    [
+      "Observed win + BE rate (Whale setups)",
+      "=Breakdowns!E21"
+    ]
+  ],
+  "Playbook": [
+    [
+      "Institutional playbook - rules that follow from the Future Admiral data"
+    ],
+    [
+      "Rules enforced in Future Admiral v3 Pro (admiral_core.py, smc.py, macro.py, cloud_run.py). Settings link to Inputs."
+    ],
+    [],
+    [
+      "Area",
+      "Rule",
+      "Setting",
+      "Why (from this workbook)"
+    ],
+    [
+      "Edge gate",
+      "Only promote a strategy after sufficient closed paper trades with positive net expectancy and PF >= 1.3.",
+      "=Inputs!$C$9&\" trades, PF >= \"&TEXT(Inputs!$C$10,\"0.0\")&\", net expectancy > 0\"",
+      "Whale Swing-Liquidity setups already show PF 1.65 (+$5.77 gross), while Range-Edge failed (PF 0.00)."
+    ],
+    [
+      "Costs",
+      "Judge every trade net of exchange fees and slippage, never gross only.",
+      "=TEXT(2*(Inputs!$C$6+Inputs!$C$7),\"0.00%\")&\" round trip\"",
+      "At $100 notional, round-trip fee+slippage is $0.16-$0.30 per trade."
+    ],
+    [
+      "Capital per trade",
+      "Deploy a consistent $100 USDT notional per signal with 1/3 scaling at TP1, TP2, TP3.",
+      "=\"$\"&Inputs!$C$5&\" notional per signal\"",
+      "Matches your exact $100 per-trade capital rule across all Top 20 coins."
+    ],
+    [
+      "Breakeven protection",
+      "Automatically move Stop Loss to Entry Price once TP1 (>=1.25R) is touched.",
+      "TP1 hit -> SL = Entry",
+      "Saved BTC-USDT (Oct 4) from a reversal, locking in +$0.15 instead of a full stop loss."
+    ],
+    [
+      "Whale SL & R:R gate",
+      "Place Stop Loss behind 1H/4H Whale Swing-Liquidity Pool / Order Block + ATR buffer; require TP1 >= 1.25R.",
+      "SL width 0.6% - 4.2%, Avg R:R >= 1.5",
+      "Fixes the old bug where nearby 1H fractal swings blocked valid SUI and XRP trend trades."
+    ],
+    [
+      "Disable Range-Edge knives",
+      "Block low-score counter-trend range-edge setups (|Score| < 0.20) when ETF/Macro flow is adverse.",
+      "|Score| >= 0.20 + MTF alignment",
+      "Range-edge trades lost -$5.50 across ETH, DOGE, and BTC during ETF outflows."
+    ],
+    [
+      "Global Macro & Oil -> Fed",
+      "Penalize longs when WTI Crude Oil + US 10Y Yields + DXY spike together (inflation -> hawkish Fed rate risk).",
+      "macro.py (-1.0 to +1.0)",
+      "Prevents buying into macro liquidity tightening shocks."
+    ],
+    [
+      "Hourly Quota Guard",
+      "Stage 1 screens all 20 coins via free REST APIs (0 LLM calls); Stage 2 calls 1 REST LLM verdict on top 1-3 setups.",
+      "Max 3 LLM calls/hour",
+      "Eliminates 429/503 quota exhaustion across Gemini, Groq, and OpenRouter."
+    ],
+    [],
+    [],
+    [
+      "Interactive $100 Position & Risk Calculator"
+    ],
+    [
+      "Stop distance (% of entry)",
+      0.02,
+      "Edit the blue cell to test any stop-loss distance."
+    ],
+    [
+      "Account capital ($)",
+      "=Inputs!$C$4",
+      "From Inputs."
+    ],
+    [
+      "Flat trade notional ($)",
+      "=Inputs!$C$5",
+      "Your $100 per-trade capital."
+    ],
+    [
+      "Dollar loss at stop on $100 trade ($)",
+      "=B18*B16",
+      "Exact USD risk on a $100 position if SL is hit."
+    ],
+    [
+      "...as % of starting account",
+      "=IF(B17=0,0,B19/B17)",
+      "Account risk per trade."
+    ],
+    [
+      "Profit at TP1 (1.5R), TP2 (2.5R), TP3 (3.6R) full runner ($)",
+      "=B19*2.53",
+      "Expected gross profit when all 3 equal 1/3 targets hit."
+    ]
+  ],
+  "Data Quality": [
+    [
+      "Data quality, system audit & ledger reconciliation"
+    ],
+    [
+      "Automated checks run across Positions, Signals, and System Health. Ensures 100% reconciliation between bot state and Google Sheets."
+    ],
+    [],
+    [
+      "Check",
+      "Result",
+      "Why it matters",
+      "What v3 Pro does automatically"
+    ],
+    [
+      "Closed positions in Positions tab",
+      "=SUM(Positions!$AP$2:$AP$2000)",
+      "Total completed $100 paper trades.",
+      "Automatically synced via google_sheets_sync.py."
+    ],
+    [
+      "Total evaluated scans in Signals tab",
+      "=COUNTA(Signals!$A$2:$A$2000)",
+      "Complete hourly & manual market scan history.",
+      "Every hourly scan appends/upserts cleanly."
+    ],
+    [
+      "Positions missing $100 Paper Notional",
+      "=COUNTIFS(Positions!$AA$2:$AA$2000,\"<=0\")",
+      "Trade 1 in legacy sheet was missing $100 sizing.",
+      "Backfilled to $100.00; v3 enforces $100 on every trade."
+    ],
+    [
+      "Stop-loss hits with stop wider than 4%",
+      "=COUNTIFS(Positions!$AX$2:$AX$2000,\">0.04\")",
+      "Overly wide stops increase dollar loss per trade.",
+      "smc.py caps Whale SL distance at 4.2% max."
+    ],
+    [
+      "Gross realized P&L across all closed trades ($)",
+      "=SUMIFS(Positions!$AD$2:$AD$2000,Positions!$AP$2:$AP$2000,1)",
+      "Reconciles directly to Strategy Scorecard!J5.",
+      "100% formula-linked; zero manual drift."
+    ],
+    [
+      "Net realized P&L after fees & slippage ($)",
+      "=SUMIFS(Positions!$AR$2:$AR$2000,Positions!$AP$2:$AP$2000,1)",
+      "Reconciles directly to Strategy Scorecard!K5.",
+      "Subtracts round-trip fee + slippage from Inputs."
+    ],
+    [
+      "Whale Liquidity setups Net P&L ($)",
+      "=Breakdowns!K6",
+      "Isolates core Whale Swing-Liquidity performance.",
+      "Positive edge (+$4.49 net / +$5.77 gross)."
+    ],
+    [
+      "Legacy Range-Edge setups Net P&L ($)",
+      "=Breakdowns!K8",
+      "Isolates counter-trend range-edge losses.",
+      "Disabled in v3 Pro."
+    ],
+    [
+      "Historical AI quota / provider errors logged",
+      "=COUNTIF(Signals!$E$2:$E$2000,\"ANALYSIS_ERROR\")",
+      "Caused by 12-call LangGraph loop + missing langchain_openai.",
+      "Fixed in v3 via 1-call REST rotation + requirements.txt."
+    ]
+  ],
+  "Inputs": [
+    [
+      "Inputs & Assumptions"
+    ],
+    [
+      "Blue cells on yellow are the only cells meant to be edited. Every other sheet (Tear Sheet, Scorecard, Breakdowns, Equity Curve, Daily) recalculates automatically from these and from Positions."
+    ],
+    [
+      "Parameter",
+      "Why it exists",
+      "Value"
+    ],
+    [
+      "Starting account (USD)",
+      "Base account capital used for Equity Curve and Drawdown % (set to $1,000 or $100 as preferred).",
+      1000.0
+    ],
+    [
+      "Paper notional per trade (USD)",
+      "Your fixed per-trade position size ($100 USDT per signal).",
+      100.0
+    ],
+    [
+      "Fee per side (% of notional)",
+      "Assumed exchange taker fee per side (0.05% OKX/Binance futures, 0.10% spot).",
+      0.0005
+    ],
+    [
+      "Slippage per side (% of notional)",
+      "Assumed market/limit execution slippage per side on liquid Top-20 USDT pairs.",
+      0.0003
+    ],
+    [
+      "Daily profit goal (USD)",
+      "Target daily net profit in USD used on Tear Sheet, Daily, and Goal Grid.",
+      10.0
+    ],
+    [
+      "Min closed trades to judge a strategy",
+      "Minimum closed trades before a setup group moves from TESTING to PROMOTE-ELIGIBLE.",
+      30
+    ],
+    [
+      "Min profit factor to promote",
+      "Minimum net profit factor (gross wins / gross losses) required by institutional gate.",
+      1.3
+    ],
+    [
+      "Daily loss limit (USD)",
+      "Maximum daily drawdown before pausing new live entries until next UTC/PKT day.",
+      10.0
+    ],
+    [
+      "Trading days per year (annualisation)",
+      "Crypto markets trade 365 days per year.",
+      365
+    ],
+    [
+      "Risk per trade (% of account)",
+      "Target fractional account risk used in Playbook position calculator.",
+      0.015
+    ],
+    [
+      "Max concurrent positions",
+      "Maximum simultaneous open trades allowed by the hourly scanner.",
+      3
+    ]
+  ]
+}

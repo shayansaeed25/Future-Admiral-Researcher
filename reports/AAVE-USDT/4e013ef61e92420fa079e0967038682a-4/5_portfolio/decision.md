@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: AAVE-USDT par filhal koi nayi fresh long ya short position na banayein aur current exposure ko maintain rakhein. Agar price mein mazeed correction aati hai aur yeh $168 - $172 ke 10 EMA zone ki taraf dip leti hai, tab wahan par risk-reward calculate karke entry ka socha ja sakta hai. Discipline ke sath sidelines par baith kar market ki agali confirmation ka intezaar karein.
+
+**Investment Thesis**: Debate ke dauran yeh samne aaya ke AAVE-USDT ka trend mukammal taur par bullish hai, jahan close_10_ema $166.03, close_50_sma $132.74, aur MACD ka positive histogram (2.98) upward momentum ko zahir karte hain. Lekin doosri taraf, RSI 68.42 par overbought zone ke qareeb hai, price $187.31 ke upper Bollinger Band se reject ho chuki hai, aur ATR 11.41 ki high volatility ki wajah se $158.00 ka wide stop-loss rakhna parta hai jis se risk-to-reward ratio kharab hota hai. Macro environment aur risk-on sentiment strong hone ke bawajood, overextended levels aur potential profit-taking ki waja se filhal neutral reh kar market ki next confirmation ka intezaar karna hi sab se behtar hikmat-e-amli hai.

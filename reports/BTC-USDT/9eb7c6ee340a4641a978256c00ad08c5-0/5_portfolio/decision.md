@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: Filhal koi nayi position open na karein aur apne mojooda exposure ko maintain rakhein. Stop-loss ko Bollinger Lower Band (81,632.95) aur 50 SMA (80,952.72) ke qareeb strict risk management ke sath set kiya jaye. Market ke neutral RSI aur negative MACD se bahar aane ka wait karein.
+
+**Investment Thesis**: BTC-USDT ki price long-term 200 SMA (71,985.21) aur 50 SMA (80,952.72) ke ooper trade kar rahi hai jo ke aik macro bull market ki nishani hai, jesa ke Aggressive aur Neutral analysts ne kaha. Lekin short-term momentum kamzor hai kyunke MACD histogram negative (-530.12) hai, price 10 EMA (83,424.89) se neeche hai, ATR (2,060.73) ki wajah se high volatility hai, aur prediction markets mein hack probability 77% tak barh chuki hai jiska zikr Conservative analyst ne kiya. Neutral analyst ke mutabiq RSI bhi 51.47 par neutral hai, is liye halaat balanced aur conflicting hain aur Hold karna hi behtareen faisla hai.

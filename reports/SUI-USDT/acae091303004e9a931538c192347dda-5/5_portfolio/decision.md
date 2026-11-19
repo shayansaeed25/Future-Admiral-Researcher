@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: SUI-USDT ki mojooda position ko maintain rakhein aur filhal koi naya exposure ya aggressive entry na lein. Jab tak price short-term averages (10 EMA @ 1.11 aur Bollinger middle band @ 1.12) ko cross karke hold nahi karti aur MACD histogram negative se positive nahi hota, tab tak intzaar karein. Stop loss ko 0.91 par mehfooz banayein.
+
+**Investment Thesis**: Dono pehluon ka jaiza lene se pata chalta hai ke SUI-USDT ka long-term aur medium-term structure 50 SMA (0.91) aur 200 SMA (0.86) ke oopar hone ki wajah se mazboot hai, aur RSI (51.54) bilkul neutral zone mein hai. Lekin doosri taraf, short-term mein price 1.25+ ke highs se gir kar 1.06 par aa chuki hai, 10 EMA (1.11) se neeche trade kar rahi hai, aur MACD histogram (-0.03) negative hone ki wajah se momentum cooling phase mein hai. Kyunki market mein abhi koi aisi bullish confirmation mojood nahi hai jo foran aggressive buying ki ijazat de, is liye sab se mohtathik stance yeh hai ke filhal Hold kiya jaye aur market mein clear momentum wapas aane ka intezaar kiya jaye.

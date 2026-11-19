@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: DOGE-USDT filhal consolidation aur neutral phase mein hai jahan price $0.0844 par 50 SMA ($0.0891) aur 200 SMA ($0.0877) se neechay trade kar rahi hai. Naye positions banane ya panic sell karne ke bajaye current position ko maintain karein aur $0.08 ki support aur key moving averages par nazar rakhein.
+
+**Investment Thesis**: Dono analysts ke bayanaat aur data ka jaiza liya jaye toh market mein mukhtalif signals hain. Aggressive analyst ka kehna hai ke Bollinger Lower Band ($0.08) aur kam ATR ($0.01) ki wajah se yeh aik acha accumulation zone hai, jabkay Conservative analyst ka yeh argument bilkul durust hai ke price ka dono main moving averages (50 SMA aur 200 SMA) se neechay hona aur macro/security risks downward pressure ki nishandahi karte hain. Neutral analyst ne bhi darmiyani rasta suggest kiya hai ke bina kisi confirm breakout ya volume ke andhi accumulation nahi karni chahiye. Is balanced aur conflicting evidence ki buniyad par, na toh aggressive buy ka case banta hai aur na hi sell ka, is liye 'Hold' rakhna sab se behtareen aur mehfooz faisla hai.

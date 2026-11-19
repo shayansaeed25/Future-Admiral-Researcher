@@ -1,0 +1,5 @@
+**Recommendation**: Hold
+
+**Rationale**: Bull analyst ne technicals jaise ke close_200_sma (85.77), close_50_sma (103.51), aur RSI (62.71) ki buniyad par yeh kaha ke macro trend bullish hai aur mazeed oopar jaane ki gunjaish hai, sath hi macroeconomic risk-on sentiment ka bhi hawala diya. Dusri taraf, bear analyst ne yeh dhyan dilaya ke current price (119.57) moving averages se bohat oopar hone ki wajah se stretch ho chuki hai, MACD histogram negative (-0.28) hai jo momentum ki susti zahir karta hai, aur market exhaustion ka shikar ho sakti hai. Dono taraf ke dalail ko dekhte hue, evidence filhal mukhalif aur balanced hai; na toh buy karne ka koi strong catalyst mojood hai aur na hi foran sell karne ki koi panic situation hai. Is liye, current position ko maintain karna hi sab se behtar faisla hai.
+
+**Strategic Actions**: Trader ko yeh hidayat di jati hai ke SOL-USDT mein naye positions banane ya exposure barhane se guraiz karein. Current holding ko maintain karein aur support levels (103.51 se 113.69 ke darmiyan) par nazar rakhein. Jab tak price aik solid correction ya clear breakout nahi deti, position sizing mein koi tabdeeli na ki jaye.

@@ -1,0 +1,7 @@
+**Rating**: Hold
+
+**Executive Summary**: AAVE-USD par maujooda halaat ke mutabiq hold ka faisla kiya gaya hai kyunkay price Bollinger Upper Band (153.96) aur RSI (68.73) ke sath overextended hai, jabkay high volatility (ATR 9.32) aur macro risks ki wajah se directional ambiguity hai. Trader ko naye positions banane se guraiz karna chahiye aur agar position hold ki hui hai toh 145.0 par tight stop-loss maintain karein. Time horizon short-term (3-6 weeks) hai.
+
+**Investment Thesis**: AAVE-USD ki price 154.81 par hai, jo ke 200-day SMA (98.76) aur 50-day SMA (120.14) se kaafi oopar hai aur MACD (7.54) ka positive histogram strong momentum dikhata hai. Lekin conservative aur neutral analysts ke mutabiq, price ka Bollinger Upper Band (153.96) ko touch karna aur RSI ka 68.73 par hona is baat ki nishandahi karta hai ke market short-term peak ke qareeb aur overbought hai. Iske ilawa, ATR 9.32 ki high volatility aur global macro risks ki wajah se sudden correction ka khatra barh gaya hai. StockTwits par sirf 13 messages ka chhota sample size retail FOMO ko zahir karta hai jo institutional confidence nahi hai. Is liye, aggressive buying karne ki bajaye current exposure ko maintain karna aur 145.0 ke stop-loss ke sath dip ka intezar karna hi sab se aqlmandana hikmat-e-amli hai.
+
+**Time Horizon**: 3-6 weeks

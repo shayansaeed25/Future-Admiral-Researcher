@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: Mojooda positions ko strictly hold karein aur filhal koi naya capital allocate ya blind entry na karein. $14.50 ki resistance aur $13.10 ki support par nazar rakhein. Jab tak price resistance ko volume ke sath break nahi karti, conservative approach adopt karna behad zaroori hai.
+
+**Investment Thesis**: LINK-USDT is waqt $13.90 par trade kar raha hai jo ke 200 SMA ($9.55) aur 50 SMA ($12.09) se ooper hai, aur RSI 59.37 par neutral-to-bullish zone mein hai. Halankeh macro trend bullish hai, lekin price $13.80 se $14.30 ki consolidation range mein phansi hui hai aur MACD histogram -0.01 par flattening ya negative divergence show kar raha hai, jo short-term momentum mein susti zahir karta hai. Conservative Analyst ne Moody's ki warnings aur security risks ka hawalay se jo khadsha zahir kiya hai woh bhi qabil-e-gaur hai. Jab tak $14.50 ki mukammal resistance breakout nahi hoti aur market ki taraf se clear signal nahi milta, tab tak aggressive accumulation karna risk barha sakta hai. Is liye balanced aur cautious reh kar sirf hold karna hi sab se behtareen hikmat-e-amli hai.

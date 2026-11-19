@@ -1,0 +1,115 @@
+name: Future Admiral Hourly Bot
+
+on:
+  schedule:
+    - cron: '7,37 * * * *'   # Public repo par 100% FREE unlimited minutes! (Agar Private rakhna ho to '7 * * * *' kar dein -> 50% kam usage)
+  workflow_dispatch:
+    inputs:
+      reset_sheet:
+        description: 'true = Google Sheet ke Positions aur System Health saaf kar ke naya shuru (sirf ek baar)'
+        required: false
+        default: 'false'
+      symbol:
+        description: 'On-demand: kisi ek coin ka naam (jaise ETH-USDT). KHALI chhodo to normal scan chalega.'
+        required: false
+        default: ''
+
+concurrency:
+  group: future-admiral-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install (4 light packages)
+        run: pip install -r requirements.txt
+
+      - name: Execute Future Admiral v4 Engine (1H Signals + Live Rolling Backtest + 30m Global News)
+        id: engine
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          ADMIRAL_RESET_SHEET: ${{ github.event.inputs.reset_sheet == 'true' && '1' || '0' }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          GOOGLE_API_KEYS: ${{ secrets.GOOGLE_API_KEYS }}
+          GROQ_API_KEYS: ${{ secrets.GROQ_API_KEYS }}
+          CRYPTOETF_API_KEY: ${{ secrets.CRYPTOETF_API_KEY }}
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+          ADMIRAL_SETUP_TF: '1'           # 1H primary signal execution
+          ADMIRAL_SETUPS: 'pullback,breakout,momentum,smc_sweep'  # Counter-trend whale_reversal removed after 38-trade audit
+          ADMIRAL_LIVE_BACKTEST: '1'      # Har run par pichli candles par strategy backtest (high-SL setups auto-rejected!)
+          ADMIRAL_ADX_MIN: '18'
+          ADMIRAL_MIN_SCORE: '72'         # >=72 score gate (60% win rate, 2.21 Profit Factor on live sheet audit)
+          ADMIRAL_MIN_SL_PCT: '0.85'      # Minimum 0.85% SL floor (blocks 0.4% noise stops)
+          ADMIRAL_MAX_SL_PCT: '3.25'      # Maximum 3.25% SL cap (smc_sweep/breakout/momentum)
+          ADMIRAL_PULLBACK_MAX_SL_PCT: '2.65' # Pullback ke liye tighter 2.65% SL cap (choppy 2.9%-3.2% stops block)
+          ADMIRAL_MACRO_CACHE_HOURS: '0.42' # 25 min cache -> har 30m run par fresh CPI/PPI/Fed/US-Iran/World news
+          ADMIRAL_SHEET_EVERY_RUN: '1'    # Har run par open positions ka Latest Price aur P&L Google Sheet mein update ho
+          ADMIRAL_MAX_HOLD_HOURS: '72'
+          ADMIRAL_MAX_OPEN: '8'
+          ADMIRAL_MAX_SAME_DIRECTION: '3' # Max 3 same-direction trades (correlated altcoin stacking kam karne ke liye)
+          ADMIRAL_LLM_VERDICT: '1'
+          ADMIRAL_LLM_MAX_CALLS: '4'
+          ACCOUNT_CAPITAL_USD: ${{ secrets.ACCOUNT_CAPITAL_USD }}
+          RISK_PERCENT_PER_TRADE: ${{ secrets.RISK_PERCENT_PER_TRADE }}
+          PAPER_TRADE_NOTIONAL_USDT: '100'
+          GOOGLE_SHEETS_SPREADSHEET_ID: ${{ secrets.GOOGLE_SHEETS_SPREADSHEET_ID }}
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: |
+          if [ -n "${{ github.event.inputs.symbol }}" ]; then
+            timeout --preserve-status 5m python analyze_now.py "${{ github.event.inputs.symbol }}"
+          else
+            timeout --preserve-status 8m python cloud_run.py
+          fi
+
+      - name: Save diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: future-admiral-diagnostics-${{ github.run_id }}
+          path: data_health.log
+          if-no-files-found: ignore
+          retention-days: 7
+
+      - name: Notify Discord if the run crashed
+        if: failure() && steps.engine.outputs.analysis_failed != 'true'
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          python - <<'PY'
+          import json, os
+          from urllib.request import Request, urlopen
+          hook = os.environ.get("DISCORD_WEBHOOK", "").strip()
+          if hook:
+              body = {"embeds": [{"title": "🚨 Future Admiral run failed", "description": f"[Open run]({os.environ['RUN_URL']})", "color": 15158332}]}
+              try:
+                  urlopen(Request(hook, data=json.dumps(body).encode(), headers={"Content-Type": "application/json"}, method="POST"), timeout=10)
+              except Exception as exc:
+                  print("alert failed:", exc)
+          PY
+
+      - name: Commit state (only when something changed)
+        if: always()
+        run: |
+          git config --global user.name "Admiral Bot"
+          git config --global user.email "bot@users.noreply.github.com"
+          git add active_signals.json engine_state.json closed_trades.jsonl 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+          else
+            git commit -m "Admiral state update [skip ci]"
+            git pull --rebase --autostash -X theirs origin "${GITHUB_REF_NAME:-main}" || true
+            git push origin "HEAD:${GITHUB_REF_NAME:-main}" || echo "::warning::git push skipped; state is persisted in Google Sheets"
+          fi

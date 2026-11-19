@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: Filhal naye positions kholne se guraiz karein aur current exposure ko waisa hi maintain karein. Price action ko $1.40 support aur $1.43–$1.47 resistance zones ke beech monitor karein. Agli directional confirmation ke liye wait karein.
+
+**Investment Thesis**: Bull analyst ne long-term structural uptrend par zor diya kyunki price 200 SMA ($1.28) se oopar aur $1.40 par Bollinger Lower Band ke support zone par hai. Lekin bear aur neutral analysts ne short-term reality dikhayi ke price $1.50 se gir kar $1.40 par aa chuki hai, RSI 43.98 par bearish-to-neutral hai, aur MACD histogram negative (-0.02) hai. Yeh conflicting evidence yeh batati hai ke na toh abhi strong buy ka time hai aur na hi panic mein sell karne ka. Isliye sab se behtareen approach Hold karna hai.

@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: Mojooda 13.80 USDT levels par mazeed long positions kholne ya panic sell karne ke bajaye apne exposure ko hold karein. ATR aur tight stop-loss (12.32) ke sath risk ko manage karein aur price ke 12.20 - 12.80 USDT zone mein pullback karne tak intezaar karein.
+
+**Investment Thesis**: Bull analyst ne 50 SMA aur 200 SMA se ooper hone, MACD momentum aur Infosys ke sath enterprise adoption ka hawala diya, jo ke long-term ke liye kaafi strong hai. Lekin Bear aur Neutral analysts ne yeh wazeh kiya ke price Bollinger Upper Band (13.94 USDT) ke qareeb stretch ho chuki hai, jisse short-term profit-taking aur sharp pullbacks ka khatra barh jata hai. Kyunke fundamental long-term growth aur short-term macro/technical risks mein tawazun hai aur evidence mixed hai, is waqt exposure ko change karne ke bajaye Hold karna aur 12.20 - 12.80 USDT ke discounted accumulation zone ka intezaar karna sabse behtar faisla hai.

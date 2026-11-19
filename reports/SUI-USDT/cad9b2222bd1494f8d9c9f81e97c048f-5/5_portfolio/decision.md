@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: SUI-USDT ko current levels par hold kiya jaye kyunke price 1.19 par 50 SMA (0.89) aur 200 SMA (0.85) se oopar hai, jabke RSI 64.36 par bullish zone mein hai. Lekin MACD ke flat hone aur recent highs ke qareeb consolidation ki wajah se conflicting signals hain, isliye naye positions add ya reduce karne se guraiz karein.
+
+**Investment Thesis**: Bullish arguments ke mutabiq SUI-USDT ka 1.19 par trade karna aur 50 SMA (0.89) તથા 200 SMA (0.85) se oopar hona strong uptrend ki nishandahi karta hai, aur RSI 64.36 par mazeed upside ke liye room chorta hai. Dusri taraf, bear aur conservative perspective se MACD ka flat hona (macd 0.10, macdh -0.00), price ka consolidation phase mein hona, aur macro headwinds ya regulatory uncertainty jaise factors market mein mixed signals paida karte hain. Dono tarf ke data ko dekhte hue, jab tak breakout nahi hota ya clear directional momentum nahi banta, tab tak current position ko maintain rakhna sab se behtar faisla hai.

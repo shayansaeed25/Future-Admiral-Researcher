@@ -1,0 +1,10 @@
+
+Neutral Analyst: As-salamu alaykum sab doston ko! 
+
+Main yahan dono bhaiyon ki baatein sun raha hoon, aur sach kahoon toh dono ki extremes mein kuch na kuch kami hai jise samjhna bohat zaroori hai. Aggressive analyst sahab, aapka josh aur long-term vision bilkul theek hai ke Chainlink ka fundamental outlook shandaar hai, Standard Chartered ka $200 target aur Infosys deal iski asli taqat ko zahir karti hain. Lekin aap yeh bhool rahe hain ke market mein sirf "blind buying" ya har consolidation ko ek aggressive accumulation zone samajh lena bewakoofi ho sakti hai. Jab price Bollinger Bands ke upper band (14.46) ke qareeb ho aur ATR 0.75 par moderate volatility dikha rahi ho, toh bina kisi pullback ke daur padna apne paon par kulhadi marnay jaisa hai. Aap short-term "sell the news" reaction aur macro pressures ko bilkul nazar-andaz kar rahe hain.
+
+Aur conservative analyst bhai, aapka darr apni jagah qanooni ho sakta hai kyunki bond yields barh rahe hain aur CME futures ka khadsha bhi mojood hai, lekin agar aap sirf darr ki wajah se haath par haath dhar kar baith jayenge aur market ki har positive movement ko ignore kar denge, toh aap kabhi bhi growth capture nahi kar payenge. Yeh kehna ke hum sirf "Hold" par atke rahein aur naye mauqon ya tactical adjustments ko bilkul chor dein, yeh bhi ek defensive aur overly cautious approach hai jo traders ko mid-level par hi rok deti hai.
+
+Meri nazar mein sach in dono ke darmiyan hai. Hamein na toh blind buying karni chahiye aur na hi sirf darr kar chup chap baithna chahiye. Moderation is the key! Hum ek balanced strategy apnate hue yeh kar sakte hain ke maujooda position ko "Hold" rakhein, lekin sath hi apne risk ko manage karne ke liye trailing stop-losses ka istemal karein. Agar price thori aur niche aati hai aur 10 EMA (13.26) ya 50 SMA ke qareeb support leti hai, toh wahan hum partial accumulation ya dca (Dollar-Cost Averaging) ka soch sakte hain. 
+
+Is tarah hum aggressive growth ka maza bhi le sakhenge aur conservative risk management ke zariye apni capital ko bhi mehfooz rakh sakenge. Dono extremes ko chorhein aur ek disciplined, balanced rasta apnayein!

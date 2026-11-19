@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+data_health.log
+backtest_trades.csv
+backtest_report.md
+grid_report.md

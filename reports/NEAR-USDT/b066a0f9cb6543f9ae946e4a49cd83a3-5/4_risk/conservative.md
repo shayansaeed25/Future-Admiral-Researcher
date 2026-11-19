@@ -1,0 +1,10 @@
+
+Conservative Analyst: Assalam-o-Alaikum! Main Conservative Risk Analyst hoon, aur mere azeez Aggressive Analyst bhai ki baatein sun kar mujhe lagta hai ke woh khuwabon ki duniya mein jee rahe hain jahan market mein sirf upar hi upar jana hota hai aur losses ka koi wajood nahi hota. 
+
+Bhai, aap keh rahe hain ke hum darr kar baith rahe hain aur upside miss kar jayenge, lekin main yeh keh raha hoon ke hum bewajah ka risk uthakar apne assets ko khatre mein nahi dalna chahte. Aapne $5.31 ke high se $4.65 tak ki correction ko sirf ek "choti si correction" keh kar nazarandaz kar diya, lekin ذرا sochiye ke agar koi is waqt bina soche samjhe heavy accumulation kar le aur price mazeed neeche Bollinger middle band ($4.16) ya us se bhi neeche support test karne chali jaye, toh jo capital humne mehnat se bachaya hai uska kya hoga? 
+
+Aapne MACD histogram ke -0.02 par hone aur MACD line ke signal line se neeche hone ko halka liya, jabke yeh saaf taur par short-term cooling aur momentum mein kami ka ishara deta hai. RSI 61.95 par zaroor hai, lekin yeh overbought hone se sirf thoda hi door hai aur thodi si bhi negative news ya market volatility ise tezi se neeche dhakel sakti hai. 
+
+Mazeed yeh ke aap macro trends aur AI narrative ki baatein toh bohot badi badi kar rahe hain, lekin kya aapko yaad hai ke crypto market mein sentiment kitni jaldi badalta hai? Prediction markets mein bhi total crypto market cap ($3.75T) ki probability sirf 20% hai, matlab yeh ke broad market expansion ki umeedain abhi bhi bohot zyada strong ya guaranteed nahi hain. Aise ghair-yaqeeni mahol mein blind accumulation karna trading nahi, balkay gambling hai.
+
+Trader ka yeh faisla ke "Hold" kiya jaye aur jab tak clear confirmation na mile tab tak koi nayi bari position na banayi jaye, bilkul aqlmandi ka qadam hai. Hamari pehli tarjeeh capital protection aur volatility ko minimize karna honi chahiye, na ke blind optimism ke peeche bhag kar portfolio ko risk mein dalna. Isliye, main is "Hold" stance ki mukammal tayeed karta hoon aur aggressive accumulation ke khilaf sakht khabardari ka dars deta hoon.

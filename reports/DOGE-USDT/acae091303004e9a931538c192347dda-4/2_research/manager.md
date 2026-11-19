@@ -1,0 +1,5 @@
+**Recommendation**: Hold
+
+**Rationale**: Bhai, bull aur bear dono ki taraf se strong points saamne aaye hain. Bull analyst ka kehna hai ke price $0.08 ke support level, 200 SMA ($0.087), aur 41.71 RSI ke sath ek solid accumulation phase mein hai, jahan low volatility (ATR 0.0048) ek bare breakout ka ishara de rahi hai. Doosri taraf, bear analyst ne yeh bataya ke MACD (-0.0004) flat hai, market mein buyers ki kami hai, aur crypto hacks ka high risk (78% probability) sath hi prediction markets ke mutabiq total cap ke limited rehne ki waja se yeh 'dead money' bhi ban sakta hai. Kyunki technical support aur momentum ki kami dono moojood hain aur halaat mukhalif hain, isliye filhal exposure badhane ya ghataane ki bajaye ek neutral stance rakhna hi behtareen hai.
+
+**Strategic Actions**: Trader ke liye yeh hidayat hai ke DOGE-USDT mein koi naya bada position na banaye aur filhal current holdings ko maintain karein. Agar aap trading kar rahe hain toh $0.08 par strict watch rakhein aur $0.075 ke stop-loss ko lazmi lagayein taake downside risk se bach sakein jab tak market clear directional breakout nahi deti.

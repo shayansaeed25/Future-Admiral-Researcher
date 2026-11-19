@@ -1,0 +1,5 @@
+**Rating**: Hold
+
+**Executive Summary**: DOGE-USDT filhal 0.08 ki support aur 0.10 ki resistance ke darmiyan range-bound move kar raha hai. Maujooda exposure ko 'Hold' rakhein, koi nayi position na banayein, aur 0.08 ke stop-loss ko sakhti se follow karein jab tak koi wazeh breakout samne na aaye.
+
+**Investment Thesis**: Research aur risk analysts ki behas ke mutabiq, market mein na toh koi strong fundamental ya macro catalyst mojood hai aur na hi koi unbearable panic selling. Aggressive analyst ka yeh kehna ke flat MACD aur low VWMA deviation smart money ki accumulation hai, thoda over-optimistic aur gambling ke qareeb lagta hai, kyunke macro liquidity tight hai aur risk aversion barh rahi hai. Doosri taraf, conservative analyst ka har naye risk ko bewakoofi kehna ek overly cautious attitude hai. Neutral analyst ki baat bilkul durust hai ke current evidence balanced aur ambiguous hai—RSI neutral (42) hai aur ATR low (0.01) hai, jo aik consolidation phase ko zahir karta hai. Jab tak price 0.10 ki resistance ko volume ke sath breach nahi karti ya 0.08 ki support ko nahi torti, tab tak filhal hold karna hi sab se behtareen hikmat-e-amali hai.
