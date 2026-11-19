@@ -28,26 +28,25 @@
       "blackout_reason": "",
       "catalysts": [
         "Macro-: rate hike",
-        "Macro-: rate hike",
-        "Inst-: etf outflow"
+        "Macro-: rate hike"
       ],
       "errors": [
         "FREDcsv T10YIE: ReadTimeout HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed "
       ],
       "fear_greed": 10,
       "headlines": [
+        "[Macro_CPI_PPI] J.P. Morgan sees Fed rate hikes at next three meetings as inflation persists - Reuters",
         "[Macro_CPI_PPI] Fed minutes: Higher interest rates needed in December as inflation worries mount - AP News",
         "[Macro_CPI_PPI] Fed Saw Need to Keep Raising Interest Rates Despite Holding Steady in October - The New York Times",
         "[Macro_CPI_PPI] Fed\u2019s Waller says central bank may need to \u2018shock people\u2019 with half-point rate hike - CNBC",
-        "[Macro_CPI_PPI] Fed minutes: Officials favored holding rates steady in October, but they see hikes ahead - Yahoo Finance",
         "[Geopolitics_Iran_US] Trump Weighs New Strikes on Iran as Israel Presses for Action, Officials Say - The New York Times",
         "[Geopolitics_Iran_US] Iran widens Gulf attacks by targeting U.S. air base in Kuwait and sites in Bahrain - PBS",
-        "[Geopolitics_Iran_US] US military returns to 2 aircraft carriers in the Middle East - ABC News - Breaking News, Latest News and Videos",
         "[Geopolitics_Iran_US] Iran Update, November 18, 2026 - Institute for the Study of War",
+        "[Geopolitics_Iran_US] US builds up forces around Iran, but can it sustain another war? - Middle East Eye",
+        "[World] Myanmar committed genocide against Rohingya minority, top UN court rules",
         "[World] Trump, Putin and Xi release 'peace declaration' after historic meeting",
         "[World] Dozens missing after boat carrying migrants sinks off Senegal's coast",
         "[World] Venezuela signs military deal with US less than a year after Maduro's removal",
-        "[World] Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
         "[CNBC_Economy] Southeast Asia\u2019s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
         "[CNBC_Economy] Record diesel prices drive UK inflation to 1-year high of 3.6%",
         "[CNBC_Economy] Japan exports in October surge 20.5%, beating estimates on robust chip shipments",
@@ -55,11 +54,11 @@
       ],
       "news_sentiment": -1.0,
       "notes": [
-        "US10Y 5.06% (-0.04pp 5d)",
+        "US10Y 5.08% (-0.03pp 5d)",
         "Dollar +0.6% 5d",
-        "Oil $83 (-17% 20d)",
-        "VIX 25.8",
-        "Nasdaq -3.3% 5d",
+        "Oil $83 (-16% 20d)",
+        "VIX 25.1",
+        "Nasdaq -5.3% 5d",
         "Fear&Greed 10",
         "News: Macro-: rate hike, Macro-: rate hike"
       ],
@@ -72,7 +71,7 @@
       ],
       "total": -2
     },
-    "fetched_utc": "2026-11-19T16:05:39.447614+00:00",
+    "fetched_utc": "2026-11-19T17:05:38.220439+00:00",
     "ok": true
   },
   "paused_until": "2026-11-17T03:05:37.891182+00:00"
