@@ -28,21 +28,17 @@
       "blackout_reason": "",
       "catalysts": [
         "Macro-: rate hike",
-        "Macro-: rate hike"
+        "Inst-: etf outflow"
       ],
       "errors": [
         "FREDcsv T10YIE: ReadTimeout HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed "
       ],
       "fear_greed": 10,
       "headlines": [
-        "[Macro_CPI_PPI] Fed minutes: Higher interest rates needed in December as inflation worries mount - AP News",
-        "[Macro_CPI_PPI] Fed minutes: Officials favored holding rates steady in October, but they see hikes ahead - Yahoo Finance",
-        "[Macro_CPI_PPI] Fed Minutes Show Almost All Officials Expect More Rate Hikes - Bloomberg.com",
-        "[Macro_CPI_PPI] Fed\u2019s Waller says central bank may need to \u2018shock people\u2019 with half-point rate hike - CNBC",
         "[Geopolitics_Iran_US] Iran widens Gulf attacks by targeting U.S. air base in Kuwait and sites in Bahrain - PBS",
         "[Geopolitics_Iran_US] US military returns to 2 aircraft carriers in the Middle East - ABC News - Breaking News, Latest News and Videos",
         "[Geopolitics_Iran_US] Iran Update, November 18, 2026 - Institute for the Study of War",
-        "[Geopolitics_Iran_US] Iran\u2019s oil leverage is weakening. That could push it toward escalation - CNN",
+        "[Geopolitics_Iran_US] Trump Weighs New Strikes on Iran as Israel Presses for Action, Officials Say - The New York Times",
         "[World] This is a remarkable diplomatic moment for China's Xi - but it comes with pitfalls",
         "[World] Dozens missing after boat carrying 100 migrants sinks off Senegal's coast",
         "[World] Anthropic raises $81bn in record-breaking stock market debut",
@@ -50,17 +46,21 @@
         "[CNBC_Economy] Southeast Asia\u2019s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
         "[CNBC_Economy] Record diesel prices drive UK inflation to 1-year high of 3.6%",
         "[CNBC_Economy] Japan exports in October surge 20.5%, beating estimates on robust chip shipments",
-        "[CNBC_Economy] St. Louis Fed's Musalem says four more rate hikes may be needed in coming months"
+        "[CNBC_Economy] St. Louis Fed's Musalem says four more rate hikes may be needed in coming months",
+        "[Crypto] Trump Media wants to clear $884 million of debt without selling its bitcoin",
+        "[Crypto] Bitcoin ETF outflows show waning crypto appetite ahead of Anthropic's Nasdaq debut",
+        "[Crypto] Bitcoin holds above $63,750 but Fed rate-hike threats loom large",
+        "[Crypto] North Korean hackers used Sky's stablecoin system, putting billions at freeze risk"
       ],
-      "news_sentiment": -1.0,
+      "news_sentiment": -0.88,
       "notes": [
         "US10Y 5.07% (+0.07pp 5d)",
         "Dollar +0.5% 5d",
-        "Oil $82 (-17% 20d)",
-        "VIX 21.9",
+        "Oil $83 (-16% 20d)",
+        "VIX 22.3",
         "Nasdaq -4.1% 5d",
         "Fear&Greed 10",
-        "News: Macro-: rate hike, Macro-: rate hike"
+        "News: Macro-: rate hike, Inst-: etf outflow"
       ],
       "risk": 0,
       "story": [
@@ -70,7 +70,7 @@
       ],
       "total": -1
     },
-    "fetched_utc": "2026-11-19T12:05:41.632350+00:00",
+    "fetched_utc": "2026-11-19T13:05:36.485301+00:00",
     "ok": true
   },
   "paused_until": "2026-11-17T03:05:37.891182+00:00"
