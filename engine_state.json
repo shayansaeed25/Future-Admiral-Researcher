@@ -1,8 +1,9 @@
 {
   "cooldown": {
+    "ATOM-USDT": "2026-11-20T00:05:42.560816+00:00",
     "OP-USDT": "2026-11-19T22:38:43.210259+00:00"
   },
-  "last_briefing_slot": "2026-11-19-4",
+  "last_briefing_slot": "2026-11-19-5",
   "last_feed_alert_utc": "",
   "last_heartbeat_date": "2026-11-19",
   "last_signal_candle_ts": {
@@ -12,7 +13,7 @@
     "BCH-USDT": 1794726000000,
     "BNB-USDT": 1794718800000,
     "BTC-USDT": 1794711600000,
-    "DOT-USDT": 1794578400000,
+    "DOT-USDT": 1795114800000,
     "ETH-USDT": 1794996000000,
     "LINK-USDT": 1794880800000,
     "LTC-USDT": 1794988800000,
@@ -44,8 +45,8 @@
         "[Geopolitics_Iran_US] USS Roosevelt arrives in Middle East: Is the US-Iran war about to resume? - Al Jazeera",
         "[World] Myanmar committed genocide against Rohingya minority, top UN court rules",
         "[World] Trump, Putin and Xi release 'peace declaration' after historic meeting",
+        "[World] Europe ready for talks with Russia on ending war in Ukraine, leaders say",
         "[World] Dozens missing after boat carrying migrants sinks off Senegal's coast",
-        "[World] Venezuela signs military deal with US less than a year after Maduro's removal",
         "[CNBC_Economy] Southeast Asia\u2019s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
         "[CNBC_Economy] Record diesel prices drive UK inflation to 1-year high of 3.6%",
         "[CNBC_Economy] Japan exports in October surge 20.5%, beating estimates on robust chip shipments",
@@ -53,24 +54,25 @@
       ],
       "news_sentiment": -1.0,
       "notes": [
-        "US10Y 5.05% (-0.05pp 5d)",
+        "US10Y 5.06% (-0.04pp 5d)",
         "Dollar +0.7% 5d",
         "Oil $83 (-17% 20d)",
-        "VIX 27.7",
-        "Nasdaq -5.3% 5d",
+        "VIX 27.4",
+        "Nasdaq -5.9% 5d",
         "Fear&Greed 10",
         "News: Macro-: rate hike, Macro-: rate hike"
       ],
       "risk": -1,
       "story": [
+        "dollar strengthening",
         "fear gauge (VIX) elevated",
         "US tech stocks falling",
         "extreme retail fear (contrarian whale accumulation zone)",
         "inflation/Fed headlines hawkish (CPI/PPI/rates pressure)"
       ],
-      "total": -2
+      "total": -3
     },
-    "fetched_utc": "2026-11-19T19:05:39.471815+00:00",
+    "fetched_utc": "2026-11-19T20:05:44.911206+00:00",
     "ok": true
   },
   "paused_until": "2026-11-17T03:05:37.891182+00:00"
