@@ -54,11 +54,11 @@
       ],
       "news_sentiment": -1.0,
       "notes": [
-        "US10Y 5.08% (-0.03pp 5d)",
+        "US10Y 5.06% (-0.04pp 5d)",
         "Dollar +0.6% 5d",
         "Oil $83 (-16% 20d)",
-        "VIX 25.1",
-        "Nasdaq -5.3% 5d",
+        "VIX 26.6",
+        "Nasdaq -4.9% 5d",
         "Fear&Greed 10",
         "News: Macro-: rate hike, Macro-: rate hike"
       ],
@@ -71,7 +71,7 @@
       ],
       "total": -2
     },
-    "fetched_utc": "2026-11-19T17:05:38.220439+00:00",
+    "fetched_utc": "2026-11-19T18:05:38.924910+00:00",
     "ok": true
   },
   "paused_until": "2026-11-17T03:05:37.891182+00:00"
