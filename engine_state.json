@@ -1,7 +1,6 @@
 {
   "cooldown": {
-    "ETH-USDT": "2026-11-19T08:05:35.827726+00:00",
-    "LTC-USDT": "2026-11-19T11:05:31.361964+00:00"
+    "OP-USDT": "2026-11-19T22:38:43.210259+00:00"
   },
   "last_briefing_slot": "2026-11-19-4",
   "last_feed_alert_utc": "",
@@ -42,7 +41,7 @@
         "[Geopolitics_Iran_US] Trump Weighs New Strikes on Iran as Israel Presses for Action, Officials Say - The New York Times",
         "[Geopolitics_Iran_US] Iran widens Gulf attacks by targeting U.S. air base in Kuwait and sites in Bahrain - PBS",
         "[Geopolitics_Iran_US] Iran Update, November 18, 2026 - Institute for the Study of War",
-        "[Geopolitics_Iran_US] US builds up forces around Iran, but can it sustain another war? - Middle East Eye",
+        "[Geopolitics_Iran_US] USS Roosevelt arrives in Middle East: Is the US-Iran war about to resume? - Al Jazeera",
         "[World] Myanmar committed genocide against Rohingya minority, top UN court rules",
         "[World] Trump, Putin and Xi release 'peace declaration' after historic meeting",
         "[World] Dozens missing after boat carrying migrants sinks off Senegal's coast",
@@ -54,11 +53,11 @@
       ],
       "news_sentiment": -1.0,
       "notes": [
-        "US10Y 5.06% (-0.04pp 5d)",
-        "Dollar +0.6% 5d",
-        "Oil $83 (-16% 20d)",
-        "VIX 26.6",
-        "Nasdaq -4.9% 5d",
+        "US10Y 5.05% (-0.06pp 5d)",
+        "Dollar +0.7% 5d",
+        "Oil $84 (-16% 20d)",
+        "VIX 27.7",
+        "Nasdaq -4.8% 5d",
         "Fear&Greed 10",
         "News: Macro-: rate hike, Macro-: rate hike"
       ],
@@ -71,7 +70,7 @@
       ],
       "total": -2
     },
-    "fetched_utc": "2026-11-19T18:05:38.924910+00:00",
+    "fetched_utc": "2026-11-19T18:38:46.266587+00:00",
     "ok": true
   },
   "paused_until": "2026-11-17T03:05:37.891182+00:00"
