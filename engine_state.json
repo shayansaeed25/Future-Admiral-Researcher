@@ -36,16 +36,16 @@
       "fear_greed": 12,
       "headlines": [
         "[Macro_CPI_PPI] J.P. Morgan sees Fed rate hikes at next three meetings as inflation persists - Reuters",
+        "[Macro_CPI_PPI] Fed\u2019s Waller says central bank may need to \u2018shock people\u2019 with half-point rate hike - CNBC",
         "[Macro_CPI_PPI] Fed Saw Need to Keep Raising Interest Rates Despite Holding Steady in October - The New York Times",
         "[Macro_CPI_PPI] Fed minutes: Higher interest rates needed in December as inflation worries mount - AP News",
-        "[Macro_CPI_PPI] Fed\u2019s Waller says central bank may need to \u2018shock people\u2019 with half-point rate hike - CNBC",
         "[Geopolitics_Iran_US] Trump Weighs New Strikes on Iran as Israel Presses for Action, Officials Say - The New York Times",
         "[Geopolitics_Iran_US] Iran widens Gulf attacks by targeting U.S. air base in Kuwait and sites in Bahrain - PBS",
-        "[Geopolitics_Iran_US] Middle East allies press US to avoid restarting Iran war, officials say - NewsNation",
-        "[Geopolitics_Iran_US] Israeli Spy Chief Pressed for Renewed Iran Strikes During U.S. Visit - WSJ",
+        "[Geopolitics_Iran_US] US, Iran exchange fire despite talks with mediators - Reuters",
+        "[Geopolitics_Iran_US] Iran launches a third round of strikes on Bahrain, host of U.S. Navy's 5th Fleet - NPR",
         "[World] UK and EU to agree youth mobility scheme, BBC understands",
         "[World] Anthropic becomes one of world's most valuable public companies in stock market debut",
-        "[World] 'I tell my son it's just fireworks': People inside besieged Yemeni city speak to BBC",
+        "[World] 'I tell my son it's just fireworks': Life inside Yemeni city besieged by Houthis",
         "[World] Myanmar committed genocide against Rohingya minority, top UN court rules",
         "[CNBC_Economy] Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
         "[CNBC_Economy] Southeast Asia\u2019s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
@@ -55,7 +55,7 @@
       "news_sentiment": -0.96,
       "notes": [
         "US10Y 5.05% (-0.05pp 5d)",
-        "Dollar +0.4% 5d",
+        "Dollar +0.3% 5d",
         "Oil $83 (-20% 20d)",
         "VIX 28.4",
         "Nasdaq -5.9% 5d",
@@ -71,7 +71,7 @@
       ],
       "total": -2
     },
-    "fetched_utc": "2026-11-20T06:05:34.321489+00:00",
+    "fetched_utc": "2026-11-20T07:05:30.808970+00:00",
     "ok": true
   },
   "paused_until": "2026-11-17T03:05:37.891182+00:00"
