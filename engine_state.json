@@ -1,8 +1,9 @@
 {
   "cooldown": {
-    "BCH-USDT": "2026-11-20T19:05:34.956534+00:00"
+    "BCH-USDT": "2026-11-20T19:05:34.956534+00:00",
+    "DOT-USDT": "2026-11-20T20:05:27.979368+00:00"
   },
-  "last_briefing_slot": "2026-11-20-3",
+  "last_briefing_slot": "2026-11-20-4",
   "last_feed_alert_utc": "",
   "last_heartbeat_date": "2026-11-20",
   "last_signal_candle_ts": {
@@ -39,9 +40,9 @@
         "[Macro_CPI_PPI] J.P. Morgan sees Fed rate hikes at next three meetings as inflation persists - Reuters",
         "[Macro_CPI_PPI] A \u2018Shock\u2019 Rate Hike by the Fed? In This Economy? - Bloomberg.com",
         "[Geopolitics_Iran_US] Trump says Tehran may be working on chemical or biological weapons as tension mounts - CBS News",
-        "[Geopolitics_Iran_US] Trump Weighs New Strikes on Iran as Israel Presses for Action, Officials Say - The New York Times",
         "[Geopolitics_Iran_US] Third U.S. aircraft carrier in Middle East as Trump keeps options open in Iran war - PBS",
-        "[Geopolitics_Iran_US] Iran launches a third round of strikes on Bahrain, host of U.S. Navy's 5th Fleet - NPR",
+        "[Geopolitics_Iran_US] Trump Weighs New Strikes on Iran as Israel Presses for Action, Officials Say - The New York Times",
+        "[Geopolitics_Iran_US] Iran\u2019s IRGC threatens infrastructure attacks beyond Middle East amid US-Israel escalation - Al-Monitor",
         "[World] Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
         "[World] Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
         "[World] Nearly 600 women killed in South Africa within three months",
@@ -53,11 +54,11 @@
       ],
       "news_sentiment": -1.0,
       "notes": [
-        "US10Y 4.98% (-0.17pp 5d)",
+        "US10Y 4.95% (-0.20pp 5d)",
         "Dollar +0.3% 5d",
         "Oil $82 (-21% 20d)",
-        "VIX 28.8",
-        "Nasdaq -5.7% 5d",
+        "VIX 29.7",
+        "Nasdaq -7.7% 5d",
         "Fear&Greed 12",
         "News: Macro-: rate hike, Macro-: rate hike"
       ],
@@ -71,7 +72,7 @@
       ],
       "total": -1
     },
-    "fetched_utc": "2026-11-20T15:05:37.527313+00:00",
+    "fetched_utc": "2026-11-20T16:05:30.097186+00:00",
     "ok": true
   },
   "paused_until": "2026-11-17T03:05:37.891182+00:00"
