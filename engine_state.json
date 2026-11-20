@@ -27,7 +27,6 @@
       "blackout": false,
       "blackout_reason": "",
       "catalysts": [
-        "Geopolitics-: missile attack",
         "Macro-: rate hike",
         "Macro-: rate hike"
       ],
@@ -36,17 +35,17 @@
       ],
       "fear_greed": 12,
       "headlines": [
-        "[Macro_CPI_PPI] Monetary Policy - Federal Reserve (.gov)",
+        "[Macro_CPI_PPI] Fed\u2019s Waller says central bank may need to \u2018shock people\u2019 with half-point rate hike - CNBC",
         "[Macro_CPI_PPI] J.P. Morgan sees Fed rate hikes at next three meetings as inflation persists - Reuters",
         "[Macro_CPI_PPI] A \u2018Shock\u2019 Rate Hike by the Fed? In This Economy? - Bloomberg.com",
         "[Macro_CPI_PPI] Fed Saw Need to Keep Raising Rates Despite Holding Steady in October - The New York Times",
+        "[Geopolitics_Iran_US] Trump says Tehran may be working on chemical or biological weapons as tension mounts - CBS News",
         "[Geopolitics_Iran_US] Third U.S. aircraft carrier in Middle East as Trump keeps options open in Iran war - PBS",
         "[Geopolitics_Iran_US] Trump Weighs New Strikes on Iran as Israel Presses for Action, Officials Say - The New York Times",
         "[Geopolitics_Iran_US] Middle East allies press US to avoid restarting Iran war, officials say - NewsNation",
-        "[Geopolitics_Iran_US] Iran launches a third round of strikes on Bahrain, host of U.S. Navy's 5th Fleet - NPR",
         "[World] UK and EU to agree youth mobility scheme, BBC understands",
-        "[World] Three Kyiv bridges hit during major Russian missile attack",
-        "[World] 'I tell my son it's just fireworks': Life inside Yemeni city besieged by Houthis",
+        "[World] Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
+        "[World] Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
         "[World] Nearly 600 women killed in South Africa within three months",
         "[CNBC_Economy] Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
         "[CNBC_Economy] Southeast Asia\u2019s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
@@ -56,24 +55,23 @@
       "news_sentiment": -1.0,
       "notes": [
         "US10Y 5.05% (-0.05pp 5d)",
-        "Dollar +0.5% 5d",
+        "Dollar +0.3% 5d",
         "Oil $82 (-20% 20d)",
-        "VIX 29.9",
+        "VIX 30.9",
         "Nasdaq -5.9% 5d",
         "Fear&Greed 12",
-        "News: Geopolitics-: missile attack, Macro-: rate hike"
+        "News: Macro-: rate hike, Macro-: rate hike"
       ],
       "risk": -1,
       "story": [
         "fear gauge (VIX) elevated",
         "US tech stocks falling",
         "extreme retail fear (contrarian whale accumulation zone)",
-        "geopolitical tension elevated (US/Iran/conflict headlines)",
         "inflation/Fed headlines hawkish (CPI/PPI/rates pressure)"
       ],
       "total": -2
     },
-    "fetched_utc": "2026-11-20T12:05:30.742933+00:00",
+    "fetched_utc": "2026-11-20T13:05:39.540642+00:00",
     "ok": true
   },
   "paused_until": "2026-11-17T03:05:37.891182+00:00"
