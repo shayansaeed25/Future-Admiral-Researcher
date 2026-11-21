@@ -27,7 +27,6 @@
       "blackout": false,
       "blackout_reason": "",
       "catalysts": [
-        "Geopolitics+: diplomacy",
         "Macro-: rate hike",
         "Macro-: rate hike"
       ],
@@ -36,14 +35,14 @@
       ],
       "fear_greed": 12,
       "headlines": [
-        "[Macro_CPI_PPI] Fed\u2019s Waller says central bank may need to \u2018shock people\u2019 with half-point rate hike - CNBC",
+        "[Macro_CPI_PPI] Monetary Policy - Federal Reserve (.gov)",
         "[Macro_CPI_PPI] Fed's Cook says rate hikes needed to lower high inflation - Reuters",
-        "[Macro_CPI_PPI] The Federal Reserve Is Expected to Raise Interest Rates Next Month. By How Much Is an Open Question. - Barron's",
-        "[Macro_CPI_PPI] Fed minutes: Higher interest rates needed in December as inflation worries mount - AP News",
-        "[Geopolitics_Iran_US] Trump says Tehran may be working on chemical or biological weapons as tension mounts - CBS News",
-        "[Geopolitics_Iran_US] Third U.S. aircraft carrier in Middle East as Trump keeps options open in Iran war - PBS",
-        "[Geopolitics_Iran_US] Syria Is Paying the Price for the Iran War - Middle East Institute",
-        "[Geopolitics_Iran_US] Araqchi says Iran wants diplomacy to end war, Trump says terms unacceptable - Reuters",
+        "[Macro_CPI_PPI] Fed\u2019s Waller says central bank may need to \u2018shock people\u2019 with half-point rate hike - CNBC",
+        "[Macro_CPI_PPI] Fed Saw Need to Keep Raising Interest Rates Despite Holding Steady in October - The New York Times",
+        "[Geopolitics_Iran_US] Trump insists Iran won\u2019t make an \u2018acceptable\u2019 deal as concerns grow about next steps - AP News",
+        "[Geopolitics_Iran_US] U.S. and Israel considering new assault on Iran, sources say - CBS News",
+        "[Geopolitics_Iran_US] Trump \u2018considering new strikes on Iran after being warned military is running out of time\u2019 - The Independent",
+        "[Geopolitics_Iran_US] \u2018Status quo\u2019 between US and Iran could break out into war, analysts warn - Al Jazeera",
         "[World] Tech stock sell-off drags markets down as Anthropic shares slide",
         "[World] UK to explore even closer ties with EU after agreeing deal, says Burnham",
         "[World] Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
@@ -53,7 +52,7 @@
         "[CNBC_Economy] Record diesel prices drive UK inflation to 1-year high of 3.6%",
         "[CNBC_Economy] Japan exports in October surge 20.5%, beating estimates on robust chip shipments"
       ],
-      "news_sentiment": -0.333,
+      "news_sentiment": -0.96,
       "notes": [
         "US10Y 4.91% (-0.24pp 5d)",
         "Dollar +0.4% 5d",
@@ -61,7 +60,7 @@
         "VIX 35.9",
         "Nasdaq -10.0% 5d",
         "Fear&Greed 12",
-        "News: Geopolitics+: diplomacy, Macro-: rate hike"
+        "News: Macro-: rate hike, Macro-: rate hike"
       ],
       "risk": 0,
       "story": [
@@ -69,12 +68,11 @@
         "fear gauge (VIX) elevated",
         "US tech stocks falling",
         "extreme retail fear (contrarian whale accumulation zone)",
-        "geopolitical de-escalation / talks progress",
         "inflation/Fed headlines hawkish (CPI/PPI/rates pressure)"
       ],
       "total": -1
     },
-    "fetched_utc": "2026-11-21T02:05:25.100244+00:00",
+    "fetched_utc": "2026-11-21T03:05:28.078565+00:00",
     "ok": true
   },
   "paused_until": "2026-11-17T03:05:37.891182+00:00"
