@@ -34,14 +34,14 @@
       ],
       "fear_greed": 12,
       "headlines": [
+        "[Macro_CPI_PPI] Monetary Policy - Federal Reserve (.gov)",
         "[Macro_CPI_PPI] Fed's Cook says rate hikes needed to lower high inflation - Reuters",
         "[Macro_CPI_PPI] Warsh wants Fed officials to talk less. Instead, they\u2019re talking more - CNBC",
-        "[Macro_CPI_PPI] The Federal Reserve is Expected to Raise Interest Rates Next Month. By How Much Is an Open Question. - Barron's",
-        "[Macro_CPI_PPI] Fed Governor Lisa Cook Says Her October Dissent Reflected Inflation Fight\u2019s Urgency - WSJ",
-        "[Geopolitics_Iran_US] Trump says Tehran may be working on chemical or biological weapons as tension mounts - CBS News",
-        "[Geopolitics_Iran_US] Third U.S. aircraft carrier in Middle East as Trump keeps options open in Iran war - PBS",
-        "[Geopolitics_Iran_US] Syria Is Paying the Price for the Iran War - Middle East Institute",
-        "[Geopolitics_Iran_US] Ending the Iran war Is Donald Trump\u2019s least worst option. Here\u2019s why. - Defense Priorities",
+        "[Macro_CPI_PPI] The Federal Reserve Is Expected to Raise Interest Rates Next Month. By How Much Is an Open Question. - Barron's",
+        "[Geopolitics_Iran_US] Live Updates: Trump says next move on Iran may not come until 2027 as Tehran denies chemical weapons claim - CBS News",
+        "[Geopolitics_Iran_US] \u2018Status quo\u2019 between US and Iran could break out into war, analysts warn - Al Jazeera",
+        "[Geopolitics_Iran_US] Trump \u2018considering new strikes on Iran after being warned military is running out of time\u2019 - The Independent",
+        "[Geopolitics_Iran_US] Trump insists Iran won't make an 'acceptable' deal as concerns grow about next steps - Newsday",
         "[World] Tech stock sell-off drags markets down as Anthropic shares slide",
         "[World] UK to explore even closer ties with EU after agreeing deal, says Burnham",
         "[World] Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
@@ -71,7 +71,7 @@
       ],
       "total": -1
     },
-    "fetched_utc": "2026-11-20T23:58:28.651430+00:00",
+    "fetched_utc": "2026-11-21T01:05:37.740747+00:00",
     "ok": true
   },
   "paused_until": "2026-11-17T03:05:37.891182+00:00"
