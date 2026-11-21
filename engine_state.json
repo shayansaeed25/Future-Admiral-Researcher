@@ -35,18 +35,18 @@
       ],
       "fear_greed": 12,
       "headlines": [
+        "[Macro_CPI_PPI] Monetary Policy - Federal Reserve (.gov)",
         "[Macro_CPI_PPI] Fed's Cook says rate hikes needed to lower high inflation - Reuters",
-        "[Macro_CPI_PPI] Warsh wants Fed officials to talk less. Instead, they\u2019re talking more - CNBC",
         "[Macro_CPI_PPI] Fed minutes: Higher interest rates needed in December as inflation worries mount - AP News",
-        "[Macro_CPI_PPI] The Federal Reserve Is Expected to Raise Interest Rates Next Month. By How Much Is an Open Question. - Barron's",
+        "[Macro_CPI_PPI] Warsh wants Fed officials to talk less. Instead, they\u2019re talking more - CNBC",
         "[Geopolitics_Iran_US] Trump says Tehran may be working on chemical or biological weapons as tension mounts - CBS News",
         "[Geopolitics_Iran_US] Third U.S. aircraft carrier in Middle East as Trump keeps options open in Iran war - PBS",
         "[Geopolitics_Iran_US] Araqchi says Iran wants diplomacy to end war, Trump says terms unacceptable - Reuters",
         "[Geopolitics_Iran_US] Syria Is Paying the Price for the Iran War - Middle East Institute",
         "[World] Tech stock sell-off drags markets down as Anthropic shares slide",
         "[World] UK to explore even closer ties with EU after agreeing deal, says Burnham",
-        "[World] Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
         "[World] French police officers sentenced for beating of music producer Michel Zecler",
+        "[World] Man convicted of starting Palisades fire in Los Angeles",
         "[CNBC_Economy] Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
         "[CNBC_Economy] Southeast Asia\u2019s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
         "[CNBC_Economy] Record diesel prices drive UK inflation to 1-year high of 3.6%",
@@ -73,7 +73,7 @@
       ],
       "total": 0
     },
-    "fetched_utc": "2026-11-21T04:05:31.926450+00:00",
+    "fetched_utc": "2026-11-21T05:05:27.945125+00:00",
     "ok": true
   },
   "paused_until": "2026-11-17T03:05:37.891182+00:00"
