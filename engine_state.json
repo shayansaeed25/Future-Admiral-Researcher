@@ -41,8 +41,8 @@
         "[Macro_CPI_PPI] Fed Saw Need to Keep Raising Interest Rates Despite Holding Steady in October - The New York Times",
         "[Geopolitics_Iran_US] Third U.S. aircraft carrier in Middle East as Trump keeps options open in Iran war - PBS",
         "[Geopolitics_Iran_US] Araqchi says Iran wants diplomacy to end war, Trump says terms unacceptable - Reuters",
-        "[Geopolitics_Iran_US] How war shifted Iran's missile ambitions beyond the Middle East - Al-Monitor",
         "[Geopolitics_Iran_US] Trump says Tehran may be working on chemical or biological weapons as tension mounts - CBS News",
+        "[Geopolitics_Iran_US] How war shifted Iran's missile ambitions beyond the Middle East - Al-Monitor",
         "[World] Tech stock sell-off drags markets down as Anthropic shares slide",
         "[World] Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
         "[World] Fight over fossil fuels leaves COP31 climate talks in deadlock",
@@ -73,7 +73,7 @@
       ],
       "total": 0
     },
-    "fetched_utc": "2026-11-21T10:05:27.367120+00:00",
+    "fetched_utc": "2026-11-21T11:05:28.917514+00:00",
     "ok": true
   },
   "paused_until": "2026-11-17T03:05:37.891182+00:00"
