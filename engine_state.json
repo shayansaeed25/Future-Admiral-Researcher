@@ -16,7 +16,7 @@
     "DOT-USDT": 1795114800000,
     "ETH-USDT": 1794996000000,
     "LINK-USDT": 1794880800000,
-    "LTC-USDT": 1794988800000,
+    "LTC-USDT": 1795298400000,
     "OP-USDT": 1795064400000,
     "TRX-USDT": 1795269600000,
     "XRP-USDT": 1794751200000
@@ -27,6 +27,7 @@
       "blackout": false,
       "blackout_reason": "",
       "catalysts": [
+        "Geopolitics+: diplomacy",
         "Macro-: rate hike",
         "Macro-: rate hike"
       ],
@@ -37,22 +38,22 @@
       "headlines": [
         "[Macro_CPI_PPI] Fed minutes: Higher interest rates needed in December as inflation worries mount - AP News",
         "[Macro_CPI_PPI] Fed Saw Need to Keep Raising Interest Rates Despite Holding Steady in October - The New York Times",
-        "[Macro_CPI_PPI] Fed's Cook says rate hikes needed to lower high inflation - Reuters",
-        "[Macro_CPI_PPI] Fed\u2019s Waller says central bank may need to \u2018shock people\u2019 with half-point rate hike - CNBC",
-        "[Geopolitics_Iran_US] Third U.S. aircraft carrier in Middle East as Trump keeps options open in Iran war - PBS",
-        "[Geopolitics_Iran_US] Iran Update, November 21, 2026 - Critical Threats",
-        "[Geopolitics_Iran_US] Iran Update, November 19, 2026 - Institute for the Study of War",
-        "[Geopolitics_Iran_US] How war shifted Iran's missile ambitions beyond the Middle East - Al-Monitor",
+        "[Macro_CPI_PPI] Fed policymakers focused on inflation risks in October, with some seeing need for bigger rate hike - Reuters",
+        "[Macro_CPI_PPI] 'Almost all' Fed policymakers saw further interest rate hikes as likely - AFP.com",
+        "[Geopolitics_Iran_US] Live Updates: Trump says he wants \"permanent\" deal with Iran; warns next move may not come until 2027 - CBS News",
+        "[Geopolitics_Iran_US] Iran says held talks with Qatari mediators, urges US to accept conditions - Al Jazeera",
+        "[Geopolitics_Iran_US] Araqchi says Iran wants diplomacy to end war, Trump says terms unacceptable - Reuters",
+        "[Geopolitics_Iran_US] Analysis \u2022 Trump's Iran choice: A deal or another war he can't end - Haaretz",
         "[World] Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
         "[World] Russia-bound ship attacked in Gulf of Finland",
-        "[World] Tech stock sell-off drags markets down as Anthropic shares slide",
         "[World] Fight over fossil fuels leaves COP31 climate talks in deadlock",
+        "[World] Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
         "[CNBC_Economy] Tech outages are fueling a new doomsday economy",
         "[CNBC_Economy] Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
         "[CNBC_Economy] Southeast Asia\u2019s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
         "[CNBC_Economy] Record diesel prices drive UK inflation to 1-year high of 3.6%"
       ],
-      "news_sentiment": -0.96,
+      "news_sentiment": -0.333,
       "notes": [
         "US10Y 4.91% (-0.24pp 5d)",
         "Dollar +0.4% 5d",
@@ -60,7 +61,7 @@
         "VIX 35.9",
         "Nasdaq -10.0% 5d",
         "Fear&Greed 12",
-        "News: Macro-: rate hike, Macro-: rate hike"
+        "News: Geopolitics+: diplomacy, Macro-: rate hike"
       ],
       "risk": 0,
       "story": [
@@ -68,11 +69,12 @@
         "fear gauge (VIX) elevated",
         "US tech stocks falling",
         "extreme retail fear (contrarian whale accumulation zone)",
+        "geopolitical de-escalation / talks progress",
         "inflation/Fed headlines hawkish (CPI/PPI/rates pressure)"
       ],
       "total": -1
     },
-    "fetched_utc": "2026-11-21T22:05:30.764045+00:00",
+    "fetched_utc": "2026-11-21T23:05:31.806816+00:00",
     "ok": true
   },
   "paused_until": "2026-11-17T03:05:37.891182+00:00"
