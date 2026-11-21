@@ -35,22 +35,22 @@
       ],
       "fear_greed": 12,
       "headlines": [
-        "[Macro_CPI_PPI] Monetary Policy - Federal Reserve (.gov)",
         "[Macro_CPI_PPI] Fed's Cook says rate hikes needed to lower high inflation - Reuters",
         "[Macro_CPI_PPI] Fed minutes: Higher interest rates needed in December as inflation worries mount - AP News",
         "[Macro_CPI_PPI] Fed Saw Need to Keep Raising Interest Rates Despite Holding Steady in October - The New York Times",
-        "[Geopolitics_Iran_US] U.S. and Israel considering new assault on Iran, sources say - CBS News",
+        "[Macro_CPI_PPI] Fed minutes: Officials favored holding rates steady in October, but they see hikes ahead - Yahoo Finance",
+        "[Geopolitics_Iran_US] Third U.S. aircraft carrier in Middle East as Trump keeps options open in Iran war - PBS",
         "[Geopolitics_Iran_US] Araqchi says Iran wants diplomacy to end war, Trump says terms unacceptable - Reuters",
-        "[Geopolitics_Iran_US] Iran says it downed US drones over Hormuz as bid to end war remains stalled - Al Jazeera",
-        "[Geopolitics_Iran_US] Analysis \u2022 Trump's Iran choice: A deal or another war he can't end - Haaretz",
+        "[Geopolitics_Iran_US] US: Cost of war in Iran passes $48 billion not including damage to infrastructure - DW.com",
+        "[Geopolitics_Iran_US] How war shifted Iran's missile ambitions beyond the Middle East - Al-Monitor",
         "[World] Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
         "[World] Tech stock sell-off drags markets down as Anthropic shares slide",
         "[World] Fight over fossil fuels leaves COP31 climate talks in deadlock",
         "[World] FBI reportedly investigating apparent hack of its criminal database",
+        "[CNBC_Economy] Tech outages are fueling a new doomsday economy",
         "[CNBC_Economy] Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
         "[CNBC_Economy] Southeast Asia\u2019s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
-        "[CNBC_Economy] Record diesel prices drive UK inflation to 1-year high of 3.6%",
-        "[CNBC_Economy] Japan exports in October surge 20.5%, beating estimates on robust chip shipments"
+        "[CNBC_Economy] Record diesel prices drive UK inflation to 1-year high of 3.6%"
       ],
       "news_sentiment": 0.0,
       "notes": [
@@ -73,7 +73,7 @@
       ],
       "total": 0
     },
-    "fetched_utc": "2026-11-21T13:05:25.142880+00:00",
+    "fetched_utc": "2026-11-21T14:05:28.068734+00:00",
     "ok": true
   },
   "paused_until": "2026-11-17T03:05:37.891182+00:00"
