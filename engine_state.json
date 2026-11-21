@@ -40,11 +40,11 @@
         "[Macro_CPI_PPI] Fed minutes: Higher interest rates needed in December as inflation worries mount - AP News",
         "[Macro_CPI_PPI] Warsh wants Fed officials to talk less. Instead, they\u2019re talking more - CNBC",
         "[Geopolitics_Iran_US] Third U.S. aircraft carrier in Middle East as Trump keeps options open in Iran war - PBS",
-        "[Geopolitics_Iran_US] Trump says Tehran may be working on chemical or biological weapons as tension mounts - CBS News",
         "[Geopolitics_Iran_US] Araqchi says Iran wants diplomacy to end war, Trump says terms unacceptable - Reuters",
+        "[Geopolitics_Iran_US] Trump says Tehran may be working on chemical or biological weapons as tension mounts - CBS News",
         "[Geopolitics_Iran_US] Syria Is Paying the Price for the Iran War - Middle East Institute",
         "[World] Tech stock sell-off drags markets down as Anthropic shares slide",
-        "[World] UK to explore even closer ties with EU after agreeing deal, says Burnham",
+        "[World] Deal with EU not dependent on tuition fees agreement, Miliband says",
         "[World] French police officers sentenced for beating of music producer Michel Zecler",
         "[World] Man convicted of starting Palisades fire in Los Angeles",
         "[CNBC_Economy] Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
@@ -73,7 +73,7 @@
       ],
       "total": 0
     },
-    "fetched_utc": "2026-11-21T06:05:26.595565+00:00",
+    "fetched_utc": "2026-11-21T06:57:44.685226+00:00",
     "ok": true
   },
   "paused_until": "2026-11-17T03:05:37.891182+00:00"
