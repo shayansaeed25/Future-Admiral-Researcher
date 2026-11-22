@@ -25,22 +25,20 @@
     "data": {
       "blackout": false,
       "blackout_reason": "",
-      "catalysts": [
-        "Macro-: rate hike"
-      ],
+      "catalysts": [],
       "errors": [
         "FREDcsv T10YIE: ReadTimeout HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed "
       ],
       "fear_greed": 11,
       "headlines": [
-        "[Macro_CPI_PPI] Fed minutes: Higher interest rates needed in December as inflation worries mount - ABC News - Breaking News, Latest News and Videos",
         "[Macro_CPI_PPI] Fed Saw Need to Keep Raising Interest Rates Despite Holding Steady in October - The New York Times",
-        "[Macro_CPI_PPI] 'Almost all' Fed policymakers saw further interest rate hikes as likely - AFP.com",
+        "[Macro_CPI_PPI] Fed minutes: Higher interest rates needed in December as inflation worries mount - ABC News - Breaking News, Latest News and Videos",
         "[Macro_CPI_PPI] Trump again urges Fed to lower interest rates - The Hill",
-        "[Geopolitics_Iran_US] Trump warns of new strikes against Iran after new year, calls negotiators \u2018professional tap dancers\u2019 - Fox News",
-        "[Geopolitics_Iran_US] Iran says held talks with Qatari mediators, urges US to accept conditions - Al Jazeera",
-        "[Geopolitics_Iran_US] Iran signals readiness for Hormuz showdown despite US buildup - Iran International",
-        "[Geopolitics_Iran_US] Iran's high-stakes gamble: breaking the US naval blockade to force a swift endgame - Ynetnews",
+        "[Macro_CPI_PPI] Warsh wants Fed officials to talk less. Instead, they\u2019re talking more - CNBC",
+        "[Geopolitics_Iran_US] Third U.S. aircraft carrier in Middle East as Trump keeps options open in Iran war - PBS",
+        "[Geopolitics_Iran_US] Iran Update, November 22, 2026 - Critical Threats",
+        "[Geopolitics_Iran_US] What We Don\u2019t Know About the Iran War - The Atlantic",
+        "[Geopolitics_Iran_US] Trump inclined to resume strikes on Iran after New Year if no deal reached - Anadolu Ajans\u0131",
         "[World] COP31 fails to reach major climate deal as talks expose deep divisions",
         "[World] What's next after no deal at COP31 climate talks?",
         "[World] Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
@@ -50,27 +48,25 @@
         "[CNBC_Economy] Southeast Asia\u2019s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
         "[CNBC_Economy] Record diesel prices drive UK inflation to 1-year high of 3.6%"
       ],
-      "news_sentiment": -0.48,
+      "news_sentiment": 0.0,
       "notes": [
         "US10Y 4.91% (-0.24pp 5d)",
-        "Dollar +0.4% 5d",
+        "Dollar +0.3% 5d",
         "Oil $83 (-19% 20d)",
         "VIX 35.9",
         "Nasdaq -10.0% 5d",
-        "Fear&Greed 11",
-        "News: Macro-: rate hike"
+        "Fear&Greed 11"
       ],
       "risk": 0,
       "story": [
         "yields falling -> easier money",
         "fear gauge (VIX) elevated",
         "US tech stocks falling",
-        "extreme retail fear (contrarian whale accumulation zone)",
-        "inflation/Fed headlines hawkish (CPI/PPI/rates pressure)"
+        "extreme retail fear (contrarian whale accumulation zone)"
       ],
-      "total": -1
+      "total": 0
     },
-    "fetched_utc": "2026-11-22T22:05:34.720089+00:00",
+    "fetched_utc": "2026-11-22T23:05:32.546237+00:00",
     "ok": true
   },
   "paused_until": "2026-11-17T03:05:37.891182+00:00"
