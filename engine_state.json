@@ -25,12 +25,24 @@
     "data": {
       "blackout": false,
       "blackout_reason": "",
-      "catalysts": [],
+      "catalysts": [
+        "Geopolitics+: diplomacy",
+        "Macro-: rate hike",
+        "Macro-: rate hike"
+      ],
       "errors": [
         "FREDcsv T10YIE: ReadTimeout HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed "
       ],
       "fear_greed": 11,
       "headlines": [
+        "[Macro_CPI_PPI] Fed minutes: Higher interest rates needed in December as inflation worries mount - AP News",
+        "[Macro_CPI_PPI] Fed Saw Need to Keep Raising Interest Rates Despite Holding Steady in October - The New York Times",
+        "[Macro_CPI_PPI] 'Almost all' Fed policymakers saw further interest rate hikes as likely - AFP.com",
+        "[Macro_CPI_PPI] Fed\u2019s Waller says central bank may need to \u2018shock people\u2019 with half-point rate hike - CNBC",
+        "[Geopolitics_Iran_US] Iran says held talks with Qatari mediators, urges US to accept conditions - Al Jazeera",
+        "[Geopolitics_Iran_US] Iran signals readiness for Hormuz showdown despite US buildup - Iran International",
+        "[Geopolitics_Iran_US] Araqchi says Iran wants diplomacy to end war, Trump says terms unacceptable - Reuters",
+        "[Geopolitics_Iran_US] Iran's high-stakes gamble: breaking the US naval blockade to force a swift endgame - Ynetnews",
         "[World] Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
         "[World] South Korea education minister resigns over exam cheating scandal",
         "[World] Russia-bound ship still on fire after attack in Gulf of Finland",
@@ -48,14 +60,15 @@
         "[Cointelegraph] Bitcoin briefly drops to $17K on Kraken, exchange upholds trades",
         "[Cointelegraph] South Korean exchanges halt CYBER transfers amid suspected bridge exploit"
       ],
-      "news_sentiment": 0.0,
+      "news_sentiment": -0.333,
       "notes": [
         "US10Y 4.91% (-0.24pp 5d)",
         "Dollar +0.4% 5d",
         "Oil $83 (-19% 20d)",
         "VIX 35.9",
         "Nasdaq -10.0% 5d",
-        "Fear&Greed 11"
+        "Fear&Greed 11",
+        "News: Geopolitics+: diplomacy, Macro-: rate hike"
       ],
       "risk": 0,
       "story": [
@@ -64,9 +77,9 @@
         "US tech stocks falling",
         "extreme retail fear (contrarian whale accumulation zone)"
       ],
-      "total": 0
+      "total": -1
     },
-    "fetched_utc": "2026-11-22T17:05:49.276776+00:00",
+    "fetched_utc": "2026-11-22T17:07:12.313348+00:00",
     "ok": true
   },
   "paused_until": "2026-11-17T03:05:37.891182+00:00"
