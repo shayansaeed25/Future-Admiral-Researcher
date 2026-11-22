@@ -3,7 +3,7 @@
     "BCH-USDT": "2026-11-20T19:05:34.956534+00:00",
     "DOT-USDT": "2026-11-20T20:05:27.979368+00:00"
   },
-  "last_briefing_slot": "2026-11-22-1",
+  "last_briefing_slot": "2026-11-22-2",
   "last_feed_alert_utc": "",
   "last_heartbeat_date": "2026-11-22",
   "last_signal_candle_ts": {
@@ -40,11 +40,11 @@
         "[Macro_CPI_PPI] Fed Saw Need to Keep Raising Interest Rates Despite Holding Steady in October - The New York Times",
         "[Macro_CPI_PPI] Fed's Cook says rate hikes needed to lower high inflation - Reuters",
         "[Macro_CPI_PPI] Fed\u2019s Waller says central bank may need to \u2018shock people\u2019 with half-point rate hike - CNBC",
-        "[Geopolitics_Iran_US] Live Updates: Trump says he wants \"permanent\" deal with Iran; warns next move may not come until 2027 - CBS News",
         "[Geopolitics_Iran_US] Iran says held talks with Qatari mediators, urges US to accept conditions - Al Jazeera",
+        "[Geopolitics_Iran_US] U.S. and Israel considering new assault on Iran, sources say - CBS News",
         "[Geopolitics_Iran_US] Araqchi says Iran wants diplomacy to end war, Trump says terms unacceptable - Reuters",
         "[Geopolitics_Iran_US] Iran signals readiness for Hormuz showdown despite US buildup - Iran International",
-        "[World] New draft deal aims to avert collapse of talks at climate summit",
+        "[World] New draft deal aims to avert collapse of talks at COP31 climate summit",
         "[World] Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
         "[World] Russia-bound ship attacked in Gulf of Finland",
         "[World] Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
@@ -74,7 +74,7 @@
       ],
       "total": -1
     },
-    "fetched_utc": "2026-11-22T07:05:42.128205+00:00",
+    "fetched_utc": "2026-11-22T08:05:36.588838+00:00",
     "ok": true
   },
   "paused_until": "2026-11-17T03:05:37.891182+00:00"
