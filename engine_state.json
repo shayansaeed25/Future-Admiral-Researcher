@@ -38,12 +38,12 @@
       "headlines": [
         "[Macro_CPI_PPI] Fed minutes: Higher interest rates needed in December as inflation worries mount - AP News",
         "[Macro_CPI_PPI] Fed Saw Need to Keep Raising Interest Rates Despite Holding Steady in October - The New York Times",
-        "[Macro_CPI_PPI] Fed's Cook says rate hikes needed to lower high inflation - Reuters",
         "[Macro_CPI_PPI] Fed\u2019s Waller says central bank may need to \u2018shock people\u2019 with half-point rate hike - CNBC",
+        "[Macro_CPI_PPI] 'Almost all' Fed policymakers saw further interest rate hikes as likely - AFP.com",
         "[Geopolitics_Iran_US] Iran war live: US \u2018defeated\u2019 and cannot dictate peace deal terms \u2013 Tehran - Al Jazeera",
-        "[Geopolitics_Iran_US] U.S. and Israel considering new assault on Iran, sources say - CBS News",
-        "[Geopolitics_Iran_US] Araqchi says Iran wants diplomacy to end war, Trump says terms unacceptable - Reuters",
         "[Geopolitics_Iran_US] Iran signals readiness for Hormuz showdown despite US buildup - Iran International",
+        "[Geopolitics_Iran_US] Araqchi says Iran wants diplomacy to end war, Trump says terms unacceptable - Reuters",
+        "[Geopolitics_Iran_US] Instead of all-out war, Trump moves to strangle Iran's economy - Israel Hayom",
         "[World] South Korea education minister resigns over exam cheating scandal",
         "[World] Russia-bound ship still on fire after attack in Gulf of Finland",
         "[World] Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
@@ -74,7 +74,7 @@
       ],
       "total": 0
     },
-    "fetched_utc": "2026-11-22T12:05:34.323700+00:00",
+    "fetched_utc": "2026-11-22T13:05:32.649569+00:00",
     "ok": true
   },
   "paused_until": "2026-11-17T03:05:37.891182+00:00"
