@@ -1,7 +1,6 @@
 {
   "cooldown": {
-    "BCH-USDT": "2026-11-20T19:05:34.956534+00:00",
-    "DOT-USDT": "2026-11-20T20:05:27.979368+00:00"
+    "TRX-USDT": "2026-11-22T22:05:27.609879+00:00"
   },
   "last_briefing_slot": "2026-11-22-2",
   "last_feed_alert_utc": "",
@@ -21,12 +20,13 @@
     "TRX-USDT": 1795269600000,
     "XRP-USDT": 1794751200000
   },
-  "loss_streak": 0,
+  "loss_streak": 1,
   "macro_cache": {
     "data": {
       "blackout": false,
       "blackout_reason": "",
       "catalysts": [
+        "Geopolitics+: peace deal",
         "Geopolitics+: diplomacy",
         "Macro-: rate hike",
         "Macro-: rate hike"
@@ -40,20 +40,20 @@
         "[Macro_CPI_PPI] Fed Saw Need to Keep Raising Interest Rates Despite Holding Steady in October - The New York Times",
         "[Macro_CPI_PPI] Fed's Cook says rate hikes needed to lower high inflation - Reuters",
         "[Macro_CPI_PPI] Fed\u2019s Waller says central bank may need to \u2018shock people\u2019 with half-point rate hike - CNBC",
-        "[Geopolitics_Iran_US] Iran says held talks with Qatari mediators, urges US to accept conditions - Al Jazeera",
-        "[Geopolitics_Iran_US] U.S. and Israel considering new assault on Iran, sources say - CBS News",
+        "[Geopolitics_Iran_US] Iran war live: US \u2018defeated\u2019 and cannot dictate peace deal terms \u2013 Tehran - Al Jazeera",
+        "[Geopolitics_Iran_US] Live Updates: Trump says he wants \"permanent\" deal with Iran; warns next move may not come until 2027 - CBS News",
         "[Geopolitics_Iran_US] Araqchi says Iran wants diplomacy to end war, Trump says terms unacceptable - Reuters",
         "[Geopolitics_Iran_US] Iran signals readiness for Hormuz showdown despite US buildup - Iran International",
-        "[World] New draft deal aims to avert collapse of talks at COP31 climate summit",
-        "[World] Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
+        "[World] South Korea education minister resigns over exam cheating scandal",
         "[World] Russia-bound ship attacked in Gulf of Finland",
         "[World] Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
+        "[World] Three killed and dozens missing after fire at Indonesian factory",
         "[CNBC_Economy] Tech outages are fueling a new doomsday economy",
         "[CNBC_Economy] Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
         "[CNBC_Economy] Southeast Asia\u2019s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
         "[CNBC_Economy] Record diesel prices drive UK inflation to 1-year high of 3.6%"
       ],
-      "news_sentiment": -0.333,
+      "news_sentiment": 0.0,
       "notes": [
         "US10Y 4.91% (-0.24pp 5d)",
         "Dollar +0.4% 5d",
@@ -61,7 +61,7 @@
         "VIX 35.9",
         "Nasdaq -10.0% 5d",
         "Fear&Greed 11",
-        "News: Geopolitics+: diplomacy, Macro-: rate hike"
+        "News: Geopolitics+: peace deal, Geopolitics+: diplomacy"
       ],
       "risk": 0,
       "story": [
@@ -72,9 +72,9 @@
         "geopolitical de-escalation / talks progress",
         "inflation/Fed headlines hawkish (CPI/PPI/rates pressure)"
       ],
-      "total": -1
+      "total": 0
     },
-    "fetched_utc": "2026-11-22T08:48:00.524325+00:00",
+    "fetched_utc": "2026-11-22T10:05:35.975879+00:00",
     "ok": true
   },
   "paused_until": "2026-11-17T03:05:37.891182+00:00"
