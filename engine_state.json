@@ -26,7 +26,6 @@
       "blackout": false,
       "blackout_reason": "",
       "catalysts": [
-        "Geopolitics+: diplomacy",
         "Macro-: rate hike",
         "Macro-: rate hike"
       ],
@@ -39,28 +38,20 @@
         "[Macro_CPI_PPI] Fed Saw Need to Keep Raising Interest Rates Despite Holding Steady in October - The New York Times",
         "[Macro_CPI_PPI] 'Almost all' Fed policymakers saw further interest rate hikes as likely - AFP.com",
         "[Macro_CPI_PPI] Fed\u2019s Waller says central bank may need to \u2018shock people\u2019 with half-point rate hike - CNBC",
-        "[Geopolitics_Iran_US] Iran says held talks with Qatari mediators, urges US to accept conditions - Al Jazeera",
-        "[Geopolitics_Iran_US] Iran signals readiness for Hormuz showdown despite US buildup - Iran International",
-        "[Geopolitics_Iran_US] Araqchi says Iran wants diplomacy to end war, Trump says terms unacceptable - Reuters",
-        "[Geopolitics_Iran_US] Iran's high-stakes gamble: breaking the US naval blockade to force a swift endgame - Ynetnews",
+        "[Geopolitics_Iran_US] Israeli Spy Chief Pressed for Renewed Iran Strikes During U.S. Visit - WSJ",
+        "[Geopolitics_Iran_US] Iran Update, November 21, 2026 - Institute for the Study of War",
+        "[Geopolitics_Iran_US] Third U.S. aircraft carrier in Middle East as Trump keeps options open in Iran war - PBS",
+        "[Geopolitics_Iran_US] What We Don\u2019t Know About the Iran War - The Atlantic",
         "[World] Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
         "[World] South Korea education minister resigns over exam cheating scandal",
-        "[World] Russia-bound ship still on fire after attack in Gulf of Finland",
+        "[World] Russia-bound ship towed away after it was attacked in Gulf of Finland",
         "[World] Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
         "[CNBC_Economy] Tech outages are fueling a new doomsday economy",
         "[CNBC_Economy] Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
         "[CNBC_Economy] Southeast Asia\u2019s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
-        "[CNBC_Economy] Record diesel prices drive UK inflation to 1-year high of 3.6%",
-        "[Crypto] Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins",
-        "[Crypto] Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave",
-        "[Crypto] Cross-chain protocol Chainflip's FLIP tanks 30% after suspected $4.86 million vault drain",
-        "[Crypto] Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
-        "[Cointelegraph] The future of onchain FX could start with users, not institutional liquidity",
-        "[Cointelegraph] Here\u2019s what happened in crypto today",
-        "[Cointelegraph] Bitcoin briefly drops to $17K on Kraken, exchange upholds trades",
-        "[Cointelegraph] South Korean exchanges halt CYBER transfers amid suspected bridge exploit"
+        "[CNBC_Economy] Record diesel prices drive UK inflation to 1-year high of 3.6%"
       ],
-      "news_sentiment": -0.333,
+      "news_sentiment": -0.96,
       "notes": [
         "US10Y 4.91% (-0.24pp 5d)",
         "Dollar +0.4% 5d",
@@ -68,18 +59,19 @@
         "VIX 35.9",
         "Nasdaq -10.0% 5d",
         "Fear&Greed 11",
-        "News: Geopolitics+: diplomacy, Macro-: rate hike"
+        "News: Macro-: rate hike, Macro-: rate hike"
       ],
       "risk": 0,
       "story": [
         "yields falling -> easier money",
         "fear gauge (VIX) elevated",
         "US tech stocks falling",
-        "extreme retail fear (contrarian whale accumulation zone)"
+        "extreme retail fear (contrarian whale accumulation zone)",
+        "inflation/Fed headlines hawkish (CPI/PPI/rates pressure)"
       ],
       "total": -1
     },
-    "fetched_utc": "2026-11-22T17:07:12.313348+00:00",
+    "fetched_utc": "2026-11-22T18:05:34.856342+00:00",
     "ok": true
   },
   "paused_until": "2026-11-17T03:05:37.891182+00:00"
