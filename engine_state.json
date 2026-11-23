@@ -1,5 +1,6 @@
 {
   "cooldown": {
+    "ARB-USDT": "2026-11-23T19:05:31.904821+00:00",
     "DOT-USDT": "2026-11-23T18:05:29.663774+00:00",
     "LTC-USDT": "2026-11-23T18:05:27.334966+00:00"
   },
@@ -27,6 +28,7 @@
       "blackout": false,
       "blackout_reason": "",
       "catalysts": [
+        "Macro-: rate hike",
         "Macro-: rate hike"
       ],
       "errors": [
@@ -34,14 +36,14 @@
       ],
       "fear_greed": 11,
       "headlines": [
-        "[Macro_CPI_PPI] Monetary Policy - Federal Reserve (.gov)",
-        "[Macro_CPI_PPI] Market Minute: RSM\u2019s U.S. rates outlook for 2027 - The Real Economy Blog",
         "[Macro_CPI_PPI] Get ready for 3 consecutive rate hikes starting next month, bank economist warns - Business Insider",
+        "[Macro_CPI_PPI] Market Minute: RSM\u2019s U.S. rates outlook for 2027 - The Real Economy Blog",
         "[Macro_CPI_PPI] Bessent Says Fed Risks Jeopardizing Economy by Overtightening - Bloomberg.com",
-        "[Geopolitics_Iran_US] Iran war live: \u2018All tools\u2019 to break US blockade will be used \u2013 Tehran - Al Jazeera",
+        "[Macro_CPI_PPI] Fed's Cook says rate hikes needed to lower high inflation - Reuters",
+        "[Geopolitics_Iran_US] Iran war live: Hormuz standoff brings escalation threat against US blockade - Al Jazeera",
         "[Geopolitics_Iran_US] Live Updates: Iran says it will use all means to end U.S. blockade as Trump plays down escalating attacks - CBS News",
-        "[Geopolitics_Iran_US] US weighs delaying Iran strikes despite Israeli pressure for military action - Iran International",
         "[Geopolitics_Iran_US] Iran live updates: Iranian attacks spike over past week, Trump says - ABC News - Breaking News, Latest News and Videos",
+        "[Geopolitics_Iran_US] Trump says he\u2019s inclined to strike Iran after new year if no deal reached - The Hill",
         "[World] Russian warship hit by Ukrainian drones in Libya, Zelensky says",
         "[World] Longest-ever UN climate talks end with no deal as deep divisions exposed",
         "[World] Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
@@ -51,27 +53,26 @@
         "[CNBC_Economy] Southeast Asia\u2019s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
         "[CNBC_Economy] Record diesel prices drive UK inflation to 1-year high of 3.6%"
       ],
-      "news_sentiment": -0.48,
+      "news_sentiment": -0.96,
       "notes": [
-        "US10Y 4.91% (-0.24pp 5d)",
-        "Dollar +0.5% 5d",
+        "US10Y 4.94% (-0.18pp 5d)",
+        "Dollar +0.6% 5d",
         "Oil $82 (-19% 20d)",
-        "VIX 31.7",
-        "Nasdaq -10.0% 5d",
+        "VIX 28.5",
+        "Nasdaq -1.5% 5d",
         "Fear&Greed 11",
-        "News: Macro-: rate hike"
+        "News: Macro-: rate hike, Macro-: rate hike"
       ],
       "risk": 0,
       "story": [
         "yields falling -> easier money",
         "fear gauge (VIX) elevated",
-        "US tech stocks falling",
         "extreme retail fear (contrarian whale accumulation zone)",
         "inflation/Fed headlines hawkish (CPI/PPI/rates pressure)"
       ],
-      "total": -1
+      "total": 0
     },
-    "fetched_utc": "2026-11-23T13:05:28.283667+00:00",
+    "fetched_utc": "2026-11-23T15:05:35.582003+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
