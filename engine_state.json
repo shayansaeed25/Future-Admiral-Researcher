@@ -26,10 +26,7 @@
     "data": {
       "blackout": false,
       "blackout_reason": "",
-      "catalysts": [
-        "Geopolitics-: missile attack",
-        "Macro-: rate hike"
-      ],
+      "catalysts": [],
       "errors": [
         "FREDcsv T10YIE: ReadTimeout HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed "
       ],
@@ -37,43 +34,40 @@
       "headlines": [
         "[Macro_CPI_PPI] Monetary Policy - Federal Reserve (.gov)",
         "[Macro_CPI_PPI] Gold rises from 14-month low as markets await U.S. inflation data - CNBC",
+        "[Macro_CPI_PPI] Market Minute: RSM\u2019s U.S. rates outlook for 2027 - The Real Economy Blog",
         "[Macro_CPI_PPI] Bessent Says Fed Risks Jeopardizing Economy by Overtightening - Bloomberg.com",
-        "[Macro_CPI_PPI] Fed's Cook says rate hikes needed to lower high inflation - Reuters",
-        "[Geopolitics_Iran_US] Iran war live: \u2018All tools\u2019 to break US blockade will be used \u2013 Tehran - Al Jazeera",
-        "[Geopolitics_Iran_US] Iran signals readiness for Hormuz showdown despite US buildup - Iran International",
-        "[Geopolitics_Iran_US] Instead of all-out war, Trump moves to strangle Iran's economy - Israel Hayom",
-        "[Geopolitics_Iran_US] US Iran War Live Updates: Trump claims Iran escalated drone, missile attacks after Democrats' midterm wins - The Times of India",
+        "[Geopolitics_Iran_US] Israeli Spy Chief Pressed for Renewed Iran Strikes During U.S. Visit - WSJ",
+        "[Geopolitics_Iran_US] US eyes lasting agreement to end Iran war - China Daily Global Edition",
+        "[Geopolitics_Iran_US] Third U.S. aircraft carrier in Middle East as Trump keeps options open in Iran war - PBS",
+        "[Geopolitics_Iran_US] Syria Is Paying the Price for the Iran War - Middle East Institute",
         "[World] Longest-ever UN climate talks end with no deal as deep divisions exposed",
         "[World] Five takeaways from the failed climate talks COP31",
         "[World] Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say",
-        "[World] Russian ships hit by Ukrainian drones off Libya coast, Zelensky says",
+        "[World] Russian warship hit by Ukrainian drones in Libya, Zelensky says",
         "[CNBC_Economy] Tech outages are fueling a new doomsday economy",
         "[CNBC_Economy] Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
         "[CNBC_Economy] Southeast Asia\u2019s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
         "[CNBC_Economy] Record diesel prices drive UK inflation to 1-year high of 3.6%"
       ],
-      "news_sentiment": -1.0,
+      "news_sentiment": 0.0,
       "notes": [
         "US10Y 4.91% (-0.24pp 5d)",
-        "Dollar +0.2% 5d",
-        "Oil $83 (-18% 20d)",
-        "VIX 30.4",
+        "Dollar +0.3% 5d",
+        "Oil $83 (-19% 20d)",
+        "VIX 29.8",
         "Nasdaq -10.0% 5d",
-        "Fear&Greed 11",
-        "News: Geopolitics-: missile attack, Macro-: rate hike"
+        "Fear&Greed 11"
       ],
       "risk": 0,
       "story": [
         "yields falling -> easier money",
         "fear gauge (VIX) elevated",
         "US tech stocks falling",
-        "extreme retail fear (contrarian whale accumulation zone)",
-        "geopolitical tension elevated (US/Iran/conflict headlines)",
-        "inflation/Fed headlines hawkish (CPI/PPI/rates pressure)"
+        "extreme retail fear (contrarian whale accumulation zone)"
       ],
-      "total": -1
+      "total": 0
     },
-    "fetched_utc": "2026-11-23T10:05:29.914013+00:00",
+    "fetched_utc": "2026-11-23T11:05:43.182796+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
