@@ -34,18 +34,18 @@
       ],
       "fear_greed": 11,
       "headlines": [
-        "[Macro_CPI_PPI] Bessent Warns Fed Risks Overtightening as US Markets Swoon - Bloomberg.com",
+        "[Macro_CPI_PPI] Bessent Says Fed Risks Jeopardizing Economy by Overtightening - Bloomberg.com",
         "[Macro_CPI_PPI] Fed Saw Need to Keep Raising Interest Rates Despite Holding Steady in October - The New York Times",
         "[Macro_CPI_PPI] Fed's Cook says rate hikes needed to lower high inflation - Reuters",
         "[Macro_CPI_PPI] Warsh wants Fed officials to talk less. Instead, they\u2019re talking more - CNBC",
-        "[Geopolitics_Iran_US] Trump warns of new strikes against Iran after new year, calls negotiators \u2018professional tap dancers\u2019 - Fox News",
-        "[Geopolitics_Iran_US] Iran says held talks with Qatari mediators, urges US to accept conditions - Al Jazeera",
-        "[Geopolitics_Iran_US] Iran signals readiness for Hormuz showdown despite US buildup - Iran International",
-        "[Geopolitics_Iran_US] Instead of all-out war, Trump moves to strangle Iran's economy - Israel Hayom",
+        "[Geopolitics_Iran_US] Iran Update, November 22, 2026 - Institute for the Study of War",
+        "[Geopolitics_Iran_US] US eyes lasting agreement to end Iran war - China Daily Global Edition",
+        "[Geopolitics_Iran_US] Third U.S. aircraft carrier in Middle East as Trump keeps options open in Iran war - PBS",
+        "[Geopolitics_Iran_US] Iran deal could be worse for Israel than war, Middle East expert warns - The Jerusalem Post",
         "[World] Longest-ever UN climate talks end with no deal as deep divisions exposed",
-        "[World] What's next after no deal at COP31 climate talks?",
+        "[World] Five takeaways from the failed climate talks COP31",
         "[World] Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say",
-        "[World] San Francisco is enjoying an AI boom, but worries about a crash are growing",
+        "[World] Russian ships hit by Ukrainian drones off Libya coast, Zelensky says",
         "[CNBC_Economy] Tech outages are fueling a new doomsday economy",
         "[CNBC_Economy] Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
         "[CNBC_Economy] Southeast Asia\u2019s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
@@ -55,8 +55,8 @@
       "notes": [
         "US10Y 4.91% (-0.24pp 5d)",
         "Dollar +0.1% 5d",
-        "Oil $83 (-18% 20d)",
-        "VIX 35.9",
+        "Oil $83 (-19% 20d)",
+        "VIX 31.0",
         "Nasdaq -10.0% 5d",
         "Fear&Greed 11",
         "News: Macro-: rate hike"
@@ -71,7 +71,7 @@
       ],
       "total": -1
     },
-    "fetched_utc": "2026-11-23T08:05:29.619669+00:00",
+    "fetched_utc": "2026-11-23T09:05:28.517509+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
