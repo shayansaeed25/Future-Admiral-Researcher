@@ -27,6 +27,7 @@
       "blackout": false,
       "blackout_reason": "",
       "catalysts": [
+        "Geopolitics-: missile attack",
         "Macro-: rate hike"
       ],
       "errors": [
@@ -34,14 +35,14 @@
       ],
       "fear_greed": 11,
       "headlines": [
+        "[Macro_CPI_PPI] Monetary Policy - Federal Reserve (.gov)",
+        "[Macro_CPI_PPI] Gold rises from 14-month low as markets await U.S. inflation data - CNBC",
         "[Macro_CPI_PPI] Bessent Says Fed Risks Jeopardizing Economy by Overtightening - Bloomberg.com",
-        "[Macro_CPI_PPI] Fed Saw Need to Keep Raising Interest Rates Despite Holding Steady in October - The New York Times",
         "[Macro_CPI_PPI] Fed's Cook says rate hikes needed to lower high inflation - Reuters",
-        "[Macro_CPI_PPI] Warsh wants Fed officials to talk less. Instead, they\u2019re talking more - CNBC",
-        "[Geopolitics_Iran_US] Iran Update, November 22, 2026 - Institute for the Study of War",
-        "[Geopolitics_Iran_US] US eyes lasting agreement to end Iran war - China Daily Global Edition",
-        "[Geopolitics_Iran_US] Third U.S. aircraft carrier in Middle East as Trump keeps options open in Iran war - PBS",
-        "[Geopolitics_Iran_US] Iran deal could be worse for Israel than war, Middle East expert warns - The Jerusalem Post",
+        "[Geopolitics_Iran_US] Iran war live: \u2018All tools\u2019 to break US blockade will be used \u2013 Tehran - Al Jazeera",
+        "[Geopolitics_Iran_US] Iran signals readiness for Hormuz showdown despite US buildup - Iran International",
+        "[Geopolitics_Iran_US] Instead of all-out war, Trump moves to strangle Iran's economy - Israel Hayom",
+        "[Geopolitics_Iran_US] US Iran War Live Updates: Trump claims Iran escalated drone, missile attacks after Democrats' midterm wins - The Times of India",
         "[World] Longest-ever UN climate talks end with no deal as deep divisions exposed",
         "[World] Five takeaways from the failed climate talks COP31",
         "[World] Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say",
@@ -51,15 +52,15 @@
         "[CNBC_Economy] Southeast Asia\u2019s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
         "[CNBC_Economy] Record diesel prices drive UK inflation to 1-year high of 3.6%"
       ],
-      "news_sentiment": -0.48,
+      "news_sentiment": -1.0,
       "notes": [
         "US10Y 4.91% (-0.24pp 5d)",
-        "Dollar +0.1% 5d",
-        "Oil $83 (-19% 20d)",
-        "VIX 31.0",
+        "Dollar +0.2% 5d",
+        "Oil $83 (-18% 20d)",
+        "VIX 30.4",
         "Nasdaq -10.0% 5d",
         "Fear&Greed 11",
-        "News: Macro-: rate hike"
+        "News: Geopolitics-: missile attack, Macro-: rate hike"
       ],
       "risk": 0,
       "story": [
@@ -67,11 +68,12 @@
         "fear gauge (VIX) elevated",
         "US tech stocks falling",
         "extreme retail fear (contrarian whale accumulation zone)",
+        "geopolitical tension elevated (US/Iran/conflict headlines)",
         "inflation/Fed headlines hawkish (CPI/PPI/rates pressure)"
       ],
       "total": -1
     },
-    "fetched_utc": "2026-11-23T09:05:28.517509+00:00",
+    "fetched_utc": "2026-11-23T10:05:29.914013+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
