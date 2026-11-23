@@ -25,22 +25,20 @@
     "data": {
       "blackout": false,
       "blackout_reason": "",
-      "catalysts": [
-        "Geopolitics+: diplomacy"
-      ],
+      "catalysts": [],
       "errors": [
         "FREDcsv T10YIE: ReadTimeout HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed "
       ],
       "fear_greed": 11,
       "headlines": [
         "[Macro_CPI_PPI] Fed Saw Need to Keep Raising Interest Rates Despite Holding Steady in October - The New York Times",
+        "[Macro_CPI_PPI] Warsh wants Fed officials to talk less. Instead, they\u2019re talking more - CNBC",
         "[Macro_CPI_PPI] Bessent Warns Fed Risks Overtightening as US Markets Swoon - Bloomberg.com",
         "[Macro_CPI_PPI] Trump again urges Fed to lower interest rates - The Hill",
-        "[Macro_CPI_PPI] Fed Governor Lisa Cook Says Her October Dissent Reflected Inflation Fight\u2019s Urgency - WSJ",
-        "[Geopolitics_Iran_US] Trump warns of new strikes against Iran after new year, calls negotiators \u2018professional tap dancers\u2019 - Fox News",
-        "[Geopolitics_Iran_US] Araqchi says Iran wants diplomacy to end war, Trump says terms unacceptable - Reuters",
-        "[Geopolitics_Iran_US] Iran says held talks with Qatari mediators, urges US to accept conditions - Al Jazeera",
-        "[Geopolitics_Iran_US] Iran signals readiness for Hormuz showdown despite US buildup - Iran International",
+        "[Geopolitics_Iran_US] Iran Update, November 22, 2026 - Institute for the Study of War",
+        "[Geopolitics_Iran_US] Third U.S. aircraft carrier in Middle East as Trump keeps options open in Iran war - PBS",
+        "[Geopolitics_Iran_US] Trump inclined to resume strikes on Iran after New Year if no deal reached - Anadolu Ajans\u0131",
+        "[Geopolitics_Iran_US] Syria Is Paying the Price for the Iran War - Middle East Institute",
         "[World] COP31 fails to reach major climate deal as talks expose deep divisions",
         "[World] What's next after no deal at COP31 climate talks?",
         "[World] Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
@@ -50,27 +48,25 @@
         "[CNBC_Economy] Southeast Asia\u2019s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
         "[CNBC_Economy] Record diesel prices drive UK inflation to 1-year high of 3.6%"
       ],
-      "news_sentiment": 0.48,
+      "news_sentiment": 0.0,
       "notes": [
         "US10Y 4.91% (-0.24pp 5d)",
         "Dollar +0.2% 5d",
         "Oil $83 (-18% 20d)",
         "VIX 35.9",
         "Nasdaq -10.0% 5d",
-        "Fear&Greed 11",
-        "News: Geopolitics+: diplomacy"
+        "Fear&Greed 11"
       ],
       "risk": 0,
       "story": [
         "yields falling -> easier money",
         "fear gauge (VIX) elevated",
         "US tech stocks falling",
-        "extreme retail fear (contrarian whale accumulation zone)",
-        "geopolitical de-escalation / talks progress"
+        "extreme retail fear (contrarian whale accumulation zone)"
       ],
-      "total": 1
+      "total": 0
     },
-    "fetched_utc": "2026-11-23T02:05:36.323852+00:00",
+    "fetched_utc": "2026-11-23T03:05:33.788858+00:00",
     "ok": true
   },
   "paused_until": "2026-11-17T03:05:37.891182+00:00"
