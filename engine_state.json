@@ -3,7 +3,7 @@
     "DOT-USDT": "2026-11-23T18:05:29.663774+00:00",
     "LTC-USDT": "2026-11-23T18:05:27.334966+00:00"
   },
-  "last_briefing_slot": "2026-11-23-2",
+  "last_briefing_slot": "2026-11-23-3",
   "last_feed_alert_utc": "",
   "last_heartbeat_date": "2026-11-23",
   "last_signal_candle_ts": {
@@ -36,10 +36,10 @@
         "[Macro_CPI_PPI] Gold rises from 14-month low as markets await U.S. inflation data - CNBC",
         "[Macro_CPI_PPI] Market Minute: RSM\u2019s U.S. rates outlook for 2027 - The Real Economy Blog",
         "[Macro_CPI_PPI] Bessent Says Fed Risks Jeopardizing Economy by Overtightening - Bloomberg.com",
-        "[Geopolitics_Iran_US] Israeli Spy Chief Pressed for Renewed Iran Strikes During U.S. Visit - WSJ",
-        "[Geopolitics_Iran_US] US eyes lasting agreement to end Iran war - China Daily Global Edition",
-        "[Geopolitics_Iran_US] Third U.S. aircraft carrier in Middle East as Trump keeps options open in Iran war - PBS",
-        "[Geopolitics_Iran_US] Syria Is Paying the Price for the Iran War - Middle East Institute",
+        "[Geopolitics_Iran_US] Live Updates: Iran says it will use all means to end U.S. blockade as Trump plays down escalating attacks - CBS News",
+        "[Geopolitics_Iran_US] Iran says it will use all available tools against US naval blockade - The Times of Israel",
+        "[Geopolitics_Iran_US] Iran war live: \u2018All tools\u2019 to break US blockade will be used \u2013 Tehran - Al Jazeera",
+        "[Geopolitics_Iran_US] US weighs delaying Iran strikes despite Israeli pressure for military action - Iran International",
         "[World] Longest-ever UN climate talks end with no deal as deep divisions exposed",
         "[World] Five takeaways from the failed climate talks COP31",
         "[World] Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say",
@@ -52,9 +52,9 @@
       "news_sentiment": 0.0,
       "notes": [
         "US10Y 4.91% (-0.24pp 5d)",
-        "Dollar +0.3% 5d",
-        "Oil $83 (-19% 20d)",
-        "VIX 29.8",
+        "Dollar +0.4% 5d",
+        "Oil $82 (-19% 20d)",
+        "VIX 29.9",
         "Nasdaq -10.0% 5d",
         "Fear&Greed 11"
       ],
@@ -67,7 +67,7 @@
       ],
       "total": 0
     },
-    "fetched_utc": "2026-11-23T11:05:43.182796+00:00",
+    "fetched_utc": "2026-11-23T12:05:30.503487+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
