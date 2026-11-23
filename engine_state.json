@@ -1,6 +1,7 @@
 {
   "cooldown": {
-    "TRX-USDT": "2026-11-22T22:05:27.609879+00:00"
+    "DOT-USDT": "2026-11-23T18:05:29.663774+00:00",
+    "LTC-USDT": "2026-11-23T18:05:27.334966+00:00"
   },
   "last_briefing_slot": "2026-11-23-1",
   "last_feed_alert_utc": "",
@@ -20,12 +21,14 @@
     "TRX-USDT": 1795269600000,
     "XRP-USDT": 1794751200000
   },
-  "loss_streak": 1,
+  "loss_streak": 0,
   "macro_cache": {
     "data": {
       "blackout": false,
       "blackout_reason": "",
       "catalysts": [
+        "Geopolitics+: diplomacy",
+        "Geopolitics+: diplomacy",
         "Macro-: rate hike"
       ],
       "errors": [
@@ -37,11 +40,11 @@
         "[Macro_CPI_PPI] Fed Saw Need to Keep Raising Interest Rates Despite Holding Steady in October - The New York Times",
         "[Macro_CPI_PPI] Warsh wants Fed officials to talk less. Instead, they\u2019re talking more - CNBC",
         "[Macro_CPI_PPI] Fed Governor Lisa Cook Says Her October Dissent Reflected Inflation Fight\u2019s Urgency - WSJ",
-        "[Geopolitics_Iran_US] Iran Update, November 22, 2026 - Institute for the Study of War",
-        "[Geopolitics_Iran_US] Live - Trump considers Iran strikes after new year, Israel pushes for earlier action - Iran International",
-        "[Geopolitics_Iran_US] Third U.S. aircraft carrier in Middle East as Trump keeps options open in Iran war - PBS",
-        "[Geopolitics_Iran_US] Trump inclined to resume strikes on Iran after New Year if no deal reached - Anadolu Ajans\u0131",
-        "[World] COP31 fails to reach major climate deal as talks expose deep divisions",
+        "[Geopolitics_Iran_US] Live - Rubio to meet Qatari PM, Iran says diplomacy remains open - Iran International",
+        "[Geopolitics_Iran_US] Trump warns of new strikes against Iran after new year, calls negotiators \u2018professional tap dancers\u2019 - Fox News",
+        "[Geopolitics_Iran_US] Iran says held talks with Qatari mediators, urges US to accept conditions - Al Jazeera",
+        "[Geopolitics_Iran_US] Iran Reportedly Wants Diplomacy To End War, But Trump Says \u2018They Don\u2019t Want To Make A Deal That\u2019s Acceptable To Me\u2019 - Yahoo",
+        "[World] Longest-ever UN climate talks end with no deal as deep divisions exposed",
         "[World] What's next after no deal at COP31 climate talks?",
         "[World] Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say",
         "[World] San Francisco is enjoying an AI boom, but worries about a crash are growing",
@@ -50,15 +53,15 @@
         "[CNBC_Economy] Southeast Asia\u2019s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
         "[CNBC_Economy] Record diesel prices drive UK inflation to 1-year high of 3.6%"
       ],
-      "news_sentiment": -0.48,
+      "news_sentiment": 0.333,
       "notes": [
         "US10Y 4.91% (-0.24pp 5d)",
-        "Dollar +0.4% 5d",
-        "Oil $84 (-19% 20d)",
+        "Dollar +0.1% 5d",
+        "Oil $84 (-18% 20d)",
         "VIX 35.9",
         "Nasdaq -10.0% 5d",
         "Fear&Greed 11",
-        "News: Macro-: rate hike"
+        "News: Geopolitics+: diplomacy, Geopolitics+: diplomacy"
       ],
       "risk": 0,
       "story": [
@@ -66,12 +69,13 @@
         "fear gauge (VIX) elevated",
         "US tech stocks falling",
         "extreme retail fear (contrarian whale accumulation zone)",
+        "geopolitical de-escalation / talks progress",
         "inflation/Fed headlines hawkish (CPI/PPI/rates pressure)"
       ],
-      "total": -1
+      "total": 1
     },
-    "fetched_utc": "2026-11-23T05:05:33.645190+00:00",
+    "fetched_utc": "2026-11-23T06:05:33.211572+00:00",
     "ok": true
   },
-  "paused_until": "2026-11-17T03:05:37.891182+00:00"
+  "paused_until": "2026-11-23T18:05:29.663774+00:00"
 }
