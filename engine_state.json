@@ -4,7 +4,7 @@
     "DOT-USDT": "2026-11-23T18:05:29.663774+00:00",
     "LTC-USDT": "2026-11-23T18:05:27.334966+00:00"
   },
-  "last_briefing_slot": "2026-11-23-4",
+  "last_briefing_slot": "2026-11-23-5",
   "last_feed_alert_utc": "",
   "last_heartbeat_date": "2026-11-23",
   "last_signal_candle_ts": {
@@ -37,29 +37,29 @@
       "fear_greed": 11,
       "headlines": [
         "[Macro_CPI_PPI] Get ready for 3 consecutive rate hikes starting next month, bank economist warns - Business Insider",
-        "[Macro_CPI_PPI] Market Minute: RSM\u2019s U.S. rates outlook for 2027 - The Real Economy Blog",
         "[Macro_CPI_PPI] Fed's Cook says rate hikes needed to lower high inflation - Reuters",
-        "[Macro_CPI_PPI] Bessent Says Fed Risks Jeopardizing Economy by Overtightening - Bloomberg.com",
+        "[Macro_CPI_PPI] Market Minute: RSM\u2019s U.S. rates outlook for 2027 - The Real Economy Blog",
+        "[Macro_CPI_PPI] Gold rises as bargain hunters step in after steep weekly drop - CNBC",
         "[Geopolitics_Iran_US] Live Updates: Iran says it will use all means to end U.S. blockade as Trump plays down escalating attacks - CBS News",
-        "[Geopolitics_Iran_US] Iran live updates: Iranian attacks spike over past week, Trump says - ABC News - Breaking News, Latest News and Videos",
-        "[Geopolitics_Iran_US] Trump says he\u2019s inclined to strike Iran after new year if no deal reached - The Hill",
         "[Geopolitics_Iran_US] US weighs delaying Iran strikes despite Israeli pressure for military action - Iran International",
+        "[Geopolitics_Iran_US] Iran says held talks with Qatari mediators, urges US to accept conditions - Al Jazeera",
+        "[Geopolitics_Iran_US] Trump Suggests Iran Strikes Will Resume Next Year if Talks Fail - Military.com",
         "[World] Russian warship hit by Ukrainian drones in Libya, Zelensky says",
         "[World] Iranian authorities flog singer who performed without hijab, lawyers say",
         "[World] 'I want to destroy capitalism, not France': On the streets with the French ultra left",
         "[World] What failure of COP31 reveals about a divided world",
+        "[CNBC_Economy] Peterson: Here\u2019s what Bessent\u2019s about-face on Jensen Huang reveals about Trump and China",
         "[CNBC_Economy] Tech outages are fueling a new doomsday economy",
         "[CNBC_Economy] Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
-        "[CNBC_Economy] Southeast Asia\u2019s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
-        "[CNBC_Economy] Record diesel prices drive UK inflation to 1-year high of 3.6%"
+        "[CNBC_Economy] Southeast Asia\u2019s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk"
       ],
       "news_sentiment": -0.96,
       "notes": [
-        "US10Y 4.94% (-0.18pp 5d)",
+        "US10Y 4.92% (-0.20pp 5d)",
         "Dollar +0.8% 5d",
-        "Oil $81 (-21% 20d)",
-        "VIX 27.1",
-        "Nasdaq -1.5% 5d",
+        "Oil $80 (-21% 20d)",
+        "VIX 27.6",
+        "Nasdaq -1.8% 5d",
         "Fear&Greed 11",
         "News: Macro-: rate hike, Macro-: rate hike"
       ],
@@ -73,7 +73,7 @@
       ],
       "total": -1
     },
-    "fetched_utc": "2026-11-23T19:05:27.766899+00:00",
+    "fetched_utc": "2026-11-23T20:05:27.539914+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
