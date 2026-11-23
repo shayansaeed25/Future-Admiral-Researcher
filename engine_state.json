@@ -33,9 +33,9 @@
       ],
       "fear_greed": 11,
       "headlines": [
-        "[Macro_CPI_PPI] Will the Fed raise interest rates this year? Divided economists weigh in - ABC News - Breaking News, Latest News and Videos",
         "[Macro_CPI_PPI] Fed Saw Need to Keep Raising Interest Rates Despite Holding Steady in October - The New York Times",
-        "[Macro_CPI_PPI] Fed minutes: Higher interest rates needed in December as inflation worries mount - AP News",
+        "[Macro_CPI_PPI] Bessent Warns Fed Risks Overtightening as US Markets Swoon - Bloomberg.com",
+        "[Macro_CPI_PPI] Trump again urges Fed to lower interest rates - The Hill",
         "[Macro_CPI_PPI] Fed Governor Lisa Cook Says Her October Dissent Reflected Inflation Fight\u2019s Urgency - WSJ",
         "[Geopolitics_Iran_US] Trump warns of new strikes against Iran after new year, calls negotiators \u2018professional tap dancers\u2019 - Fox News",
         "[Geopolitics_Iran_US] Araqchi says Iran wants diplomacy to end war, Trump says terms unacceptable - Reuters",
@@ -54,7 +54,7 @@
       "notes": [
         "US10Y 4.91% (-0.24pp 5d)",
         "Dollar +0.2% 5d",
-        "Oil $83 (-19% 20d)",
+        "Oil $83 (-18% 20d)",
         "VIX 35.9",
         "Nasdaq -10.0% 5d",
         "Fear&Greed 11",
@@ -70,7 +70,7 @@
       ],
       "total": 1
     },
-    "fetched_utc": "2026-11-23T01:05:30.894285+00:00",
+    "fetched_utc": "2026-11-23T02:05:36.323852+00:00",
     "ok": true
   },
   "paused_until": "2026-11-17T03:05:37.891182+00:00"
