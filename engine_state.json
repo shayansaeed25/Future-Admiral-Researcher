@@ -2,9 +2,9 @@
   "cooldown": {
     "TRX-USDT": "2026-11-22T22:05:27.609879+00:00"
   },
-  "last_briefing_slot": "2026-11-23-0",
+  "last_briefing_slot": "2026-11-23-1",
   "last_feed_alert_utc": "",
-  "last_heartbeat_date": "2026-11-22",
+  "last_heartbeat_date": "2026-11-23",
   "last_signal_candle_ts": {
     "APT-USDT": 1794988800000,
     "ARB-USDT": 1795345200000,
@@ -36,13 +36,13 @@
         "[Macro_CPI_PPI] Bessent Warns Fed Risks Overtightening as US Markets Swoon - Bloomberg.com",
         "[Macro_CPI_PPI] Trump again urges Fed to lower interest rates - The Hill",
         "[Geopolitics_Iran_US] Iran Update, November 22, 2026 - Institute for the Study of War",
+        "[Geopolitics_Iran_US] Live - Trump considers Iran strikes after new year, Israel pushes for earlier action - Iran International",
         "[Geopolitics_Iran_US] Third U.S. aircraft carrier in Middle East as Trump keeps options open in Iran war - PBS",
-        "[Geopolitics_Iran_US] Trump inclined to resume strikes on Iran after New Year if no deal reached - Anadolu Ajans\u0131",
-        "[Geopolitics_Iran_US] Syria Is Paying the Price for the Iran War - Middle East Institute",
+        "[Geopolitics_Iran_US] US eyes lasting agreement to end Iran war - China Daily Global Edition",
         "[World] COP31 fails to reach major climate deal as talks expose deep divisions",
         "[World] What's next after no deal at COP31 climate talks?",
-        "[World] Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
-        "[World] 'Danger seems greater all the time': Ukrainians search for missing after Russian strikes",
+        "[World] Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say",
+        "[World] San Francisco is enjoying an AI boom, but worries about a crash are growing",
         "[CNBC_Economy] Tech outages are fueling a new doomsday economy",
         "[CNBC_Economy] Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
         "[CNBC_Economy] Southeast Asia\u2019s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
@@ -66,7 +66,7 @@
       ],
       "total": 0
     },
-    "fetched_utc": "2026-11-23T03:06:34.944719+00:00",
+    "fetched_utc": "2026-11-23T04:05:32.656854+00:00",
     "ok": true
   },
   "paused_until": "2026-11-17T03:05:37.891182+00:00"
