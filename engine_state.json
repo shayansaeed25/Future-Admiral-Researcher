@@ -2,7 +2,7 @@
   "cooldown": {
     "TRX-USDT": "2026-11-22T22:05:27.609879+00:00"
   },
-  "last_briefing_slot": "2026-11-22-5",
+  "last_briefing_slot": "2026-11-23-0",
   "last_feed_alert_utc": "",
   "last_heartbeat_date": "2026-11-22",
   "last_signal_candle_ts": {
@@ -32,12 +32,12 @@
       "fear_greed": 11,
       "headlines": [
         "[Macro_CPI_PPI] Fed Saw Need to Keep Raising Interest Rates Despite Holding Steady in October - The New York Times",
-        "[Macro_CPI_PPI] Fed minutes: Higher interest rates needed in December as inflation worries mount - ABC News - Breaking News, Latest News and Videos",
         "[Macro_CPI_PPI] Trump again urges Fed to lower interest rates - The Hill",
+        "[Macro_CPI_PPI] Fed Governor Lisa Cook Says Her October Dissent Reflected Inflation Fight\u2019s Urgency - WSJ",
         "[Macro_CPI_PPI] Warsh wants Fed officials to talk less. Instead, they\u2019re talking more - CNBC",
         "[Geopolitics_Iran_US] Third U.S. aircraft carrier in Middle East as Trump keeps options open in Iran war - PBS",
-        "[Geopolitics_Iran_US] Iran Update, November 22, 2026 - Critical Threats",
         "[Geopolitics_Iran_US] What We Don\u2019t Know About the Iran War - The Atlantic",
+        "[Geopolitics_Iran_US] Iran Update, November 22, 2026 - Critical Threats",
         "[Geopolitics_Iran_US] Trump inclined to resume strikes on Iran after New Year if no deal reached - Anadolu Ajans\u0131",
         "[World] COP31 fails to reach major climate deal as talks expose deep divisions",
         "[World] What's next after no deal at COP31 climate talks?",
@@ -66,7 +66,7 @@
       ],
       "total": 0
     },
-    "fetched_utc": "2026-11-22T23:05:32.546237+00:00",
+    "fetched_utc": "2026-11-23T00:05:34.158720+00:00",
     "ok": true
   },
   "paused_until": "2026-11-17T03:05:37.891182+00:00"
