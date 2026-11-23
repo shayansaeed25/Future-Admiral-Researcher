@@ -696,7 +696,7 @@ def _pick_setup(sf: Frame, si: int, direction: int, allowed: str, cfg: dict | No
 
 
 def evaluate(f1: Frame, i1: int, f4: Frame, i4: int, fd: Frame, idd: int, *, price: float | None = None,
-             ticker: str = "", btc_trend_4h: int | None = None, funding_pct: float | None = None,
+             ticker: str = "", btc_trend_4h: int | None = None, btc_trend_1h: int | None = None, funding_pct: float | None = None,
              oi_change_pct: float | None = None, flow: dict | None = None, macro: dict | None = None,
              cfg: dict | None = None) -> dict[str, Any]:
     """Return the trade decision for the last CLOSED 1H bar ``i1``."""
@@ -803,6 +803,14 @@ def evaluate(f1: Frame, i1: int, f4: Frame, i4: int, fd: Frame, idd: int, *, pri
             elif isinstance(ob_imb, (int, float)) and float(ob_imb) * direction <= -0.18 and ((direction == -1 and rsi_now <= 37.0) or (direction == 1 and rsi_now >= 63.0)):
                 setup = None
                 bt_reject_reason = f"Orderbook absorption ({float(ob_imb)*100:+.0f}% depth) opposes exhausted breakout (RSI {rsi_now:.0f})"
+        elif setup["name"] in ("pullback", "momentum") and not is_btc and btc_trend_1h is not None and btc_trend_1h == -direction:
+            # v8.0 BTC 1H relief-bounce guard: blocks altcoin pullback/momentum shorts during a live BTC 1H relief rally (e.g. 55k->63k)
+            setup = None
+            bt_reject_reason = f"BTC 1H relief bounce ({_LABEL[btc_trend_1h].lower()}) opposes {side} — awaiting BTC 1H realignment"
+        elif setup["name"] == "pullback" and direction == -1 and isinstance(macro.get("fear_greed"), (int, float)) and macro["fear_greed"] <= 15 and btc_trend_1h != -1:
+            # v8.0 Extreme capitulation guard: when Fear & Greed <= 15 (liquidation flush), only short pullbacks if BTC 1H is actively bearish
+            setup = None
+            bt_reject_reason = f"Extreme fear capitulation (F&G {int(macro['fear_greed'])}) without BTC 1H breakdown — skipping pullback SELL"
         elif setup["name"] == "pullback" and sf.macd_hist is not None and si >= 2:
             # Anti-relief-bounce guard (prevents shorting a weak pullback candle while 1H MACD momentum is surging against the trade like LTC)
             macd_delta = (float(sf.macd_hist[si]) - float(sf.macd_hist[si - 1])) * direction
@@ -957,3 +965,17 @@ def evaluate_live(c1: dict, c4: dict, cd: dict, **kwargs) -> dict[str, Any]:
 def btc_trend_from_candles(c4: dict) -> int:
     f4 = build_frame(c4)
     return trend_state(f4, len(f4) - 1)
+
+
+def btc_snapshot_from_candles(c1: dict | None, c4: dict | None) -> dict[str, Any]:
+    snap: dict[str, Any] = {}
+    if c1 and c1.get("c") is not None and len(c1["c"]) > 0:
+        f1 = build_frame(c1)
+        i1 = len(f1) - 1
+        snap["price"] = round(float(f1.c[i1]), 2)
+        snap["trend_1h"] = _LABEL[trend_state(f1, i1)]
+        snap["rsi_1h"] = round(float(f1.rsi[i1]), 1)
+    if c4 and c4.get("c") is not None and len(c4["c"]) > 0:
+        f4 = build_frame(c4)
+        snap["trend_4h"] = _LABEL[trend_state(f4, len(f4) - 1)]
+    return snap

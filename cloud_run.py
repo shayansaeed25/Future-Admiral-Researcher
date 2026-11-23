@@ -4,6 +4,7 @@ import time
 import uuid
 from datetime import datetime, timezone
 
+import audit_journal
 import engine_state
 import market_data as md
 from admiral_core import (MAX_HOLD_HOURS, add_verdict, analyze_ticker, etf_signal, get_current_price,
@@ -277,6 +278,10 @@ def monitor_positions(positions, prices, state, run_id, health_alerts):
             if outcome["status"] in ("SL_HIT", "BE_EXIT", "TIME_EXIT"):
                 _notify_stage(ticker, position, outcome["status"], cmp, low=low, high=high)
             engine_state.record_close(state, position, outcome["status"], now)
+            audit_journal.record_trade_closed(
+                position, outcome["status"], run_id,
+                btc_price=prices.get("BTC-USDT"), hold_hours=_age_hours(position, now), now=now,
+            )
             del positions[signal_id]
             closed_count += 1
         else:
@@ -448,6 +453,7 @@ def main():
             continue
         add_verdict(result)
         signal_id, signal = open_position(positions, result, run_id)
+        audit_journal.record_signal_opened(result, signal_id, run_id, ctx=ctx, now=now)
         if bar_ts:
             state["last_signal_candle_ts"][ticker] = bar_ts
         if not record_scan_event(signal):
@@ -492,6 +498,10 @@ def main():
         print(f"::warning title=Future Admiral data health::{item}")
     if health_alerts:
         record_health(list(dict.fromkeys(health_alerts)), run_id=run_id, source="watchlist")
+    audit_journal.record_scan_summary(
+        run_id, entries, ctx, open_count=len(positions), closed_count=closed,
+        new_signals=new_signals, paused=bool(engine_state.paused_until(state, now)), now=now,
+    )
     save_positions(positions)
     engine_state.save_state(state)
     save_cloud_state(state)

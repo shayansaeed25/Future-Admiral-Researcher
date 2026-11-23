@@ -17,6 +17,7 @@ import etf_flow
 import llm_verdict
 import macro as macro_mod
 import market_data as md
+import audit_journal
 import signal_engine as se
 from admiral_utils import format_pkt, now_pkt
 from paper_trading import configured_notional
@@ -125,7 +126,15 @@ def load_context(tickers=None, state=None):
     except Exception as exc:
         print(f"[!] Macro layer unavailable ({str(exc)[:100]}); treated as neutral.")
     try:
-        ctx["btc_4h"] = se.btc_trend_from_candles(md.fetch_candles("BTC-USDT", "4h", 300))
+        btc_c4 = md.fetch_candles("BTC-USDT", "4h", 300)
+        ctx["btc_4h"] = se.btc_trend_from_candles(btc_c4)
+        btc_c1 = None
+        try:
+            btc_c1 = md.fetch_candles("BTC-USDT", "1h", 300)
+            ctx["btc_1h"] = se.btc_trend_from_candles(btc_c1)
+        except Exception:
+            ctx["btc_1h"] = None
+        ctx["btc_snapshot"] = se.btc_snapshot_from_candles(btc_c1, btc_c4)
     except Exception as exc:
         print(f"[!] BTC context unavailable ({str(exc)[:100]}); BTC filter skipped this run.")
     return ctx
@@ -290,6 +299,7 @@ def analyze_ticker(ticker, key_offset=0, source_label="Future Admiral Research D
     if oi is None:
         health.append(f"{ticker}: open-interest change unavailable (neutral score used)")
     btc_trend = (ctx or {}).get("btc_4h")
+    btc_trend_1h = (ctx or {}).get("btc_1h")
     macro = (ctx or {}).get("macro") or {}
     taker = md.get_taker_flow(ticker)
     flow = dict(taker) if taker else {}
@@ -310,7 +320,8 @@ def analyze_ticker(ticker, key_offset=0, source_label="Future Admiral Research D
         health.append(f"{ticker}: institutional-flow proxies unavailable (neutral score used)")
 
     res = se.evaluate_live(c1, c4, cd, price=cmp, ticker=ticker, btc_trend_4h=btc_trend,
-                           funding_pct=funding, oi_change_pct=oi, flow=flow or None, macro=macro)
+                           btc_trend_1h=btc_trend_1h, funding_pct=funding, oi_change_pct=oi,
+                           flow=flow or None, macro=macro)
     action = res["action"]
     sign = 1 if action == "BUY" else -1 if action == "SELL" else 0
     lv = res["levels"] if action in ("BUY", "SELL") else None
@@ -332,6 +343,7 @@ def analyze_ticker(ticker, key_offset=0, source_label="Future Admiral Research D
                        "orderbook_imbalance": flow.get("orderbook_imbalance", ""),
                    }},
         "flow": flow, "macro": macro, "etf": etf_raw,
+        "candles_1h_tail": audit_journal.candle_tail(c1, 5),
         "data_health": health, "report_path": None, "institutional_flow": etf_raw, "orderflow_proxies": {},
     }
     result["embed"] = build_embed(result, source_label)

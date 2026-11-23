@@ -43,3 +43,18 @@
 ### 3. Strategy Upgrades (6-Day Live Audit ke baad)
 - **Pullback Max SL Cap (`2.65%`)**: `pullback` setups par 2.9%–3.2% wale bare stops block honge (`ADMIRAL_PULLBACK_MAX_SL_PCT=2.65`), jabke `smc_sweep` (80% win rate) apni `3.25%` limit par chalta rahega.
 - **Correlated Stacking Cap (`ADMIRAL_MAX_SAME_DIRECTION=3`)**: Ek hi direction mein maximum 3 trades open hongi (pehle 4 thin) taake BTC ke ek bounce par 4 altcoins ek saath SL hit na karein.
+
+
+## v8.0 Update (Nov 23, 2026) — BTC 1H Relief-Bounce Guard + 2-SL Circuit Breaker + Auto Audit Journal
+
+### 1. BTC 1H Relief-Bounce & Extreme-Fear Short Guard (`signal_engine.py`, `admiral_core.py`)
+- Jab BTC liquidation flush ($55k, Fear & Greed <= 15) ke baad 1H par relief bounce shuru karta hai ($58k->$63k), to 4H trend abhi BEARISH rehta hai magar 1H BULLISH ho jata hai.
+- Ab bot `btc_trend_1h` bhi check karta hai: agar BTC 1H relief bounce (BULLISH) mein ho to altcoins par `pullback` / `momentum` SELL shorts block ho jayengi (taake Nov 22–23 jaisi `LTC`/`DOT` shorts SL hit na karein), jabke high-win-rate `smc_sweep` setups chalte rahenge taake trades band na hon.
+- Extreme Fear (`Fear & Greed <= 15`) mein bhi `pullback` SELL sirf tab open hogi jab BTC 1H actively BEARISH ho.
+
+### 2. Faster Circuit Breaker (`engine_state.py`, `admiral_cron.yml`)
+- `ADMIRAL_PAUSE_AFTER_LOSSES` ko **3 se 2** aur `ADMIRAL_PAUSE_HOURS` ko **12h se 6h** kar diya hai — yani 2 lagatar SL ke baad bot 6 ghantay ruk kar choppy bounce nikalne dega, taake 3-in-a-row SL streak na bane.
+
+### 3. Built-In Repo Audit Journal (`audit_journal.py` -> `audit_journal.jsonl`)
+- Har run par `audit_journal.jsonl` (latest 400 events, auto-rotating) repo mein save aur commit hota rahega.
+- Is mein har trade open par coin ki aakhri 5 closed 1H candles (OHLCV), BTC 1H/4H state, Fear & Greed, backtest stats, aur har scan ke top blockers record honge — taake agli dafa jab aap ZIP bhejein to poora candle-by-candle forensic data seedha ZIP mein maujood ho!

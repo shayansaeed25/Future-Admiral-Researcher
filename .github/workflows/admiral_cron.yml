@@ -59,6 +59,8 @@ jobs:
           ADMIRAL_MAX_HOLD_HOURS: '72'
           ADMIRAL_MAX_OPEN: '8'
           ADMIRAL_MAX_SAME_DIRECTION: '3' # Max 3 same-direction trades (correlated altcoin stacking kam karne ke liye)
+          ADMIRAL_PAUSE_AFTER_LOSSES: '2' # 2 lagatar SL ke baad 6h pause (3-SL streak roknay ke liye)
+          ADMIRAL_PAUSE_HOURS: '6'
           ADMIRAL_LLM_VERDICT: '1'
           ADMIRAL_LLM_MAX_CALLS: '4'
           ACCOUNT_CAPITAL_USD: ${{ secrets.ACCOUNT_CAPITAL_USD }}
@@ -105,7 +107,7 @@ jobs:
         run: |
           git config --global user.name "Admiral Bot"
           git config --global user.email "bot@users.noreply.github.com"
-          git add active_signals.json engine_state.json closed_trades.jsonl 2>/dev/null || true
+          git add active_signals.json engine_state.json closed_trades.jsonl audit_journal.jsonl 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "Nothing to commit."
           else
