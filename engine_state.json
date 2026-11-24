@@ -4,7 +4,7 @@
     "DOT-USDT": "2026-11-23T18:05:29.663774+00:00",
     "LTC-USDT": "2026-11-23T18:05:27.334966+00:00"
   },
-  "last_briefing_slot": "2026-11-24-4",
+  "last_briefing_slot": "2026-11-24-5",
   "last_feed_alert_utc": "",
   "last_heartbeat_date": "2026-11-24",
   "last_signal_candle_ts": {
@@ -37,16 +37,16 @@
       "headlines": [
         "[Macro_CPI_PPI] Fed's John Williams indicates higher interest rates likely 'over time' to address inflation - CNBC",
         "[Macro_CPI_PPI] Fed's Williams says inflation still too high, signals more rate hikes possible - Reuters",
-        "[Macro_CPI_PPI] Bill Ackman says Federal Reserve is 'about to make another mistake' - Fox Business",
-        "[Macro_CPI_PPI] The Federal Reserve Is Expected to Increase Rates in December - Raymond James - Commentaries - Advisor Perspectives",
+        "[Macro_CPI_PPI] Bill Ackman says the U.S. economy could be headed for another recession\u2014and is blaming Kevin Warsh\u2019s Fed - Fortune",
+        "[Macro_CPI_PPI] 7 Charts Show How America\u2019s Fiscal Health Declined in 2026 - Peter G. Peterson Foundation",
         "[Geopolitics_Iran_US] How the Iran war is reshaping the US military presence in the Middle East - Al Jazeera",
-        "[Geopolitics_Iran_US] Iran Update, November 23, 2026 - Institute for the Study of War",
-        "[Geopolitics_Iran_US] Trump administration debates targeting top Iranian leaders to end war: Report - Middle East Monitor",
-        "[Geopolitics_Iran_US] OPINION - Where is the US/Israel-Iran war heading? - Anadolu Ajans\u0131",
+        "[Geopolitics_Iran_US] Trump administration debates targeting top Iranian leaders to end war: Report - Anadolu Ajans\u0131",
+        "[Geopolitics_Iran_US] US Treasury report puts Iran war on hold as Trump weighs targeting regime leaders - Israel Hayom",
+        "[Geopolitics_Iran_US] The World Is Underpricing the Risk of More War in Iran - Bloomberg.com",
         "[World] US attorney general dodges questions about Nvidia investigation",
-        "[World] What Jensen Huang's return teaches China's Xi about Trump",
-        "[World] Nato chief vows defence against space threat after Russian nuclear satellite reports",
+        "[World] Indian government has 'lost the plot', says 'cockroach' leader barred from UK flight",
         "[World] Land mine casualties soar in Syria, two years after war",
+        "[World] French ex-President Sarkozy and wife Carla Bruni to face trial",
         "[CNBC_Economy] Consumer confidence shoots up after Democrats' midterm victories \u2014 though inflation worries persist",
         "[CNBC_Economy] Why France is at risk of recession \u2014 and what could keep it out of one",
         "[CNBC_Economy] Peterson: Here\u2019s what Bessent\u2019s about-face on Jensen Huang reveals about Trump and China",
@@ -54,11 +54,11 @@
       ],
       "news_sentiment": -0.48,
       "notes": [
-        "US10Y 4.90% (-0.20pp 5d)",
+        "US10Y 4.91% (-0.20pp 5d)",
         "Dollar +0.3% 5d",
         "Oil $82 (-18% 20d)",
-        "VIX 26.5",
-        "Nasdaq -2.7% 5d",
+        "VIX 27.1",
+        "Nasdaq -2.9% 5d",
         "Fear&Greed 11",
         "News: Macro-: rate hike"
       ],
@@ -71,7 +71,7 @@
       ],
       "total": 0
     },
-    "fetched_utc": "2026-11-24T19:05:32.632208+00:00",
+    "fetched_utc": "2026-11-24T20:06:45.021743+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
