@@ -29,7 +29,8 @@
       "blackout_reason": "",
       "catalysts": [
         "Geopolitics-: strait of hormuz",
-        "Macro-: rate hike"
+        "Macro-: rate hike",
+        "Inst-: etf outflow"
       ],
       "errors": [
         "FREDcsv T10YIE: ReadTimeout HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed "
@@ -39,15 +40,15 @@
         "[Macro_CPI_PPI] Fed's John Williams indicates higher interest rates likely 'over time' to address inflation - CNBC",
         "[Macro_CPI_PPI] Fed's Williams says inflation still too high, signals more rate hikes possible - Reuters",
         "[Macro_CPI_PPI] Monetary Policy - Federal Reserve (.gov)",
-        "[Macro_CPI_PPI] Interest Rate Outlook and the Effects on U.S. Sectors - J.P. Morgan",
+        "[Macro_CPI_PPI] Bill Ackman says Federal Reserve is 'about to make another mistake' - Fox Business",
         "[Geopolitics_Iran_US] Iran Update, November 23, 2026 - Institute for the Study of War",
         "[Geopolitics_Iran_US] Middle East latest: Iran navy says two tankers ablaze in Strait of Hormuz - thenationalnews.com",
-        "[Geopolitics_Iran_US] Qatar needs US and Iran to resume talks to end war, PM says - Middle East Eye",
+        "[Geopolitics_Iran_US] The World Is Underpricing the Risk of More War in Iran - Bloomberg.com",
         "[Geopolitics_Iran_US] Third U.S. aircraft carrier in Middle East as Trump keeps options open in Iran war - PBS",
         "[World] Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
         "[World] What Jensen Huang's return teaches China's Xi about Trump",
         "[World] Nato chief vows defence against space threat after Russian nuclear satellite reports",
-        "[World] India's 'cockroach' party leader says he was stopped from flying to UK",
+        "[World] Gis\u00e8le Pelicot 'humiliated' after nude photos sent to media to promote book",
         "[CNBC_Economy] Why France is at risk of recession \u2014 and what could keep it out of one",
         "[CNBC_Economy] Peterson: Here\u2019s what Bessent\u2019s about-face on Jensen Huang reveals about Trump and China",
         "[CNBC_Economy] Tech outages are fueling a new doomsday economy",
@@ -56,9 +57,9 @@
       "news_sentiment": -1.0,
       "notes": [
         "US10Y 4.92% (-0.20pp 5d)",
-        "Dollar +0.5% 5d",
+        "Dollar +0.4% 5d",
         "Oil $80 (-20% 20d)",
-        "VIX 28.3",
+        "VIX 28.8",
         "Nasdaq -1.7% 5d",
         "Fear&Greed 11",
         "News: Geopolitics-: strait of hormuz, Macro-: rate hike"
@@ -73,7 +74,7 @@
       ],
       "total": 0
     },
-    "fetched_utc": "2026-11-24T12:05:36.558442+00:00",
+    "fetched_utc": "2026-11-24T13:05:34.516218+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
