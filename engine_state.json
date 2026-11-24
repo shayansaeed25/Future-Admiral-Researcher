@@ -37,10 +37,10 @@
       "headlines": [
         "[Macro_CPI_PPI] Fed's John Williams indicates higher interest rates likely 'over time' to address inflation - CNBC",
         "[Macro_CPI_PPI] Fed's Williams says inflation still too high, signals more rate hikes possible - Reuters",
+        "[Macro_CPI_PPI] Monetary Policy - Federal Reserve (.gov)",
         "[Macro_CPI_PPI] Bill Ackman says Federal Reserve is 'about to make another mistake' - Fox Business",
-        "[Macro_CPI_PPI] The Relationship Between Fed Monetary Policy and the Housing Market Is More Complex Than You Think - Darden Report",
         "[Geopolitics_Iran_US] Live Updates: Iran says it will use all means to end U.S. blockade as Trump plays down escalating attacks - CBS News",
-        "[Geopolitics_Iran_US] Iran live updates: Iranian attacks spike over past week, Trump says - ABC News - Breaking News, Latest News and Videos",
+        "[Geopolitics_Iran_US] Iran live updates: US land blockade of Iran 'impossible,' Araghchi says - ABC News - Breaking News, Latest News and Videos",
         "[Geopolitics_Iran_US] Trump says he\u2019s inclined to strike Iran after new year if no deal reached - The Hill",
         "[Geopolitics_Iran_US] Iran war live: Tehran demands 7 conditions be met before any talks with US - Al Jazeera",
         "[World] Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
@@ -57,7 +57,7 @@
         "US10Y 4.92% (-0.20pp 5d)",
         "Dollar +0.8% 5d",
         "Oil $80 (-20% 20d)",
-        "VIX 26.6",
+        "VIX 26.8",
         "Nasdaq -1.7% 5d",
         "Fear&Greed 11",
         "News: Macro-: rate hike"
@@ -72,7 +72,7 @@
       ],
       "total": -1
     },
-    "fetched_utc": "2026-11-24T08:05:29.825576+00:00",
+    "fetched_utc": "2026-11-24T09:05:27.165773+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
