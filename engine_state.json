@@ -36,9 +36,9 @@
       "fear_greed": 11,
       "headlines": [
         "[Macro_CPI_PPI] Fed's John Williams indicates higher interest rates likely 'over time' to address inflation - CNBC",
-        "[Macro_CPI_PPI] Monetary Policy - Federal Reserve (.gov)",
         "[Macro_CPI_PPI] Fed's Williams says inflation still too high, signals more rate hikes possible - Reuters",
         "[Macro_CPI_PPI] Bill Ackman says Federal Reserve is 'about to make another mistake' - Fox Business",
+        "[Macro_CPI_PPI] Fed minutes: Higher interest rates needed in December as inflation worries mount - AP News",
         "[Geopolitics_Iran_US] How the Iran war is reshaping the US military presence in the Middle East - Al Jazeera",
         "[Geopolitics_Iran_US] Iran Update, November 23, 2026 - Institute for the Study of War",
         "[Geopolitics_Iran_US] OPINION - Where is the US/Israel-Iran war heading? - Anadolu Ajans\u0131",
@@ -47,18 +47,18 @@
         "[World] What Jensen Huang's return teaches China's Xi about Trump",
         "[World] Nato chief vows defence against space threat after Russian nuclear satellite reports",
         "[World] Land mine casualties soar in Syria, two years after war",
+        "[CNBC_Economy] Consumer confidence shoots up after Democrats' midterm victories \u2014 though inflation worries persist",
         "[CNBC_Economy] Why France is at risk of recession \u2014 and what could keep it out of one",
         "[CNBC_Economy] Peterson: Here\u2019s what Bessent\u2019s about-face on Jensen Huang reveals about Trump and China",
-        "[CNBC_Economy] Tech outages are fueling a new doomsday economy",
-        "[CNBC_Economy] Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices"
+        "[CNBC_Economy] Tech outages are fueling a new doomsday economy"
       ],
       "news_sentiment": -0.48,
       "notes": [
-        "US10Y 4.89% (-0.21pp 5d)",
-        "Dollar +0.3% 5d",
-        "Oil $80 (-20% 20d)",
-        "VIX 29.0",
-        "Nasdaq -3.5% 5d",
+        "US10Y 4.90% (-0.21pp 5d)",
+        "Dollar +0.4% 5d",
+        "Oil $81 (-19% 20d)",
+        "VIX 27.7",
+        "Nasdaq -3.0% 5d",
         "Fear&Greed 11",
         "News: Macro-: rate hike"
       ],
@@ -66,13 +66,12 @@
       "story": [
         "yields falling -> easier money",
         "fear gauge (VIX) elevated",
-        "US tech stocks falling",
         "extreme retail fear (contrarian whale accumulation zone)",
         "inflation/Fed headlines hawkish (CPI/PPI/rates pressure)"
       ],
-      "total": -1
+      "total": 0
     },
-    "fetched_utc": "2026-11-24T16:05:48.634275+00:00",
+    "fetched_utc": "2026-11-24T17:05:47.209069+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
