@@ -37,12 +37,12 @@
       "headlines": [
         "[Macro_CPI_PPI] Fed's John Williams indicates higher interest rates likely 'over time' to address inflation - CNBC",
         "[Macro_CPI_PPI] Fed's Williams says inflation still too high, signals more rate hikes possible - Reuters",
+        "[Macro_CPI_PPI] Monetary Policy - Federal Reserve (.gov)",
         "[Macro_CPI_PPI] The Relationship Between Fed Monetary Policy and the Housing Market Is More Complex Than You Think - Darden Report",
-        "[Macro_CPI_PPI] Fed minutes: Higher interest rates needed in December as inflation worries mount - AP News",
-        "[Geopolitics_Iran_US] Live Updates: Iran says it will use all means to end U.S. blockade as Trump plays down escalating attacks - CBS News",
-        "[Geopolitics_Iran_US] Iran live updates: Iranian attacks spike over past week, Trump says - ABC News - Breaking News, Latest News and Videos",
-        "[Geopolitics_Iran_US] US weighs delaying Iran strikes despite Israeli pressure for military action - Iran International",
-        "[Geopolitics_Iran_US] Iran says held talks with Qatari mediators, urges US to accept conditions - Al Jazeera",
+        "[Geopolitics_Iran_US] Iran Update, November 23, 2026 - Institute for the Study of War",
+        "[Geopolitics_Iran_US] The World Is Underpricing the Risk of More War in Iran - Bloomberg.com",
+        "[Geopolitics_Iran_US] Qatar needs US and Iran to resume talks to end war, PM says - Middle East Eye",
+        "[Geopolitics_Iran_US] Iranian parliament speaker says US seeks \u2018no war, no peace\u2019 stalemate with Iran, calls for deterrence - Anadolu Ajans\u0131",
         "[World] Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
         "[World] US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
         "[World] Nato chief vows defence against space threat after Russian nuclear satellite reports",
@@ -72,7 +72,7 @@
       ],
       "total": -1
     },
-    "fetched_utc": "2026-11-24T06:05:28.599896+00:00",
+    "fetched_utc": "2026-11-24T07:05:27.789806+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
