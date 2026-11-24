@@ -41,10 +41,10 @@
         "[Macro_CPI_PPI] The Relationship Between Fed Monetary Policy and the Housing Market Is More Complex Than You Think - Darden Report",
         "[Macro_CPI_PPI] Get ready for 3 consecutive rate hikes starting next month, bank economist warns - Business Insider",
         "[Geopolitics_Iran_US] Live Updates: Iran says it will use all means to end U.S. blockade as Trump plays down escalating attacks - CBS News",
+        "[Geopolitics_Iran_US] Trump Suggests Iran Strikes Will Resume Next Year If Talks Fail - Bloomberg.com",
         "[Geopolitics_Iran_US] Iran live updates: Iranian attacks spike over past week, Trump says - ABC News - Breaking News, Latest News and Videos",
-        "[Geopolitics_Iran_US] Trump says he\u2019s inclined to strike Iran after new year if no deal reached - The Hill",
-        "[Geopolitics_Iran_US] Iran says it will use \u2018all available means\u2019 to counter US blockade - Al Jazeera",
-        "[World] Nvidia reinstates CEO Jensen Huang after affair with alleged spy as Trump says 'I made the deal'",
+        "[Geopolitics_Iran_US] Vance and Rubio meet with Qatari PM as uncertainty mounts over Trump\u2019s intentions with Iran - AP News",
+        "[World] Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
         "[World] US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
         "[World] Nato chief vows defence against space threat after Russian nuclear satellite reports",
         "[World] What strike on Russian ship in Libya says about spread of Ukraine war",
@@ -57,7 +57,7 @@
       "notes": [
         "US10Y 4.92% (-0.20pp 5d)",
         "Dollar +0.7% 5d",
-        "Oil $80 (-20% 20d)",
+        "Oil $80 (-21% 20d)",
         "VIX 26.6",
         "Nasdaq -1.7% 5d",
         "Fear&Greed 11",
@@ -73,7 +73,7 @@
       ],
       "total": -1
     },
-    "fetched_utc": "2026-11-24T04:05:31.852911+00:00",
+    "fetched_utc": "2026-11-24T05:05:27.607724+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
