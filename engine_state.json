@@ -38,15 +38,15 @@
         "[Macro_CPI_PPI] Fed's John Williams indicates higher interest rates likely 'over time' to address inflation - CNBC",
         "[Macro_CPI_PPI] The Relationship Between Fed Monetary Policy and the Housing Market Is More Complex Than You Think - Darden Report",
         "[Macro_CPI_PPI] Get ready for 3 consecutive rate hikes starting next month, bank economist warns - Business Insider",
-        "[Macro_CPI_PPI] Bill Ackman says Federal Reserve is 'about to make another mistake' - Fox Business",
+        "[Macro_CPI_PPI] Fed minutes: Higher interest rates needed in December as inflation worries mount - AP News",
         "[Geopolitics_Iran_US] Live Updates: Iran says it will use all means to end U.S. blockade as Trump plays down escalating attacks - CBS News",
         "[Geopolitics_Iran_US] Trump says he\u2019s inclined to strike Iran after new year if no deal reached - The Hill",
         "[Geopolitics_Iran_US] Live - Qatar pushes for renewed US-Iran talks as PM meets Rubio in Washington - Iran International",
         "[Geopolitics_Iran_US] Iran says held talks with Qatari mediators, urges US to accept conditions - Al Jazeera",
+        "[World] Nvidia reinstates CEO Jensen Huang after affair with alleged spy as Trump says 'I made the deal'",
         "[World] US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
-        "[World] Russian warship hit by Ukrainian drones in Libya, Zelensky says",
         "[World] What strike on Russian ship in Libya says about spread of Ukraine war",
-        "[World] Iranian authorities flog singer who performed without hijab, lawyers say",
+        "[World] King Charles and Elton John pay tribute to Australian music legend Molly Meldrum",
         "[CNBC_Economy] Peterson: Here\u2019s what Bessent\u2019s about-face on Jensen Huang reveals about Trump and China",
         "[CNBC_Economy] Tech outages are fueling a new doomsday economy",
         "[CNBC_Economy] Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
@@ -65,13 +65,14 @@
       "risk": 0,
       "story": [
         "yields falling -> easier money",
+        "dollar strengthening",
         "fear gauge (VIX) elevated",
         "extreme retail fear (contrarian whale accumulation zone)",
         "inflation/Fed headlines hawkish (CPI/PPI/rates pressure)"
       ],
-      "total": 0
+      "total": -1
     },
-    "fetched_utc": "2026-11-24T02:05:36.506563+00:00",
+    "fetched_utc": "2026-11-24T03:05:28.419602+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
