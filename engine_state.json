@@ -28,7 +28,6 @@
       "blackout": false,
       "blackout_reason": "",
       "catalysts": [
-        "Macro-: rate hike",
         "Macro-: rate hike"
       ],
       "errors": [
@@ -39,29 +38,29 @@
         "[Macro_CPI_PPI] Fed's John Williams indicates higher interest rates likely 'over time' to address inflation - CNBC",
         "[Macro_CPI_PPI] Fed's Williams says inflation still too high, signals more rate hikes possible - Reuters",
         "[Macro_CPI_PPI] The Relationship Between Fed Monetary Policy and the Housing Market Is More Complex Than You Think - Darden Report",
-        "[Macro_CPI_PPI] Get ready for 3 consecutive rate hikes starting next month, bank economist warns - Business Insider",
+        "[Macro_CPI_PPI] Fed minutes: Higher interest rates needed in December as inflation worries mount - AP News",
         "[Geopolitics_Iran_US] Live Updates: Iran says it will use all means to end U.S. blockade as Trump plays down escalating attacks - CBS News",
-        "[Geopolitics_Iran_US] Trump Suggests Iran Strikes Will Resume Next Year If Talks Fail - Bloomberg.com",
         "[Geopolitics_Iran_US] Iran live updates: Iranian attacks spike over past week, Trump says - ABC News - Breaking News, Latest News and Videos",
-        "[Geopolitics_Iran_US] Vance and Rubio meet with Qatari PM as uncertainty mounts over Trump\u2019s intentions with Iran - AP News",
+        "[Geopolitics_Iran_US] US weighs delaying Iran strikes despite Israeli pressure for military action - Iran International",
+        "[Geopolitics_Iran_US] Iran says held talks with Qatari mediators, urges US to accept conditions - Al Jazeera",
         "[World] Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
         "[World] US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
         "[World] Nato chief vows defence against space threat after Russian nuclear satellite reports",
-        "[World] What strike on Russian ship in Libya says about spread of Ukraine war",
+        "[World] India's 'cockroach' party leader says he was stopped from flying to UK",
         "[CNBC_Economy] Peterson: Here\u2019s what Bessent\u2019s about-face on Jensen Huang reveals about Trump and China",
         "[CNBC_Economy] Tech outages are fueling a new doomsday economy",
         "[CNBC_Economy] Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
         "[CNBC_Economy] Southeast Asia\u2019s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk"
       ],
-      "news_sentiment": -0.96,
+      "news_sentiment": -0.48,
       "notes": [
         "US10Y 4.92% (-0.20pp 5d)",
-        "Dollar +0.7% 5d",
-        "Oil $80 (-21% 20d)",
+        "Dollar +0.8% 5d",
+        "Oil $80 (-20% 20d)",
         "VIX 26.6",
         "Nasdaq -1.7% 5d",
         "Fear&Greed 11",
-        "News: Macro-: rate hike, Macro-: rate hike"
+        "News: Macro-: rate hike"
       ],
       "risk": 0,
       "story": [
@@ -73,7 +72,7 @@
       ],
       "total": -1
     },
-    "fetched_utc": "2026-11-24T05:05:27.607724+00:00",
+    "fetched_utc": "2026-11-24T06:05:28.599896+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
