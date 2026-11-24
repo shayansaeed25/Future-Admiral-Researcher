@@ -28,6 +28,7 @@
       "blackout": false,
       "blackout_reason": "",
       "catalysts": [
+        "Geopolitics-: strait of hormuz",
         "Macro-: rate hike"
       ],
       "errors": [
@@ -38,13 +39,13 @@
         "[Macro_CPI_PPI] Fed's John Williams indicates higher interest rates likely 'over time' to address inflation - CNBC",
         "[Macro_CPI_PPI] Fed's Williams says inflation still too high, signals more rate hikes possible - Reuters",
         "[Macro_CPI_PPI] Monetary Policy - Federal Reserve (.gov)",
-        "[Macro_CPI_PPI] Bill Ackman says Federal Reserve is 'about to make another mistake' - Fox Business",
-        "[Geopolitics_Iran_US] Live Updates: Iran says it will use all means to end U.S. blockade as Trump plays down escalating attacks - CBS News",
-        "[Geopolitics_Iran_US] Iran live updates: US land blockade of Iran 'impossible,' Araghchi says - ABC News - Breaking News, Latest News and Videos",
-        "[Geopolitics_Iran_US] Trump says he\u2019s inclined to strike Iran after new year if no deal reached - The Hill",
-        "[Geopolitics_Iran_US] Iran war live: Tehran demands 7 conditions be met before any talks with US - Al Jazeera",
+        "[Macro_CPI_PPI] Interest Rate Outlook and the Effects on U.S. Sectors - J.P. Morgan",
+        "[Geopolitics_Iran_US] Iran Update, November 23, 2026 - Institute for the Study of War",
+        "[Geopolitics_Iran_US] The World Is Underpricing the Risk of More War in Iran - Bloomberg.com",
+        "[Geopolitics_Iran_US] Middle East latest: IRGC says three tankers ablaze in Strait of Hormuz - thenationalnews.com",
+        "[Geopolitics_Iran_US] Qatar needs US and Iran to resume talks to end war, PM says - Middle East Eye",
         "[World] Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
-        "[World] What China's Xi could take away from Jensen Huang's return to Nvidia",
+        "[World] What Jensen Huang's return teaches China's Xi about Trump",
         "[World] Nato chief vows defence against space threat after Russian nuclear satellite reports",
         "[World] India's 'cockroach' party leader says he was stopped from flying to UK",
         "[CNBC_Economy] Why France is at risk of recession \u2014 and what could keep it out of one",
@@ -52,27 +53,27 @@
         "[CNBC_Economy] Tech outages are fueling a new doomsday economy",
         "[CNBC_Economy] Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices"
       ],
-      "news_sentiment": -0.48,
+      "news_sentiment": -1.0,
       "notes": [
         "US10Y 4.92% (-0.20pp 5d)",
-        "Dollar +0.8% 5d",
+        "Dollar +0.6% 5d",
         "Oil $80 (-20% 20d)",
-        "VIX 26.8",
+        "VIX 27.5",
         "Nasdaq -1.7% 5d",
         "Fear&Greed 11",
-        "News: Macro-: rate hike"
+        "News: Geopolitics-: strait of hormuz, Macro-: rate hike"
       ],
       "risk": 0,
       "story": [
         "yields falling -> easier money",
-        "dollar strengthening",
         "fear gauge (VIX) elevated",
         "extreme retail fear (contrarian whale accumulation zone)",
+        "geopolitical tension elevated (US/Iran/conflict headlines)",
         "inflation/Fed headlines hawkish (CPI/PPI/rates pressure)"
       ],
-      "total": -1
+      "total": 0
     },
-    "fetched_utc": "2026-11-24T09:05:27.165773+00:00",
+    "fetched_utc": "2026-11-24T10:05:27.393872+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
