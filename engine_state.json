@@ -27,22 +27,12 @@
     "data": {
       "blackout": false,
       "blackout_reason": "",
-      "catalysts": [
-        "Macro-: rate hike"
-      ],
+      "catalysts": [],
       "errors": [
         "FREDcsv T10YIE: ReadTimeout HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed "
       ],
       "fear_greed": 11,
       "headlines": [
-        "[Macro_CPI_PPI] Fed's John Williams indicates higher interest rates likely 'over time' to address inflation - CNBC",
-        "[Macro_CPI_PPI] How Fed Monetary Policy Shapes the Housing Market Today - Darden Report",
-        "[Macro_CPI_PPI] Get ready for 3 consecutive rate hikes starting next month, bank economist warns - Business Insider",
-        "[Macro_CPI_PPI] Market Minute: RSM\u2019s U.S. rates outlook for 2027 - The Real Economy Blog",
-        "[Geopolitics_Iran_US] Live Updates: Iran says it will use all means to end U.S. blockade as Trump plays down escalating attacks - CBS News",
-        "[Geopolitics_Iran_US] Iran live updates: Iranian attacks spike over past week, Trump says - ABC News - Breaking News, Latest News and Videos",
-        "[Geopolitics_Iran_US] Live - Qatar pushes for renewed US-Iran talks as PM meets Rubio in Washington - Iran International",
-        "[Geopolitics_Iran_US] Trump says he\u2019s inclined to strike Iran after new year if no deal reached - The Hill",
         "[World] US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
         "[World] Russian warship hit by Ukrainian drones in Libya, Zelensky says",
         "[World] What strike on Russian ship in Libya says about spread of Ukraine war",
@@ -50,29 +40,34 @@
         "[CNBC_Economy] Peterson: Here\u2019s what Bessent\u2019s about-face on Jensen Huang reveals about Trump and China",
         "[CNBC_Economy] Tech outages are fueling a new doomsday economy",
         "[CNBC_Economy] Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
-        "[CNBC_Economy] Southeast Asia\u2019s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk"
+        "[CNBC_Economy] Southeast Asia\u2019s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
+        "[Crypto] U.S. CFTC sets policies on event contract data, using crypto to check financial boxes",
+        "[Crypto] New York judge declines to block Kalshi from operating in the state for now",
+        "[Crypto] Nvidia's Jensen Huang faces Senate scrutiny despite Trump-backed return as CEO",
+        "[Crypto] Bitcoin rebound already losing steam as AI trade returns with a bang",
+        "[Cointelegraph] Ethereum Foundation doubles protocol security team ahead of overhaul",
+        "[Cointelegraph] CFTC staff say exchanges can count Bitcoin toward operating reserves",
+        "[Cointelegraph] Here\u2019s what happened in crypto today",
+        "[Cointelegraph] US seeks to recover $1.1B in crypto stolen in North Korea-linked Binance hack"
       ],
-      "news_sentiment": -0.48,
+      "news_sentiment": 0.0,
       "notes": [
         "US10Y 4.92% (-0.20pp 5d)",
         "Dollar +0.7% 5d",
         "Oil $80 (-21% 20d)",
         "VIX 26.6",
         "Nasdaq -1.7% 5d",
-        "Fear&Greed 11",
-        "News: Macro-: rate hike"
+        "Fear&Greed 11"
       ],
       "risk": 0,
       "story": [
         "yields falling -> easier money",
-        "dollar strengthening",
         "fear gauge (VIX) elevated",
-        "extreme retail fear (contrarian whale accumulation zone)",
-        "inflation/Fed headlines hawkish (CPI/PPI/rates pressure)"
+        "extreme retail fear (contrarian whale accumulation zone)"
       ],
-      "total": -1
+      "total": 1
     },
-    "fetched_utc": "2026-11-24T00:05:33.503267+00:00",
+    "fetched_utc": "2026-11-24T01:05:35.781846+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
