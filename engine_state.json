@@ -28,7 +28,6 @@
       "blackout": false,
       "blackout_reason": "",
       "catalysts": [
-        "Geopolitics-: strait of hormuz",
         "Macro-: rate hike"
       ],
       "errors": [
@@ -38,12 +37,12 @@
       "headlines": [
         "[Macro_CPI_PPI] Fed's John Williams indicates higher interest rates likely 'over time' to address inflation - CNBC",
         "[Macro_CPI_PPI] Fed's Williams says inflation still too high, signals more rate hikes possible - Reuters",
-        "[Macro_CPI_PPI] Monetary Policy - Federal Reserve (.gov)",
         "[Macro_CPI_PPI] Interest Rate Outlook and the Effects on U.S. Sectors - J.P. Morgan",
-        "[Geopolitics_Iran_US] Iran Update, November 23, 2026 - Institute for the Study of War",
-        "[Geopolitics_Iran_US] The World Is Underpricing the Risk of More War in Iran - Bloomberg.com",
-        "[Geopolitics_Iran_US] Middle East latest: IRGC says three tankers ablaze in Strait of Hormuz - thenationalnews.com",
-        "[Geopolitics_Iran_US] Qatar needs US and Iran to resume talks to end war, PM says - Middle East Eye",
+        "[Macro_CPI_PPI] Bill Ackman says Federal Reserve is 'about to make another mistake' - Fox Business",
+        "[Geopolitics_Iran_US] Live Updates: Iran says it will use all means to end U.S. blockade as Trump plays down escalating attacks - CBS News",
+        "[Geopolitics_Iran_US] Iran live updates: US land blockade of Iran 'impossible,' Araghchi says - ABC News - Breaking News, Latest News and Videos",
+        "[Geopolitics_Iran_US] Trump says he\u2019s inclined to strike Iran after new year if no deal reached - The Hill",
+        "[Geopolitics_Iran_US] US weighs delaying Iran strikes despite Israeli pressure for military action - Iran International",
         "[World] Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
         "[World] What Jensen Huang's return teaches China's Xi about Trump",
         "[World] Nato chief vows defence against space threat after Russian nuclear satellite reports",
@@ -53,27 +52,26 @@
         "[CNBC_Economy] Tech outages are fueling a new doomsday economy",
         "[CNBC_Economy] Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices"
       ],
-      "news_sentiment": -1.0,
+      "news_sentiment": -0.48,
       "notes": [
         "US10Y 4.92% (-0.20pp 5d)",
         "Dollar +0.6% 5d",
         "Oil $80 (-20% 20d)",
-        "VIX 27.5",
+        "VIX 28.9",
         "Nasdaq -1.7% 5d",
         "Fear&Greed 11",
-        "News: Geopolitics-: strait of hormuz, Macro-: rate hike"
+        "News: Macro-: rate hike"
       ],
       "risk": 0,
       "story": [
         "yields falling -> easier money",
         "fear gauge (VIX) elevated",
         "extreme retail fear (contrarian whale accumulation zone)",
-        "geopolitical tension elevated (US/Iran/conflict headlines)",
         "inflation/Fed headlines hawkish (CPI/PPI/rates pressure)"
       ],
       "total": 0
     },
-    "fetched_utc": "2026-11-24T10:05:27.393872+00:00",
+    "fetched_utc": "2026-11-24T11:05:30.324960+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
