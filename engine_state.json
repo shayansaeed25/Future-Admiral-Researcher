@@ -12,8 +12,8 @@
     "ARB-USDT": 1795345200000,
     "ATOM-USDT": 1795075200000,
     "BCH-USDT": 1795143600000,
-    "BNB-USDT": 1794718800000,
-    "BTC-USDT": 1794711600000,
+    "BNB-USDT": 1795525200000,
+    "BTC-USDT": 1795525200000,
     "DOT-USDT": 1795305600000,
     "ETH-USDT": 1795510800000,
     "LINK-USDT": 1794880800000,
@@ -28,7 +28,6 @@
       "blackout": false,
       "blackout_reason": "",
       "catalysts": [
-        "Geopolitics-: strait of hormuz",
         "Macro-: rate hike",
         "Inst-: etf outflow"
       ],
@@ -39,11 +38,11 @@
       "headlines": [
         "[Macro_CPI_PPI] Fed's John Williams indicates higher interest rates likely 'over time' to address inflation - CNBC",
         "[Macro_CPI_PPI] Fed's Williams says inflation still too high, signals more rate hikes possible - Reuters",
-        "[Macro_CPI_PPI] Monetary Policy - Federal Reserve (.gov)",
         "[Macro_CPI_PPI] Bill Ackman says Federal Reserve is 'about to make another mistake' - Fox Business",
+        "[Macro_CPI_PPI] Interest Rate Outlook and the Effects on U.S. Sectors - J.P. Morgan",
         "[Geopolitics_Iran_US] Iran Update, November 23, 2026 - Institute for the Study of War",
-        "[Geopolitics_Iran_US] Middle East latest: Iran navy says two tankers ablaze in Strait of Hormuz - thenationalnews.com",
         "[Geopolitics_Iran_US] The World Is Underpricing the Risk of More War in Iran - Bloomberg.com",
+        "[Geopolitics_Iran_US] Qatar needs US and Iran to resume talks to end war, PM says - Middle East Eye",
         "[Geopolitics_Iran_US] Third U.S. aircraft carrier in Middle East as Trump keeps options open in Iran war - PBS",
         "[World] Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
         "[World] What Jensen Huang's return teaches China's Xi about Trump",
@@ -54,27 +53,26 @@
         "[CNBC_Economy] Tech outages are fueling a new doomsday economy",
         "[CNBC_Economy] Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices"
       ],
-      "news_sentiment": -1.0,
+      "news_sentiment": -0.88,
       "notes": [
-        "US10Y 4.92% (-0.20pp 5d)",
+        "US10Y 4.89% (-0.21pp 5d)",
         "Dollar +0.4% 5d",
-        "Oil $80 (-20% 20d)",
-        "VIX 28.8",
+        "Oil $81 (-19% 20d)",
+        "VIX 29.5",
         "Nasdaq -1.7% 5d",
         "Fear&Greed 11",
-        "News: Geopolitics-: strait of hormuz, Macro-: rate hike"
+        "News: Macro-: rate hike, Inst-: etf outflow"
       ],
       "risk": 0,
       "story": [
         "yields falling -> easier money",
         "fear gauge (VIX) elevated",
         "extreme retail fear (contrarian whale accumulation zone)",
-        "geopolitical tension elevated (US/Iran/conflict headlines)",
         "inflation/Fed headlines hawkish (CPI/PPI/rates pressure)"
       ],
       "total": 0
     },
-    "fetched_utc": "2026-11-24T13:05:34.516218+00:00",
+    "fetched_utc": "2026-11-24T14:05:29.018882+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
