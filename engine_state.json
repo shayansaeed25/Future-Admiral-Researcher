@@ -27,18 +27,16 @@
     "data": {
       "blackout": false,
       "blackout_reason": "",
-      "catalysts": [
-        "Macro-: rate hike"
-      ],
+      "catalysts": [],
       "errors": [
         "FREDcsv T10YIE: ReadTimeout HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed "
       ],
       "fear_greed": 13,
       "headlines": [
-        "[Macro_CPI_PPI] Federal Reserve raises interest rates for the 1st time since 2023 - ABC News - Breaking News, Latest News and Videos",
-        "[Macro_CPI_PPI] Global risk-off mood lifts dollar ahead of inflation data - Reuters",
+        "[Macro_CPI_PPI] Another Hot Inflation Reading Keeps Fed on Track to Raise Rates Again - The New York Times",
+        "[Macro_CPI_PPI] Inflation gets worse. Now the Fed no choice but to raise U.S. interest rates. - MarketWatch",
         "[Macro_CPI_PPI] The Fed is likely to raise rates in December. What it means for your holiday spending - CNBC",
-        "[Macro_CPI_PPI] Firm Inflation Upholds Fed\u2019s Plan to Raise Rates Again - The New York Times",
+        "[Macro_CPI_PPI] Federal Reserve raises interest rates for the 1st time since 2023 - ABC News - Breaking News, Latest News and Videos",
         "[Geopolitics_Iran_US] Israeli Spy Chief Pressed for Renewed Iran Strikes During U.S. Visit - WSJ",
         "[Geopolitics_Iran_US] Trump says Israel\u2019s goal of toppling Iranian regime \u2018probably doable,\u2019 but not his main objective - The Jerusalem Post",
         "[Geopolitics_Iran_US] Iran Update, November 23, 2026 - Institute for the Study of War",
@@ -47,31 +45,30 @@
         "[World] My family were killed in Ukraine. My mum blamed Zelensky's troops - the truth is complicated",
         "[World] US attorney general dodges questions about Nvidia investigation",
         "[World] Close-up images to be revealed of asteroid deliberately hit to test ability to protect Earth",
-        "[CNBC_Economy] Fed\u2019s preferred inflation gauge accelerated to 3.8% in October, likely sealing rate hike",
+        "[CNBC_Economy] Fed\u2019s preferred inflation gauge accelerated to 3.8% in October, raising the 2027 stakes for the central bank",
         "[CNBC_Economy] Even the price of toys is on the rise. How Americans are scaling back holiday plans",
         "[CNBC_Economy] \u2018Ready for any storm\u2019: UAE minister optimistic on economy as IMF lifts forecast",
         "[CNBC_Economy] Consumer confidence shoots up after Democrats' midterm victories \u2014 though inflation worries persist"
       ],
-      "news_sentiment": -0.48,
+      "news_sentiment": 0.0,
       "notes": [
-        "US10Y 4.84% (-0.23pp 5d)",
-        "Dollar +0.1% 5d",
-        "Oil $83 (-20% 20d)",
-        "VIX 31.4",
-        "Nasdaq -2.4% 5d",
-        "Fear&Greed 13",
-        "News: Macro-: rate hike"
+        "US10Y 4.83% (-0.24pp 5d)",
+        "Dollar +0.0% 5d",
+        "Oil $83 (-19% 20d)",
+        "VIX 33.4",
+        "Nasdaq -6.5% 5d",
+        "Fear&Greed 13"
       ],
       "risk": 0,
       "story": [
         "yields falling -> easier money",
         "fear gauge (VIX) elevated",
-        "extreme retail fear (contrarian whale accumulation zone)",
-        "inflation/Fed headlines hawkish (CPI/PPI/rates pressure)"
+        "US tech stocks falling",
+        "extreme retail fear (contrarian whale accumulation zone)"
       ],
       "total": 0
     },
-    "fetched_utc": "2026-11-25T14:05:40.602893+00:00",
+    "fetched_utc": "2026-11-25T14:55:08.491123+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
