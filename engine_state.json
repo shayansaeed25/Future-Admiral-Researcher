@@ -4,7 +4,7 @@
     "DOT-USDT": "2026-11-23T18:05:29.663774+00:00",
     "LTC-USDT": "2026-11-23T18:05:27.334966+00:00"
   },
-  "last_briefing_slot": "2026-11-24-5",
+  "last_briefing_slot": "2026-11-25-0",
   "last_feed_alert_utc": "",
   "last_heartbeat_date": "2026-11-24",
   "last_signal_candle_ts": {
@@ -33,12 +33,16 @@
       "errors": [
         "FREDcsv T10YIE: ReadTimeout HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed "
       ],
-      "fear_greed": 11,
+      "fear_greed": 13,
       "headlines": [
         "[Macro_CPI_PPI] Fed's John Williams indicates higher interest rates likely 'over time' to address inflation - CNBC",
         "[Macro_CPI_PPI] Fed's Williams says inflation still too high, signals more rate hikes possible - Reuters",
         "[Macro_CPI_PPI] Bill Ackman says the U.S. economy could be headed for another recession\u2014and is blaming Kevin Warsh\u2019s Fed - Fortune",
         "[Macro_CPI_PPI] 7 Charts Show How America\u2019s Fiscal Health Declined in 2026 - Peter G. Peterson Foundation",
+        "[Geopolitics_Iran_US] How the Iran war is reshaping the US military presence in the Middle East - Al Jazeera",
+        "[Geopolitics_Iran_US] Iran Update, November 23, 2026 - Institute for the Study of War",
+        "[Geopolitics_Iran_US] Trump Gives Iran Until Early 2027 to Strike Deal - \u0627\u0644\u062d\u0631\u0629",
+        "[Geopolitics_Iran_US] Trump administration debates targeting top Iranian leaders to end war: Report - Anadolu Ajans\u0131",
         "[World] US attorney general dodges questions about Nvidia investigation",
         "[World] French ex-President Sarkozy and wife Carla Bruni to face trial",
         "[World] Indian government has 'lost the plot', says 'cockroach' leader barred from UK flight",
@@ -46,11 +50,7 @@
         "[CNBC_Economy] Consumer confidence shoots up after Democrats' midterm victories \u2014 though inflation worries persist",
         "[CNBC_Economy] Why France is at risk of recession \u2014 and what could keep it out of one",
         "[CNBC_Economy] Peterson: Here\u2019s what Bessent\u2019s about-face on Jensen Huang reveals about Trump and China",
-        "[CNBC_Economy] Tech outages are fueling a new doomsday economy",
-        "[Crypto] Utah moves to drop criminal pursuit of Kalshi after the firm halted services there",
-        "[Crypto] 'AI trade never died': Traders see room for market recovery, but bitcoin's participation is another story",
-        "[Crypto] Anchorage Digital to unveil new asset-management subsidiary",
-        "[Crypto] South Korea proposes ending 2017 ICO ban to boost jobs and onshore crypto investment"
+        "[CNBC_Economy] Tech outages are fueling a new doomsday economy"
       ],
       "news_sentiment": -0.48,
       "notes": [
@@ -59,7 +59,7 @@
         "Oil $82 (-18% 20d)",
         "VIX 26.4",
         "Nasdaq -2.4% 5d",
-        "Fear&Greed 11",
+        "Fear&Greed 13",
         "News: Macro-: rate hike"
       ],
       "risk": 0,
@@ -71,7 +71,7 @@
       ],
       "total": 0
     },
-    "fetched_utc": "2026-11-24T23:05:50.906619+00:00",
+    "fetched_utc": "2026-11-25T00:05:36.447669+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
