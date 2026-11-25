@@ -4,9 +4,9 @@
     "DOT-USDT": "2026-11-23T18:05:29.663774+00:00",
     "LTC-USDT": "2026-11-23T18:05:27.334966+00:00"
   },
-  "last_briefing_slot": "2026-11-25-0",
+  "last_briefing_slot": "2026-11-25-1",
   "last_feed_alert_utc": "",
-  "last_heartbeat_date": "2026-11-24",
+  "last_heartbeat_date": "2026-11-25",
   "last_signal_candle_ts": {
     "APT-USDT": 1794988800000,
     "ARB-USDT": 1795345200000,
@@ -35,14 +35,14 @@
       ],
       "fear_greed": 13,
       "headlines": [
-        "[Macro_CPI_PPI] Monetary Policy - Federal Reserve (.gov)",
         "[Macro_CPI_PPI] Fed's John Williams indicates higher interest rates likely 'over time' to address inflation - CNBC",
         "[Macro_CPI_PPI] Fed's Williams says inflation still too high, signals more rate hikes possible - Reuters",
         "[Macro_CPI_PPI] Bill Ackman says Federal Reserve is 'about to make another mistake' - Fox Business",
+        "[Macro_CPI_PPI] Fed minutes: Higher interest rates needed in December as inflation worries mount - AP News",
         "[Geopolitics_Iran_US] How the Iran war is reshaping the US military presence in the Middle East - Al Jazeera",
+        "[Geopolitics_Iran_US] Israeli Spy Chief Pressed for Renewed Iran Strikes During U.S. Visit - WSJ",
         "[Geopolitics_Iran_US] Iran Update, November 23, 2026 - Institute for the Study of War",
-        "[Geopolitics_Iran_US] Trump Gives Iran Until Early 2027 to Strike Deal - \u0627\u0644\u062d\u0631\u0629",
-        "[Geopolitics_Iran_US] The U.S. government is investigating Iranian ties to as many as 50 hacked commercial vessels - NPR",
+        "[Geopolitics_Iran_US] Donald Trump says Iran war funding lasts through January as Democratic Congress nears - The Jerusalem Post",
         "[World] US attorney general dodges questions about Nvidia investigation",
         "[World] French ex-President Sarkozy and wife Carla Bruni to face trial",
         "[World] Indian government has 'lost the plot', says 'cockroach' leader barred from UK flight",
@@ -55,7 +55,7 @@
       "news_sentiment": -0.48,
       "notes": [
         "US10Y 4.90% (-0.20pp 5d)",
-        "Dollar +0.0% 5d",
+        "Dollar +0.1% 5d",
         "Oil $81 (-21% 20d)",
         "VIX 26.4",
         "Nasdaq -2.4% 5d",
@@ -71,7 +71,7 @@
       ],
       "total": 0
     },
-    "fetched_utc": "2026-11-25T03:05:35.895264+00:00",
+    "fetched_utc": "2026-11-25T04:05:31.141533+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
