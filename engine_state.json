@@ -33,18 +33,18 @@
       ],
       "fear_greed": 13,
       "headlines": [
+        "[Macro_CPI_PPI] Risk-off mood lifts dollar ahead of inflation data - Reuters",
         "[Macro_CPI_PPI] Fed's John Williams indicates higher interest rates likely 'over time' to address inflation - CNBC",
-        "[Macro_CPI_PPI] Monetary Policy - Federal Reserve (.gov)",
-        "[Macro_CPI_PPI] Gold falters ahead of key US inflation print - Reuters",
+        "[Macro_CPI_PPI] Fed holds interest rates steady as inflation hits 3-year high - ABC News - Breaking News, Latest News and Videos",
         "[Macro_CPI_PPI] Bill Ackman says Federal Reserve is 'about to make another mistake' - Fox Business",
-        "[Geopolitics_Iran_US] Where is the US/Israel-Iran war heading? - Anadolu Ajans\u0131",
         "[Geopolitics_Iran_US] Donald Trump says Iran war funding lasts through January as Democratic Congress nears - The Jerusalem Post",
+        "[Geopolitics_Iran_US] Where is the US/Israel-Iran war heading? - Anadolu Ajans\u0131",
         "[Geopolitics_Iran_US] Trump warns of new strikes against Iran after new year, calls negotiators \u2018professional tap dancers\u2019 - Fox News",
         "[Geopolitics_Iran_US] Iran Update, November 23, 2026 - Institute for the Study of War",
         "[World] Russia's own figures show it has lost almost 500,000 people in Ukraine war",
+        "[World] My family died in Ukraine. My mum blamed Zelensky's troops - the truth is complicated",
         "[World] US attorney general dodges questions about Nvidia investigation",
-        "[World] Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
-        "[World] Four years after huge asteroid crash, a spacecraft has now returned to assess the damage",
+        "[World] Close-up images to be revealed of asteroid deliberately hit to test ability to protect Earth",
         "[CNBC_Economy] \u2018Ready for any storm\u2019: UAE minister optimistic on economy as IMF lifts forecast",
         "[CNBC_Economy] Consumer confidence shoots up after Democrats' midterm victories \u2014 though inflation worries persist",
         "[CNBC_Economy] Why France is at risk of recession \u2014 and what could keep it out of one",
@@ -53,9 +53,9 @@
       "news_sentiment": 0.0,
       "notes": [
         "US10Y 4.90% (-0.20pp 5d)",
-        "Dollar +0.2% 5d",
-        "Oil $82 (-20% 20d)",
-        "VIX 29.5",
+        "Dollar +0.1% 5d",
+        "Oil $81 (-21% 20d)",
+        "VIX 29.3",
         "Nasdaq -2.4% 5d",
         "Fear&Greed 13"
       ],
@@ -67,7 +67,7 @@
       ],
       "total": 1
     },
-    "fetched_utc": "2026-11-25T10:05:30.841842+00:00",
+    "fetched_utc": "2026-11-25T11:05:35.855791+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
