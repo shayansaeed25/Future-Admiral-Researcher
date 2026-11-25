@@ -27,47 +27,51 @@
     "data": {
       "blackout": false,
       "blackout_reason": "",
-      "catalysts": [],
+      "catalysts": [
+        "Macro-: rate hike"
+      ],
       "errors": [
         "FREDcsv T10YIE: ReadTimeout HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed "
       ],
       "fear_greed": 13,
       "headlines": [
         "[Macro_CPI_PPI] Federal Reserve raises interest rates for the 1st time since 2023 - ABC News - Breaking News, Latest News and Videos",
-        "[Macro_CPI_PPI] Risk-off mood lifts dollar ahead of inflation data - Reuters",
-        "[Macro_CPI_PPI] Gold slips on stronger dollar, US inflation data in focus - CNBC",
-        "[Macro_CPI_PPI] Bill Ackman says Federal Reserve is 'about to make another mistake' - Fox Business",
+        "[Macro_CPI_PPI] Global risk-off mood lifts dollar ahead of inflation data - Reuters",
+        "[Macro_CPI_PPI] The Fed is likely to raise rates in December. What it means for your holiday spending - CNBC",
+        "[Macro_CPI_PPI] Firm Inflation Upholds Fed\u2019s Plan to Raise Rates Again - The New York Times",
+        "[Geopolitics_Iran_US] Israeli Spy Chief Pressed for Renewed Iran Strikes During U.S. Visit - WSJ",
         "[Geopolitics_Iran_US] Trump says Israel\u2019s goal of toppling Iranian regime \u2018probably doable,\u2019 but not his main objective - The Jerusalem Post",
         "[Geopolitics_Iran_US] Iran Update, November 23, 2026 - Institute for the Study of War",
         "[Geopolitics_Iran_US] Iran claims shooting down 2 US drones over Gulf skies - Anadolu Ajans\u0131",
-        "[Geopolitics_Iran_US] Trump warns of new strikes against Iran after new year, calls negotiators \u2018professional tap dancers\u2019 - Fox News",
         "[World] Russia's own figures show it has lost nearly 500,000 people in Ukraine war",
         "[World] My family were killed in Ukraine. My mum blamed Zelensky's troops - the truth is complicated",
         "[World] US attorney general dodges questions about Nvidia investigation",
         "[World] Close-up images to be revealed of asteroid deliberately hit to test ability to protect Earth",
+        "[CNBC_Economy] Fed\u2019s preferred inflation gauge accelerated to 3.8% in October, likely sealing rate hike",
+        "[CNBC_Economy] Even the price of toys is on the rise. How Americans are scaling back holiday plans",
         "[CNBC_Economy] \u2018Ready for any storm\u2019: UAE minister optimistic on economy as IMF lifts forecast",
-        "[CNBC_Economy] Consumer confidence shoots up after Democrats' midterm victories \u2014 though inflation worries persist",
-        "[CNBC_Economy] Why France is at risk of recession \u2014 and what could keep it out of one",
-        "[CNBC_Economy] Peterson: Here\u2019s what Bessent\u2019s about-face on Jensen Huang reveals about Trump and China"
+        "[CNBC_Economy] Consumer confidence shoots up after Democrats' midterm victories \u2014 though inflation worries persist"
       ],
-      "news_sentiment": 0.0,
+      "news_sentiment": -0.48,
       "notes": [
-        "US10Y 4.90% (-0.20pp 5d)",
+        "US10Y 4.84% (-0.23pp 5d)",
         "Dollar +0.1% 5d",
-        "Oil $82 (-20% 20d)",
-        "VIX 30.8",
+        "Oil $83 (-20% 20d)",
+        "VIX 31.4",
         "Nasdaq -2.4% 5d",
-        "Fear&Greed 13"
+        "Fear&Greed 13",
+        "News: Macro-: rate hike"
       ],
       "risk": 0,
       "story": [
         "yields falling -> easier money",
         "fear gauge (VIX) elevated",
-        "extreme retail fear (contrarian whale accumulation zone)"
+        "extreme retail fear (contrarian whale accumulation zone)",
+        "inflation/Fed headlines hawkish (CPI/PPI/rates pressure)"
       ],
-      "total": 1
+      "total": 0
     },
-    "fetched_utc": "2026-11-25T13:05:31.954972+00:00",
+    "fetched_utc": "2026-11-25T14:05:40.602893+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
