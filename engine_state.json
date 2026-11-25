@@ -27,21 +27,19 @@
     "data": {
       "blackout": false,
       "blackout_reason": "",
-      "catalysts": [
-        "Macro-: rate hike"
-      ],
+      "catalysts": [],
       "errors": [
         "FREDcsv T10YIE: ReadTimeout HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed "
       ],
       "fear_greed": 13,
       "headlines": [
         "[Macro_CPI_PPI] Fed's John Williams indicates higher interest rates likely 'over time' to address inflation - CNBC",
-        "[Macro_CPI_PPI] Fed holds interest rates steady as inflation hits 3-year high - ABC News - Breaking News, Latest News and Videos",
-        "[Macro_CPI_PPI] Fed's Williams says inflation still too high, signals more rate hikes possible - Reuters",
+        "[Macro_CPI_PPI] Monetary Policy - Federal Reserve (.gov)",
+        "[Macro_CPI_PPI] Gold falters ahead of key US inflation print - Reuters",
         "[Macro_CPI_PPI] Bill Ackman says Federal Reserve is 'about to make another mistake' - Fox Business",
-        "[Geopolitics_Iran_US] How the Iran war is reshaping the US military presence in the Middle East - Al Jazeera",
         "[Geopolitics_Iran_US] Where is the US/Israel-Iran war heading? - Anadolu Ajans\u0131",
         "[Geopolitics_Iran_US] Donald Trump says Iran war funding lasts through January as Democratic Congress nears - The Jerusalem Post",
+        "[Geopolitics_Iran_US] Trump warns of new strikes against Iran after new year, calls negotiators \u2018professional tap dancers\u2019 - Fox News",
         "[Geopolitics_Iran_US] Iran Update, November 23, 2026 - Institute for the Study of War",
         "[World] Russia's own figures show it has lost almost 500,000 people in Ukraine war",
         "[World] US attorney general dodges questions about Nvidia investigation",
@@ -52,26 +50,24 @@
         "[CNBC_Economy] Why France is at risk of recession \u2014 and what could keep it out of one",
         "[CNBC_Economy] Peterson: Here\u2019s what Bessent\u2019s about-face on Jensen Huang reveals about Trump and China"
       ],
-      "news_sentiment": -0.48,
+      "news_sentiment": 0.0,
       "notes": [
         "US10Y 4.90% (-0.20pp 5d)",
-        "Dollar +0.1% 5d",
-        "Oil $81 (-21% 20d)",
-        "VIX 27.9",
+        "Dollar +0.2% 5d",
+        "Oil $82 (-20% 20d)",
+        "VIX 29.5",
         "Nasdaq -2.4% 5d",
-        "Fear&Greed 13",
-        "News: Macro-: rate hike"
+        "Fear&Greed 13"
       ],
       "risk": 0,
       "story": [
         "yields falling -> easier money",
         "fear gauge (VIX) elevated",
-        "extreme retail fear (contrarian whale accumulation zone)",
-        "inflation/Fed headlines hawkish (CPI/PPI/rates pressure)"
+        "extreme retail fear (contrarian whale accumulation zone)"
       ],
-      "total": 0
+      "total": 1
     },
-    "fetched_utc": "2026-11-25T09:05:37.784211+00:00",
+    "fetched_utc": "2026-11-25T10:05:30.841842+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
