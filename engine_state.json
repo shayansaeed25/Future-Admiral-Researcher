@@ -1,8 +1,6 @@
 {
   "cooldown": {
-    "ARB-USDT": "2026-11-23T19:05:31.904821+00:00",
-    "DOT-USDT": "2026-11-23T18:05:29.663774+00:00",
-    "LTC-USDT": "2026-11-23T18:05:27.334966+00:00"
+    "BNB-USDT": "2026-11-25T21:05:32.576994+00:00"
   },
   "last_briefing_slot": "2026-11-25-4",
   "last_feed_alert_utc": "",
@@ -36,11 +34,11 @@
         "[Macro_CPI_PPI] Another Hot Inflation Reading Keeps Fed on Track to Raise Rates Again - The New York Times",
         "[Macro_CPI_PPI] Inflation gets worse. Now the Fed no choice but to raise U.S. interest rates. - MarketWatch",
         "[Macro_CPI_PPI] The Fed is likely to raise rates in December. What it means for your holiday spending - CNBC",
-        "[Macro_CPI_PPI] US inflation rises further in October - Reuters",
+        "[Macro_CPI_PPI] US third-quarter economic growth revised sharply higher; inflation broadening out - Reuters",
         "[Geopolitics_Iran_US] Israeli Spy Chief Pressed for Renewed Iran Strikes During U.S. Visit - WSJ",
-        "[Geopolitics_Iran_US] Trump says Israel\u2019s goal of toppling Iranian regime \u2018probably doable,\u2019 but not his main objective - The Jerusalem Post",
         "[Geopolitics_Iran_US] Iran Update, November 23, 2026 - Institute for the Study of War",
-        "[Geopolitics_Iran_US] Iran claims shooting down 2 US drones over Gulf skies - Anadolu Ajans\u0131",
+        "[Geopolitics_Iran_US] Trump says Israel\u2019s goal of toppling Iranian regime \u2018probably doable,\u2019 but not his main objective - The Jerusalem Post",
+        "[Geopolitics_Iran_US] Third U.S. aircraft carrier in Middle East as Trump keeps options open in Iran war - PBS",
         "[World] Russia's own figures show it has lost nearly 500,000 people in Ukraine war",
         "[World] My family were killed in Ukraine. My mum blamed Zelensky's troops - the truth is complicated",
         "[World] Close-up images to be revealed of asteroid deliberately hit to test ability to protect Earth",
@@ -52,11 +50,11 @@
       ],
       "news_sentiment": 0.0,
       "notes": [
-        "US10Y 4.82% (-0.25pp 5d)",
-        "Dollar +0.1% 5d",
+        "US10Y 4.81% (-0.26pp 5d)",
+        "Dollar -0.1% 5d",
         "Oil $83 (-19% 20d)",
-        "VIX 33.5",
-        "Nasdaq -6.9% 5d",
+        "VIX 33.6",
+        "Nasdaq -5.9% 5d",
         "Fear&Greed 13"
       ],
       "risk": 0,
@@ -68,7 +66,7 @@
       ],
       "total": 0
     },
-    "fetched_utc": "2026-11-25T16:05:39.495860+00:00",
+    "fetched_utc": "2026-11-25T17:05:34.547397+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
