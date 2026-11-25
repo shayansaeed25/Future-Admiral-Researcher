@@ -35,8 +35,8 @@
       ],
       "fear_greed": 13,
       "headlines": [
-        "[Macro_CPI_PPI] Monetary Policy - Federal Reserve (.gov)",
         "[Macro_CPI_PPI] Fed's John Williams indicates higher interest rates likely 'over time' to address inflation - CNBC",
+        "[Macro_CPI_PPI] Federal Reserve raises interest rates for the 1st time since 2023 - ABC News - Breaking News, Latest News and Videos",
         "[Macro_CPI_PPI] Fed's Williams says inflation still too high, signals more rate hikes possible - Reuters",
         "[Macro_CPI_PPI] Bill Ackman says Federal Reserve is 'about to make another mistake' - Fox Business",
         "[Geopolitics_Iran_US] How the Iran war is reshaping the US military presence in the Middle East - Al Jazeera",
@@ -55,8 +55,8 @@
       "news_sentiment": -0.48,
       "notes": [
         "US10Y 4.90% (-0.20pp 5d)",
-        "Dollar +0.3% 5d",
-        "Oil $82 (-18% 20d)",
+        "Dollar +0.2% 5d",
+        "Oil $81 (-21% 20d)",
         "VIX 26.4",
         "Nasdaq -2.4% 5d",
         "Fear&Greed 13",
@@ -71,7 +71,7 @@
       ],
       "total": 0
     },
-    "fetched_utc": "2026-11-25T05:05:37.093091+00:00",
+    "fetched_utc": "2026-11-25T06:05:36.022695+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
