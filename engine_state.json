@@ -35,14 +35,14 @@
       ],
       "fear_greed": 13,
       "headlines": [
+        "[Macro_CPI_PPI] Monetary Policy - Federal Reserve (.gov)",
         "[Macro_CPI_PPI] Fed's John Williams indicates higher interest rates likely 'over time' to address inflation - CNBC",
         "[Macro_CPI_PPI] Fed's Williams says inflation still too high, signals more rate hikes possible - Reuters",
-        "[Macro_CPI_PPI] Bill Ackman says the U.S. economy could be headed for another recession\u2014and is blaming Kevin Warsh\u2019s Fed - Fortune",
-        "[Macro_CPI_PPI] 7 Charts Show How America\u2019s Fiscal Health Declined in 2026 - Peter G. Peterson Foundation",
-        "[Geopolitics_Iran_US] How the Iran war is reshaping the US military presence in the Middle East - Al Jazeera",
-        "[Geopolitics_Iran_US] Iran Update, November 23, 2026 - Institute for the Study of War",
-        "[Geopolitics_Iran_US] Trump Gives Iran Until Early 2027 to Strike Deal - \u0627\u0644\u062d\u0631\u0629",
-        "[Geopolitics_Iran_US] Trump administration debates targeting top Iranian leaders to end war: Report - Anadolu Ajans\u0131",
+        "[Macro_CPI_PPI] Bill Ackman says Federal Reserve is 'about to make another mistake' - Fox Business",
+        "[Geopolitics_Iran_US] Iran War Updates: Iran developing chemical weapons, Israeli defense minister says - CBS News",
+        "[Geopolitics_Iran_US] Exclusive | Trump says Iran war \u2018funded\u2019 through January and addresses Israel\u2019s goal of Tehran regime change - New York Post",
+        "[Geopolitics_Iran_US] Vance and Rubio meet with Qatari PM as uncertainty mounts over Trump\u2019s intentions with Iran - AP News",
+        "[Geopolitics_Iran_US] Iran says it will use \u2018all available means\u2019 to counter US blockade - Al Jazeera",
         "[World] US attorney general dodges questions about Nvidia investigation",
         "[World] French ex-President Sarkozy and wife Carla Bruni to face trial",
         "[World] Indian government has 'lost the plot', says 'cockroach' leader barred from UK flight",
@@ -56,7 +56,7 @@
       "notes": [
         "US10Y 4.90% (-0.20pp 5d)",
         "Dollar +0.4% 5d",
-        "Oil $82 (-18% 20d)",
+        "Oil $81 (-21% 20d)",
         "VIX 26.4",
         "Nasdaq -2.4% 5d",
         "Fear&Greed 13",
@@ -71,7 +71,7 @@
       ],
       "total": 0
     },
-    "fetched_utc": "2026-11-25T01:05:30.804086+00:00",
+    "fetched_utc": "2026-11-25T02:05:33.923508+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
