@@ -33,16 +33,16 @@
       ],
       "fear_greed": 13,
       "headlines": [
+        "[Macro_CPI_PPI] Federal Reserve raises interest rates for the 1st time since 2023 - ABC News - Breaking News, Latest News and Videos",
         "[Macro_CPI_PPI] Risk-off mood lifts dollar ahead of inflation data - Reuters",
-        "[Macro_CPI_PPI] Fed's John Williams indicates higher interest rates likely 'over time' to address inflation - CNBC",
-        "[Macro_CPI_PPI] Monetary Policy - Federal Reserve (.gov)",
+        "[Macro_CPI_PPI] Gold slips on stronger dollar, US inflation data in focus - CNBC",
         "[Macro_CPI_PPI] Bill Ackman says Federal Reserve is 'about to make another mistake' - Fox Business",
         "[Geopolitics_Iran_US] Trump says Israel\u2019s goal of toppling Iranian regime \u2018probably doable,\u2019 but not his main objective - The Jerusalem Post",
-        "[Geopolitics_Iran_US] Where is the US/Israel-Iran war heading? - Anadolu Ajans\u0131",
         "[Geopolitics_Iran_US] Iran Update, November 23, 2026 - Institute for the Study of War",
+        "[Geopolitics_Iran_US] Iran claims shooting down 2 US drones over Gulf skies - Anadolu Ajans\u0131",
         "[Geopolitics_Iran_US] Trump warns of new strikes against Iran after new year, calls negotiators \u2018professional tap dancers\u2019 - Fox News",
-        "[World] Russia's own figures show it has lost almost 500,000 people in Ukraine war",
-        "[World] My family died in Ukraine. My mum blamed Zelensky's troops - the truth is complicated",
+        "[World] Russia's own figures show it has lost nearly 500,000 people in Ukraine war",
+        "[World] My family were killed in Ukraine. My mum blamed Zelensky's troops - the truth is complicated",
         "[World] US attorney general dodges questions about Nvidia investigation",
         "[World] Close-up images to be revealed of asteroid deliberately hit to test ability to protect Earth",
         "[CNBC_Economy] \u2018Ready for any storm\u2019: UAE minister optimistic on economy as IMF lifts forecast",
@@ -53,9 +53,9 @@
       "news_sentiment": 0.0,
       "notes": [
         "US10Y 4.90% (-0.20pp 5d)",
-        "Dollar +0.2% 5d",
-        "Oil $82 (-21% 20d)",
-        "VIX 30.2",
+        "Dollar +0.1% 5d",
+        "Oil $82 (-20% 20d)",
+        "VIX 30.8",
         "Nasdaq -2.4% 5d",
         "Fear&Greed 13"
       ],
@@ -67,7 +67,7 @@
       ],
       "total": 1
     },
-    "fetched_utc": "2026-11-25T12:05:32.823272+00:00",
+    "fetched_utc": "2026-11-25T13:05:31.954972+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
