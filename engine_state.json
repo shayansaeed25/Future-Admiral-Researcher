@@ -35,28 +35,28 @@
       ],
       "fear_greed": 13,
       "headlines": [
+        "[Macro_CPI_PPI] Monetary Policy - Federal Reserve (.gov)",
         "[Macro_CPI_PPI] Fed's John Williams indicates higher interest rates likely 'over time' to address inflation - CNBC",
         "[Macro_CPI_PPI] Fed's Williams says inflation still too high, signals more rate hikes possible - Reuters",
         "[Macro_CPI_PPI] Bill Ackman says Federal Reserve is 'about to make another mistake' - Fox Business",
-        "[Macro_CPI_PPI] Fed minutes: Higher interest rates needed in December as inflation worries mount - AP News",
         "[Geopolitics_Iran_US] How the Iran war is reshaping the US military presence in the Middle East - Al Jazeera",
         "[Geopolitics_Iran_US] Israeli Spy Chief Pressed for Renewed Iran Strikes During U.S. Visit - WSJ",
         "[Geopolitics_Iran_US] Iran Update, November 23, 2026 - Institute for the Study of War",
-        "[Geopolitics_Iran_US] Donald Trump says Iran war funding lasts through January as Democratic Congress nears - The Jerusalem Post",
+        "[Geopolitics_Iran_US] Trump administration debates targeting top Iranian leaders to end war: Report - Anadolu Ajans\u0131",
         "[World] US attorney general dodges questions about Nvidia investigation",
-        "[World] French ex-President Sarkozy and wife Carla Bruni to face trial",
+        "[World] Russia's own figures show almost 500,000 deaths in war in Ukraine",
+        "[World] Kilmar \u00c1brego Garc\u00eda leaving US for Spain, ending Trump deportation battle",
         "[World] Indian government has 'lost the plot', says 'cockroach' leader barred from UK flight",
-        "[World] Huawei found guilty of stealing trade secrets but acquitted of racketeering",
+        "[CNBC_Economy] \u2018Ready for any storm\u2019: UAE minister optimistic on economy as IMF lifts forecast",
         "[CNBC_Economy] Consumer confidence shoots up after Democrats' midterm victories \u2014 though inflation worries persist",
         "[CNBC_Economy] Why France is at risk of recession \u2014 and what could keep it out of one",
-        "[CNBC_Economy] Peterson: Here\u2019s what Bessent\u2019s about-face on Jensen Huang reveals about Trump and China",
-        "[CNBC_Economy] Tech outages are fueling a new doomsday economy"
+        "[CNBC_Economy] Peterson: Here\u2019s what Bessent\u2019s about-face on Jensen Huang reveals about Trump and China"
       ],
       "news_sentiment": -0.48,
       "notes": [
         "US10Y 4.90% (-0.20pp 5d)",
-        "Dollar +0.1% 5d",
-        "Oil $81 (-21% 20d)",
+        "Dollar +0.3% 5d",
+        "Oil $82 (-18% 20d)",
         "VIX 26.4",
         "Nasdaq -2.4% 5d",
         "Fear&Greed 13",
@@ -71,7 +71,7 @@
       ],
       "total": 0
     },
-    "fetched_utc": "2026-11-25T04:05:31.141533+00:00",
+    "fetched_utc": "2026-11-25T05:05:37.093091+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
