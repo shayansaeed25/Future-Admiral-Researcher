@@ -1,7 +1,8 @@
 {
   "cooldown": {
     "BNB-USDT": "2026-11-25T21:05:32.576994+00:00",
-    "BTC-USDT": "2026-11-25T22:05:33.196535+00:00"
+    "BTC-USDT": "2026-11-25T22:05:33.196535+00:00",
+    "ETH-USDT": "2026-11-25T23:05:29.733575+00:00"
   },
   "last_briefing_slot": "2026-11-25-4",
   "last_feed_alert_utc": "",
@@ -26,48 +27,52 @@
     "data": {
       "blackout": false,
       "blackout_reason": "",
-      "catalysts": [],
+      "catalysts": [
+        "Geopolitics-: strait of hormuz"
+      ],
       "errors": [
         "FREDcsv T10YIE: ReadTimeout HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed "
       ],
       "fear_greed": 13,
       "headlines": [
         "[Macro_CPI_PPI] Another Hot Inflation Reading Keeps Fed on Track to Raise Rates Again - The New York Times",
-        "[Macro_CPI_PPI] Inflation gets worse. Now the Fed no choice but to raise U.S. interest rates. - MarketWatch",
         "[Macro_CPI_PPI] US third-quarter economic growth revised sharply higher; inflation broadening out - Reuters",
+        "[Macro_CPI_PPI] Inflation gets worse. Now the Fed has no choice but to raise U.S. interest rates. - MarketWatch",
         "[Macro_CPI_PPI] Inflation Continues to Climb, Fed Poised to Raise Interest Rates | National News | U.S. News - U.S. News & World Report",
         "[Geopolitics_Iran_US] Israeli Spy Chief Pressed for Renewed Iran Strikes During U.S. Visit - WSJ",
         "[Geopolitics_Iran_US] Iran Update, November 23, 2026 - Institute for the Study of War",
+        "[Geopolitics_Iran_US] 2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict - Britannica",
         "[Geopolitics_Iran_US] Trump says Israel\u2019s goal of toppling Iranian regime \u2018probably doable,\u2019 but not his main objective - The Jerusalem Post",
-        "[Geopolitics_Iran_US] Third U.S. aircraft carrier in Middle East as Trump keeps options open in Iran war - PBS",
+        "[World] US announces new tariffs on host of countries including China",
         "[World] Russia's own figures show it has lost nearly 500,000 people in Ukraine war",
         "[World] My family were killed in Ukraine. My mum blamed Zelensky's troops - the truth is complicated",
         "[World] US stocks fall further as fears over AI intensify",
-        "[World] Images of asteroid targeted to test Earth's defences reveal stadium-sized crater",
         "[CNBC_Economy] Fed\u2019s preferred inflation gauge accelerated to 3.8% in October, raising the 2027 stakes for the central bank",
         "[CNBC_Economy] Even the price of toys is on the rise. How Americans are scaling back holiday plans",
         "[CNBC_Economy] \u2018Ready for any storm\u2019: UAE minister optimistic on economy as IMF lifts forecast",
         "[CNBC_Economy] Consumer confidence shoots up after Democrats' midterm victories \u2014 though inflation worries persist"
       ],
-      "news_sentiment": 0.0,
+      "news_sentiment": -0.52,
       "notes": [
-        "US10Y 4.84% (-0.23pp 5d)",
+        "US10Y 4.84% (-0.22pp 5d)",
         "Dollar -0.2% 5d",
-        "Oil $84 (-19% 20d)",
-        "VIX 29.7",
-        "Nasdaq -4.6% 5d",
-        "Fear&Greed 13"
+        "Oil $84 (-18% 20d)",
+        "VIX 27.6",
+        "Nasdaq -3.5% 5d",
+        "Fear&Greed 13",
+        "News: Geopolitics-: strait of hormuz"
       ],
       "risk": 0,
       "story": [
         "yields falling -> easier money",
         "fear gauge (VIX) elevated",
         "US tech stocks falling",
-        "extreme retail fear (contrarian whale accumulation zone)"
+        "extreme retail fear (contrarian whale accumulation zone)",
+        "geopolitical tension elevated (US/Iran/conflict headlines)"
       ],
-      "total": 0
+      "total": -1
     },
-    "fetched_utc": "2026-11-25T18:05:35.489490+00:00",
+    "fetched_utc": "2026-11-25T19:05:32.957185+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
