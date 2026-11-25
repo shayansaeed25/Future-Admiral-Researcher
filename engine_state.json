@@ -27,52 +27,48 @@
     "data": {
       "blackout": false,
       "blackout_reason": "",
-      "catalysts": [
-        "Geopolitics-: strait of hormuz"
-      ],
+      "catalysts": [],
       "errors": [
         "FREDcsv T10YIE: ReadTimeout HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed "
       ],
       "fear_greed": 13,
       "headlines": [
-        "[Macro_CPI_PPI] US economy roars ahead in third quarter, inflation remains high in October - Reuters",
+        "[Macro_CPI_PPI] Fed policymakers at odds over causes of high inflation - Reuters",
         "[Macro_CPI_PPI] Another Hot Inflation Reading Keeps Fed on Track to Raise Rates Again - The New York Times",
         "[Macro_CPI_PPI] Inflation gets worse. Now the Fed has no choice but to raise U.S. interest rates. - MarketWatch",
         "[Macro_CPI_PPI] Inflation Continues to Climb, Fed Poised to Raise Interest Rates | National News | U.S. News - U.S. News & World Report",
         "[Geopolitics_Iran_US] Targeting Iran\u2019s leaders will create a more dangerous regime - Defense Priorities",
-        "[Geopolitics_Iran_US] Israeli Spy Chief Pressed for Renewed Iran Strikes During U.S. Visit - WSJ",
         "[Geopolitics_Iran_US] Iran Update, November 23, 2026 - Institute for the Study of War",
-        "[Geopolitics_Iran_US] 2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict - Britannica",
+        "[Geopolitics_Iran_US] How the Iran war is reshaping the US military presence in the Middle East - Al Jazeera",
+        "[Geopolitics_Iran_US] Trump says Israel\u2019s goal of toppling Iranian regime \u2018probably doable,\u2019 but not his main objective - The Jerusalem Post",
         "[World] US announces new tariffs on host of countries including China",
         "[World] Images of asteroid targeted to test Earth's defences reveal stadium-sized crater",
+        "[World] At least 30 killed in massive fire as fuel tanker crashes on Cairo highway",
         "[World] Israeli judges recommend dropping most serious charges against Netanyahu",
-        "[World] US stocks fall further as fears over AI intensify",
         "[CNBC_Economy] Fed\u2019s preferred inflation gauge accelerated to 3.8% in October, raising the 2027 stakes for the central bank",
         "[CNBC_Economy] Even the price of toys is on the rise. How Americans are scaling back holiday plans",
         "[CNBC_Economy] \u2018Ready for any storm\u2019: UAE minister optimistic on economy as IMF lifts forecast",
         "[CNBC_Economy] Consumer confidence shoots up after Democrats' midterm victories \u2014 though inflation worries persist"
       ],
-      "news_sentiment": -0.52,
+      "news_sentiment": 0.0,
       "notes": [
         "US10Y 4.85% (-0.22pp 5d)",
         "Dollar -0.2% 5d",
         "Oil $84 (-18% 20d)",
-        "VIX 27.9",
+        "VIX 28.3",
         "Nasdaq -3.5% 5d",
-        "Fear&Greed 13",
-        "News: Geopolitics-: strait of hormuz"
+        "Fear&Greed 13"
       ],
       "risk": 0,
       "story": [
         "yields falling -> easier money",
         "fear gauge (VIX) elevated",
         "US tech stocks falling",
-        "extreme retail fear (contrarian whale accumulation zone)",
-        "geopolitical tension elevated (US/Iran/conflict headlines)"
+        "extreme retail fear (contrarian whale accumulation zone)"
       ],
-      "total": -1
+      "total": 0
     },
-    "fetched_utc": "2026-11-25T21:05:26.923003+00:00",
+    "fetched_utc": "2026-11-25T22:05:25.488194+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
