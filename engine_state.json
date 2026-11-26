@@ -33,14 +33,14 @@
       ],
       "fear_greed": 11,
       "headlines": [
-        "[Macro_CPI_PPI] Fed policymakers at odds over causes of high inflation - Reuters",
         "[Macro_CPI_PPI] Another Hot Inflation Reading Keeps Fed on Track to Raise Rates Again - The New York Times",
+        "[Macro_CPI_PPI] Fed policymakers at odds over causes of high inflation - Reuters",
         "[Macro_CPI_PPI] Inflation gets worse. Now the Fed has no choice but to raise U.S. interest rates. - MarketWatch",
         "[Macro_CPI_PPI] Inflation Continues to Climb, Fed Poised to Raise Interest Rates | National News | U.S. News - U.S. News & World Report",
         "[Geopolitics_Iran_US] What Trump should do next about Iran - Atlantic Council",
+        "[Geopolitics_Iran_US] How the Iran war is reshaping the US military presence in the Middle East - Al Jazeera",
         "[Geopolitics_Iran_US] A \u2018Silent War\u2019 Grips Iran as Its Economy Strains Under U.S. Blockade - WSJ",
         "[Geopolitics_Iran_US] Iran Update, November 23, 2026 - Institute for the Study of War",
-        "[Geopolitics_Iran_US] Targeting Iran\u2019s leaders will create a more dangerous regime - Defense Priorities",
         "[World] US announces new tariffs on host of countries including China",
         "[World] Images of asteroid targeted to test Earth's defences reveal stadium-sized crater",
         "[World] Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
@@ -68,7 +68,7 @@
       ],
       "total": 0
     },
-    "fetched_utc": "2026-11-26T05:05:26.313989+00:00",
+    "fetched_utc": "2026-11-26T06:05:26.777295+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
