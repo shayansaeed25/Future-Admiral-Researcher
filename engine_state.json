@@ -37,12 +37,12 @@
       ],
       "fear_greed": 11,
       "headlines": [
-        "[Macro_CPI_PPI] US economy roars ahead in third quarter, inflation remains high in October - Reuters",
+        "[Macro_CPI_PPI] Fed policymakers at odds over causes of high inflation - Reuters",
         "[Macro_CPI_PPI] Newly proposed tariffs raise chances of the Fed keeping interest rates higher for longer - Yahoo Finance",
-        "[Macro_CPI_PPI] Another Hot Inflation Reading Keeps Fed on Track to Raise Rates Again - The New York Times",
         "[Macro_CPI_PPI] The Fed is likely to raise rates in December. What it means for your holiday spending - CNBC",
-        "[Geopolitics_Iran_US] What Trump should do next about Iran - Atlantic Council",
+        "[Macro_CPI_PPI] Inflation gets worse. Now the Fed has no choice but to raise U.S. interest rates. - MarketWatch",
         "[Geopolitics_Iran_US] Israeli Spy Chief Pressed for Renewed Iran Strikes During U.S. Visit - WSJ",
+        "[Geopolitics_Iran_US] What Trump should do next about Iran - Atlantic Council",
         "[Geopolitics_Iran_US] Iran Update, November 23, 2026 - Institute for the Study of War",
         "[Geopolitics_Iran_US] Arab officials fear return to \u2018full-scale\u2019 war between US and Iran - The National",
         "[World] German boat dealer suspected of supplying Channel smuggling gangs, BBC finds",
@@ -75,7 +75,7 @@
       ],
       "total": -1
     },
-    "fetched_utc": "2026-11-26T18:05:26.908779+00:00",
+    "fetched_utc": "2026-11-26T19:05:28.405470+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
