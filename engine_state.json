@@ -35,29 +35,29 @@
       ],
       "fear_greed": 11,
       "headlines": [
-        "[Macro_CPI_PPI] Fed policymakers at odds over causes of high inflation - Reuters",
+        "[Macro_CPI_PPI] US economy roars ahead in third quarter, inflation remains high in October - Reuters",
+        "[Macro_CPI_PPI] Another Hot Inflation Reading Keeps Fed on Track to Raise Rates Again - The New York Times",
         "[Macro_CPI_PPI] Inflation gets worse. Now the Fed has no choice but to raise U.S. interest rates. - MarketWatch",
-        "[Macro_CPI_PPI] Inflation Continues to Climb, Fed Poised to Raise Interest Rates | National News | U.S. News - U.S. News & World Report",
         "[Macro_CPI_PPI] The Fed is likely to raise rates in December. What it means for your holiday spending - CNBC",
         "[Geopolitics_Iran_US] What Trump should do next about Iran - Atlantic Council",
         "[Geopolitics_Iran_US] A \u2018Silent War\u2019 Grips Iran as Its Economy Strains Under U.S. Blockade - WSJ",
-        "[Geopolitics_Iran_US] Arab officials fear return to \u2018full-scale\u2019 war between US and Iran - The National",
         "[Geopolitics_Iran_US] Iran Update, November 23, 2026 - Institute for the Study of War",
+        "[Geopolitics_Iran_US] Arab officials fear return to \u2018full-scale\u2019 war between US and Iran - The National",
         "[World] German boat dealer suspected of supplying Channel smuggling gangs, BBC finds",
         "[World] Watch: BBC confronts German man suspected of supplying migrant gangs with small boats",
-        "[World] Myanmar refuses to comply with parts of ICJ genocide ruling",
+        "[World] G\u00e9rard Depardieu to stand trial for alleged rape of actress in 2018, court rules",
         "[World] Desperate appeals from women on death row in Iran after protests",
+        "[CNBC_Economy] Spain\u2019s Pablo Hern\u00e1ndez de Cos set to lead European Central Bank",
         "[CNBC_Economy] U.S. tariff-hike threats pile pressure on partners to sign trade deals",
         "[CNBC_Economy] Liesman: Why Greenspan could bet on productivity \u2014 and Warsh needs to hike",
-        "[CNBC_Economy] Fed\u2019s preferred inflation gauge accelerated to 3.8% in October, raising the 2027 stakes for the central bank",
-        "[CNBC_Economy] Even the price of toys is on the rise. How Americans are scaling back holiday plans"
+        "[CNBC_Economy] Fed\u2019s preferred inflation gauge accelerated to 3.8% in October, raising the 2027 stakes for the central bank"
       ],
       "news_sentiment": 0.48,
       "notes": [
         "US10Y 4.85% (-0.22pp 5d)",
         "Dollar -0.2% 5d",
         "Oil $85 (-17% 20d)",
-        "VIX 26.8",
+        "VIX 26.9",
         "Nasdaq -3.5% 5d",
         "Fear&Greed 11",
         "News: Geopolitics+: trade deal"
@@ -72,7 +72,7 @@
       ],
       "total": 1
     },
-    "fetched_utc": "2026-11-26T14:05:33.077491+00:00",
+    "fetched_utc": "2026-11-26T15:05:41.202077+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
