@@ -34,8 +34,8 @@
       "fear_greed": 11,
       "headlines": [
         "[Macro_CPI_PPI] Another Hot Inflation Reading Keeps Fed on Track to Raise Rates Again - The New York Times",
-        "[Macro_CPI_PPI] Inflation gets worse. Now the Fed has no choice but to raise U.S. interest rates. - MarketWatch",
         "[Macro_CPI_PPI] US economy roars ahead in third quarter, inflation remains high in October - Reuters",
+        "[Macro_CPI_PPI] Inflation gets worse. Now the Fed has no choice but to raise U.S. interest rates. - MarketWatch",
         "[Macro_CPI_PPI] Inflation Continues to Climb, Fed Poised to Raise Interest Rates | National News | U.S. News - U.S. News & World Report",
         "[Geopolitics_Iran_US] What Trump should do next about Iran - Atlantic Council",
         "[Geopolitics_Iran_US] How the Iran war is reshaping the US military presence in the Middle East - Al Jazeera",
@@ -68,7 +68,7 @@
       ],
       "total": 0
     },
-    "fetched_utc": "2026-11-26T01:05:27.306266+00:00",
+    "fetched_utc": "2026-11-26T02:05:32.265190+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
