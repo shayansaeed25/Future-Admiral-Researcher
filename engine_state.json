@@ -4,7 +4,7 @@
     "BTC-USDT": "2026-11-25T22:05:33.196535+00:00",
     "ETH-USDT": "2026-11-25T23:05:29.733575+00:00"
   },
-  "last_briefing_slot": "2026-11-26-1",
+  "last_briefing_slot": "2026-11-26-2",
   "last_feed_alert_utc": "",
   "last_heartbeat_date": "2026-11-26",
   "last_signal_candle_ts": {
@@ -37,10 +37,10 @@
         "[Macro_CPI_PPI] Inflation gets worse. Now the Fed has no choice but to raise U.S. interest rates. - MarketWatch",
         "[Macro_CPI_PPI] Another Hot Inflation Reading Keeps Fed on Track to Raise Rates Again - The New York Times",
         "[Macro_CPI_PPI] Inflation Continues to Climb, Fed Poised to Raise Interest Rates | National News | U.S. News - U.S. News & World Report",
+        "[Geopolitics_Iran_US] Iran War Updates: Tehran denounces U.S. for using AI in strikes it claims violate international law - CBS News",
+        "[Geopolitics_Iran_US] Iran says it is prepared to withstand US blockade, seeks to curb price rises - Reuters",
+        "[Geopolitics_Iran_US] Iran dismisses US blockade, warns of broader confrontation - Iran International",
         "[Geopolitics_Iran_US] What Trump should do next about Iran - Atlantic Council",
-        "[Geopolitics_Iran_US] A \u2018Silent War\u2019 Grips Iran as Its Economy Strains Under U.S. Blockade - WSJ",
-        "[Geopolitics_Iran_US] Iran Update, November 23, 2026 - Institute for the Study of War",
-        "[Geopolitics_Iran_US] Targeting Iran\u2019s leaders will create a more dangerous regime - Defense Priorities",
         "[World] US announces new tariffs on host of countries including China",
         "[World] Images of asteroid targeted to test Earth's defences reveal stadium-sized crater",
         "[World] Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
@@ -68,7 +68,7 @@
       ],
       "total": 0
     },
-    "fetched_utc": "2026-11-26T07:05:27.951969+00:00",
+    "fetched_utc": "2026-11-26T08:05:26.677875+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
