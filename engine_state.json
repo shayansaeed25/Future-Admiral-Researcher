@@ -56,8 +56,8 @@
       "notes": [
         "US10Y 4.85% (-0.22pp 5d)",
         "Dollar -0.2% 5d",
-        "Oil $83 (-18% 20d)",
-        "VIX 26.9",
+        "Oil $84 (-17% 20d)",
+        "VIX 27.5",
         "Nasdaq -3.5% 5d",
         "Fear&Greed 11",
         "News: Geopolitics+: trade deal"
@@ -72,7 +72,7 @@
       ],
       "total": 1
     },
-    "fetched_utc": "2026-11-26T10:05:30.565659+00:00",
+    "fetched_utc": "2026-11-26T11:05:37.298410+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
