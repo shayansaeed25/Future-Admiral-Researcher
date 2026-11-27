@@ -35,14 +35,14 @@
       ],
       "fear_greed": 12,
       "headlines": [
+        "[Macro_CPI_PPI] Fed holds interest rates steady as inflation hits 3-year high - ABC News - Breaking News, Latest News and Videos",
         "[Macro_CPI_PPI] The Fed is likely to raise rates in December. What it means for your holiday spending - CNBC",
-        "[Macro_CPI_PPI] Fed policymakers at odds over causes of high inflation - Reuters",
         "[Macro_CPI_PPI] Inflation Continues to Climb, Fed Poised to Raise Interest Rates | National News | U.S. News - U.S. News & World Report",
-        "[Macro_CPI_PPI] Another Hot Inflation Reading Keeps Fed on Track to Raise Rates Again - The New York Times",
-        "[Geopolitics_Iran_US] Iran accused of deadly drone attack in Kuwait that sparks EU call to step up pressure on Tehran - CBS News",
+        "[Macro_CPI_PPI] Fed policymakers at odds over causes of high inflation - Reuters",
         "[Geopolitics_Iran_US] Trump downplays Russia, China support for Iran during talks with US troops - Al Jazeera",
         "[Geopolitics_Iran_US] What Trump should do next about Iran - Atlantic Council",
         "[Geopolitics_Iran_US] How the Iran war ripples unexpectedly out to rolling English farm country - The Christian Science Monitor",
+        "[Geopolitics_Iran_US] Iran accused of deadly drone attack in Kuwait that sparks EU call to step up pressure on Tehran - CBS News",
         "[World] Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
         "[World] John Simpson: Ukraine is bowed but still unbroken as freezing weather sets in",
         "[World] Marching bands scramble to cover costs after Thanksgiving parade rearranged",
@@ -54,11 +54,11 @@
       ],
       "news_sentiment": 0.48,
       "notes": [
-        "US10Y 4.93% (-0.12pp 5d)",
+        "US10Y 4.93% (-0.13pp 5d)",
         "Dollar +0.1% 5d",
         "Oil $83 (-19% 20d)",
-        "VIX 24.6",
-        "Nasdaq +0.5% 5d",
+        "VIX 24.8",
+        "Nasdaq +1.0% 5d",
         "Fear&Greed 12",
         "News: Geopolitics+: trade deal"
       ],
@@ -69,7 +69,7 @@
       ],
       "total": 2
     },
-    "fetched_utc": "2026-11-27T17:05:29.795870+00:00",
+    "fetched_utc": "2026-11-27T18:05:38.002044+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
