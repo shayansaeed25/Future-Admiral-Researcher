@@ -4,7 +4,7 @@
     "BTC-USDT": "2026-11-25T22:05:33.196535+00:00",
     "ETH-USDT": "2026-11-25T23:05:29.733575+00:00"
   },
-  "last_briefing_slot": "2026-11-27-4",
+  "last_briefing_slot": "2026-11-27-5",
   "last_feed_alert_utc": "",
   "last_heartbeat_date": "2026-11-27",
   "last_signal_candle_ts": {
@@ -36,13 +36,13 @@
       "fear_greed": 12,
       "headlines": [
         "[Macro_CPI_PPI] Fed holds interest rates steady as inflation hits 3-year high - ABC News - Breaking News, Latest News and Videos",
+        "[Macro_CPI_PPI] Another Hot Inflation Reading Keeps Fed on Track to Raise Rates Again - The New York Times",
         "[Macro_CPI_PPI] The Fed is likely to raise rates in December. What it means for your holiday spending - CNBC",
         "[Macro_CPI_PPI] Inflation Continues to Climb, Fed Poised to Raise Interest Rates | National News | U.S. News - U.S. News & World Report",
-        "[Macro_CPI_PPI] Fed policymakers at odds over causes of high inflation - Reuters",
+        "[Geopolitics_Iran_US] A \u2018Silent War\u2019 Grips Iran as Its Economy Strains Under U.S. Blockade - WSJ",
         "[Geopolitics_Iran_US] Trump downplays Russia, China support for Iran during talks with US troops - Al Jazeera",
         "[Geopolitics_Iran_US] What Trump should do next about Iran - Atlantic Council",
         "[Geopolitics_Iran_US] How the Iran war ripples unexpectedly out to rolling English farm country - The Christian Science Monitor",
-        "[Geopolitics_Iran_US] Iran accused of deadly drone attack in Kuwait that sparks EU call to step up pressure on Tehran - CBS News",
         "[World] Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
         "[World] Weary of war but with no sign of backing down, Kyiv faces another punishing winter",
         "[World] 'We couldn't give up that easily': Marching bands scramble to cover costs after Thanksgiving parade rearranged",
@@ -54,7 +54,7 @@
       ],
       "news_sentiment": 0.48,
       "notes": [
-        "US10Y 4.93% (-0.12pp 5d)",
+        "US10Y 4.94% (-0.12pp 5d)",
         "Dollar +0.1% 5d",
         "Oil $83 (-19% 20d)",
         "VIX 23.8",
@@ -69,7 +69,7 @@
       ],
       "total": 2
     },
-    "fetched_utc": "2026-11-27T18:54:27.660907+00:00",
+    "fetched_utc": "2026-11-27T20:05:32.070882+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
