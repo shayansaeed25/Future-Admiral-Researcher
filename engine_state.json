@@ -42,7 +42,7 @@
         "[Geopolitics_Iran_US] Iran accused of deadly drone attack in Kuwait that sparks EU call to step up pressure on Tehran - CBS News",
         "[Geopolitics_Iran_US] Trump downplays Russia, China support for Iran during talks with US troops - Al Jazeera",
         "[Geopolitics_Iran_US] What Trump should do next about Iran - Atlantic Council",
-        "[Geopolitics_Iran_US] Trump deploys extra aircraft carrier, says Iran is making \u2018big mistakes\u2019 - Iran International",
+        "[Geopolitics_Iran_US] How the Iran war ripples unexpectedly out to rolling English farm country - The Christian Science Monitor",
         "[World] Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
         "[World] Hundreds of thousands still without power after storms hit US on Thanksgiving",
         "[World] Leaders clash in final Spain election debate as housing dominates run-in",
@@ -54,25 +54,24 @@
       ],
       "news_sentiment": 0.48,
       "notes": [
-        "US10Y 4.90% (-0.15pp 5d)",
+        "US10Y 4.89% (-0.16pp 5d)",
         "Dollar -0.0% 5d",
-        "Oil $84 (-17% 20d)",
-        "VIX 25.4",
-        "Nasdaq -3.5% 5d",
+        "Oil $84 (-18% 20d)",
+        "VIX 26.9",
+        "Nasdaq -0.7% 5d",
         "Fear&Greed 12",
         "News: Geopolitics+: trade deal"
       ],
-      "risk": 0,
+      "risk": 1,
       "story": [
         "yields falling -> easier money",
         "fear gauge (VIX) elevated",
-        "US tech stocks falling",
         "extreme retail fear (contrarian whale accumulation zone)",
         "geopolitical de-escalation / talks progress"
       ],
-      "total": 1
+      "total": 2
     },
-    "fetched_utc": "2026-11-27T14:05:28.819932+00:00",
+    "fetched_utc": "2026-11-27T15:05:42.478122+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
