@@ -36,8 +36,8 @@
       ],
       "fear_greed": 12,
       "headlines": [
-        "[Macro_CPI_PPI] The Fed is likely to raise rates in December. What it means for your holiday spending - CNBC",
         "[Macro_CPI_PPI] Newly proposed tariffs raise chances of the Fed keeping interest rates higher for longer - Yahoo Finance",
+        "[Macro_CPI_PPI] The Fed is likely to raise rates in December. What it means for your holiday spending - CNBC",
         "[Macro_CPI_PPI] Fed policymakers at odds over causes of high inflation - Reuters",
         "[Macro_CPI_PPI] Inflation Continues to Climb, Fed Poised to Raise Interest Rates | National News | U.S. News - U.S. News & World Report",
         "[Geopolitics_Iran_US] How the Iran war is reshaping the US military presence in the Middle East - Al Jazeera",
@@ -45,9 +45,9 @@
         "[Geopolitics_Iran_US] Iran Update, November 23, 2026 - Institute for the Study of War",
         "[Geopolitics_Iran_US] Donald Trump: Washington giving Iran opportunity to make deal, doubts they will accept - The Jerusalem Post",
         "[World] US too focused on Middle East and not pushing Russia hard enough, Zelensky tells BBC",
+        "[World] Major Thanksgiving storm brings flooding, flight delays across US",
         "[World] Watch: Roofs torn off and streets under water as severe weather hits US",
         "[World] German boat dealer suspected of supplying Channel smuggling gangs, BBC finds",
-        "[World] Watch: BBC confronts German man suspected of supplying migrant gangs with small boats",
         "[CNBC_Economy] Spain\u2019s Pablo Hern\u00e1ndez de Cos set to lead European Central Bank",
         "[CNBC_Economy] U.S. tariff-hike threats pile pressure on partners to sign trade deals",
         "[CNBC_Economy] Liesman: Why Greenspan could bet on productivity \u2014 and Warsh needs to hike",
@@ -74,7 +74,7 @@
       ],
       "total": 0
     },
-    "fetched_utc": "2026-11-27T00:05:27.864931+00:00",
+    "fetched_utc": "2026-11-27T00:32:44.471168+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
