@@ -38,7 +38,7 @@
       "headlines": [
         "[Macro_CPI_PPI] Newly proposed tariffs raise chances of the Fed keeping interest rates higher for longer - Yahoo Finance",
         "[Macro_CPI_PPI] The Fed is likely to raise rates in December. What it means for your holiday spending - CNBC",
-        "[Macro_CPI_PPI] Fed policymakers at odds over causes of high inflation - Reuters",
+        "[Macro_CPI_PPI] Another Hot Inflation Reading Keeps Fed on Track to Raise Rates Again - The New York Times",
         "[Macro_CPI_PPI] Inflation Continues to Climb, Fed Poised to Raise Interest Rates | National News | U.S. News - U.S. News & World Report",
         "[Geopolitics_Iran_US] How the Iran war is reshaping the US military presence in the Middle East - Al Jazeera",
         "[Geopolitics_Iran_US] What Trump should do next about Iran - Atlantic Council",
@@ -47,17 +47,17 @@
         "[World] US too focused on Middle East and not pushing Russia hard enough, Zelensky tells BBC",
         "[World] Major Thanksgiving storm brings flooding, flight delays across US",
         "[World] Watch: Roofs torn off and streets under water as severe weather hits US",
-        "[World] German boat dealer suspected of supplying Channel smuggling gangs, BBC finds",
+        "[World] New Zealand's ruling coalition falls short of parliamentary majority by one seat",
+        "[CNBC_Economy] China industrial profits growth surges to a 5-month high of 20.1% in October",
         "[CNBC_Economy] Spain\u2019s Pablo Hern\u00e1ndez de Cos set to lead European Central Bank",
         "[CNBC_Economy] U.S. tariff-hike threats pile pressure on partners to sign trade deals",
-        "[CNBC_Economy] Liesman: Why Greenspan could bet on productivity \u2014 and Warsh needs to hike",
-        "[CNBC_Economy] Fed\u2019s preferred inflation gauge accelerated to 3.8% in October, raising the 2027 stakes for the central bank"
+        "[CNBC_Economy] Liesman: Why Greenspan could bet on productivity \u2014 and Warsh needs to hike"
       ],
       "news_sentiment": 0.0,
       "notes": [
         "US10Y 4.85% (-0.22pp 5d)",
         "Dollar -0.1% 5d",
-        "Oil $85 (-16% 20d)",
+        "Oil $86 (-16% 20d)",
         "VIX 26.8",
         "Nasdaq -3.5% 5d",
         "Fear&Greed 12",
@@ -74,7 +74,7 @@
       ],
       "total": 0
     },
-    "fetched_utc": "2026-11-27T01:05:29.952363+00:00",
+    "fetched_utc": "2026-11-27T02:05:30.243282+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
