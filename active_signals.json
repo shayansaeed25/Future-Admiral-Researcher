@@ -61,14 +61,14 @@
     "paper_initial_qty": 328.3640901031063,
     "paper_remaining_qty": 328.3640901031063,
     "paper_realized_pnl_usdt": 0.0,
-    "paper_unrealized_pnl_usdt": -0.18388389045774117,
-    "paper_total_pnl_usdt": -0.18388389045774117,
-    "paper_return_pct": -0.0018388389045774116,
+    "paper_unrealized_pnl_usdt": -0.055821895317529215,
+    "paper_total_pnl_usdt": -0.055821895317529215,
+    "paper_return_pct": -0.0005582189531752921,
     "paper_pnl_method": "$100 paper notional; equal 1/3 exits at TP1/TP2/TP3; gross, fees excluded",
     "created_at_utc": "2026-11-27T12:06:14.340782+00:00",
-    "last_checked_utc": "2026-11-27T13:05:24.782492+00:00",
+    "last_checked_utc": "2026-11-27T14:05:26.812707+00:00",
     "tp": 0.301951,
-    "last_price": 0.3051,
+    "last_price": 0.30471,
     "sl_at_breakeven": false
   }
 }
