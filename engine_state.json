@@ -35,6 +35,14 @@
       ],
       "fear_greed": 12,
       "headlines": [
+        "[Macro_CPI_PPI] Federal Reserve raises interest rates for the 1st time since 2023 - ABC News - Breaking News, Latest News and Videos",
+        "[Macro_CPI_PPI] Another Hot Inflation Reading Keeps Fed on Track to Raise Rates Again - The New York Times",
+        "[Macro_CPI_PPI] The Fed is likely to raise rates in December. What it means for your holiday spending - CNBC",
+        "[Macro_CPI_PPI] Inflation Continues to Climb, Fed Poised to Raise Interest Rates | National News | U.S. News - U.S. News & World Report",
+        "[Geopolitics_Iran_US] A \u2018Silent War\u2019 Grips Iran as Its Economy Strains Under U.S. Blockade - WSJ",
+        "[Geopolitics_Iran_US] US disables ship trying to leave Iran, as Tehran vows to confront blockade - Reuters",
+        "[Geopolitics_Iran_US] What Trump should do next about Iran - Atlantic Council",
+        "[Geopolitics_Iran_US] How the Iran war ripples unexpectedly out to rolling English farm country - The Christian Science Monitor",
         "[World] Spanish PM and rivals rally supporters in final pitch for votes",
         "[World] Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
         "[World] Weary of war but with no sign of backing down, Kyiv faces another punishing winter",
@@ -42,15 +50,7 @@
         "[CNBC_Economy] China\u2019s factories are growing profits again, but the AI boom is picking the winners",
         "[CNBC_Economy] Spain\u2019s Pablo Hern\u00e1ndez de Cos set to lead European Central Bank",
         "[CNBC_Economy] U.S. tariff-hike threats pile pressure on partners to sign trade deals",
-        "[CNBC_Economy] Liesman: Why Greenspan could bet on productivity \u2014 and Warsh needs to hike",
-        "[Crypto] Kalshi turns to small businesses as legal battles threaten forecasts on sports",
-        "[Crypto] Bitcoin 'death cross' is coming. Here's what happened after previous 13.",
-        "[Crypto] Bitcoin on course to end seven-week losing streak while trailing stock rebound",
-        "[Crypto] Live updates: Bitcoin's Thanksgiving gains prove fleeting",
-        "[Cointelegraph] Bitcoin whales pile into BTC despite shrinking profit cushion",
-        "[Cointelegraph] China sets March 2027 rollout for blockchain identity regulations",
-        "[Cointelegraph] Bitcoin price drops below $59K as Anthropic joins tech stock rebound",
-        "[Cointelegraph] What was Coinbase worth while Nasdaq was closed?"
+        "[CNBC_Economy] Liesman: Why Greenspan could bet on productivity \u2014 and Warsh needs to hike"
       ],
       "news_sentiment": 0.48,
       "notes": [
@@ -69,7 +69,7 @@
       ],
       "total": 2
     },
-    "fetched_utc": "2026-11-27T21:05:39.563317+00:00",
+    "fetched_utc": "2026-11-27T22:05:27.238120+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
