@@ -4,7 +4,7 @@
     "BTC-USDT": "2026-11-25T22:05:33.196535+00:00",
     "ETH-USDT": "2026-11-25T23:05:29.733575+00:00"
   },
-  "last_briefing_slot": "2026-11-27-3",
+  "last_briefing_slot": "2026-11-27-4",
   "last_feed_alert_utc": "",
   "last_heartbeat_date": "2026-11-27",
   "last_signal_candle_ts": {
@@ -40,13 +40,13 @@
         "[Macro_CPI_PPI] Fed policymakers at odds over causes of high inflation - Reuters",
         "[Macro_CPI_PPI] Inflation Continues to Climb, Fed Poised to Raise Interest Rates | National News | U.S. News - U.S. News & World Report",
         "[Geopolitics_Iran_US] Iran accused of deadly drone attack in Kuwait that sparks EU call to step up pressure on Tehran - CBS News",
-        "[Geopolitics_Iran_US] Trump downplays Russia, China support for Iran during talks with US troops - Al Jazeera",
         "[Geopolitics_Iran_US] What Trump should do next about Iran - Atlantic Council",
         "[Geopolitics_Iran_US] How the Iran war ripples unexpectedly out to rolling English farm country - The Christian Science Monitor",
+        "[Geopolitics_Iran_US] Trump: Iran war will be over \u2018sort of whenever I want it to be\u2019 - The Hill",
         "[World] Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
-        "[World] Hundreds of thousands still without power after storms hit US on Thanksgiving",
+        "[World] John Simpson: Ukraine is bowed but still unbroken as freezing weather sets in",
+        "[World] Marching bands scramble to cover costs after Thanksgiving parade rearranged",
         "[World] Leaders clash in final Spain election debate as housing dominates run-in",
-        "[World] Italy's former police chief rejected mafia inquiry allegations before death",
         "[CNBC_Economy] China\u2019s factories are growing profits again, but the AI boom is picking the winners",
         "[CNBC_Economy] Spain\u2019s Pablo Hern\u00e1ndez de Cos set to lead European Central Bank",
         "[CNBC_Economy] U.S. tariff-hike threats pile pressure on partners to sign trade deals",
@@ -54,24 +54,23 @@
       ],
       "news_sentiment": 0.48,
       "notes": [
-        "US10Y 4.89% (-0.16pp 5d)",
-        "Dollar -0.0% 5d",
+        "US10Y 4.91% (-0.14pp 5d)",
+        "Dollar +0.1% 5d",
         "Oil $84 (-18% 20d)",
-        "VIX 26.9",
-        "Nasdaq -0.7% 5d",
+        "VIX 25.6",
+        "Nasdaq +0.4% 5d",
         "Fear&Greed 12",
         "News: Geopolitics+: trade deal"
       ],
-      "risk": 1,
+      "risk": 0,
       "story": [
-        "yields falling -> easier money",
         "fear gauge (VIX) elevated",
         "extreme retail fear (contrarian whale accumulation zone)",
         "geopolitical de-escalation / talks progress"
       ],
-      "total": 2
+      "total": 1
     },
-    "fetched_utc": "2026-11-27T15:05:42.478122+00:00",
+    "fetched_utc": "2026-11-27T16:05:37.858331+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
