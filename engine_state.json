@@ -44,8 +44,8 @@
         "[Geopolitics_Iran_US] How the Iran war ripples unexpectedly out to rolling English farm country - The Christian Science Monitor",
         "[Geopolitics_Iran_US] Iran accused of deadly drone attack in Kuwait that sparks EU call to step up pressure on Tehran - CBS News",
         "[World] Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
-        "[World] John Simpson: Ukraine is bowed but still unbroken as freezing weather sets in",
-        "[World] Marching bands scramble to cover costs after Thanksgiving parade rearranged",
+        "[World] Weary of war but with no sign of backing down, Kyiv faces another punishing winter",
+        "[World] 'We couldn't give up that easily': Marching bands scramble to cover costs after Thanksgiving parade rearranged",
         "[World] Kenyan doomsday cult leader convicted over further 123 deaths",
         "[CNBC_Economy] China\u2019s factories are growing profits again, but the AI boom is picking the winners",
         "[CNBC_Economy] Spain\u2019s Pablo Hern\u00e1ndez de Cos set to lead European Central Bank",
@@ -54,10 +54,10 @@
       ],
       "news_sentiment": 0.48,
       "notes": [
-        "US10Y 4.93% (-0.13pp 5d)",
+        "US10Y 4.93% (-0.12pp 5d)",
         "Dollar +0.1% 5d",
         "Oil $83 (-19% 20d)",
-        "VIX 24.8",
+        "VIX 23.8",
         "Nasdaq +1.0% 5d",
         "Fear&Greed 12",
         "News: Geopolitics+: trade deal"
@@ -69,7 +69,7 @@
       ],
       "total": 2
     },
-    "fetched_utc": "2026-11-27T18:05:38.002044+00:00",
+    "fetched_utc": "2026-11-27T18:54:27.660907+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
