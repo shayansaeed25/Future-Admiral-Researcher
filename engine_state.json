@@ -4,7 +4,7 @@
     "BTC-USDT": "2026-11-25T22:05:33.196535+00:00",
     "ETH-USDT": "2026-11-25T23:05:29.733575+00:00"
   },
-  "last_briefing_slot": "2026-11-26-5",
+  "last_briefing_slot": "2026-11-27-0",
   "last_feed_alert_utc": "",
   "last_heartbeat_date": "2026-11-26",
   "last_signal_candle_ts": {
@@ -34,7 +34,7 @@
       "errors": [
         "FREDcsv T10YIE: ReadTimeout HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed "
       ],
-      "fear_greed": 11,
+      "fear_greed": 12,
       "headlines": [
         "[Macro_CPI_PPI] The Fed is likely to raise rates in December. What it means for your holiday spending - CNBC",
         "[Macro_CPI_PPI] Newly proposed tariffs raise chances of the Fed keeping interest rates higher for longer - Yahoo Finance",
@@ -43,7 +43,7 @@
         "[Geopolitics_Iran_US] How the Iran war is reshaping the US military presence in the Middle East - Al Jazeera",
         "[Geopolitics_Iran_US] What Trump should do next about Iran - Atlantic Council",
         "[Geopolitics_Iran_US] Iran Update, November 23, 2026 - Institute for the Study of War",
-        "[Geopolitics_Iran_US] A \u2018Silent War\u2019 Grips Iran as Its Economy Strains Under U.S. Blockade - WSJ",
+        "[Geopolitics_Iran_US] Donald Trump: Washington giving Iran opportunity to make deal, doubts they will accept - The Jerusalem Post",
         "[World] US too focused on Middle East and not pushing Russia hard enough, Zelensky tells BBC",
         "[World] Watch: Roofs torn off and streets under water as severe weather hits US",
         "[World] German boat dealer suspected of supplying Channel smuggling gangs, BBC finds",
@@ -60,7 +60,7 @@
         "Oil $85 (-17% 20d)",
         "VIX 26.8",
         "Nasdaq -3.5% 5d",
-        "Fear&Greed 11",
+        "Fear&Greed 12",
         "News: Geopolitics+: trade deal, Macro-: higher for longer"
       ],
       "risk": 0,
@@ -74,7 +74,7 @@
       ],
       "total": 0
     },
-    "fetched_utc": "2026-11-26T23:05:30.088828+00:00",
+    "fetched_utc": "2026-11-27T00:05:27.864931+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
