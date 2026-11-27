@@ -28,8 +28,7 @@
       "blackout": false,
       "blackout_reason": "",
       "catalysts": [
-        "Geopolitics+: trade deal",
-        "Macro-: higher for longer"
+        "Geopolitics+: trade deal"
       ],
       "errors": [
         "FREDcsv T10YIE: ReadTimeout HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed "
@@ -37,7 +36,7 @@
       "fear_greed": 12,
       "headlines": [
         "[Macro_CPI_PPI] The Fed is likely to raise rates in December. What it means for your holiday spending - CNBC",
-        "[Macro_CPI_PPI] Newly proposed tariffs raise chances of the Fed keeping interest rates higher for longer - Yahoo Finance",
+        "[Macro_CPI_PPI] Another Hot Inflation Reading Keeps Fed on Track to Raise Rates Again - The New York Times",
         "[Macro_CPI_PPI] Fed policymakers at odds over causes of high inflation - Reuters",
         "[Macro_CPI_PPI] Inflation Continues to Climb, Fed Poised to Raise Interest Rates | National News | U.S. News - U.S. News & World Report",
         "[Geopolitics_Iran_US] Trump downplays Russia, China support for Iran during talks with US troops - Al Jazeera",
@@ -48,20 +47,20 @@
         "[World] Major Thanksgiving storm brings flooding, flight delays across US",
         "[World] Watch: Roofs torn off and streets under water as severe weather hits US",
         "[World] New Zealand's ruling coalition falls short of parliamentary majority by one seat",
-        "[CNBC_Economy] China industrial profits growth surges to a 5-month high of 20.1% in October",
+        "[CNBC_Economy] China\u2019s factories are growing profits again, but the AI boom is picking the winners",
         "[CNBC_Economy] Spain\u2019s Pablo Hern\u00e1ndez de Cos set to lead European Central Bank",
         "[CNBC_Economy] U.S. tariff-hike threats pile pressure on partners to sign trade deals",
         "[CNBC_Economy] Liesman: Why Greenspan could bet on productivity \u2014 and Warsh needs to hike"
       ],
-      "news_sentiment": 0.0,
+      "news_sentiment": 0.48,
       "notes": [
         "US10Y 4.85% (-0.22pp 5d)",
-        "Dollar -0.1% 5d",
-        "Oil $86 (-16% 20d)",
+        "Dollar -0.2% 5d",
+        "Oil $86 (-15% 20d)",
         "VIX 26.8",
         "Nasdaq -3.5% 5d",
         "Fear&Greed 12",
-        "News: Geopolitics+: trade deal, Macro-: higher for longer"
+        "News: Geopolitics+: trade deal"
       ],
       "risk": 0,
       "story": [
@@ -69,12 +68,11 @@
         "fear gauge (VIX) elevated",
         "US tech stocks falling",
         "extreme retail fear (contrarian whale accumulation zone)",
-        "geopolitical de-escalation / talks progress",
-        "inflation/Fed headlines hawkish (CPI/PPI/rates pressure)"
+        "geopolitical de-escalation / talks progress"
       ],
-      "total": 0
+      "total": 1
     },
-    "fetched_utc": "2026-11-27T05:05:25.517700+00:00",
+    "fetched_utc": "2026-11-27T06:05:28.844381+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
