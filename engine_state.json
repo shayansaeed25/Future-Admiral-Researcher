@@ -36,18 +36,18 @@
       ],
       "fear_greed": 10,
       "headlines": [
+        "[Macro_CPI_PPI] Monetary Policy - Federal Reserve (.gov)",
         "[Macro_CPI_PPI] The Fed is likely to raise rates in December. What it means for your holiday spending - CNBC",
         "[Macro_CPI_PPI] Fed policymakers at odds over causes of high inflation - Reuters",
         "[Macro_CPI_PPI] Inflation Continues to Climb, Fed Poised to Raise Interest Rates | National News | U.S. News - U.S. News & World Report",
-        "[Macro_CPI_PPI] Another Hot Inflation Reading Keeps Fed on Track to Raise Rates Again - The New York Times",
         "[Geopolitics_Iran_US] Iran Update, November 27, 2026 - Critical Threats",
         "[Geopolitics_Iran_US] US disables ship trying to leave Iran, as Tehran vows to confront blockade - Reuters",
-        "[Geopolitics_Iran_US] A \u2018Silent War\u2019 Grips Iran as Its Economy Strains Under U.S. Blockade - WSJ",
         "[Geopolitics_Iran_US] 2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict - Britannica",
-        "[World] Afghanistan explosion kills 10 students and injures more than 100, official says",
+        "[Geopolitics_Iran_US] Middle East latest: Saudi Arabia intercepts Houthi cruise missile launched at Riyadh - The National",
+        "[World] Argentina's bid to stop Falklands oil drilling rejected",
         "[World] Two staff killed in Israeli strike on Gaza medical clinic, MSF says",
+        "[World] Afghanistan explosion kills 10 students and injures more than 100, official says",
         "[World] Spanish PM and rivals rally supporters in final pitch for votes",
-        "[World] Turkish officials 'destroyed' pro-opposition TV channel, owner tells BBC",
         "[CNBC_Economy] Saudi Arabia shifts Vision 2030 spending amid economic and security pressure",
         "[CNBC_Economy] China\u2019s factories are growing profits again, but the AI boom is picking the winners",
         "[CNBC_Economy] Spain\u2019s Pablo Hern\u00e1ndez de Cos set to lead European Central Bank",
@@ -69,7 +69,7 @@
       ],
       "total": 1
     },
-    "fetched_utc": "2026-11-28T12:05:36.061550+00:00",
+    "fetched_utc": "2026-11-28T13:05:29.571803+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
