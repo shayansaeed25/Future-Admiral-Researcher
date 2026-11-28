@@ -13,7 +13,7 @@
     "ATOM-USDT": 1795075200000,
     "BCH-USDT": 1795143600000,
     "BNB-USDT": 1795525200000,
-    "BTC-USDT": 1795525200000,
+    "BTC-USDT": 1795838400000,
     "DOT-USDT": 1795305600000,
     "ETH-USDT": 1795510800000,
     "LINK-USDT": 1794880800000,
@@ -28,6 +28,7 @@
       "blackout": false,
       "blackout_reason": "",
       "catalysts": [
+        "Geopolitics-: strait of hormuz",
         "Geopolitics+: trade deal"
       ],
       "errors": [
@@ -35,24 +36,24 @@
       ],
       "fear_greed": 10,
       "headlines": [
+        "[Macro_CPI_PPI] Fed holds interest rates steady as inflation hits 3-year high - ABC News - Breaking News, Latest News and Videos",
         "[Macro_CPI_PPI] The Fed is likely to raise rates in December. What it means for your holiday spending - CNBC",
         "[Macro_CPI_PPI] Fed policymakers at odds over causes of high inflation - Reuters",
         "[Macro_CPI_PPI] Inflation Continues to Climb, Fed Poised to Raise Interest Rates | National News | U.S. News - U.S. News & World Report",
-        "[Macro_CPI_PPI] Another Hot Inflation Reading Keeps Fed on Track to Raise Rates Again - The New York Times",
-        "[Geopolitics_Iran_US] A \u2018Silent War\u2019 Grips Iran as Its Economy Strains Under U.S. Blockade - WSJ",
         "[Geopolitics_Iran_US] Iran Update, November 27, 2026 - Critical Threats",
         "[Geopolitics_Iran_US] US disables ship trying to leave Iran, as Tehran vows to confront blockade - Reuters",
         "[Geopolitics_Iran_US] What Trump should do next about Iran - Atlantic Council",
+        "[Geopolitics_Iran_US] 2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict - Britannica",
         "[World] Spanish PM and rivals rally supporters in final pitch for votes",
-        "[World] Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
-        "[World] Weary of war but with no sign of backing down, Kyiv faces another punishing winter",
-        "[World] 'We couldn't give up that easily': Marching bands scramble to cover costs after Thanksgiving parade rearranged",
+        "[World] Turkish officials 'destroyed' pro-opposition TV channel, owner tells BBC",
+        "[World] Eight killed in Peruvian military helicopter crash",
+        "[World] 'Poison seller' Kenneth Law apologises in court to the families of his victims",
         "[CNBC_Economy] China\u2019s factories are growing profits again, but the AI boom is picking the winners",
         "[CNBC_Economy] Spain\u2019s Pablo Hern\u00e1ndez de Cos set to lead European Central Bank",
         "[CNBC_Economy] U.S. tariff-hike threats pile pressure on partners to sign trade deals",
         "[CNBC_Economy] Liesman: Why Greenspan could bet on productivity \u2014 and Warsh needs to hike"
       ],
-      "news_sentiment": 0.48,
+      "news_sentiment": -0.04,
       "notes": [
         "US10Y 4.94% (-0.12pp 5d)",
         "Dollar +0.1% 5d",
@@ -60,16 +61,15 @@
         "VIX 23.8",
         "Nasdaq +1.0% 5d",
         "Fear&Greed 10",
-        "News: Geopolitics+: trade deal"
+        "News: Geopolitics-: strait of hormuz, Geopolitics+: trade deal"
       ],
-      "risk": 1,
+      "risk": 0,
       "story": [
-        "extreme retail fear (contrarian whale accumulation zone)",
-        "geopolitical de-escalation / talks progress"
+        "extreme retail fear (contrarian whale accumulation zone)"
       ],
-      "total": 2
+      "total": 1
     },
-    "fetched_utc": "2026-11-28T04:05:28.962859+00:00",
+    "fetched_utc": "2026-11-28T05:05:29.657521+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
