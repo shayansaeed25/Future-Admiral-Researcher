@@ -28,7 +28,6 @@
       "blackout": false,
       "blackout_reason": "",
       "catalysts": [
-        "Geopolitics-: strait of hormuz",
         "Geopolitics+: trade deal"
       ],
       "errors": [
@@ -36,24 +35,24 @@
       ],
       "fear_greed": 10,
       "headlines": [
-        "[Macro_CPI_PPI] Monetary Policy - Federal Reserve (.gov)",
         "[Macro_CPI_PPI] The Fed is likely to raise rates in December. What it means for your holiday spending - CNBC",
         "[Macro_CPI_PPI] Fed policymakers at odds over causes of high inflation - Reuters",
         "[Macro_CPI_PPI] Inflation Continues to Climb, Fed Poised to Raise Interest Rates | National News | U.S. News - U.S. News & World Report",
+        "[Macro_CPI_PPI] Another Hot Inflation Reading Keeps Fed on Track to Raise Rates Again - The New York Times",
         "[Geopolitics_Iran_US] Iran Update, November 27, 2026 - Critical Threats",
         "[Geopolitics_Iran_US] US disables ship trying to leave Iran, as Tehran vows to confront blockade - Reuters",
+        "[Geopolitics_Iran_US] Middle East latest: Saudi Arabia intercepts Houthi cruise missile launched at Riyadh - The National",
         "[Geopolitics_Iran_US] Military says it disabled vessel that \u2018attempted to run the U.S. naval blockade\u2019 against Iran - The Hill",
-        "[Geopolitics_Iran_US] 2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict - Britannica",
+        "[World] Seven students killed and nearly 100 injured in explosion in Afghanistan, official says",
+        "[World] Two staff killed in Israeli strike on Gaza medical clinic, MSF says",
         "[World] Spanish PM and rivals rally supporters in final pitch for votes",
         "[World] Turkish officials 'destroyed' pro-opposition TV channel, owner tells BBC",
-        "[World] Eight killed in Peruvian military helicopter crash",
-        "[World] 'Poison seller' Kenneth Law apologises in court to the families of his victims",
         "[CNBC_Economy] Saudi Arabia shifts Vision 2030 spending amid economic and security pressure",
         "[CNBC_Economy] China\u2019s factories are growing profits again, but the AI boom is picking the winners",
         "[CNBC_Economy] Spain\u2019s Pablo Hern\u00e1ndez de Cos set to lead European Central Bank",
         "[CNBC_Economy] U.S. tariff-hike threats pile pressure on partners to sign trade deals"
       ],
-      "news_sentiment": -0.04,
+      "news_sentiment": 0.48,
       "notes": [
         "US10Y 4.94% (-0.12pp 5d)",
         "Dollar +0.1% 5d",
@@ -61,15 +60,16 @@
         "VIX 23.8",
         "Nasdaq +1.0% 5d",
         "Fear&Greed 10",
-        "News: Geopolitics-: strait of hormuz, Geopolitics+: trade deal"
+        "News: Geopolitics+: trade deal"
       ],
-      "risk": 0,
+      "risk": 1,
       "story": [
-        "extreme retail fear (contrarian whale accumulation zone)"
+        "extreme retail fear (contrarian whale accumulation zone)",
+        "geopolitical de-escalation / talks progress"
       ],
-      "total": 1
+      "total": 2
     },
-    "fetched_utc": "2026-11-28T10:05:38.497687+00:00",
+    "fetched_utc": "2026-11-28T11:05:36.165421+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
