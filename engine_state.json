@@ -35,13 +35,13 @@
       ],
       "fear_greed": 10,
       "headlines": [
+        "[Macro_CPI_PPI] What is the relationship between inflation, interest rates, and economic growth, and what does it mean for the new Federal Reserve chair? - Equitable Growth",
         "[Macro_CPI_PPI] The Fed is likely to raise rates in December. What it means for your holiday spending - CNBC",
         "[Macro_CPI_PPI] Fed policymakers at odds over causes of high inflation - Reuters",
         "[Macro_CPI_PPI] Inflation Continues to Climb, Fed Poised to Raise Interest Rates | National News | U.S. News - U.S. News & World Report",
-        "[Macro_CPI_PPI] Another Hot Inflation Reading Keeps Fed on Track to Raise Rates Again - The New York Times",
         "[Geopolitics_Iran_US] Iran Update, November 27, 2026 - Critical Threats",
-        "[Geopolitics_Iran_US] US disables ship trying to leave Iran, as Tehran vows to confront blockade - Reuters",
         "[Geopolitics_Iran_US] The Iran war could shatter rising expectations of surplus oil supply in coming months - CNBC",
+        "[Geopolitics_Iran_US] US disables ship trying to leave Iran, as Tehran vows to confront blockade - Reuters",
         "[Geopolitics_Iran_US] UPDATES: US War on Iran, Day 275 \u2014 Strike on Kuwait Kills 2 Italians - EA WorldView",
         "[World] Argentina's bid to stop Falklands oil drilling rejected",
         "[World] Two staff killed in Israeli strike on Gaza medical clinic, MSF says",
@@ -69,7 +69,7 @@
       ],
       "total": 2
     },
-    "fetched_utc": "2026-11-28T14:05:35.682197+00:00",
+    "fetched_utc": "2026-11-28T15:05:37.575096+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
