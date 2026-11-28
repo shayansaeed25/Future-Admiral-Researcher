@@ -4,7 +4,7 @@
     "BTC-USDT": "2026-11-25T22:05:33.196535+00:00",
     "ETH-USDT": "2026-11-25T23:05:29.733575+00:00"
   },
-  "last_briefing_slot": "2026-11-28-3",
+  "last_briefing_slot": "2026-11-28-4",
   "last_feed_alert_utc": "",
   "last_heartbeat_date": "2026-11-28",
   "last_signal_candle_ts": {
@@ -69,7 +69,7 @@
       ],
       "total": 2
     },
-    "fetched_utc": "2026-11-28T15:05:37.575096+00:00",
+    "fetched_utc": "2026-11-28T16:05:34.096940+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
