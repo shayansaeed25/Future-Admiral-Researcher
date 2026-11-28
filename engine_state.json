@@ -4,7 +4,7 @@
     "BTC-USDT": "2026-11-25T22:05:33.196535+00:00",
     "ETH-USDT": "2026-11-25T23:05:29.733575+00:00"
   },
-  "last_briefing_slot": "2026-11-28-2",
+  "last_briefing_slot": "2026-11-28-3",
   "last_feed_alert_utc": "",
   "last_heartbeat_date": "2026-11-28",
   "last_signal_candle_ts": {
@@ -28,6 +28,7 @@
       "blackout": false,
       "blackout_reason": "",
       "catalysts": [
+        "Geopolitics-: strait of hormuz",
         "Geopolitics+: trade deal"
       ],
       "errors": [
@@ -41,9 +42,9 @@
         "[Macro_CPI_PPI] Another Hot Inflation Reading Keeps Fed on Track to Raise Rates Again - The New York Times",
         "[Geopolitics_Iran_US] Iran Update, November 27, 2026 - Critical Threats",
         "[Geopolitics_Iran_US] US disables ship trying to leave Iran, as Tehran vows to confront blockade - Reuters",
-        "[Geopolitics_Iran_US] Middle East latest: Saudi Arabia intercepts Houthi cruise missile launched at Riyadh - The National",
-        "[Geopolitics_Iran_US] Military says it disabled vessel that \u2018attempted to run the U.S. naval blockade\u2019 against Iran - The Hill",
-        "[World] Seven students killed and nearly 100 injured in explosion in Afghanistan, official says",
+        "[Geopolitics_Iran_US] A \u2018Silent War\u2019 Grips Iran as Its Economy Strains Under U.S. Blockade - WSJ",
+        "[Geopolitics_Iran_US] 2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict - Britannica",
+        "[World] Afghanistan explosion kills 10 students and injures more than 100, official says",
         "[World] Two staff killed in Israeli strike on Gaza medical clinic, MSF says",
         "[World] Spanish PM and rivals rally supporters in final pitch for votes",
         "[World] Turkish officials 'destroyed' pro-opposition TV channel, owner tells BBC",
@@ -52,7 +53,7 @@
         "[CNBC_Economy] Spain\u2019s Pablo Hern\u00e1ndez de Cos set to lead European Central Bank",
         "[CNBC_Economy] U.S. tariff-hike threats pile pressure on partners to sign trade deals"
       ],
-      "news_sentiment": 0.48,
+      "news_sentiment": -0.04,
       "notes": [
         "US10Y 4.94% (-0.12pp 5d)",
         "Dollar +0.1% 5d",
@@ -60,16 +61,15 @@
         "VIX 23.8",
         "Nasdaq +1.0% 5d",
         "Fear&Greed 10",
-        "News: Geopolitics+: trade deal"
+        "News: Geopolitics-: strait of hormuz, Geopolitics+: trade deal"
       ],
-      "risk": 1,
+      "risk": 0,
       "story": [
-        "extreme retail fear (contrarian whale accumulation zone)",
-        "geopolitical de-escalation / talks progress"
+        "extreme retail fear (contrarian whale accumulation zone)"
       ],
-      "total": 2
+      "total": 1
     },
-    "fetched_utc": "2026-11-28T11:05:36.165421+00:00",
+    "fetched_utc": "2026-11-28T12:05:36.061550+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
