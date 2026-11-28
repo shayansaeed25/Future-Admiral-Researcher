@@ -15,7 +15,7 @@
     "BNB-USDT": 1795525200000,
     "BTC-USDT": 1795838400000,
     "DOT-USDT": 1795305600000,
-    "ETH-USDT": 1795510800000,
+    "ETH-USDT": 1795842000000,
     "LINK-USDT": 1794880800000,
     "LTC-USDT": 1795298400000,
     "OP-USDT": 1795064400000,
@@ -36,10 +36,10 @@
       ],
       "fear_greed": 10,
       "headlines": [
-        "[Macro_CPI_PPI] Fed holds interest rates steady as inflation hits 3-year high - ABC News - Breaking News, Latest News and Videos",
         "[Macro_CPI_PPI] The Fed is likely to raise rates in December. What it means for your holiday spending - CNBC",
         "[Macro_CPI_PPI] Fed policymakers at odds over causes of high inflation - Reuters",
         "[Macro_CPI_PPI] Inflation Continues to Climb, Fed Poised to Raise Interest Rates | National News | U.S. News - U.S. News & World Report",
+        "[Macro_CPI_PPI] Another Hot Inflation Reading Keeps Fed on Track to Raise Rates Again - The New York Times",
         "[Geopolitics_Iran_US] Iran Update, November 27, 2026 - Critical Threats",
         "[Geopolitics_Iran_US] US disables ship trying to leave Iran, as Tehran vows to confront blockade - Reuters",
         "[Geopolitics_Iran_US] What Trump should do next about Iran - Atlantic Council",
@@ -69,7 +69,7 @@
       ],
       "total": 1
     },
-    "fetched_utc": "2026-11-28T05:05:29.657521+00:00",
+    "fetched_utc": "2026-11-28T06:05:38.001497+00:00",
     "ok": true
   },
   "paused_until": "2026-11-23T18:05:29.663774+00:00"
